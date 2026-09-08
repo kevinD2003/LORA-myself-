@@ -1,0 +1,14 @@
+{
+  "planVersion":"V4-noLDRO-plan-R6-stage55-algorithm-only-improvement",
+  "planSha256":"b3895fa0ee1049083d575693c0b67f131fb31321e7140038f4fa23c72cfab8c1",
+  "algorithmVersion":"Stage55-A-two-downchirp-subbin-rate-v3",
+  "allowedChange":"Stage55 receiver-internal algorithm only",
+  "experimentConditionsFrozen":true,
+  "trackAReports":"SER only",
+  "trackBReports":["SER","hard BER","ML BER"],
+  "paperReceiverFrozen":true,
+  "r5FinalAuditSha256":"38a82cacb906cafca5688475d69cb93d8ce7cd925e8164c992f42bdf4fb74007",
+  "seeds":{"mechanism":810000000,"validation":820000000,"formal":830000000,"bootstrap":840000000},
+  "performanceTarget":"Stage55 lower error than Paper without changing conditions",
+  "performanceOrderingIsAuditGate":false
+}

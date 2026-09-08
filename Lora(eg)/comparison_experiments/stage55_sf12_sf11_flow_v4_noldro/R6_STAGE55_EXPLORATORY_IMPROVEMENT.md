@@ -6,7 +6,7 @@ This is a separately named exploratory receiver. It does not overwrite R5 formal
 
 Research objective: in Track A, seek lower SER than Paper-native while retaining the 23-label/no-BER identity; in Track B, seek lower SER, hard BER, and ML BER than Paper-adapted. This objective motivates receiver design but is not allowed to alter Paper, samples, denominators, gates, or reporting. Each algorithm version is frozen before independent evaluation; an unfavorable result remains evidence and triggers a separately signed structural revision rather than data fitting.
 
-Parameters are frozen before comparison: sub-bin step 0.05, decision peak 3, normalized entropy 0.5, residual peak 1.01, innovation 0.35 bin, history decay 0.85, Huber 0.15 bin, maximum rate 20 bin/s, rolling history 8, and fail-closed after three rejected D. R6 first uses independent seed domain 810000000 for mechanism/validation. Results are exploratory; Stage55 superiority is not a test gate and adverse results must be retained.
+Parameters are frozen before comparison: sub-bin step 0.05, decision peak 3, normalized entropy 0.5, residual peak 1.01, innovation 0.35 bin, history decay 0.85, Huber 0.15 bin, maximum rate 20 bin/s, rolling history 8, and fail-closed after three rejected D. Independent roots are 810000000 for mechanism, 820000000 for validation, 830000000 for formal, and 840000000 for paired bootstrap. Results are exploratory; Stage55 superiority is not a test gate and adverse results must be retained.
 
 ## Frozen experiment conditions
 
