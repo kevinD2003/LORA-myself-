@@ -1,0 +1,62 @@
+Dynamic Doppler MATLAB Test Results
+Generated: 2026-07-30 16:38:14
+MATLAB: 9.12.0.1884302 (R2022a)
+Project: D:\codex\lora(CFO)
+
+INDIVIDUAL_RESULTS
+test_lora_dynamic_doppler/testDopplerShiftOddSymmetry | passed=1 failed=0 incomplete=0 duration_sec=0.005638400
+test_lora_dynamic_doppler/testDopplerRateEvenSymmetry | passed=1 failed=0 incomplete=0 duration_sec=0.002178600
+test_lora_dynamic_doppler/testVisibilityWindowDuration | passed=1 failed=0 incomplete=0 duration_sec=0.009852200
+test_lora_dynamic_doppler/testVisibilityWindowHasCentralBlindInterval | passed=1 failed=0 incomplete=0 duration_sec=0.009875100
+test_lora_dynamic_doppler/testVisibilityBoundaryElevations | passed=1 failed=0 incomplete=0 duration_sec=0.010572100
+test_lora_dynamic_doppler/testMaximumVisibleDopplerShift | passed=1 failed=0 incomplete=0 duration_sec=0.009106600
+test_lora_dynamic_doppler/testMaximumVisibleDopplerRate | passed=1 failed=0 incomplete=0 duration_sec=0.008734500
+test_lora_dynamic_doppler/testInternalAnglesUseRadians | passed=1 failed=0 incomplete=0 duration_sec=0.017930400
+test_lora_dynamic_doppler/testAnalyticDerivatives | passed=1 failed=0 incomplete=0 duration_sec=0.007813100
+test_lora_dynamic_channel/testInstantaneousFrequencyRangeAndWrap | passed=1 failed=0 incomplete=0 duration_sec=0.120149600
+test_lora_dynamic_channel/testFullRfFormulaAndTrapezoidalPhase | passed=1 failed=0 incomplete=0 duration_sec=0.040549200
+test_lora_dynamic_channel/testCarrierOnlyApproximationAndError | passed=1 failed=0 incomplete=0 duration_sec=0.020130000
+test_lora_dynamic_channel/testNoiselessChannelPreservesSignalPower | passed=1 failed=0 incomplete=0 duration_sec=0.010375000
+test_lora_dynamic_channel/testComplexAwgnMatchesSnrConvention | passed=1 failed=0 incomplete=0 duration_sec=0.017727700
+test_lora_dynamic_channel/testDynamicWrapperUsesOriginalUncompensatedDetector | passed=1 failed=0 incomplete=0 duration_sec=0.010045100
+test_lora_dynamic_channel/testNoDopplerModeIsExactAndUsesOriginalDetector | passed=1 failed=0 incomplete=0 duration_sec=0.021419600
+test_lora_dynamic_channel/testZeroCarrierInCarrierOnlyModePreservesWaveform | passed=1 failed=0 incomplete=0 duration_sec=0.012531400
+test_lora_dynamic_channel/testZeroOrbitVelocityInFullRfModePreservesWaveform | passed=1 failed=0 incomplete=0 duration_sec=0.014247600
+test_lora_dynamic_channel/testStaticIntegerBinOffsetMovesDetectorPeak | passed=1 failed=0 incomplete=0 duration_sec=0.004663200
+test_lora_dynamic_channel/testNumericalPhaseDerivativeRecoversDoppler | passed=1 failed=0 incomplete=0 duration_sec=0.007372900
+test_lora_dynamic_channel/testCarrierOnlyDifferenceScalesAsBandwidthOverCarrier | passed=1 failed=0 incomplete=0 duration_sec=0.005977800
+test_lora_dynamic_channel/testFigure17GeometryHighShiftAndRateCandidates | passed=1 failed=0 incomplete=0 duration_sec=0.038864900
+test_lora_dynamic_channel/testFixedRandomSeedIsReproducible | passed=1 failed=0 incomplete=0 duration_sec=0.013721300
+test_lora_dynamic_channel/testInvalidInputsAreRejected | passed=1 failed=0 incomplete=0 duration_sec=0.110511800
+TEST_SUMMARY passed=24 failed=0 incomplete=0 total=24
+
+FIGURE17_FORMULA_DERIVED
+delta_t_AB_sec=1.507287527200
+single_device_A_first_window_sec=[-254.870648405068, -2.344896842552]
+shared_first_window_sec=[-253.364624963310, -2.344896842552]
+single_A_high_shift_abs_Hz=18606.060903537047
+single_A_high_shift_abs_rate_Hz_per_s=5.414139553546
+shared_left_device_A_abs_shift_Hz=18597.819083038852
+shared_left_device_A_abs_rate_Hz_per_s=5.531386015829
+shared_right_device_A_abs_shift_Hz=571.081217407438
+shared_right_device_A_abs_rate_Hz_per_s=243.336851790793
+
+PAPER_REPORTED_APPROXIMATE
+high_shift_time_sec=-254.9
+high_shift_abs_Hz=18600
+high_shift_abs_rate_Hz_per_s=5.4
+high_rate_time_sec=-2.345
+high_rate_abs_shift_Hz=571
+high_rate_abs_rate_Hz_per_s=243
+
+CODE_ANALYZER
+lora_orbit_doppler_config.m messages=0
+lora_orbit_doppler_trajectory.m messages=0
+lora_visibility_window.m messages=0
+lora_symbol_instantaneous_frequency.m messages=0
+apply_lora_dynamic_doppler.m messages=0
+lora_css_demodulate_dynamic_channel.m messages=0
+test_lora_dynamic_doppler.m messages=0
+test_lora_dynamic_channel.m messages=0
+ANALYZER_SUMMARY messages=0
+BER_SWEEP_RUN=false

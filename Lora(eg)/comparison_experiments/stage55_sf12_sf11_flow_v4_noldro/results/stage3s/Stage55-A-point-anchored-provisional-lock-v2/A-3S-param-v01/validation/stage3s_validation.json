@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "round": 1,
+  "parameterVersion": "A-3S-param-v01",
+  "algorithmSignature": "e9f0b53e2bb9d1a9497338201d96713827945a0c81927424236b3b8b4dbedb4b",
+  "seedDomain": "a_3s_validation_v1",
+  "gateRecords": [
+    {
+      "caseStartTimeSec": -366,
+      "packets": 2000,
+      "possible": 46000,
+      "accepted": 14092,
+      "falseAccepted": 77,
+      "falseAcceptance": 0.0054640931024694866,
+      "coverage": 0.30634782608695654,
+      "acceptedMinimumPassed": true,
+      "clusterCi95": [
+        0.0023040061406205325,
+        0.0089167929937124
+      ],
+      "lostPackets": 1388,
+      "passed": true
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packets": 2000,
+      "possible": 46000,
+      "accepted": 14689,
+      "falseAccepted": 73,
+      "falseAcceptance": 0.00496970522159439,
+      "coverage": 0.31932608695652176,
+      "acceptedMinimumPassed": true,
+      "clusterCi95": [
+        0.0018674169546293545,
+        0.0086621361735287651
+      ],
+      "lostPackets": 1361,
+      "passed": true
+    }
+  ],
+  "usesPerformanceRanking": false
+}

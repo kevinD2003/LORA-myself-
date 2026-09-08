@@ -1,0 +1,20 @@
+{
+   "stamp" : true,
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "main.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "IEEEabrv.bib"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "references.bib"
+      }
+   ],
+   "process" : {
+      "compiler" : "latex"
+   }
+}

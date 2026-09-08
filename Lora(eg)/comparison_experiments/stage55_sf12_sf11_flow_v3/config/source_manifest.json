@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-09-04T16:36:19+08:00",
+  "canonicalSourceRoot": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8",
+  "copiedRoot": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v3\\src\\upstream_sf11",
+  "files": [
+    {
+      "file": "generateContinuousSatelliteFrame.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\generateContinuousSatelliteFrame.m",
+      "sourceSha256": "b9b36e009f0566a10300ff36d42cde801fc45ae5f26249758fee9ba5ef6daa5b",
+      "copiedSha256": "b9b36e009f0566a10300ff36d42cde801fc45ae5f26249758fee9ba5ef6daa5b"
+    },
+    {
+      "file": "satelliteFig3ApplyConfidenceGate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3ApplyConfidenceGate.m",
+      "sourceSha256": "2332dd7039101a293731565f40c8237fe3945b9a178ad83cba0fd8b62273c20e",
+      "copiedSha256": "2332dd7039101a293731565f40c8237fe3945b9a178ad83cba0fd8b62273c20e"
+    },
+    {
+      "file": "satelliteFig3BerInterval95.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3BerInterval95.m",
+      "sourceSha256": "a115588474122911e64810732c2c8b991222d4bcd4d1dcab46e8bcee7387e28d",
+      "copiedSha256": "a115588474122911e64810732c2c8b991222d4bcd4d1dcab46e8bcee7387e28d"
+    },
+    {
+      "file": "satelliteFig3BootstrapEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3BootstrapEstimate.m",
+      "sourceSha256": "f0cd89863f1a6a6a908ef0d0082c1cf994a75b81cb78093390f1d347355bd29b",
+      "copiedSha256": "f0cd89863f1a6a6a908ef0d0082c1cf994a75b81cb78093390f1d347355bd29b"
+    },
+    {
+      "file": "satelliteFig3BootstrapJointPhaseEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3BootstrapJointPhaseEstimate.m",
+      "sourceSha256": "46c7ec378e24435f1b84fea8ebdfd5368f127eb502771a4db7488c274fa472f2",
+      "copiedSha256": "46c7ec378e24435f1b84fea8ebdfd5368f127eb502771a4db7488c274fa472f2"
+    },
+    {
+      "file": "satelliteFig3Config.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3Config.m",
+      "sourceSha256": "63c0d752a67bf594cddc51eab3490c76a4e8b153cd53a20f8f33402bbff9a563",
+      "copiedSha256": "63c0d752a67bf594cddc51eab3490c76a4e8b153cd53a20f8f33402bbff9a563"
+    },
+    {
+      "file": "satelliteFig3ContinuousPassSchedule.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3ContinuousPassSchedule.m",
+      "sourceSha256": "7d9cfa5edcc50f449a0abe53d6abe402ede08a5a93e565c0238037ce519a88c0",
+      "copiedSha256": "7d9cfa5edcc50f449a0abe53d6abe402ede08a5a93e565c0238037ce519a88c0"
+    },
+    {
+      "file": "satelliteFig3CrossFrameRateUpdate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3CrossFrameRateUpdate.m",
+      "sourceSha256": "4ce3d9c5519bfb0ddd7b19b35c70fc11d0ac5cc8d0dc6c3ad5fc4f215553abad",
+      "copiedSha256": "4ce3d9c5519bfb0ddd7b19b35c70fc11d0ac5cc8d0dc6c3ad5fc4f215553abad"
+    },
+    {
+      "file": "satelliteFig3DiagonalDeinterleave.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3DiagonalDeinterleave.m",
+      "sourceSha256": "463d7157055a87b4444c30b1cc5fa41531e13be32c6ff006006d5bdad0868c2e",
+      "copiedSha256": "463d7157055a87b4444c30b1cc5fa41531e13be32c6ff006006d5bdad0868c2e"
+    },
+    {
+      "file": "satelliteFig3DiagonalInterleave.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3DiagonalInterleave.m",
+      "sourceSha256": "f138e1da73148c55ab5a05639ec7bb63cd2de8f949c710346ab4f897e98bad64",
+      "copiedSha256": "f138e1da73148c55ab5a05639ec7bb63cd2de8f949c710346ab4f897e98bad64"
+    },
+    {
+      "file": "satelliteFig3GeneratePayload.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3GeneratePayload.m",
+      "sourceSha256": "65f10d10b911f47fcdb8cbd1304f3ff49d497927774fc107e46856a53cb17689",
+      "copiedSha256": "65f10d10b911f47fcdb8cbd1304f3ff49d497927774fc107e46856a53cb17689"
+    },
+    {
+      "file": "satelliteFig3GrayDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3GrayDecode.m",
+      "sourceSha256": "8ca0466d712d072c14e40d2861aa4ed6550ffed1c50dffb4eae4f1e60524c034",
+      "copiedSha256": "8ca0466d712d072c14e40d2861aa4ed6550ffed1c50dffb4eae4f1e60524c034"
+    },
+    {
+      "file": "satelliteFig3GrayEncode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3GrayEncode.m",
+      "sourceSha256": "cd2e2f642833cc34ebed383e88fc3ccfff94ccdceac4b3c23808b275fb522108",
+      "copiedSha256": "cd2e2f642833cc34ebed383e88fc3ccfff94ccdceac4b3c23808b275fb522108"
+    },
+    {
+      "file": "satelliteFig3HardDecision.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3HardDecision.m",
+      "sourceSha256": "ceb061ecbeb45154f8f8e017ee1866871b4ba8a40896ad56ec1912de6a84d96b",
+      "copiedSha256": "ceb061ecbeb45154f8f8e017ee1866871b4ba8a40896ad56ec1912de6a84d96b"
+    },
+    {
+      "file": "satelliteFig3HardPayloadBits.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3HardPayloadBits.m",
+      "sourceSha256": "c6153dc53dd7f5ec017b605666b271d1025ffc569de4e24318b17652088fcd21",
+      "copiedSha256": "c6153dc53dd7f5ec017b605666b271d1025ffc569de4e24318b17652088fcd21"
+    },
+    {
+      "file": "satelliteFig3HardPrecDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3HardPrecDecode.m",
+      "sourceSha256": "0209831d79997f0dfe8894e1db10a3a571fb3ebfb250be72984071c0eabc99a9",
+      "copiedSha256": "0209831d79997f0dfe8894e1db10a3a571fb3ebfb250be72984071c0eabc99a9"
+    },
+    {
+      "file": "satelliteFig3HuangPrecCpBootstrapEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3HuangPrecCpBootstrapEstimate.m",
+      "sourceSha256": "c0ec184220745f27d06e13ea8428ef09905e499918d59aeef2d4770fc4681985",
+      "copiedSha256": "c0ec184220745f27d06e13ea8428ef09905e499918d59aeef2d4770fc4681985"
+    },
+    {
+      "file": "satelliteFig3HuangPrecCpMatchedDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3HuangPrecCpMatchedDecode.m",
+      "sourceSha256": "120e37c724edaf561a6dd2dbb92cb9d8e7db4507f7a7e4a26989949c79fbebc5",
+      "copiedSha256": "120e37c724edaf561a6dd2dbb92cb9d8e7db4507f7a7e4a26989949c79fbebc5"
+    },
+    {
+      "file": "satelliteFig3HuangPrecStaticCpDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3HuangPrecStaticCpDecode.m",
+      "sourceSha256": "50d0479758255638f3525e0914b9344b0b448005c7d37939803dbe12d77e70b2",
+      "copiedSha256": "50d0479758255638f3525e0914b9344b0b448005c7d37939803dbe12d77e70b2"
+    },
+    {
+      "file": "satelliteFig3ModulateSymbol.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3ModulateSymbol.m",
+      "sourceSha256": "04835fdd6078a3c79706f9e2c1c835e5fe863dc9c25502847e71d9d9544bce77",
+      "copiedSha256": "04835fdd6078a3c79706f9e2c1c835e5fe863dc9c25502847e71d9d9544bce77"
+    },
+    {
+      "file": "satelliteFig3PaperPrecDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3PaperPrecDecode.m",
+      "sourceSha256": "fe1264bcec60b9e9c4c7997a62fe9145bca52c5e8904c00418c2d12985708a1f",
+      "copiedSha256": "fe1264bcec60b9e9c4c7997a62fe9145bca52c5e8904c00418c2d12985708a1f"
+    },
+    {
+      "file": "satelliteFig3PhaseRotationEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3PhaseRotationEstimate.m",
+      "sourceSha256": "055daf8168a7eab57e964ed2461980131f082c860f9b5c6b3fa966a2957e588d",
+      "copiedSha256": "055daf8168a7eab57e964ed2461980131f082c860f9b5c6b3fa966a2957e588d"
+    },
+    {
+      "file": "satelliteFig3PiecewiseDoppler.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3PiecewiseDoppler.m",
+      "sourceSha256": "725a673c6c635ef2adc6056268c69cc066fe737aaf3992bde89defbea9d68d58",
+      "copiedSha256": "725a673c6c635ef2adc6056268c69cc066fe737aaf3992bde89defbea9d68d58"
+    },
+    {
+      "file": "satelliteFig3PilotConfidenceFeatures.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3PilotConfidenceFeatures.m",
+      "sourceSha256": "b7749f66607325122cb554ef1694ff3e166f0afc97db5d02e4014721e4726ca6",
+      "copiedSha256": "b7749f66607325122cb554ef1694ff3e166f0afc97db5d02e4014721e4726ca6"
+    },
+    {
+      "file": "satelliteFig3QualityGatedSenLoRaDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3QualityGatedSenLoRaDecode.m",
+      "sourceSha256": "05c55eb0a468ac59504d068ca406fbab6221633c38a2e9cca9f928f60000feab",
+      "copiedSha256": "05c55eb0a468ac59504d068ca406fbab6221633c38a2e9cca9f928f60000feab"
+    },
+    {
+      "file": "satelliteFig3RollingPilotTracker.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3RollingPilotTracker.m",
+      "sourceSha256": "61806a40c35db896eeff31f314808f52063bfacce63ce22b984135d625f22047",
+      "copiedSha256": "61806a40c35db896eeff31f314808f52063bfacce63ce22b984135d625f22047"
+    },
+    {
+      "file": "satelliteFig3SenLoRaConfidence.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3SenLoRaConfidence.m",
+      "sourceSha256": "e961ce4a1aeb47e244b331847b417854b77e8251a5c3f90cdd65d2bd7e76ba66",
+      "copiedSha256": "e961ce4a1aeb47e244b331847b417854b77e8251a5c3f90cdd65d2bd7e76ba66"
+    },
+    {
+      "file": "satelliteFig3SenLoRaIterativeDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3SenLoRaIterativeDecode.m",
+      "sourceSha256": "2b5a5192131c1004925990d6b2235d4624e5c8de699707f9374b4ebd690aca5d",
+      "copiedSha256": "2b5a5192131c1004925990d6b2235d4624e5c8de699707f9374b4ebd690aca5d"
+    },
+    {
+      "file": "satelliteFig3SenLoRaVirtualPilotDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3SenLoRaVirtualPilotDecode.m",
+      "sourceSha256": "26eff184d1bfc40df39e45e0b8722a04171138458d7d21c4cfd75dac18fd0740",
+      "copiedSha256": "26eff184d1bfc40df39e45e0b8722a04171138458d7d21c4cfd75dac18fd0740"
+    },
+    {
+      "file": "satelliteFig3Stage52WriteArtifacts.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3Stage52WriteArtifacts.m",
+      "sourceSha256": "b78ab65428f3d7fec5ecd9ddadd26eaffea9ad0e1708850ed76ef28132977dd4",
+      "copiedSha256": "b78ab65428f3d7fec5ecd9ddadd26eaffea9ad0e1708850ed76ef28132977dd4"
+    },
+    {
+      "file": "satelliteFig3SymbolFrequency.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3SymbolFrequency.m",
+      "sourceSha256": "3267abeb9490dd13db6e67c87d6228d890fc0253b6fe9036087e793c8e72b3c4",
+      "copiedSha256": "3267abeb9490dd13db6e67c87d6228d890fc0253b6fe9036087e793c8e72b3c4"
+    },
+    {
+      "file": "satelliteFig3Trajectory.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3Trajectory.m",
+      "sourceSha256": "af72eff5aae69dd77a36e3de7c5ea858f05e34546b39e61420b06035e98a1c0b",
+      "copiedSha256": "af72eff5aae69dd77a36e3de7c5ea858f05e34546b39e61420b06035e98a1c0b"
+    },
+    {
+      "file": "satelliteFig3TwoTierPilotDecision.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3TwoTierPilotDecision.m",
+      "sourceSha256": "aedd1a698f12ee71db00a9beade780e8459da054e444d30e1a7984cea5ea614c",
+      "copiedSha256": "aedd1a698f12ee71db00a9beade780e8459da054e444d30e1a7984cea5ea614c"
+    },
+    {
+      "file": "satelliteFig3VisibilityWindow.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\project\\orbit_doppler\\satellite_fig3_rolling8\\satelliteFig3VisibilityWindow.m",
+      "sourceSha256": "2d12142b45c0eed3fe5a218adf146cff5c2707e82ae4f4491817825ce04916ef",
+      "copiedSha256": "2d12142b45c0eed3fe5a218adf146cff5c2707e82ae4f4491817825ce04916ef"
+    }
+  ]
+}

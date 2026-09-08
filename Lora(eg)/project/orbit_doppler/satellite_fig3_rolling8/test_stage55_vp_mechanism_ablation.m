@@ -1,0 +1,33 @@
+classdef test_stage55_vp_mechanism_ablation < SenLoRaStageTestCase
+    %TEST_STAGE55_VP_MECHANISM_ABLATION MATLAB unit-test wrapper for this regression.
+
+    methods (Test)
+        function runRegression(~)
+            check_test_stage55_vp_mechanism_ablation();
+        end
+    end
+end
+
+function check_test_stage55_vp_mechanism_ablation()
+%TEST_STAGE55_VP_MECHANISM_ABLATION Verify five-way paired wiring.
+
+report = run_stage55_vp_mechanism_ablation( ...
+    SnrGridDb=-20,PassCount=1,FramesPerVisibleSegment=1, ...
+    OutputFolderName='stage55_vp_mechanism_ablation_test', ...
+    ProgressEveryFrames=Inf,WriteFigures=false);
+assert(height(report.records) == 10, ...
+    'Two visible segments times five modes should produce ten records.');
+assert(height(report.summary) == 10, ...
+    'Two regions times five modes should produce ten summary rows.');
+noVp = strcmp(report.records.mode,'NoVP');
+assert(all(report.records.acceptedVirtualPilots(noVp) == 0), ...
+    'NoVP admitted a payload virtual pilot.');
+frozen = ~report.records.enableRateUpdate;
+assert(all(report.records.maxRateDeltaBinsPerSec(frozen) < 1e-12), ...
+    'A rate-frozen ablation branch changed the payload rate.');
+assert(all(report.records.falseAcceptedVirtualPilots >= 0) && ...
+    all(report.records.symbolErrors >= 0) && ...
+    all(report.records.symbolErrors <= report.records.symbolCount), ...
+    'Ablation statistics are outside their physical bounds.');
+fprintf('Stage 55 VP mechanism-ablation wiring test passed.\n');
+end

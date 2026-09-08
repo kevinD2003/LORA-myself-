@@ -1,0 +1,11 @@
+snrDb,passIndex,segmentIndex,frameIndex,frameCenterTimeSec,driftBinsPerFrame,crossFrameHistoryCount,symbolCount,symbolErrors,bitCount,hardBitErrors,softBitErrors,cfoSseBins,cfoSampleCount,acceptedVirtualPilots,falseAcceptedVirtualPilots,updatedSymbolCount,maxRateDeltaBinsPerSec,phasePairUsedCount,rateObservableSymbolCount,region,mode,enableVirtualPilots,enablePhaseCorrection,enableRateUpdate,qualityAware,softFrameError
+-20,1,1,1,-249.260517467144,0.0660725203957583,1,112,3,704,0,0,4.39417124003698,112,0,0,0,0,0,0,high_doppler_shift,NoVP,0,0,0,0,0
+-20,1,1,1,-249.260517467144,0.0660725203957583,1,112,3,704,0,0,3.75838858609504,112,4,0,105,0,0,0,high_doppler_shift,VP-center,1,0,0,0,0
+-20,1,1,1,-249.260517467144,0.0660725203957583,1,112,3,704,0,0,3.7583885860949,112,4,0,105,0,0,0,high_doppler_shift,VP-center-phase,1,1,0,0,0
+-20,1,1,1,-249.260517467144,0.0660725203957583,1,112,2,704,0,0,2.04883766217684,112,4,0,105,0.1,0,0,high_doppler_shift,VP-center-rate,1,0,1,0,0
+-20,1,1,1,-249.260517467144,0.0660725203957583,1,112,2,704,0,0,2.04883766217697,112,4,0,105,0.1,0,0,high_doppler_shift,VP-full,1,1,1,0,0
+-20,1,2,293,37.7871625328564,1.33025407569487,1,112,1,704,0,0,0.00412119572007198,112,0,0,0,0,0,0,high_doppler_rate,NoVP,0,0,0,0,0
+-20,1,2,293,37.7871625328564,1.33025407569487,1,112,1,704,0,0,0.395334865039893,112,5,0,91,0,0,0,high_doppler_rate,VP-center,1,0,0,0,0
+-20,1,2,293,37.7871625328564,1.33025407569487,1,112,1,704,0,0,0.395334865039892,112,5,0,91,0,0,0,high_doppler_rate,VP-center-phase,1,1,0,0,0
+-20,1,2,293,37.7871625328564,1.33025407569487,1,112,1,704,0,0,0.42806181755776,112,5,0,91,0.1,0,0,high_doppler_rate,VP-center-rate,1,0,1,0,0
+-20,1,2,293,37.7871625328564,1.33025407569487,1,112,1,704,0,0,0.428061817557738,112,5,0,91,0.1,0,0,high_doppler_rate,VP-full,1,1,1,0,0

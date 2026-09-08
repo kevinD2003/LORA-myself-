@@ -1,0 +1,16 @@
+{
+  "stage": "STAGE_04_RESOURCE_AUDIT",
+  "overall": "PASS",
+  "formalPackets": 400000,
+  "workerCount": 2,
+  "singleProcessPeakBytes": 1.820184576E+9,
+  "estimatedTotalProcessBytes": 5.460553728E+9,
+  "seventyPercentPhysicalBytes": 1.1804551987199999E+10,
+  "memoryGate": "PASS",
+  "compactStorageGate": "PASS",
+  "conservativeStorageGiB": 0.47835055738687515,
+  "availableFreeGiB": 161.88605499267578,
+  "conservativeSerialRuntimeHours": 16.898994357638887,
+  "expectedTwoWorkerRuntimeHours": 8.4494971788194437,
+  "admission": "ADMIT_STAGE_4_FORMAL"
+}

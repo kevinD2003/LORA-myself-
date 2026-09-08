@@ -1,0 +1,4 @@
+Source: D:\codex\Lora(eg)\senlora_orbit_doppler\satellite_fig3_rolling8\results\stage42_formal_ber_minus30_to_minus10\formal_ber_checkpoint.mat
+Target grid: -30:1:-14 dB (17 points).
+Early stop: all hard-PREC and SenLoRa 95% upper bounds <= 1e-6.
+All retained state, seeds, errors, bits and traces are unchanged.

@@ -1,0 +1,32 @@
+{
+  "stage": "STAGE_03R_01_FREEZE_AUDIT",
+  "overall": "PASS",
+  "planVersion": "V4-noLDRO-plan-R4-track-a-stage3r",
+  "planSha256": "528e1f189c2904a5223a2985d276135bb362ab468e912dfedff45c03687a8791",
+  "r3FailureEvidenceManifestHash": "0f1fe8ff578973a94dbd0c28aaaad2784f68766ec17eec456d66821ef94f6d72",
+  "candidateTableHashes": [
+    "d10fd9947027f0a9ad8a5efe366467baff2c955a0f8db230948f46a87009e8cc",
+    "7661d83ebf27c49c6703b197aa83aa9c2ace238efacba1c03d173c5010e2ec73"
+  ],
+  "seedProtocolHash": "065a68f1e18d793920a385a30906a014ac8f1390dc61d01a4dbfe2daf9f99ef7",
+  "items": {
+    "r4Identity": "PASS",
+    "r3FailureEvidence": "PASS",
+    "sourceBoundary": "PASS",
+    "calibration": "NOT_APPLICABLE",
+    "validation": "NOT_APPLICABLE",
+    "smoke": "NOT_APPLICABLE",
+    "formal": "NOT_APPLICABLE"
+  },
+  "testNames": [
+    "V4Stage3RManifestTest/planAndAuthorizationAreFrozen",
+    "V4Stage3RManifestTest/oldFailureEvidenceIsUnchanged",
+    "V4Stage3RManifestTest/seedDomainsAndCandidateBudgetsAreFrozen"
+  ],
+  "testPassed": [
+    true,
+    true,
+    true
+  ],
+  "admission": "ADMIT_STAGE_03R_IMPLEMENTATION"
+}

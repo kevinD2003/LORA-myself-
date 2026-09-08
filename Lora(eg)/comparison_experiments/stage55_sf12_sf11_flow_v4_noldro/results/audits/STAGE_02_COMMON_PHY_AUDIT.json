@@ -1,0 +1,39 @@
+{
+  "stage": "STAGE_02_COMMON_PHY_AUDIT",
+  "overall": "PASS",
+  "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+  "timestampUtc": "2026-09-07T08:44:35Z",
+  "items": {
+    "independentGoldenVectors": "PASS",
+    "activeNoLdroScan": "PASS",
+    "sourceBoundary": "PASS",
+    "calibration": "NOT_APPLICABLE",
+    "validation": "NOT_APPLICABLE",
+    "smoke": "NOT_APPLICABLE",
+    "formal": "NOT_APPLICABLE"
+  },
+  "testNames": [
+    "V4IndependentChirpGoldenVectorTest/independentFormulaHitsExpectedBins",
+    "V4GrayInterleaverGoldenVectorTest/independentGrayValuesMatch",
+    "V4GrayInterleaverGoldenVectorTest/highBitsParticipateInInterleaver",
+    "V4NoLdroDimensionTest/identityAndDirectLabels",
+    "V4NoLdroDimensionTest/allLabelsRoundTrip",
+    "V4NoLdroDimensionTest/maximumTieUsesSmallestLabel",
+    "V4NoiseChannelMechanismTest/ricianAndComplexNoiseMoments"
+  ],
+  "testPassed": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "forbiddenPatternViolations": [],
+  "sourceFileCount": 34,
+  "commands": [
+    "auditV4Stage2"
+  ],
+  "admission": "ADMIT_STAGE_3"
+}

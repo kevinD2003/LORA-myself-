@@ -1,0 +1,5 @@
+snrDb,passIndex,segmentIndex,frameIndex,region,crossFrameHistoryCount,isolatedRateBinsPerSec,inheritedRateBinsPerSec,trueRateBinsPerSec,rateErrorBinsPerSec,acceptedPilots,falseAcceptedPilots,rateReleased,cfoSseBins,cfoSampleCount,hardBitErrors,softBitErrors,bitCount,minimumActiveHistoryCount,updatedSymbolCount,virtualPilotsUsedSum,fullyVirtualSymbolCount
+-20,1,1,1,low_dynamic,1,0.606345056727997,0.606345056727997,-0.0668203794753848,0.673165436203382,3,0,0,11.7257386923932,112,42,24,704,8,105,301,0
+-20,1,1,2,low_dynamic,2,0.216395137043454,-0,-0.0676633510225918,0.0676633510225918,9,0,1,0.346721029620714,112,21,0,704,8,98,525,14
+-20,1,2,293,high_dynamic,1,-1.89488092042039,-1.89488092042039,-1.3598486005646,-0.535032319855783,3,0,0,6.79931188201106,112,26,9,704,8,105,259,0
+-20,1,2,294,high_dynamic,2,-1.77412029575468,-1.42415364583331,-1.34557868902254,-0.0785749568107692,8,0,0,0.483781510063129,112,0,0,704,8,105,588,35

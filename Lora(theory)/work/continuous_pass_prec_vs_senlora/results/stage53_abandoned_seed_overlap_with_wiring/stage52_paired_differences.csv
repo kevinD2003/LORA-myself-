@@ -1,0 +1,2 @@
+snrIndex,snrDb,completedPasses,confidenceUnit,deltaBerStaticMinusSen,deltaBerLower95,deltaBerUpper95,deltaPerStaticMinusSen,deltaPerLower95,deltaPerUpper95,formalPassBootstrapAvailable,senLowerPointBer,senBerAdvantage95,senLowerPointPer,senPerAdvantage95
+1,-21,1,single_complete_pass_wilson_wiring_only,-0.000190709175084174,-0.000190709175084174,-0.000190709175084174,-0.0509259259259259,-0.0509259259259259,-0.0509259259259259,0,0,0,0,0

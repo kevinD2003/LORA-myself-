@@ -1,0 +1,104 @@
+动态 Doppler BER Smoke 测试报告
+生成时间：2026-07-31 11:37:03
+
+一、完整回归测试
+总计：51；通过：51；失败：0；未完成：0。
+- [通过] test_lora_css_awgn/testNoiselessSymbolDetection（0.746 秒）
+- [通过] test_lora_css_awgn/testUnitAveragePower（0.054 秒）
+- [通过] test_lora_css_awgn/testFftPeakMapping（0.070 秒）
+- [通过] test_lora_css_awgn/testComplexAwgnPower（0.025 秒）
+- [通过] test_lora_css_awgn/testBerDecreasesWithSnr（0.060 秒）
+- [通过] test_lora_css_awgn/testWaveformAndFftDomainAgreement（0.098 秒）
+- [通过] test_lora_css_awgn/testTheoryAgreesWithMonteCarlo（0.109 秒）
+- [通过] test_lora_dynamic_doppler/testDopplerShiftOddSymmetry（0.039 秒）
+- [通过] test_lora_dynamic_doppler/testDopplerRateEvenSymmetry（0.005 秒）
+- [通过] test_lora_dynamic_doppler/testVisibilityWindowDuration（0.128 秒）
+- [通过] test_lora_dynamic_doppler/testVisibilityWindowHasCentralBlindInterval（0.054 秒）
+- [通过] test_lora_dynamic_doppler/testVisibilityBoundaryElevations（0.055 秒）
+- [通过] test_lora_dynamic_doppler/testMaximumVisibleDopplerShift（0.026 秒）
+- [通过] test_lora_dynamic_doppler/testMaximumVisibleDopplerRate（0.007 秒）
+- [通过] test_lora_dynamic_doppler/testInternalAnglesUseRadians（0.027 秒）
+- [通过] test_lora_dynamic_doppler/testAnalyticDerivatives（0.015 秒）
+- [通过] test_lora_dynamic_channel/testInstantaneousFrequencyRangeAndWrap（0.198 秒）
+- [通过] test_lora_dynamic_channel/testFullRfFormulaAndTrapezoidalPhase（0.090 秒）
+- [通过] test_lora_dynamic_channel/testCarrierOnlyApproximationAndError（0.039 秒）
+- [通过] test_lora_dynamic_channel/testNoiselessChannelPreservesSignalPower（0.017 秒）
+- [通过] test_lora_dynamic_channel/testComplexAwgnMatchesSnrConvention（0.029 秒）
+- [通过] test_lora_dynamic_channel/testDynamicWrapperUsesOriginalUncompensatedDetector（0.034 秒）
+- [通过] test_lora_dynamic_channel/testNoDopplerModeIsExactAndUsesOriginalDetector（0.024 秒）
+- [通过] test_lora_dynamic_channel/testZeroCarrierInCarrierOnlyModePreservesWaveform（0.009 秒）
+- [通过] test_lora_dynamic_channel/testZeroOrbitVelocityInFullRfModePreservesWaveform（0.013 秒）
+- [通过] test_lora_dynamic_channel/testStaticIntegerBinOffsetMovesDetectorPeak（0.005 秒）
+- [通过] test_lora_dynamic_channel/testNumericalPhaseDerivativeRecoversDoppler（0.024 秒）
+- [通过] test_lora_dynamic_channel/testCarrierOnlyDifferenceScalesAsBandwidthOverCarrier（0.009 秒）
+- [通过] test_lora_dynamic_channel/testFigure17GeometryHighShiftAndRateCandidates（0.069 秒）
+- [通过] test_lora_dynamic_channel/testFixedRandomSeedIsReproducible（0.068 秒）
+- [通过] test_lora_dynamic_channel/testInvalidInputsAreRejected（0.537 秒）
+- [通过] test_lora_doppler_approximation/testFigure17GeometryUsesFormulaDerivedSharedWindow（0.144 秒）
+- [通过] test_lora_doppler_approximation/testExactDopplerUsesFullRfInstantaneousFrequency（0.027 秒）
+- [通过] test_lora_doppler_approximation/testSingleSymbolExactAndLinearAgreement（0.406 秒）
+- [通过] test_lora_doppler_approximation/testExactAndLinearPhaseUseTrapezoidalIntegration（0.044 秒）
+- [通过] test_lora_doppler_approximation/testNoiselessFftPeakMatchesForExactAndLinearDoppler（0.057 秒）
+- [通过] test_lora_doppler_approximation/testSymbolwiseVdFollowsSmoothOrbitRate（0.227 秒）
+- [通过] test_lora_doppler_approximation/testSymbolwiseCdAndWrapCorrectionRemainContinuous（0.115 秒）
+- [通过] test_lora_doppler_approximation/testRunnerCreatesRequiredArtifacts（21.220 秒）
+- [通过] test_lora_doppler_approximation/testInvalidApproximationInputsAreRejected（0.129 秒）
+- [通过] test_lora_dynamic_doppler_ber/testConfigDefinesRequiredSmokeGrid（0.035 秒）
+- [通过] test_lora_dynamic_doppler_ber/testConfigUsesFormulaDerivedSharedWindow（0.019 秒）
+- [通过] test_lora_dynamic_doppler_ber/testFixedPointUsesFullWaveformAndRequiredFields（5.315 秒）
+- [通过] test_lora_dynamic_doppler_ber/testFixedModeIsReproducible（0.548 秒）
+- [通过] test_lora_dynamic_doppler_ber/testBatchSizeIsAutomaticAndNonempty（2.455 秒）
+- [通过] test_lora_dynamic_doppler_ber/testExactAndLinearModelsUseExistingTraceFields（0.564 秒）
+- [通过] test_lora_dynamic_doppler_ber/testContinuousModeAdvancesTimeAndPhase（0.458 秒）
+- [通过] test_lora_dynamic_doppler_ber/testFixedModeKeepsTimeAndResetsInitialPhase（0.251 秒）
+- [通过] test_lora_dynamic_doppler_ber/testSeparateSeedsPreserveSymbolsAndChangeNoise（0.551 秒）
+- [通过] test_lora_dynamic_doppler_ber/testZeroVelocityUsesOriginalDetectorAndBitMapping（0.030 秒）
+- [通过] test_lora_dynamic_doppler_ber/testSmokeRunnerCreatesArtifactsWithoutFigure17（1.555 秒）
+
+二、MATLAB Code Analyzer
+分析文件数：4；问题数：0。
+
+三、正式 smoke 数据完整性
+点数：24；要求点数：24。
+NaN 或 Inf：否。
+空批次：否。
+FFT bin 映射全部有效：是。
+复采样批上限全部满足：是。
+全部为 fixed 主时间模式：是。
+全部为 paper piecewise 主模型：是。
+
+四、每点耗时与内存
+- high_doppler_rate，SF5，SNR=-10 dB：0.256 秒；MATLAB 峰值 1685.59 MiB；MATLAB 增量 98.13 MiB；保守估算 16.01 MiB；复采样峰值 131072；批数 1。
+- high_doppler_rate，SF5，SNR=0 dB：13.481 秒；MATLAB 峰值 1730.75 MiB；MATLAB 增量 51.11 MiB；保守估算 16.01 MiB；复采样峰值 131072；批数 98。
+- high_doppler_rate，SF5，SNR=10 dB：13.230 秒；MATLAB 峰值 1688.71 MiB；MATLAB 增量 11.02 MiB；保守估算 16.01 MiB；复采样峰值 131072；批数 98。
+- high_doppler_rate，SF7，SNR=-10 dB：0.148 秒；MATLAB 峰值 1721.70 MiB；MATLAB 增量 44.02 MiB；保守估算 64.12 MiB；复采样峰值 524288；批数 1。
+- high_doppler_rate，SF7，SNR=0 dB：13.214 秒；MATLAB 峰值 1724.22 MiB；MATLAB 增量 44.66 MiB；保守估算 64.12 MiB；复采样峰值 524288；批数 70。
+- high_doppler_rate，SF7，SNR=10 dB：12.284 秒；MATLAB 峰值 1724.86 MiB；MATLAB 增量 44.02 MiB；保守估算 64.12 MiB；复采样峰值 524288；批数 70。
+- high_doppler_rate，SF8，SNR=-10 dB：0.191 秒；MATLAB 峰值 1769.90 MiB；MATLAB 增量 89.15 MiB；保守估算 128.50 MiB；复采样峰值 1048576；批数 1。
+- high_doppler_rate，SF8，SNR=0 dB：0.198 秒；MATLAB 峰值 1770.40 MiB；MATLAB 增量 88.52 MiB；保守估算 128.50 MiB；复采样峰值 1048576；批数 1。
+- high_doppler_rate，SF8，SNR=10 dB：0.208 秒；MATLAB 峰值 1773.27 MiB；MATLAB 增量 89.19 MiB；保守估算 128.50 MiB；复采样峰值 1048576；批数 1。
+- high_doppler_rate，SF12，SNR=-10 dB：0.558 秒；MATLAB 峰值 1863.59 MiB；MATLAB 增量 178.35 MiB；保守估算 244.00 MiB；复采样峰值 1998848；批数 1。
+- high_doppler_rate，SF12，SNR=0 dB：0.470 秒；MATLAB 峰值 1864.10 MiB；MATLAB 增量 168.28 MiB；保守估算 244.00 MiB；复采样峰值 1998848；批数 1。
+- high_doppler_rate，SF12，SNR=10 dB：0.507 秒；MATLAB 峰值 1864.11 MiB；MATLAB 增量 167.79 MiB；保守估算 244.00 MiB；复采样峰值 1998848；批数 1。
+- high_doppler_shift，SF5，SNR=-10 dB：0.140 秒；MATLAB 峰值 1707.36 MiB；MATLAB 增量 11.02 MiB；保守估算 16.01 MiB；复采样峰值 131072；批数 1。
+- high_doppler_shift，SF5，SNR=0 dB：0.129 秒；MATLAB 峰值 1707.36 MiB；MATLAB 增量 11.02 MiB；保守估算 16.01 MiB；复采样峰值 131072；批数 1。
+- high_doppler_shift，SF5，SNR=10 dB：0.155 秒；MATLAB 峰值 1707.36 MiB；MATLAB 增量 11.02 MiB；保守估算 16.01 MiB；复采样峰值 131072；批数 1。
+- high_doppler_shift，SF7，SNR=-10 dB：0.168 秒；MATLAB 峰值 1740.36 MiB；MATLAB 增量 44.02 MiB；保守估算 64.12 MiB；复采样峰值 524288；批数 1。
+- high_doppler_shift，SF7，SNR=0 dB：0.184 秒；MATLAB 峰值 1740.36 MiB；MATLAB 增量 44.02 MiB；保守估算 64.12 MiB；复采样峰值 524288；批数 1。
+- high_doppler_shift，SF7，SNR=10 dB：0.195 秒；MATLAB 峰值 1740.36 MiB；MATLAB 增量 44.02 MiB；保守估算 64.12 MiB；复采样峰值 524288；批数 1。
+- high_doppler_shift，SF8，SNR=-10 dB：0.195 秒；MATLAB 峰值 1784.36 MiB；MATLAB 增量 88.02 MiB；保守估算 128.50 MiB；复采样峰值 1048576；批数 1。
+- high_doppler_shift，SF8，SNR=0 dB：0.184 秒；MATLAB 峰值 1784.36 MiB；MATLAB 增量 88.02 MiB；保守估算 128.50 MiB；复采样峰值 1048576；批数 1。
+- high_doppler_shift，SF8，SNR=10 dB：0.189 秒；MATLAB 峰值 1784.36 MiB；MATLAB 增量 88.02 MiB；保守估算 128.50 MiB；复采样峰值 1048576；批数 1。
+- high_doppler_shift，SF12，SNR=-10 dB：0.517 秒；MATLAB 峰值 1864.24 MiB；MATLAB 增量 167.90 MiB；保守估算 244.00 MiB；复采样峰值 1998848；批数 1。
+- high_doppler_shift，SF12，SNR=0 dB：0.516 秒；MATLAB 峰值 1864.24 MiB；MATLAB 增量 167.77 MiB；保守估算 244.00 MiB；复采样峰值 1998848；批数 1。
+- high_doppler_shift，SF12，SNR=10 dB：0.637 秒；MATLAB 峰值 1864.24 MiB；MATLAB 增量 167.77 MiB；保守估算 244.00 MiB；复采样峰值 1998848；批数 1。
+
+五、接口、单位与禁止项审查
+paper_piecewise_linear 复用 linearDopplerHz/linearPhaseRad；exact_orbit_sampled 复用 exactDopplerHz/exactPhaseRad。
+场景时刻由 lora_figure17_geometry 的 shared window 两端点自动推导。
+生产代码发现论文近似场景硬编码：否。
+生产代码发现 AWGN order-statistic 或人工 bin shift 调用：否。
+AWGN 基准文件相对 main 未改变：是。
+单位检查：带宽和采样率为 Hz，时间为 s，Doppler 为 Hz，Doppler rate 为 Hz/s，相位为 rad；未发现不一致。
+continuous 模式只作为独立诊断，本次 smoke 未运行。
+最终 Figure 17：未生成。

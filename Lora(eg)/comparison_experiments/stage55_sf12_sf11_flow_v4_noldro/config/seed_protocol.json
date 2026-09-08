@@ -1,0 +1,27 @@
+{
+  "generator": "mt19937ar-keyed-sha256-v1",
+  "keyFields": ["planVersion","phase","track","channel","comparisonMode","snrDb","replicateId","packetId","eventType","eventIndex","sampleIndex","component"],
+  "roots": {
+    "mechanism": 410000000,
+    "a_calibration": 420000000,
+    "a_validation_v1": 430000000,
+    "a_validation_v2": 431000000,
+    "a_validation_v3": 432000000,
+    "a_smoke": 440000000,
+    "a_formal": 450000000,
+    "a_bootstrap": 460000000,
+    "b_calibration": 520000000,
+    "b_validation_v1": 530000000,
+    "b_validation_v2": 531000000,
+    "b_validation_v3": 532000000,
+    "b_smoke": 540000000,
+    "b_formal_awgn_controlled": 551000000,
+    "b_formal_awgn_native": 552000000,
+    "b_formal_rician_controlled": 553000000,
+    "b_formal_rician_native": 554000000,
+    "b_bootstrap_awgn_controlled": 561000000,
+    "b_bootstrap_awgn_native": 562000000,
+    "b_bootstrap_rician_controlled": 563000000,
+    "b_bootstrap_rician_native": 564000000
+  }
+}

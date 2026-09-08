@@ -1,0 +1,62 @@
+{
+  "status": "FAIL",
+  "parameterVersion": "A-param-v03",
+  "seedDomain": "a_validation_v3",
+  "gateRecords": [
+    {
+      "caseStartTimeSec": -366,
+      "packetCount": 2000,
+      "accepted": 3820,
+      "falseAccepted": 175,
+      "possible": 46000,
+      "falseAcceptance": 0.04581151832460733,
+      "coverage": 0.083043478260869566,
+      "passed": false
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packetCount": 2000,
+      "accepted": 2098,
+      "falseAccepted": 1965,
+      "possible": 46000,
+      "falseAcceptance": 0.936606291706387,
+      "coverage": 0.04560869565217391,
+      "passed": false
+    }
+  ],
+  "lowSnrSafety": [
+    {
+      "caseStartTimeSec": -366,
+      "snrDb": -30,
+      "packetCount": 500,
+      "finite": true,
+      "accepted": 0,
+      "falseAccepted": 0
+    },
+    {
+      "caseStartTimeSec": -366,
+      "snrDb": -25,
+      "packetCount": 500,
+      "finite": true,
+      "accepted": 0,
+      "falseAccepted": 0
+    },
+    {
+      "caseStartTimeSec": 0,
+      "snrDb": -30,
+      "packetCount": 500,
+      "finite": true,
+      "accepted": 0,
+      "falseAccepted": 0
+    },
+    {
+      "caseStartTimeSec": 0,
+      "snrDb": -25,
+      "packetCount": 500,
+      "finite": true,
+      "accepted": 3,
+      "falseAccepted": 3
+    }
+  ],
+  "usesPerformanceRanking": false
+}

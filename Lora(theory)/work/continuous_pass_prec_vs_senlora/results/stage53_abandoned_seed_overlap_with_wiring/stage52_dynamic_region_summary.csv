@@ -1,0 +1,5 @@
+snrIndex,snrDb,dynamicRegion,method,completedPasses,framesPerPass,bitCount,bitErrors,ber,frameErrors,per,cfoRmseBins,activeLinkGoodputBps,acceptedPilots,falseAcceptedPilots
+1,-21,low_dynamic_lt_0p5_bin_per_frame,Huang-PREC-static-CP,1,294,206976,2655,0.0128275742115028,196,0.666666666666667,0.141919562743295,238.715277777778,0,0
+1,-21,low_dynamic_lt_0p5_bin_per_frame,SenLoRa-VP,1,294,206976,7685,0.0371299087816945,233,0.792517006802721,0.282571568258661,148.58808106576,116,0
+1,-21,high_dynamic_ge_0p5_bin_per_frame,Huang-PREC-static-CP,1,138,97152,9469,0.097465826745718,138,1,0.513006250428431,0,0,0
+1,-21,high_dynamic_ge_0p5_bin_per_frame,SenLoRa-VP,1,138,97152,4497,0.046288290513834,123,0.891304347826087,0.312058643981422,77.8419384057971,47,0

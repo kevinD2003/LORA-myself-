@@ -1,0 +1,15 @@
+{
+  "stage": "STAGE_03S_01_FREEZE_AUDIT",
+  "overall": "PASS",
+  "planVersion": "V4-noLDRO-plan-R5-track-a-point-anchored-lock",
+  "planSha256": "22944ae39cc19992e167742bc2779ae3ff7b091227f1af89aa4c79ad8ffc7809",
+  "r3EvidenceManifestHash": "0f1fe8ff578973a94dbd0c28aaaad2784f68766ec17eec456d66821ef94f6d72",
+  "r4EvidenceManifestHash": "43bfbe193d20bc5f95857703dc1ad4b22393a86b6b3364e7105144a0cb743ac1",
+  "sourceBoundary": "PASS",
+  "testPassed": [
+    true,
+    true,
+    true
+  ],
+  "admission": "ADMIT_STAGE_03S_IMPLEMENTATION"
+}

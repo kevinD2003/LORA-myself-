@@ -1,0 +1,52 @@
+{
+  "stage": "STAGE_03S_SAFETY_AUDIT",
+  "overall": "PASS",
+  "artifactHash": "059389840510eb9b6e5694fdbba9ee4ad7a2031cc098364274a43dbf34bd5285",
+  "records": [
+    {
+      "caseStartTimeSec": -366,
+      "snrDb": -30,
+      "packets": 500,
+      "finite": true,
+      "timingValid": true,
+      "stateBounded": true,
+      "accepted": 0,
+      "falseAccepted": 0,
+      "lostPackets": 500
+    },
+    {
+      "caseStartTimeSec": -366,
+      "snrDb": -25,
+      "packets": 500,
+      "finite": true,
+      "timingValid": true,
+      "stateBounded": true,
+      "accepted": 88,
+      "falseAccepted": 1,
+      "lostPackets": 496
+    },
+    {
+      "caseStartTimeSec": 0,
+      "snrDb": -30,
+      "packets": 500,
+      "finite": true,
+      "timingValid": true,
+      "stateBounded": true,
+      "accepted": 1,
+      "falseAccepted": 0,
+      "lostPackets": 500
+    },
+    {
+      "caseStartTimeSec": 0,
+      "snrDb": -25,
+      "packets": 500,
+      "finite": true,
+      "timingValid": true,
+      "stateBounded": true,
+      "accepted": 81,
+      "falseAccepted": 2,
+      "lostPackets": 498
+    }
+  ],
+  "admission": "ADMIT_STAGE_03S_SMOKE"
+}

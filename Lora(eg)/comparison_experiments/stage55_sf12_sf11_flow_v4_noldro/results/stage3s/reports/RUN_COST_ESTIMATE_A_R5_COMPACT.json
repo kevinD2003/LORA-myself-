@@ -1,0 +1,11 @@
+{
+  "pilotPackets": 32,
+  "pilotBytes": 32872,
+  "bytesPerPacket": 1027.25,
+  "formalPackets": 400000,
+  "conservativeStorageGiB": 0.47835055738687515,
+  "requiredFreeGiBAt1p5x": 0.71752583608031273,
+  "availableFreeGiB": 161.88605499267578,
+  "storageGatePassed": true,
+  "recordSchema": "numeric compact matrices; no IQ or MATLAB receiver objects"
+}

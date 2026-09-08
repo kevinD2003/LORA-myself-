@@ -1,0 +1,74 @@
+动态 Doppler 近似验证测试报告
+生成时间：2026-07-30 17:29:51
+
+一、完整回归测试
+总计：33；通过：33；失败：0；未完成：0。
+- [通过] test_lora_dynamic_doppler/testDopplerShiftOddSymmetry（0.074 秒）
+- [通过] test_lora_dynamic_doppler/testDopplerRateEvenSymmetry（0.009 秒）
+- [通过] test_lora_dynamic_doppler/testVisibilityWindowDuration（0.531 秒）
+- [通过] test_lora_dynamic_doppler/testVisibilityWindowHasCentralBlindInterval（0.072 秒）
+- [通过] test_lora_dynamic_doppler/testVisibilityBoundaryElevations（0.069 秒）
+- [通过] test_lora_dynamic_doppler/testMaximumVisibleDopplerShift（0.043 秒）
+- [通过] test_lora_dynamic_doppler/testMaximumVisibleDopplerRate（0.011 秒）
+- [通过] test_lora_dynamic_doppler/testInternalAnglesUseRadians（0.030 秒）
+- [通过] test_lora_dynamic_doppler/testAnalyticDerivatives（0.017 秒）
+- [通过] test_lora_dynamic_channel/testInstantaneousFrequencyRangeAndWrap（0.285 秒）
+- [通过] test_lora_dynamic_channel/testFullRfFormulaAndTrapezoidalPhase（0.104 秒）
+- [通过] test_lora_dynamic_channel/testCarrierOnlyApproximationAndError（0.045 秒）
+- [通过] test_lora_dynamic_channel/testNoiselessChannelPreservesSignalPower（0.021 秒）
+- [通过] test_lora_dynamic_channel/testComplexAwgnMatchesSnrConvention（0.043 秒）
+- [通过] test_lora_dynamic_channel/testDynamicWrapperUsesOriginalUncompensatedDetector（0.047 秒）
+- [通过] test_lora_dynamic_channel/testNoDopplerModeIsExactAndUsesOriginalDetector（0.023 秒）
+- [通过] test_lora_dynamic_channel/testZeroCarrierInCarrierOnlyModePreservesWaveform（0.011 秒）
+- [通过] test_lora_dynamic_channel/testZeroOrbitVelocityInFullRfModePreservesWaveform（0.013 秒）
+- [通过] test_lora_dynamic_channel/testStaticIntegerBinOffsetMovesDetectorPeak（0.008 秒）
+- [通过] test_lora_dynamic_channel/testNumericalPhaseDerivativeRecoversDoppler（0.024 秒）
+- [通过] test_lora_dynamic_channel/testCarrierOnlyDifferenceScalesAsBandwidthOverCarrier（0.009 秒）
+- [通过] test_lora_dynamic_channel/testFigure17GeometryHighShiftAndRateCandidates（0.060 秒）
+- [通过] test_lora_dynamic_channel/testFixedRandomSeedIsReproducible（0.061 秒）
+- [通过] test_lora_dynamic_channel/testInvalidInputsAreRejected（0.455 秒）
+- [通过] test_lora_doppler_approximation/testFigure17GeometryUsesFormulaDerivedSharedWindow（0.137 秒）
+- [通过] test_lora_doppler_approximation/testExactDopplerUsesFullRfInstantaneousFrequency（0.026 秒）
+- [通过] test_lora_doppler_approximation/testSingleSymbolExactAndLinearAgreement（0.359 秒）
+- [通过] test_lora_doppler_approximation/testExactAndLinearPhaseUseTrapezoidalIntegration（0.038 秒）
+- [通过] test_lora_doppler_approximation/testNoiselessFftPeakMatchesForExactAndLinearDoppler（0.053 秒）
+- [通过] test_lora_doppler_approximation/testSymbolwiseVdFollowsSmoothOrbitRate（0.188 秒）
+- [通过] test_lora_doppler_approximation/testSymbolwiseCdAndWrapCorrectionRemainContinuous（0.103 秒）
+- [通过] test_lora_doppler_approximation/testRunnerCreatesRequiredArtifacts（18.055 秒）
+- [通过] test_lora_doppler_approximation/testInvalidApproximationInputsAreRejected（0.089 秒）
+
+二、MATLAB 代码分析
+分析文件数：4；问题数：0。
+
+三、输出与数据完整性
+预期文件数：20；非空文件数：20。
+- doppler_approx_figure5_like_high_shift_sf7.png：存在且非空，93171 字节
+- doppler_approx_figure5_like_high_shift_sf7.pdf：存在且非空，9689 字节
+- doppler_approx_figure5_like_high_rate_sf7.png：存在且非空，89923 字节
+- doppler_approx_figure5_like_high_rate_sf7.pdf：存在且非空，11143 字节
+- doppler_approx_figure5_like_high_shift_sf12.png：存在且非空，93178 字节
+- doppler_approx_figure5_like_high_shift_sf12.pdf：存在且非空，37987 字节
+- doppler_approx_figure5_like_high_rate_sf12.png：存在且非空，92861 字节
+- doppler_approx_figure5_like_high_rate_sf12.pdf：存在且非空，47646 字节
+- doppler_symbol_to_symbol_drift_high_shift_sf7.png：存在且非空，121128 字节
+- doppler_symbol_to_symbol_error_high_shift_sf7.png：存在且非空，141109 字节
+- doppler_symbol_to_symbol_drift_high_rate_sf7.png：存在且非空，88200 字节
+- doppler_symbol_to_symbol_error_high_rate_sf7.png：存在且非空，163780 字节
+- doppler_symbol_to_symbol_drift_high_shift_sf12.png：存在且非空，112301 字节
+- doppler_symbol_to_symbol_error_high_shift_sf12.png：存在且非空，144789 字节
+- doppler_symbol_to_symbol_drift_high_rate_sf12.png：存在且非空，88810 字节
+- doppler_symbol_to_symbol_error_high_rate_sf12.png：存在且非空，100338 字节
+- doppler_approx_single_symbol_metrics.csv：存在且非空，1111 字节
+- doppler_approx_single_symbol_metrics.json：存在且非空，2858 字节
+- doppler_symbolwise_validation.csv：存在且非空，43780 字节
+- doppler_symbolwise_validation.json：存在且非空，108044 字节
+单符号 CSV 行数：4；JSON 行数：4。
+跨符号 CSV 行数：200；JSON 行数：200。
+BER 扫描执行标志：否。
+
+四、AWGN 基准文件完整性
+lora_css_modulate.m：哈希一致
+lora_css_demodulate.m：哈希一致
+
+五、结论
+全部自动化验证通过；本次仅完成动态 Doppler 近似诊断，未运行 BER 扫描，原 AWGN 调制与解调基准文件未改变。

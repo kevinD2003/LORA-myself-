@@ -1,0 +1,13 @@
+spreadingFactor,caseName,strategy,snrDb,serLow,serHigh,source
+7,case1,no_doppler,-6,0.0015,0.0050,Figure10 visual endpoint
+7,case1,point,-6,0.0025,0.0070,Figure10 visual endpoint
+7,case1,midamble_point,-6,0.0025,0.0080,Figure10 visual endpoint
+7,case2,no_doppler,-6,0.0015,0.0050,Figure11 visual endpoint
+7,case2,point,-6,0.0030,0.0080,Figure11 visual endpoint
+7,case2,midamble_point,-6,0.0030,0.0090,Figure11 visual endpoint
+12,case1,no_doppler,-21,0.0030,0.0150,Figure10 visual endpoint
+12,case1,point,-21,0.0150,0.0450,Figure10 visual endpoint
+12,case1,midamble_point,-21,0.0200,0.0550,Figure10 visual endpoint
+12,case2,no_doppler,-21,0.0030,0.0150,Figure11 visual endpoint
+12,case2,point,-21,0.5500,0.7500,Figure11 visual endpoint
+12,case2,midamble_point,-21,0.0350,0.0800,Figure11 visual endpoint

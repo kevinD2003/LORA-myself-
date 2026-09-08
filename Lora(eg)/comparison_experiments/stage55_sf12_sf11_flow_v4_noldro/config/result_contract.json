@@ -1,0 +1,9 @@
+{
+  "version": "v4-result-contract-r3-v1",
+  "commonIdentity": ["planVersion","sourceManifestHash","codeHash","parameterManifestHash","frameTimingHash","statisticsHash","seedLedgerHash","algorithmSignature","matlabRelease"],
+  "trackAPacket": ["caseId","snrDb","packetId","methodId","symbolErrors","symbolCount","cfoSquaredErrorHz","cfoSquaredErrorBins","vpCandidates","vpAccepted","vpFalseAccepted","midambleCount","runtimeSec","deadlineMiss"],
+  "trackASymbol": ["packetId","methodId","dataIndex","centerTimeSec","truthCfoHz","estimatedCfoHz","hardLabel","vpCandidate","vpAccepted","vpUsedLabel","decisionTimeSec","availableTimeSec","appliedTimeSec"],
+  "trackBFrame": ["channel","comparisonMode","passId","packetId","methodId","receiverFrameAvailable","linkMetricEligible","geometryErasure","region","symbolErrors","symbolCount","hardBitErrors","hardBitCount","mlBitErrors","mlBitCount","packetErrorHard","packetErrorMl","runtimeSec","deadlineMiss"],
+  "trackBSymbol": ["passId","packetId","methodId","dataIndex","physicalRow","centerTimeSec","truthFullRfCfoHz","estimatedCfoHz","hardLabel","vpCandidate","vpAccepted","vpUsedLabel","decisionTimeSec","availableTimeSec","appliedTimeSec","rateSource","rollingHistoryCount","preambleHistoryCount","vpRateEvidenceCount"],
+  "trackBPass": ["channel","comparisonMode","snrDb","passId","methodId","visibleSer","visibleHardBer","visibleMlBer","visiblePerHard","visiblePerMl","systemPerMl","goodputBps","sentPacketCount","availablePacketCount","geometryErasureCount","airtimeSec","passDurationSec"]
+}

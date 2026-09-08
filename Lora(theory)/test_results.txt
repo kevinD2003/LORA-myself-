@@ -1,0 +1,12 @@
+LoRa CSS AWGN MATLAB test results
+Generated: 2026-07-28 16:47:26 *
+
+test_lora_css_awgn/testNoiselessSymbolDetection: PASS (0.038 s)
+test_lora_css_awgn/testUnitAveragePower: PASS (0.009 s)
+test_lora_css_awgn/testFftPeakMapping: PASS (0.018 s)
+test_lora_css_awgn/testComplexAwgnPower: PASS (0.011 s)
+test_lora_css_awgn/testBerDecreasesWithSnr: PASS (0.018 s)
+test_lora_css_awgn/testWaveformAndFftDomainAgreement: PASS (0.070 s)
+test_lora_css_awgn/testTheoryAgreesWithMonteCarlo: PASS (0.067 s)
+
+Passed: 7/7

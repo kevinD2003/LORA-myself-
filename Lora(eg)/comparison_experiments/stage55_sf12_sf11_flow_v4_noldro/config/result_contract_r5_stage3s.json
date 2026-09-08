@@ -1,0 +1,9 @@
+{
+  "version":"stage3s-result-contract-v1",
+  "algorithmVersion":"Stage55-A-point-anchored-provisional-lock-v2",
+  "states":["POINT_ANCHORED_PENDING","PROVISIONAL","LOCKED","LOST"],
+  "pointAnchorFields":["cfoBins","measurementTimeSec","availableAtSec","uncertaintyBins","resolution"],
+  "candidateFields":["candidateId","hardLabel","measurementTimeSec","availableAtSec","cfoCandidateBins","qualityPassed","status","rejectionReason"],
+  "resultFields":["lockStateByData","provisionalRateBinsPerSec","candidateRecords","commitRecords","virtualPilotAccepted","vpUsedLabel","releaseAtSec","firstEffectiveTimeSec","lossReason","lossTimeSec","checkpointState"],
+  "forbiddenReceiverFields":["payloadTruth","trueCfo","trueRate","orbitTruth","trueChannelCoefficient","futureSamples","hammingData","midambleObservation"]
+}

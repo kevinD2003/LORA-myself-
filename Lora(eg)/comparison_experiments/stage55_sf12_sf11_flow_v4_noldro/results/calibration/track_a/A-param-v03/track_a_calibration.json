@@ -1,0 +1,321 @@
+{
+  "status": "calibrated-not-validated",
+  "selectedCandidateIndex": 26,
+  "parameters": {
+    "parameterVersion": "A-param-v03",
+    "residualStepBins": 0.05,
+    "decisionPeakRatioThreshold": 6,
+    "maximumNormalizedEntropy": 0.1,
+    "residualPeakRatioThreshold": 1.01,
+    "innovationLimitBins": 0.25,
+    "historyDecay": 0.85,
+    "huberThresholdBins": 0.15,
+    "maximumRateBinsPerSec": 12
+  },
+  "records": [
+    {
+      "candidateIndex": 1,
+      "accepted": 27,
+      "falseAccepted": 7,
+      "possible": 184,
+      "falseAcceptance": 0.25925925925925924,
+      "coverage": 0.14673913043478262,
+      "cfoRmseBins": 584.95626423122758
+    },
+    {
+      "candidateIndex": 2,
+      "accepted": 68,
+      "falseAccepted": 23,
+      "possible": 184,
+      "falseAcceptance": 0.33823529411764708,
+      "coverage": 0.36956521739130432,
+      "cfoRmseBins": 243.53400741119873
+    },
+    {
+      "candidateIndex": 3,
+      "accepted": 19,
+      "falseAccepted": 13,
+      "possible": 184,
+      "falseAcceptance": 0.68421052631578949,
+      "coverage": 0.10326086956521739,
+      "cfoRmseBins": 475.11384962694916
+    },
+    {
+      "candidateIndex": 4,
+      "accepted": 80,
+      "falseAccepted": 25,
+      "possible": 184,
+      "falseAcceptance": 0.3125,
+      "coverage": 0.43478260869565216,
+      "cfoRmseBins": 3.5029992430652555
+    },
+    {
+      "candidateIndex": 5,
+      "accepted": 28,
+      "falseAccepted": 20,
+      "possible": 184,
+      "falseAcceptance": 0.7142857142857143,
+      "coverage": 0.15217391304347827,
+      "cfoRmseBins": 3.5710911828138054
+    },
+    {
+      "candidateIndex": 6,
+      "accepted": 20,
+      "falseAccepted": 9,
+      "possible": 184,
+      "falseAcceptance": 0.45,
+      "coverage": 0.10869565217391304,
+      "cfoRmseBins": 8.0949373522342736
+    },
+    {
+      "candidateIndex": 7,
+      "accepted": 18,
+      "falseAccepted": 11,
+      "possible": 184,
+      "falseAcceptance": 0.61111111111111116,
+      "coverage": 0.097826086956521743,
+      "cfoRmseBins": 3.6980874169265054
+    },
+    {
+      "candidateIndex": 8,
+      "accepted": 97,
+      "falseAccepted": 31,
+      "possible": 184,
+      "falseAcceptance": 0.31958762886597936,
+      "coverage": 0.52717391304347827,
+      "cfoRmseBins": 2.8811511380208112
+    },
+    {
+      "candidateIndex": 9,
+      "accepted": 3,
+      "falseAccepted": 2,
+      "possible": 184,
+      "falseAcceptance": 0.66666666666666663,
+      "coverage": 0.016304347826086956,
+      "cfoRmseBins": 187.14284558880928
+    },
+    {
+      "candidateIndex": 10,
+      "accepted": 44,
+      "falseAccepted": 20,
+      "possible": 184,
+      "falseAcceptance": 0.45454545454545453,
+      "coverage": 0.2391304347826087,
+      "cfoRmseBins": 3.8966781574479037
+    },
+    {
+      "candidateIndex": 11,
+      "accepted": 10,
+      "falseAccepted": 9,
+      "possible": 184,
+      "falseAcceptance": 0.9,
+      "coverage": 0.05434782608695652,
+      "cfoRmseBins": 3.7210725464915386
+    },
+    {
+      "candidateIndex": 12,
+      "accepted": 54,
+      "falseAccepted": 22,
+      "possible": 184,
+      "falseAcceptance": 0.40740740740740738,
+      "coverage": 0.29347826086956524,
+      "cfoRmseBins": 702.70130365298814
+    },
+    {
+      "candidateIndex": 13,
+      "accepted": 3,
+      "falseAccepted": 3,
+      "possible": 184,
+      "falseAcceptance": 1,
+      "coverage": 0.016304347826086956,
+      "cfoRmseBins": 3.6847907477384672
+    },
+    {
+      "candidateIndex": 14,
+      "accepted": 39,
+      "falseAccepted": 14,
+      "possible": 184,
+      "falseAcceptance": 0.358974358974359,
+      "coverage": 0.21195652173913043,
+      "cfoRmseBins": 3.51058687568765
+    },
+    {
+      "candidateIndex": 15,
+      "accepted": 10,
+      "falseAccepted": 3,
+      "possible": 184,
+      "falseAcceptance": 0.3,
+      "coverage": 0.05434782608695652,
+      "cfoRmseBins": 1218.3982314201862
+    },
+    {
+      "candidateIndex": 16,
+      "accepted": 63,
+      "falseAccepted": 17,
+      "possible": 184,
+      "falseAcceptance": 0.26984126984126983,
+      "coverage": 0.34239130434782611,
+      "cfoRmseBins": 308.49796860827661
+    },
+    {
+      "candidateIndex": 17,
+      "accepted": 12,
+      "falseAccepted": 8,
+      "possible": 184,
+      "falseAcceptance": 0.66666666666666663,
+      "coverage": 0.065217391304347824,
+      "cfoRmseBins": 3.7203658209587833
+    },
+    {
+      "candidateIndex": 18,
+      "accepted": 51,
+      "falseAccepted": 15,
+      "possible": 184,
+      "falseAcceptance": 0.29411764705882354,
+      "coverage": 0.27717391304347827,
+      "cfoRmseBins": 3.7202217326629938
+    },
+    {
+      "candidateIndex": 19,
+      "accepted": 6,
+      "falseAccepted": 6,
+      "possible": 184,
+      "falseAcceptance": 1,
+      "coverage": 0.032608695652173912,
+      "cfoRmseBins": 3.7272667480288244
+    },
+    {
+      "candidateIndex": 20,
+      "accepted": 19,
+      "falseAccepted": 4,
+      "possible": 184,
+      "falseAcceptance": 0.21052631578947367,
+      "coverage": 0.10326086956521739,
+      "cfoRmseBins": 3.7330079804821272
+    },
+    {
+      "candidateIndex": 21,
+      "accepted": 4,
+      "falseAccepted": 4,
+      "possible": 184,
+      "falseAcceptance": 1,
+      "coverage": 0.021739130434782608,
+      "cfoRmseBins": 105.7008085379412
+    },
+    {
+      "candidateIndex": 22,
+      "accepted": 30,
+      "falseAccepted": 12,
+      "possible": 184,
+      "falseAcceptance": 0.4,
+      "coverage": 0.16304347826086957,
+      "cfoRmseBins": 3.8861094999006047
+    },
+    {
+      "candidateIndex": 23,
+      "accepted": 0,
+      "falseAccepted": 0,
+      "possible": 184,
+      "falseAcceptance": 0,
+      "coverage": 0,
+      "cfoRmseBins": 33.21891808632526
+    },
+    {
+      "candidateIndex": 24,
+      "accepted": 28,
+      "falseAccepted": 10,
+      "possible": 184,
+      "falseAcceptance": 0.35714285714285715,
+      "coverage": 0.15217391304347827,
+      "cfoRmseBins": 311.60394460177906
+    },
+    {
+      "candidateIndex": 25,
+      "accepted": 2,
+      "falseAccepted": 2,
+      "possible": 184,
+      "falseAcceptance": 1,
+      "coverage": 0.010869565217391304,
+      "cfoRmseBins": 3.7201857410741916
+    },
+    {
+      "candidateIndex": 26,
+      "accepted": 2,
+      "falseAccepted": 0,
+      "possible": 184,
+      "falseAcceptance": 0,
+      "coverage": 0.010869565217391304,
+      "cfoRmseBins": 3.7085350835935573
+    },
+    {
+      "candidateIndex": 27,
+      "accepted": 3,
+      "falseAccepted": 3,
+      "possible": 184,
+      "falseAcceptance": 1,
+      "coverage": 0.016304347826086956,
+      "cfoRmseBins": 842.802992285082
+    },
+    {
+      "candidateIndex": 28,
+      "accepted": 14,
+      "falseAccepted": 7,
+      "possible": 184,
+      "falseAcceptance": 0.5,
+      "coverage": 0.076086956521739135,
+      "cfoRmseBins": 3.7123545657541546
+    },
+    {
+      "candidateIndex": 29,
+      "accepted": 0,
+      "falseAccepted": 0,
+      "possible": 184,
+      "falseAcceptance": 0,
+      "coverage": 0,
+      "cfoRmseBins": 45.547419979489852
+    },
+    {
+      "candidateIndex": 30,
+      "accepted": 26,
+      "falseAccepted": 8,
+      "possible": 184,
+      "falseAcceptance": 0.30769230769230771,
+      "coverage": 0.14130434782608695,
+      "cfoRmseBins": 3.7650916334191651
+    },
+    {
+      "candidateIndex": 31,
+      "accepted": 0,
+      "falseAccepted": 0,
+      "possible": 184,
+      "falseAcceptance": 0,
+      "coverage": 0,
+      "cfoRmseBins": 3.7078112859560091
+    },
+    {
+      "candidateIndex": 32,
+      "accepted": 1,
+      "falseAccepted": 0,
+      "possible": 184,
+      "falseAcceptance": 0,
+      "coverage": 0.005434782608695652,
+      "cfoRmseBins": 3.707209528312406
+    }
+  ],
+  "runManifest": {
+    "trackId": "A",
+    "parameterVersion": "A-param-v03",
+    "calibrationSeedDomain": "a_calibration_round_3",
+    "candidateCount": 32,
+    "round": 3,
+    "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+    "sourceManifestHash": "86b725a1922c2976cc8ac7dc4b9ee5ed8e76677d7121319135f0e0d15af1a032",
+    "resultContractHash": "c63103cc2cbcebecda11226ade111492b974cf3f05faffcdaf2165c58f96db7a",
+    "seedProtocolHash": "12cfa799200f7bb29760d256e03e66284fa71e72f0bdaa640a14e1ca167154c9",
+    "frameTimingHash": "d6a40bf3ee7bc0def5c29ae4b5ffc746fb24dbacaf6c05a1e464b668e8c4865e",
+    "calibrationProtocolHash": "12334bb0dfb8d0a7952223a590767b077459595d45bb0450075fe396e8c45b1b",
+    "matlabRelease": "2022a",
+    "algorithmSignature": "52ce2591eeda412abd3f9b5c5d8741afc9662a62a3af8addba744b8fcbbb5f83"
+  },
+  "selectionUsesSerOrBer": false
+}

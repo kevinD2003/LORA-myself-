@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-07-29T19:33:39***",
+  "matlabVersion": "9.12.0.1884302 (R2022a)",
+  "model": "carrier_only_orbit_doppler",
+  "dopplerDefinition": "f_D(t) = -f_c*v(t)/c",
+  "internalAngleUnit": "radian",
+  "constants": {
+    "speedOfLightMps": 3.0E+8,
+    "gravityMps2": 9.8,
+    "earthRadiusM": 6.371E+6,
+    "earthRotationRadPerSec": 7.292E-5
+  },
+  "orbit": {
+    "heightM": 550000,
+    "inclinationRad": 0.26179938779914941,
+    "carrierFrequencyHz": 8.68E+8,
+    "centralVisibilityTimeSec": 0
+  },
+  "elevationLimitsRad": {
+    "theoreticalMaximum": 0.97738438111682457,
+    "minimum": 0.17453292519943295,
+    "maximum": 0.87266462599716477
+  },
+  "paperParameterDegrees": {
+    "inclination": 15,
+    "theoreticalMaxElevation": 56,
+    "minimumElevation": 10,
+    "maximumElevation": 50
+  },
+  "formula_derived_value": {
+    "omegaSatelliteRadPerSec": 0.001095386461833004,
+    "omegaFixedRadPerSec": 0.0010249511505800051,
+    "gammaCentralRad": 0.05269031983054151,
+    "deltaTimeOutSec": 249.75203746714354,
+    "deltaTimeInSec": 37.082433353952396,
+    "intervalsSec": [
+      [
+        -249.75203746714354,
+        -37.082433353952396
+      ],
+      [
+        37.082433353952396,
+        249.75203746714354
+      ]
+    ],
+    "blindIntervalSec": [
+      -37.082433353952396,
+      37.082433353952396
+    ],
+    "visibleDurationSec": 425.33920822638231,
+    "dopplerShiftAbsRangeHz": [
+      7099.2838621165711,
+      18215.37944907702
+    ],
+    "dopplerRateAbsRangeHzPerSec": [
+      8.1533765644488359,
+      166.43063777946082
+    ]
+  },
+  "paper_reported_approximate_value": {
+    "visibleDurationSec": 422,
+    "dopplerShiftAbsRangeHz": [
+      7600,
+      18200
+    ],
+    "dopplerRateAbsRangeHzPerSec": [
+      8.3,
+      165.1
+    ]
+  },
+  "paperComparison": {
+    "visibleDurationDifferenceSec": 3.3392082263823113,
+    "minimumAbsShiftDifferenceHz": -500.71613788342893,
+    "maximumAbsShiftDifferenceHz": 15.379449077019672,
+    "minimumAbsRateDifferenceHzPerSec": -0.14662343555116486,
+    "maximumAbsRateDifferenceHzPerSec": 1.3306377794608295,
+    "assessment": "consistent_with_paper_within_test_tolerances"
+  },
+  "candidatePoints": {
+    "highDopplerShiftTimeSec": [
+      -249.75203746714354,
+      249.75203746714354
+    ],
+    "highDopplerShiftHz": [
+      18215.37944907702,
+      -18215.37944907702
+    ],
+    "highDopplerRateTimeSec": [
+      37.082433353952396,
+      -37.082433353952396
+    ],
+    "highDopplerRateHzPerSec": [
+      -166.43063777946082,
+      -166.43063777946082
+    ]
+  },
+  "outputs": [
+    "dynamic_doppler_figure3.png",
+    "dynamic_doppler_figure3.pdf",
+    "dynamic_doppler_trajectory.csv",
+    "dynamic_doppler_metadata.json"
+  ]
+}

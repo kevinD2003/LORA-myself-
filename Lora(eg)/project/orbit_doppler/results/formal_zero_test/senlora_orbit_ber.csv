@@ -1,0 +1,13 @@
+scenario,sf,snrDb,method,bitErrors,symbolErrors,totalBits,totalSymbols,ber,ser,berLower95,berUpper95,zeroErrorUpper95,meanPayloadPilotCount,frameCount,seedSymbols,seedNoiseBase,targetBitErrors,maxBitsPerPoint
+high_doppler_rate,11,-30,blind_hard,0,0,0,0,0,0,NaN,NaN,3,0,0,20461503,20461504,10,704
+high_doppler_rate,11,-30,ideal,0,0,0,0,0,0,NaN,NaN,3,0,0,20461503,20461504,10,704
+high_doppler_rate,11,-30,raw,0,0,0,0,0,0,NaN,NaN,3,0,0,20461503,20461504,10,704
+high_doppler_rate,11,-30,senlora,0,0,0,0,0,0,NaN,NaN,3,0,0,20461503,20461504,10,704
+high_doppler_rate,11,-30,static_prec,0,0,0,0,0,0,NaN,NaN,3,0,0,20461503,20461504,10,704
+high_doppler_rate,11,-30,truth_upper,0,0,0,0,0,0,NaN,NaN,3,0,0,20461503,20461504,10,704
+high_doppler_shift,11,-30,blind_hard,0,0,0,0,0,0,NaN,NaN,3,0,0,20361503,20361504,10,704
+high_doppler_shift,11,-30,ideal,0,0,0,0,0,0,NaN,NaN,3,0,0,20361503,20361504,10,704
+high_doppler_shift,11,-30,raw,0,0,0,0,0,0,NaN,NaN,3,0,0,20361503,20361504,10,704
+high_doppler_shift,11,-30,senlora,0,0,0,0,0,0,NaN,NaN,3,0,0,20361503,20361504,10,704
+high_doppler_shift,11,-30,static_prec,0,0,0,0,0,0,NaN,NaN,3,0,0,20361503,20361504,10,704
+high_doppler_shift,11,-30,truth_upper,0,0,0,0,0,0,NaN,NaN,3,0,0,20361503,20361504,10,704

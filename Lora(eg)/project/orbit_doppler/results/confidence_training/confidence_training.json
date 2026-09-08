@@ -1,0 +1,1 @@
+{"trainingSeed":240000,"validationSeed":340000,"bestSwitchSnrDb":-19.5,"bestThresholdScale":0.65,"bestDecisionPeakRatio":1.5,"baselineValidationErrors":669,"trainedValidationErrors":663,"baselineValidationFalseAccepts":2,"trainedValidationFalseAccepts":2,"validationPass":true}

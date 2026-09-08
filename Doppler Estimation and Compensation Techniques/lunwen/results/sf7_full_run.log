@@ -1,0 +1,65 @@
+case1  no_doppler        SNR= -15.0 dB  SER= 0.600589  errors=100207  symbols=166848  packets=5056
+case1  no_doppler        SNR= -14.0 dB  SER=  0.49795  errors=83082  symbols=166848  packets=5056
+case1  no_doppler        SNR= -13.0 dB  SER= 0.378854  errors=63211  symbols=166848  packets=5056
+case1  no_doppler        SNR= -12.0 dB  SER=  0.27063  errors=45154  symbols=166848  packets=5056
+case1  no_doppler        SNR= -11.0 dB  SER= 0.179241  errors=29906  symbols=166848  packets=5056
+case1  no_doppler        SNR= -10.0 dB  SER=  0.11218  errors=18717  symbols=166848  packets=5056
+case1  no_doppler        SNR=  -9.0 dB  SER=0.0658743  errors=10991  symbols=166848  packets=5056
+case1  no_doppler        SNR=  -8.0 dB  SER=0.0350499  errors=5848  symbols=166848  packets=5056
+case1  no_doppler        SNR=  -7.0 dB  SER=0.0200961  errors=3353  symbols=166848  packets=5056
+case1  no_doppler        SNR=  -6.0 dB  SER=0.00991921  errors=1655  symbols=166848  packets=5056
+case1  point             SNR= -15.0 dB  SER=  0.89295  errors=148987  symbols=166848  packets=5056
+case1  point             SNR= -14.0 dB  SER= 0.832776  errors=138947  symbols=166848  packets=5056
+case1  point             SNR= -13.0 dB  SER=  0.73323  errors=122338  symbols=166848  packets=5056
+case1  point             SNR= -12.0 dB  SER=  0.61034  errors=101834  symbols=166848  packets=5056
+case1  point             SNR= -11.0 dB  SER= 0.492886  errors=82237  symbols=166848  packets=5056
+case1  point             SNR= -10.0 dB  SER= 0.350756  errors=58523  symbols=166848  packets=5056
+case1  point             SNR=  -9.0 dB  SER= 0.237653  errors=39652  symbols=166848  packets=5056
+case1  point             SNR=  -8.0 dB  SER= 0.145636  errors=24299  symbols=166848  packets=5056
+case1  point             SNR=  -7.0 dB  SER=0.0851254  errors=14203  symbols=166848  packets=5056
+case1  point             SNR=  -6.0 dB  SER=0.0447533  errors=7467  symbols=166848  packets=5056
+case1  midamble_point    SNR= -15.0 dB  SER= 0.894569  errors=149257  symbols=166848  packets=5056
+case1  midamble_point    SNR= -14.0 dB  SER= 0.830193  errors=138516  symbols=166848  packets=5056
+case1  midamble_point    SNR= -13.0 dB  SER=  0.73739  errors=123032  symbols=166848  packets=5056
+case1  midamble_point    SNR= -12.0 dB  SER= 0.613181  errors=102308  symbols=166848  packets=5056
+case1  midamble_point    SNR= -11.0 dB  SER= 0.490147  errors=81780  symbols=166848  packets=5056
+case1  midamble_point    SNR= -10.0 dB  SER= 0.351332  errors=58619  symbols=166848  packets=5056
+case1  midamble_point    SNR=  -9.0 dB  SER= 0.228166  errors=38069  symbols=166848  packets=5056
+case1  midamble_point    SNR=  -8.0 dB  SER= 0.144437  errors=24099  symbols=166848  packets=5056
+case1  midamble_point    SNR=  -7.0 dB  SER=0.0879483  errors=14674  symbols=166848  packets=5056
+case1  midamble_point    SNR=  -6.0 dB  SER=0.0460659  errors=7686  symbols=166848  packets=5056
+Wrote D:\codex\Doppler Estimation and Compensation Techniques\lunwen\results\case1_sf7.csv
+Wrote D:\codex\Doppler Estimation and Compensation Techniques\lunwen\results\case1_sf7.png
+case2  no_doppler        SNR= -15.0 dB  SER= 0.601781  errors=100406  symbols=166848  packets=5056
+case2  no_doppler        SNR= -14.0 dB  SER= 0.497896  errors=83073  symbols=166848  packets=5056
+case2  no_doppler        SNR= -13.0 dB  SER= 0.386975  errors=64566  symbols=166848  packets=5056
+case2  no_doppler        SNR= -12.0 dB  SER= 0.279446  errors=46625  symbols=166848  packets=5056
+case2  no_doppler        SNR= -11.0 dB  SER=  0.18168  errors=30313  symbols=166848  packets=5056
+case2  no_doppler        SNR= -10.0 dB  SER= 0.113499  errors=18937  symbols=166848  packets=5056
+case2  no_doppler        SNR=  -9.0 dB  SER=0.0658803  errors=10992  symbols=166848  packets=5056
+case2  no_doppler        SNR=  -8.0 dB  SER=0.0357331  errors=5962  symbols=166848  packets=5056
+case2  no_doppler        SNR=  -7.0 dB  SER=0.0186877  errors=3118  symbols=166848  packets=5056
+case2  no_doppler        SNR=  -6.0 dB  SER=0.00984129  errors=1642  symbols=166848  packets=5056
+case2  point             SNR= -15.0 dB  SER= 0.806932  errors=134635  symbols=166848  packets=5056
+case2  point             SNR= -14.0 dB  SER= 0.705031  errors=117633  symbols=166848  packets=5056
+case2  point             SNR= -13.0 dB  SER= 0.569806  errors=95071  symbols=166848  packets=5056
+case2  point             SNR= -12.0 dB  SER= 0.436925  errors=72900  symbols=166848  packets=5056
+case2  point             SNR= -11.0 dB  SER=  0.29929  errors=49936  symbols=166848  packets=5056
+case2  point             SNR= -10.0 dB  SER=   0.1894  errors=31601  symbols=166848  packets=5056
+case2  point             SNR=  -9.0 dB  SER= 0.111509  errors=18605  symbols=166848  packets=5056
+case2  point             SNR=  -8.0 dB  SER=  0.06253  errors=10433  symbols=166848  packets=5056
+case2  point             SNR=  -7.0 dB  SER=0.0325865  errors=5437  symbols=166848  packets=5056
+case2  point             SNR=  -6.0 dB  SER=0.0158827  errors=2650  symbols=166848  packets=5056
+case2  midamble_point    SNR= -15.0 dB  SER= 0.804529  errors=134234  symbols=166848  packets=5056
+case2  midamble_point    SNR= -14.0 dB  SER= 0.704839  errors=117601  symbols=166848  packets=5056
+case2  midamble_point    SNR= -13.0 dB  SER= 0.571298  errors=95320  symbols=166848  packets=5056
+case2  midamble_point    SNR= -12.0 dB  SER= 0.437872  errors=73058  symbols=166848  packets=5056
+case2  midamble_point    SNR= -11.0 dB  SER= 0.294615  errors=49156  symbols=166848  packets=5056
+case2  midamble_point    SNR= -10.0 dB  SER= 0.185181  errors=30897  symbols=166848  packets=5056
+case2  midamble_point    SNR=  -9.0 dB  SER= 0.106127  errors=17707  symbols=166848  packets=5056
+case2  midamble_point    SNR=  -8.0 dB  SER=0.0635848  errors=10609  symbols=166848  packets=5056
+case2  midamble_point    SNR=  -7.0 dB  SER=0.0333777  errors=5569  symbols=166848  packets=5056
+case2  midamble_point    SNR=  -6.0 dB  SER=0.0169735  errors=2832  symbols=166848  packets=5056
+Wrote D:\codex\Doppler Estimation and Compensation Techniques\lunwen\results\case2_sf7.csv
+Wrote D:\codex\Doppler Estimation and Compensation Techniques\lunwen\results\case2_sf7.png
+Full SF=7 reproduction completed in 59.8 s.

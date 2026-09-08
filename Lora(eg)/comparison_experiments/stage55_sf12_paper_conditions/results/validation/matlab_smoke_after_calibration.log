@@ -1,0 +1,19 @@
+
+ans = 
+
+  包含以下字段的 struct:
+
+                           sf12: 1
+                paperConditions: 1
+                         layout: 1
+             noImageCalibration: 1
+     receiverManifestCalibrated: 1
+                commonBootstrap: 1
+                 pilotIsolation: 1
+                  serArithmetic: 0
+                     pairedStop: 0
+    requiredImplementationGates: 1
+          staticCheckIssueCount: 0
+              staticCheckPassed: 1
+        completeExperimentGates: 0
+

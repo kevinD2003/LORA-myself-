@@ -1,0 +1,3 @@
+snrIndex,snrDb,framesProcessed,firstSymbolSeed,lastSymbolSeed,firstNoiseSeed,lastNoiseSeed,seedFormula
+1,-18,1,2026200101,2026200101,2026200201,2026200201,base + 100000*snrIndex + frameIndex
+2,-17,0,2026300101,2026300100,2026300201,2026300200,base + 100000*snrIndex + frameIndex

@@ -1,0 +1,33 @@
+classdef V3CalibrationArtifactTest < matlab.unittest.TestCase
+    methods (Test)
+        function frozenManifestLoadsAndValidates(testCase)
+            config = sf12Sf11FlowConfig();
+            [parameters,manifest] = v3LoadFrozenReceiverParameters(config);
+            testCase.verifyEqual(manifest.status,'frozen');
+            testCase.verifyFalse(manifest.identity.usesOrbitPrior);
+            testCase.verifyTrue(all(isfinite(struct2array(rmfield(parameters, ...
+                {'residualSearchBins','confidenceSnrWindowDb'})))));
+            testCase.verifyTrue(all(isfinite(parameters.residualSearchBins)));
+            testCase.verifyTrue(all(isfinite(parameters.confidenceSnrWindowDb)));
+        end
+        function independentValidationMeetsPreregisteredGate(testCase)
+            config = sf12Sf11FlowConfig();
+            artifactFile = fullfile(config.projectRoot,'results','validation', ...
+                'v3_parameter_validation.mat');
+            loaded = load(artifactFile,'artifact');
+            testCase.verifyTrue(loaded.artifact.validationPassed);
+            testCase.verifyLessThanOrEqual( ...
+                loaded.artifact.validationGate.falseAcceptanceRate, ...
+                loaded.artifact.preregistered.maximumValidationFalseAcceptanceRate);
+            testCase.verifyGreaterThanOrEqual(loaded.artifact.validationGate.coverage, ...
+                loaded.artifact.preregistered.minimumValidationCoverage);
+            testCase.verifyLessThanOrEqual( ...
+                loaded.artifact.trackerValidationGate.falseAcceptanceRate, ...
+                loaded.artifact.preregistered. ...
+                    maximumDynamicValidationFalseAcceptanceRate);
+            testCase.verifyGreaterThanOrEqual( ...
+                loaded.artifact.trackerValidationGate.coverage, ...
+                loaded.artifact.preregistered.minimumDynamicValidationCoverage);
+        end
+    end
+end

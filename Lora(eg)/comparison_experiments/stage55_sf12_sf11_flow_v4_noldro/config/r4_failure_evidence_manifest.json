@@ -1,0 +1,13 @@
+{
+  "version":"r4-stage3r-failure-evidence-freeze-v1",
+  "files":[
+    {"path":"results/stage3r/audits/STAGE_03R_01_FREEZE_AUDIT.json","sha256":"20956b336bf10e13ee899fe8361674ce7201d3e9a9422ba36ed913d299691005"},
+    {"path":"results/stage3r/audits/STAGE_03R_02_MECHANISM_AUDIT.json","sha256":"5798416b09f32119369ffaa546a1a40a1187b1b21da03fe0bc32aab8df132de4"},
+    {"path":"results/stage3r/audits/STAGE_03R_CALIBRATION_V1_AUDIT.json","sha256":"c54afc618a59b3ec663e9761bb06b7a17d4488410a1031c6ef529f1114a5c29f"},
+    {"path":"results/stage3r/audits/STAGE_03R_CALIBRATION_V2_AUDIT.json","sha256":"bf16cde4b7b0668d4ca24ca3ec18afb464fb2efa2b21eeda807e10c3cf7e462d"},
+    {"path":"results/stage3r/audits/STAGE_03R_EXPERIMENT_A_REDESIGN_AUDIT.json","sha256":"22a3e833f3feb928dc67076e465a01d56d3275c79912c038cb1f6877c8c27340"},
+    {"path":"results/stage3r/Stage55-A-causal-pending-lock-v1/A-3R-param-v01/calibration/stage3r_calibration.json","sha256":"f66c19a0d591b6b2f60af03666b71cc15b34011e530ff34dd4e9bfbc051b6f88"},
+    {"path":"results/stage3r/Stage55-A-causal-pending-lock-v1/A-3R-param-v02/calibration/stage3r_calibration.json","sha256":"646ad1001c8378c07aa841bd7cb829f0515da679430815ef47488e7084b87ae2"}
+  ],
+  "allowOverwrite":false,"allowMergeWithR5":false
+}

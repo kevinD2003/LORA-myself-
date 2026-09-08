@@ -1,0 +1,12 @@
+{
+  "status": "calibration-failed",
+  "parameterVersion": "A-3R-param-v01",
+  "round": 1,
+  "algorithmVersion": "Stage55-A-causal-pending-lock-v1",
+  "candidateTableHash": "d10fd9947027f0a9ad8a5efe366467baff2c955a0f8db230948f46a87009e8cc",
+  "algorithmSignature": "874705089c47eef3dc93621b60173db774e81f516212946f9a62f2eb3adbdc74",
+  "seedDomain": "a_3r_calibration_v1",
+  "selectedCandidateIndex": null,
+  "parameters": {},
+  "calibrationArtifactHash": "f66c19a0d591b6b2f60af03666b71cc15b34011e530ff34dd4e9bfbc051b6f88"
+}

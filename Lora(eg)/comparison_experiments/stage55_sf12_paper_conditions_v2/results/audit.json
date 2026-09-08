@@ -1,0 +1,21 @@
+{
+  "sf12": true,
+  "paperConditions": true,
+  "layout": true,
+  "noImageCalibration": true,
+  "receiverManifestCalibrated": true,
+  "calibrationParameterConsistency": true,
+  "case2CalibrationPresent": true,
+  "calibrationQualityPassed": true,
+  "commonBootstrap": true,
+  "pilotIsolation": true,
+  "serArithmetic": true,
+  "pairedStop": true,
+  "perSymbolStatistics": true,
+  "perPacketStatistics": true,
+  "reportArtifactsPresent": true,
+  "requiredImplementationGates": true,
+  "staticCheckIssueCount": 0,
+  "staticCheckPassed": true,
+  "completeExperimentGates": true
+}

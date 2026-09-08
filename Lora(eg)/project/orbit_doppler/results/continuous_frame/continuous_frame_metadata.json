@@ -1,0 +1,1 @@
+{"sf":11,"bandwidthHz":250000,"carrierFrequencyHz":8.68E+8,"sampleSnrDb":-15,"dopplerModel":"paper_piecewise_linear","frameSymbolCount":32,"bootstrapPilotCount":4,"payloadSymbolCount":28,"scenarioNames":["high_doppler_shift","high_doppler_rate"],"startTimesSec":[-249.75203746714354,37.082433353952396]}

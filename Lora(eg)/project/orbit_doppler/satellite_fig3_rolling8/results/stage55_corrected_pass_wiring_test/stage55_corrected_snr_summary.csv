@@ -1,0 +1,2 @@
+snrDb,hardHammingTheoryBer,bitCount,hardBitErrors,softBitErrors,hardBer,softBer,acceptedPilotsPerFrame,virtualPilotCoverage,falseAcceptedPilots,rateReleaseFraction,cfoRmseBins,updatedSymbolsPerFrame,updatedSymbolCoverage,meanVirtualPilotsUsedPerSymbol,fullyVirtualHistoryCoverage
+-20,0.000216499917091921,2816,89,33,0.0316051136363636,0.01171875,5.75,0.0513392857142857,0,0.25,0.207856584282675,103.25,0.921875,3.734375,0.109375

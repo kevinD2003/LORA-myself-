@@ -1,0 +1,13 @@
+{
+  "version":"r3-stage3-failure-evidence-freeze-v1",
+  "files":[
+    {"path":"results/calibration/track_a/A-param-v01/track_a_calibration.json","sha256":"3d790825bfceeb966e317aad6265cc3c08a9cb369995f8bc9a2e56be5a0d279b"},
+    {"path":"results/calibration/track_a/A-param-v02/track_a_calibration.json","sha256":"0c1885d21bd32c1ebb871321c615141724b213a6382aabdb68e30eea523f7dc4"},
+    {"path":"results/calibration/track_a/A-param-v03/track_a_calibration.json","sha256":"ede8597e8aa07f15ff5d3aa85e0416d1773ecbaadd6d06bd547ce4a5725e592a"},
+    {"path":"results/validation/track_a/A-param-v01/track_a_validation.json","sha256":"b6d3d463db96116b2038cf7bacaaabfdfc28c8d19d8779faa37a7f2d19778d5d"},
+    {"path":"results/validation/track_a/A-param-v03/track_a_validation.json","sha256":"a6e414e287767ef7bac8a00e2519061110f5d10c1ac3d0aac2a2dee1b9eb6aef"},
+    {"path":"results/audits/STAGE_03_EXPERIMENT_A_SMOKE_AUDIT.json","sha256":"1d1bdea62272c79c1273c372bf2c182bc412b3879dfe370281475dbd7f06b571"}
+  ],
+  "allowOverwrite":false,
+  "allowMergeWithR4":false
+}

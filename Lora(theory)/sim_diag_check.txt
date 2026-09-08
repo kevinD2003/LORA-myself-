@@ -1,0 +1,1 @@
+methods=6 traceEmpty=0 false=0 res=0 rate=-156.15\n

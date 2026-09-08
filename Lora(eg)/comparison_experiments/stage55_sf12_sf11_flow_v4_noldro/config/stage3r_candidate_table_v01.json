@@ -1,0 +1,13 @@
+{
+  "parameterVersion":"A-3R-param-v01",
+  "fullFactorial":{
+    "decisionPeakRatioThreshold":[1.5,3.0],
+    "maximumNormalizedEntropy":[0.50,0.80],
+    "innovationLimitBins":[0.20,0.35],
+    "maximumRateBinsPerSec":[12,16],
+    "branchResidualLimitBins":[0.15,0.30]
+  },
+  "fixed":{"residualPeakRatioThreshold":1.01,"residualStepBins":0.05,"historyDecay":0.85,"huberThresholdBins":0.15,"branchRateAgreementLimitBinsPerSec":2,"pendingWindowDataSymbols":3,"lostAfterRejectedData":3,"historyLength":8},
+  "candidateCount":32,
+  "calibrationPacketsPerCandidateCase":500
+}

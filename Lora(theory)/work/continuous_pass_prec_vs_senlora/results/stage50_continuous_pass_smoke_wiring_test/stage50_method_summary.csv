@@ -1,0 +1,3 @@
+method,decodedFrames,bitCount,bitErrors,ber,frameErrors,per,cfoRmseBins,activeLinkGoodputBps,passAverageDeliveryBps,meanRuntimeSecPerFrame
+Huang-PREC-static-CP,8,5632,95,0.0168678977272727,4,0.5,0.45810400407256,358.072916666667,304.429948884811,0.03014775
+SenLoRa-VP,8,5632,0,0,0,0,0.02714317642644,716.145833333333,608.859897769623,0.2941564

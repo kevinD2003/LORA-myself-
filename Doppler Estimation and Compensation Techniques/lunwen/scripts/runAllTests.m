@@ -1,0 +1,19 @@
+%RUNALLTESTS Execute all class-based MATLAB unit tests.
+
+projectRoot = fileparts(fileparts(mfilename('fullpath')));
+addpath(fullfile(projectRoot, 'scripts'));
+addpath(fullfile(projectRoot, 'config'));
+addpath(fullfile(projectRoot, 'src'));
+results = runProjectTests(string(fullfile(projectRoot, 'tests')));
+disp(results);
+testTable = table(string({results.Name}).', ...
+    [results.Passed].', [results.Failed].', ...
+    [results.Incomplete].', [results.Duration].', ...
+    'VariableNames', {'Name', 'Passed', 'Failed', ...
+    'Incomplete', 'DurationS'});
+writetable(testTable, fullfile(projectRoot, 'results', ...
+    'unit_test_results.csv'));
+if any([results.Failed]) || any([results.Incomplete])
+    error('runAllTests:TestFailure', ...
+        'At least one unit test failed or was incomplete.');
+end

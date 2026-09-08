@@ -1,0 +1,10 @@
+{
+  "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+  "planSha256": "3c1485bd80539235eefa6f1d906f289357b10467a3055d490f023f5409cfd94e",
+  "alignmentSha256": "aae620c84c3f037273a8fae8f53993c4fee846d536f9c1e183e568800cad49cb",
+  "paperSha256": "0dfed78259e87bef9f0ac5dc946e9671dbceda414a011c73795f1a3c304d2379",
+  "paperDoi": "10.1109/OJCOMS.2025.3598602",
+  "canonicalProjectDocumentSha256": "61aad356fb91b2bd94e9a026d85c00f0303d10f053a0caf634eca900221ae5c4",
+  "formalBudget": {"trackAPairedPacketsPerCaseSnr": 20000, "trackBPairedPassesPerGroupSnr": 50, "bootstrapDraws": 10000},
+  "snrDb": [-30,-29,-28,-27,-26,-25,-24,-23,-22,-21]
+}

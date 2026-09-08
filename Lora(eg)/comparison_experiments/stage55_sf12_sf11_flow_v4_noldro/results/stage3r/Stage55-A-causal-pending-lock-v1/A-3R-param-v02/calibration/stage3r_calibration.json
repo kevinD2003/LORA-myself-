@@ -1,0 +1,846 @@
+{
+  "status": "FAIL",
+  "round": 2,
+  "parameterVersion": "A-3R-param-v02",
+  "algorithmVersion": "Stage55-A-causal-pending-lock-v1",
+  "seedDomain": "a_3r_calibration_v2",
+  "candidateTableHash": "7661d83ebf27c49c6703b197aa83aa9c2ace238efacba1c03d173c5010e2ec73",
+  "algorithmSignature": "a244dfdd02c1c1f4d334563c7a8a1dea4b0d80887314d2d116523301ac0bebb1",
+  "calibrationPacketsPerCandidateCase": 500,
+  "records": [
+    {
+      "candidateIndex": 1,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1318,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006828528072837633,
+        "coverage": 0.11460869565217391,
+        "cfoRmseBins": 317.19077153938218,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1172,
+        "falseAccepted": 1149,
+        "falseAcceptance": 0.9803754266211604,
+        "coverage": 0.10191304347826087,
+        "cfoRmseBins": 328.86920719033714,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10191304347826087,
+      "meanCfoRmseBins": 323.02998936485966
+    },
+    {
+      "candidateIndex": 2,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 481,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.041826086956521742,
+        "cfoRmseBins": 317.18629510786144,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 574,
+        "falseAccepted": 568,
+        "falseAcceptance": 0.98954703832752611,
+        "coverage": 0.049913043478260873,
+        "cfoRmseBins": 328.87082901355961,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.041826086956521742,
+      "meanCfoRmseBins": 323.02856206071056
+    },
+    {
+      "candidateIndex": 3,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1318,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006828528072837633,
+        "coverage": 0.11460869565217391,
+        "cfoRmseBins": 317.19077153938218,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1172,
+        "falseAccepted": 1149,
+        "falseAcceptance": 0.9803754266211604,
+        "coverage": 0.10191304347826087,
+        "cfoRmseBins": 328.86920719033714,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10191304347826087,
+      "meanCfoRmseBins": 323.02998936485966
+    },
+    {
+      "candidateIndex": 4,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 481,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.041826086956521742,
+        "cfoRmseBins": 317.18629510786144,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 574,
+        "falseAccepted": 568,
+        "falseAcceptance": 0.98954703832752611,
+        "coverage": 0.049913043478260873,
+        "cfoRmseBins": 328.87082901355961,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.041826086956521742,
+      "meanCfoRmseBins": 323.02856206071056
+    },
+    {
+      "candidateIndex": 5,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 5038,
+        "falseAccepted": 32,
+        "falseAcceptance": 0.0063517268757443427,
+        "coverage": 0.43808695652173912,
+        "cfoRmseBins": 317.18331056073191,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2570,
+        "falseAccepted": 2392,
+        "falseAcceptance": 0.930739299610895,
+        "coverage": 0.22347826086956521,
+        "cfoRmseBins": 328.87341112686431,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.22347826086956521,
+      "meanCfoRmseBins": 323.02836084379811
+    },
+    {
+      "candidateIndex": 6,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2611,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.22704347826086957,
+        "cfoRmseBins": 317.18641553498156,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1319,
+        "falseAccepted": 1245,
+        "falseAcceptance": 0.94389689158453371,
+        "coverage": 0.11469565217391305,
+        "cfoRmseBins": 328.87810077539177,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.11469565217391305,
+      "meanCfoRmseBins": 323.0322581551867
+    },
+    {
+      "candidateIndex": 7,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 5038,
+        "falseAccepted": 32,
+        "falseAcceptance": 0.0063517268757443427,
+        "coverage": 0.43808695652173912,
+        "cfoRmseBins": 317.18331056073191,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2570,
+        "falseAccepted": 2392,
+        "falseAcceptance": 0.930739299610895,
+        "coverage": 0.22347826086956521,
+        "cfoRmseBins": 328.87341112686431,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.22347826086956521,
+      "meanCfoRmseBins": 323.02836084379811
+    },
+    {
+      "candidateIndex": 8,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2611,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.22704347826086957,
+        "cfoRmseBins": 317.18641553498156,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1319,
+        "falseAccepted": 1245,
+        "falseAcceptance": 0.94389689158453371,
+        "coverage": 0.11469565217391305,
+        "cfoRmseBins": 328.87810077539177,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.11469565217391305,
+      "meanCfoRmseBins": 323.0322581551867
+    },
+    {
+      "candidateIndex": 9,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1318,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006828528072837633,
+        "coverage": 0.11460869565217391,
+        "cfoRmseBins": 317.19077153938218,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1172,
+        "falseAccepted": 1149,
+        "falseAcceptance": 0.9803754266211604,
+        "coverage": 0.10191304347826087,
+        "cfoRmseBins": 328.86920719033714,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10191304347826087,
+      "meanCfoRmseBins": 323.02998936485966
+    },
+    {
+      "candidateIndex": 10,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 481,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.041826086956521742,
+        "cfoRmseBins": 317.18629510786144,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 574,
+        "falseAccepted": 568,
+        "falseAcceptance": 0.98954703832752611,
+        "coverage": 0.049913043478260873,
+        "cfoRmseBins": 328.87082901355961,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.041826086956521742,
+      "meanCfoRmseBins": 323.02856206071056
+    },
+    {
+      "candidateIndex": 11,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1318,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006828528072837633,
+        "coverage": 0.11460869565217391,
+        "cfoRmseBins": 317.19077153938218,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1172,
+        "falseAccepted": 1149,
+        "falseAcceptance": 0.9803754266211604,
+        "coverage": 0.10191304347826087,
+        "cfoRmseBins": 328.86920719033714,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10191304347826087,
+      "meanCfoRmseBins": 323.02998936485966
+    },
+    {
+      "candidateIndex": 12,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 481,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.041826086956521742,
+        "cfoRmseBins": 317.18629510786144,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 574,
+        "falseAccepted": 568,
+        "falseAcceptance": 0.98954703832752611,
+        "coverage": 0.049913043478260873,
+        "cfoRmseBins": 328.87082901355961,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.041826086956521742,
+      "meanCfoRmseBins": 323.02856206071056
+    },
+    {
+      "candidateIndex": 13,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 5038,
+        "falseAccepted": 32,
+        "falseAcceptance": 0.0063517268757443427,
+        "coverage": 0.43808695652173912,
+        "cfoRmseBins": 317.18331056073191,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2567,
+        "falseAccepted": 2389,
+        "falseAcceptance": 0.9306583560576549,
+        "coverage": 0.22321739130434784,
+        "cfoRmseBins": 328.87322642072212,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.22321739130434784,
+      "meanCfoRmseBins": 323.028268490727
+    },
+    {
+      "candidateIndex": 14,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2611,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.22704347826086957,
+        "cfoRmseBins": 317.18641553498156,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1342,
+        "falseAccepted": 1268,
+        "falseAcceptance": 0.94485842026825628,
+        "coverage": 0.11669565217391305,
+        "cfoRmseBins": 328.87780369642633,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.11669565217391305,
+      "meanCfoRmseBins": 323.03210961570392
+    },
+    {
+      "candidateIndex": 15,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 5038,
+        "falseAccepted": 32,
+        "falseAcceptance": 0.0063517268757443427,
+        "coverage": 0.43808695652173912,
+        "cfoRmseBins": 317.18331056073191,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2567,
+        "falseAccepted": 2389,
+        "falseAcceptance": 0.9306583560576549,
+        "coverage": 0.22321739130434784,
+        "cfoRmseBins": 328.87322642072212,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.22321739130434784,
+      "meanCfoRmseBins": 323.028268490727
+    },
+    {
+      "candidateIndex": 16,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 2611,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.22704347826086957,
+        "cfoRmseBins": 317.18641553498156,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1342,
+        "falseAccepted": 1268,
+        "falseAcceptance": 0.94485842026825628,
+        "coverage": 0.11669565217391305,
+        "cfoRmseBins": 328.87780369642633,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.11669565217391305,
+      "meanCfoRmseBins": 323.03210961570392
+    },
+    {
+      "candidateIndex": 17,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1429,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006298110566829951,
+        "coverage": 0.1242608695652174,
+        "cfoRmseBins": 317.19077107888171,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1180,
+        "falseAccepted": 1157,
+        "falseAcceptance": 0.98050847457627122,
+        "coverage": 0.10260869565217391,
+        "cfoRmseBins": 328.86920682259591,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10260869565217391,
+      "meanCfoRmseBins": 323.02998895073881
+    },
+    {
+      "candidateIndex": 18,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 521,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.045304347826086958,
+        "cfoRmseBins": 317.18629500248437,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 578,
+        "falseAccepted": 572,
+        "falseAcceptance": 0.98961937716262971,
+        "coverage": 0.050260869565217393,
+        "cfoRmseBins": 328.87082992378629,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.045304347826086958,
+      "meanCfoRmseBins": 323.02856246313536
+    },
+    {
+      "candidateIndex": 19,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1429,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006298110566829951,
+        "coverage": 0.1242608695652174,
+        "cfoRmseBins": 317.19077107888171,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1180,
+        "falseAccepted": 1157,
+        "falseAcceptance": 0.98050847457627122,
+        "coverage": 0.10260869565217391,
+        "cfoRmseBins": 328.86920682259591,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10260869565217391,
+      "meanCfoRmseBins": 323.02998895073881
+    },
+    {
+      "candidateIndex": 20,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 521,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.045304347826086958,
+        "cfoRmseBins": 317.18629500248437,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 578,
+        "falseAccepted": 572,
+        "falseAcceptance": 0.98961937716262971,
+        "coverage": 0.050260869565217393,
+        "cfoRmseBins": 328.87082992378629,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.045304347826086958,
+      "meanCfoRmseBins": 323.02856246313536
+    },
+    {
+      "candidateIndex": 21,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 6602,
+        "falseAccepted": 40,
+        "falseAcceptance": 0.006058770069675856,
+        "coverage": 0.57408695652173913,
+        "cfoRmseBins": 317.18329549254105,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3230,
+        "falseAccepted": 3052,
+        "falseAcceptance": 0.944891640866873,
+        "coverage": 0.28086956521739131,
+        "cfoRmseBins": 328.87309984428873,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.28086956521739131,
+      "meanCfoRmseBins": 323.02819766841492
+    },
+    {
+      "candidateIndex": 22,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3128,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.272,
+        "cfoRmseBins": 317.18641317510145,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1519,
+        "falseAccepted": 1445,
+        "falseAcceptance": 0.95128373930217247,
+        "coverage": 0.13208695652173913,
+        "cfoRmseBins": 328.8779775072914,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.13208695652173913,
+      "meanCfoRmseBins": 323.03219534119643
+    },
+    {
+      "candidateIndex": 23,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 6602,
+        "falseAccepted": 40,
+        "falseAcceptance": 0.006058770069675856,
+        "coverage": 0.57408695652173913,
+        "cfoRmseBins": 317.18329549254105,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3230,
+        "falseAccepted": 3052,
+        "falseAcceptance": 0.944891640866873,
+        "coverage": 0.28086956521739131,
+        "cfoRmseBins": 328.87309984428873,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.28086956521739131,
+      "meanCfoRmseBins": 323.02819766841492
+    },
+    {
+      "candidateIndex": 24,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3128,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.272,
+        "cfoRmseBins": 317.18641317510145,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1519,
+        "falseAccepted": 1445,
+        "falseAcceptance": 0.95128373930217247,
+        "coverage": 0.13208695652173913,
+        "cfoRmseBins": 328.8779775072914,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.13208695652173913,
+      "meanCfoRmseBins": 323.03219534119643
+    },
+    {
+      "candidateIndex": 25,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1429,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006298110566829951,
+        "coverage": 0.1242608695652174,
+        "cfoRmseBins": 317.19077107888171,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1180,
+        "falseAccepted": 1157,
+        "falseAcceptance": 0.98050847457627122,
+        "coverage": 0.10260869565217391,
+        "cfoRmseBins": 328.86920682259591,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10260869565217391,
+      "meanCfoRmseBins": 323.02998895073881
+    },
+    {
+      "candidateIndex": 26,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 521,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.045304347826086958,
+        "cfoRmseBins": 317.18629500248437,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 578,
+        "falseAccepted": 572,
+        "falseAcceptance": 0.98961937716262971,
+        "coverage": 0.050260869565217393,
+        "cfoRmseBins": 328.87082992378629,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.045304347826086958,
+      "meanCfoRmseBins": 323.02856246313536
+    },
+    {
+      "candidateIndex": 27,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1429,
+        "falseAccepted": 9,
+        "falseAcceptance": 0.006298110566829951,
+        "coverage": 0.1242608695652174,
+        "cfoRmseBins": 317.19077107888171,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1180,
+        "falseAccepted": 1157,
+        "falseAcceptance": 0.98050847457627122,
+        "coverage": 0.10260869565217391,
+        "cfoRmseBins": 328.86920682259591,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.10260869565217391,
+      "meanCfoRmseBins": 323.02998895073881
+    },
+    {
+      "candidateIndex": 28,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 521,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.045304347826086958,
+        "cfoRmseBins": 317.18629500248437,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 578,
+        "falseAccepted": 572,
+        "falseAcceptance": 0.98961937716262971,
+        "coverage": 0.050260869565217393,
+        "cfoRmseBins": 328.87082992378629,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.045304347826086958,
+      "meanCfoRmseBins": 323.02856246313536
+    },
+    {
+      "candidateIndex": 29,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 6602,
+        "falseAccepted": 40,
+        "falseAcceptance": 0.006058770069675856,
+        "coverage": 0.57408695652173913,
+        "cfoRmseBins": 317.18329549254105,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3244,
+        "falseAccepted": 3066,
+        "falseAcceptance": 0.94512946979038226,
+        "coverage": 0.28208695652173915,
+        "cfoRmseBins": 328.87291794538237,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.28208695652173915,
+      "meanCfoRmseBins": 323.02810671896168
+    },
+    {
+      "candidateIndex": 30,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3128,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.272,
+        "cfoRmseBins": 317.18641317510145,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1541,
+        "falseAccepted": 1467,
+        "falseAcceptance": 0.95197923426346531,
+        "coverage": 0.134,
+        "cfoRmseBins": 328.87768072220535,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.134,
+      "meanCfoRmseBins": 323.03204694865337
+    },
+    {
+      "candidateIndex": 31,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 6602,
+        "falseAccepted": 40,
+        "falseAcceptance": 0.006058770069675856,
+        "coverage": 0.57408695652173913,
+        "cfoRmseBins": 317.18329549254105,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3244,
+        "falseAccepted": 3066,
+        "falseAcceptance": 0.94512946979038226,
+        "coverage": 0.28208695652173915,
+        "cfoRmseBins": 328.87291794538237,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.28208695652173915,
+      "meanCfoRmseBins": 323.02810671896168
+    },
+    {
+      "candidateIndex": 32,
+      "caseMinus366": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 3128,
+        "falseAccepted": 0,
+        "falseAcceptance": 0,
+        "coverage": 0.272,
+        "cfoRmseBins": 317.18641317510145,
+        "passed": true
+      },
+      "case0": {
+        "packets": 500,
+        "possible": 11500,
+        "accepted": 1541,
+        "falseAccepted": 1467,
+        "falseAcceptance": 0.95197923426346531,
+        "coverage": 0.134,
+        "cfoRmseBins": 328.87768072220535,
+        "passed": false
+      },
+      "passesBothCases": false,
+      "minimumCoverage": 0.134,
+      "meanCfoRmseBins": 323.03204694865337
+    }
+  ],
+  "selectedCandidateIndex": null,
+  "selectionUsesSerOrBer": false
+}

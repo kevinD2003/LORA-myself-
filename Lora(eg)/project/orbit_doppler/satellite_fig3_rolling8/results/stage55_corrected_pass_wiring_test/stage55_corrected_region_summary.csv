@@ -1,0 +1,3 @@
+snrDb,region,GroupCount,mean_acceptedPilots,mean_falseAcceptedPilots,mean_rateReleased,mean_rateErrorBinsPerSec,mean_hardBitErrors,mean_softBitErrors
+-20,high_dynamic,2,5.5,0,0,-0.306803638333276,13,4.5
+-20,low_dynamic,2,6,0,0.5,0.370414393612987,31.5,12

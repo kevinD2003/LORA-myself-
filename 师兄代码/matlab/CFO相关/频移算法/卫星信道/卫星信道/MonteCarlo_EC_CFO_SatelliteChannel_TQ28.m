@@ -1,0 +1,124 @@
+%% A Low-Complexity LoRa Synchronization Algorithm Robust to Sampling Time Offsets
+%% 小数部分CFO的估计与补偿。
+%% 天启28星
+% SF=7,B=125k;preamble:8,payload:22;883s,每秒钟33帧。
+% SF=12,B=125k;preamble:8,payload:22;883s,每秒钟1帧。
+%% Monte Carlo实验 
+load('TQ28_CFO.mat');
+B = 125e3;
+SF=12;
+M = 2^SF;
+N_frame=33;
+if SF==12
+    N_frame=1;
+end
+N_upchirp=2;
+N_payload=22+(8-N_upchirp);%数据块的装载
+SNR=-12:1:0;
+BER_EC=zeros(1,length(SNR));
+times=883;
+tic;
+h=waitbar(0,['SF=' num2str(SF) 'TQ28']);
+for j=1:length(SNR)
+    error_lora=0;
+    error_ec=0;
+    for jj=1:times
+        lambda = F_cfo(jj) * M / B;
+        for jjj=1:N_frame
+           [error1]=EC(SF,lambda,SNR(j),N_payload,N_upchirp);
+           error_ec=error_ec+error1;
+        end
+    end
+    BER_EC(j)=error_ec/(times*N_payload*N_frame)/2;
+    if(BER_EC(j)<1E-6)
+        break;
+    end
+    waitbar(j/length(SNR),h,['SNR=' num2str(SNR(j))]);
+end
+%     waitbar(j/length(lambda),h,['\lambda=' num2str(lambda(j))]);
+toc;
+close(h);
+%%
+m=['o';'x';'s';'+';'^';'*';'p';'d';];
+c =['r';'y';'g';'c';'m'];
+figure;
+semilogy(SNR,BER_EC,'Color','r','LineStyle','-','Marker','v');hold on
+xlabel('SNR');ylabel('BER');
+% legend(['DNC,SF=' num2str(SF) ',ui=' num2str(ui(2)) ',epsilon=' num2str(epsilon)],['SF=' num2str(SF) ',ui=' num2str(ui(2)) ',epsilon=' num2str(epsilon)])
+legend(['EC,SF=' num2str(SF) ',' num2str(N_upchirp) ' upchirps']);
+grid on;
+
+%% 
+function [error1]=EC(SF,lambda,SNR,N_payload,N_upchirp)
+error1=0;
+M=2^SF;
+k=0:M-1;
+n=0:N_upchirp*M-1;
+a=randi([0 M-1],1,N_payload);
+Nc=7;
+if N_upchirp==2
+    Nc=2;
+end
+%% 调制
+xk_payload=zeros(1,M*N_payload);
+for i=1:N_payload
+    xk_payload((i-1)*M+1:i*M)=exp(1j*2*pi*k.*(a(i)/M-1/2+k/2/M+lambda/M));
+end
+xk_preamble=exp(1j*2*pi*n.*(-1/2+n/2/M+lambda/M));
+xk0_preamble=exp(-1j*2*pi*n.*(-1/2+n/2/M));
+xk0=exp(-1j*2*pi*k.*(-1/2+k/2/M));
+%% 组帧
+xk_frame=[xk_preamble xk_payload];
+%% 加噪
+rk1=awgn(xk_frame,SNR,'measured');
+% %% 手动添加高斯噪声
+% sigPower=sum(abs(S.*S))/length(S);
+% reqSNR=10^(SNR/10);
+% noisePower=sigPower/reqSNR;
+% noise=sqrt(noisePower/2)*(randn(1,length(S))+1j*randn(1,length(S)));
+% %% 瑞利信道
+% omega = 1;
+% h_rayleigh = sqrt(omega/2) *(randn(1,1) + 1i*randn(1,1));
+% rk=h_rayleigh*S+noise;
+%% 解帧
+rk_preamble=rk1(1:N_upchirp*M);
+rk_payload=rk1(N_upchirp*M+1:end);
+
+
+lambda_CFO=0;
+for l=2:Nc
+    y_l_1=rk_preamble((l-2)*M+1:(l-1)*M);
+    y_l=rk_preamble((l-1)*M+1:l*M);
+    Y_l=fft(y_l.*xk0_preamble((l-1)*M+1:l*M));
+    Y_l_1=fft(y_l_1.*xk0_preamble((l-2)*M+1:(l-1)*M));
+    [~,i]=max(abs(Y_l));
+    lambda_cfo=0;
+    for p=-2:2
+        n=mod(i+p,M);
+        if n==0
+            n=M;
+        end
+        lambda_cfo=lambda_cfo+Y_l(n)*conj(Y_l_1(n));
+    end
+    lambda_CFO=lambda_CFO+lambda_cfo;
+end
+lambda_CFO=angle(lambda_CFO)/pi/2;
+%% 整数部分 循环移位
+r_preamble_integer=zeros(1,M);
+ for o=1:N_upchirp
+     r_preamble_integer=r_preamble_integer+fft(rk_preamble((o-1)*M+1:o*M).*xk0_preamble((o-1)*M+1:o*M).*exp(-1j*2*pi*lambda_CFO*((o-1)*M+1:o*M)/M));
+ end
+ r_preamble_integer= r_preamble_integer/N_upchirp;
+Yq_preamble_integer=r_preamble_integer;
+[~,i_CFO]=max(Yq_preamble_integer);
+%% 对payload的处理
+for j=1:N_payload
+    Y_payload=fft(xk0.*rk_payload((j-1)*M+1:j*M).*exp(-1j*2*pi*(lambda_CFO+i_CFO-1)*k/M));%% dechrip+小数部分补偿+DFT；
+    % Y_payload=[Y_payload(a_preamble:end) Y_payload(1:a_preamble-1)];%% 整数部分循环移位；也可以在dechirp后面做循环移位，再进行DFT。
+    [~,d]=max(abs(Y_payload/M));
+    if d-1~=a(j)
+        error1=error1+1;
+    end
+end
+
+end

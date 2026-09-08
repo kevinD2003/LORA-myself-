@@ -1,0 +1,58 @@
+{
+  "stage": "STAGE_03S_EXPERIMENT_A_CORRECTION_AUDIT",
+  "overall": "PASS",
+  "planVersion": "V4-noLDRO-plan-R5-track-a-point-anchored-lock",
+  "algorithmVersion": "Stage55-A-point-anchored-provisional-lock-v2",
+  "parameterVersion": "A-3S-param-v01",
+  "algorithmSignature": "e9f0b53e2bb9d1a9497338201d96713827945a0c81927424236b3b8b4dbedb4b",
+  "items": {
+    "freeze": "PASS",
+    "mechanismTests": "PASS",
+    "calibration": "PASS",
+    "validation": "PASS",
+    "safety": "PASS",
+    "smoke": "PASS",
+    "sourceBoundary": "PASS",
+    "r3R4Evidence": "PASS"
+  },
+  "validationGateRecords": [
+    {
+      "caseStartTimeSec": -366,
+      "packets": 2000,
+      "possible": 46000,
+      "accepted": 14092,
+      "falseAccepted": 77,
+      "falseAcceptance": 0.0054640931024694866,
+      "coverage": 0.30634782608695654,
+      "acceptedMinimumPassed": true,
+      "clusterCi95": [
+        0.0023040061406205325,
+        0.0089167929937124
+      ],
+      "lostPackets": 1388,
+      "passed": true
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packets": 2000,
+      "possible": 46000,
+      "accepted": 14689,
+      "falseAccepted": 73,
+      "falseAcceptance": 0.00496970522159439,
+      "coverage": 0.31932608695652176,
+      "acceptedMinimumPassed": true,
+      "clusterCi95": [
+        0.0018674169546293545,
+        0.0086621361735287651
+      ],
+      "lostPackets": 1361,
+      "passed": true
+    }
+  ],
+  "smokeArtifactHash": "39673f79658ff906bd60c53aba6ebb9126b194e4468d450e31604e25ebccc697",
+  "runtimeDeadlineMissCount": 10,
+  "admission": "ADMIT_STAGE_4",
+  "issuesAndFixes": [
+    "Selected-run signature was separated from candidate-set calibration signature before validation; calibration artifact was unchanged and validation had processed zero packets."
+  ]
+}

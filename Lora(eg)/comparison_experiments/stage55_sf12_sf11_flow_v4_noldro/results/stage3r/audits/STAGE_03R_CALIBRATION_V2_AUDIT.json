@@ -1,0 +1,13 @@
+{
+  "stage": "STAGE_03R_CALIBRATION_V2_AUDIT",
+  "overall": "FAIL",
+  "recalculation": "PASS",
+  "artifactHash": "646ad1001c8378c07aa841bd7cb829f0515da679430815ef47488e7084b87ae2",
+  "algorithmSignature": "a244dfdd02c1c1f4d334563c7a8a1dea4b0d80887314d2d116523301ac0bebb1",
+  "candidateTableHash": "7661d83ebf27c49c6703b197aa83aa9c2ace238efacba1c03d173c5010e2ec73",
+  "candidateCount": 32,
+  "packetsPerCandidateCase": 500,
+  "selectedCandidateIndex": [],
+  "admission": "DO_NOT_ADMIT_FURTHER_CALIBRATION",
+  "nextRoundPreRegistered": false
+}

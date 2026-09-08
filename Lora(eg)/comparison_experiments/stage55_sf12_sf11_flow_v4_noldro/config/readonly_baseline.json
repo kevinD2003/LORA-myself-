@@ -1,0 +1,8 @@
+{
+  "algorithm": "v4DirectoryDigest-v1: MATLAB lexical sort, sha256(relativePath + NUL + fileSha256 + LF)",
+  "roots": [
+    {"path":"D:\\codex\\Lora(eg)\\project","fileCount":503,"sha256":"ab4c0516696acecaec327def23e4ae4b5b2b7e84a9390fe9bad2659c4a689fbb"},
+    {"path":"D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_paper_conditions_v2","fileCount":66,"sha256":"c5099c2180f758afc90f1787b9f3be3d1ed3a5f5a38340f0fec6000a7fbab4d0"},
+    {"path":"D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v3","fileCount":188,"sha256":"e29a467d962fa4e3a580a45a13d84390f4f2076a86265be996fa7836ea1f03a0"}
+  ]
+}

@@ -1,0 +1,169 @@
+function result = satelliteFig3SenLoRaIterativeDecode(rxSymbols, config, knownWaveformBins, options)
+%SATELLITEFIG3SENLORAITERATIVEDECODE Five-pass SenLoRa confidence iteration.
+%   Confidence decides candidate pilots; the rolling tracker independently
+%   enforces residual/peak-quality admission before a ring-buffer update.
+
+arguments
+    rxSymbols (:,:) double
+    config (1,1) struct
+    knownWaveformBins (:,1) double
+    options.UseEstimatedSnrGate (1,1) logical = true
+    options.MinimumCodewordMarginRatio (1,1) double ...
+        {mustBeNonnegative} = 0
+    options.RequireSoftHardAgreement (1,1) logical = false
+    options.UseSoftDecodedPilotLabels (1,1) logical = true
+    options.UseCausalConfidenceTiming (1,1) logical = false
+    options.InnovationLimitBins (1,1) double ...
+        {mustBeNonnegative} = Inf
+    options.FreezeBootstrapRate (1,1) logical = false
+    options.ReleaseBootstrapRateAfterVirtualPilotCount (1,1) double ...
+        {mustBeInteger,mustBeNonnegative} = 1e9
+    options.RateDeviationLimitBinsPerSec (1,1) double ...
+        {mustBeNonnegative} = Inf
+    options.BootstrapRateOverrideBinsPerSec (1,1) double = NaN
+end
+
+nSymbols = size(rxSymbols,1);
+mask = false(nSymbols,1);
+mask(1:numel(knownWaveformBins)) = true;
+pilotConfidence = nan(nSymbols,1);
+pilotTau = NaN;
+decisionBins = nan(nSymbols,1);
+previousProposed = false(nSymbols,1);
+previousDecisionBins = nan(nSymbols,1);
+history = repmat(struct(),0,1);
+converged = false;
+estimatedSnrDb = NaN;
+promotionEnabled = false;
+pilotAvailabilityRows = (1:nSymbols).';
+if options.UseCausalConfidenceTiming
+    blockLength = 4+config.cr;
+    payloadRows = (numel(knownWaveformBins)+1:nSymbols).';
+    blockNumber = floor((payloadRows-numel(knownWaveformBins)-1)/blockLength);
+    blockEnd = numel(knownWaveformBins)+(blockNumber+1)*blockLength;
+    pilotAvailabilityRows(payloadRows) = min(nSymbols+1,blockEnd+1);
+end
+for iteration = 1:config.maxSenLoRaIterations
+    tracker = satelliteFig3RollingPilotTracker(rxSymbols,config,knownWaveformBins, ...
+        AcceptedMask=mask,PilotConfidence=pilotConfidence, ...
+        PilotThreshold=pilotTau,DecisionWaveformBins=decisionBins, ...
+        PilotAvailabilityRows=pilotAvailabilityRows, ...
+        InnovationLimitBins=options.InnovationLimitBins, ...
+        FreezeBootstrapRate=options.FreezeBootstrapRate, ...
+        ReleaseBootstrapRateAfterVirtualPilotCount= ...
+            options.ReleaseBootstrapRateAfterVirtualPilotCount, ...
+        RateDeviationLimitBinsPerSec= ...
+            options.RateDeviationLimitBinsPerSec, ...
+        BootstrapRateOverrideBinsPerSec= ...
+            options.BootstrapRateOverrideBinsPerSec);
+    previousTauForDecoder = pilotTau;
+    if options.UseCausalConfidenceTiming
+        % Do not seed an early block with the previous pass's final-frame
+        % EMA threshold, which contains information from future blocks.
+        previousTauForDecoder = NaN;
+    end
+    soft = satelliteFig3SenLoRaConfidence(tracker.compensatedSymbols,config, ...
+        PreviousTauGlobal=previousTauForDecoder,AmendLlrMix=config.amendLlrMix);
+    if iteration == 1
+        estimatedSnrDb = -10*log10(max(soft.noisePower,eps));
+        % This legacy five-pass receiver has no independent anchor replay.
+        % Below the validated high-SNR region, repeated use of the same
+        % decisions can make a wrong symbol and a one-bin CFO error appear
+        % mutually consistent.  Keep those candidates quarantined.
+        promotionEnabled = ~options.UseEstimatedSnrGate || ...
+            estimatedSnrDb >= config.confidencePromotionSnrDb;
+    end
+    proposed = soft.confidentMask & soft.readyMask;
+    marginRatio = soft.symbolCodewordMargin./max(soft.tauGlobal,eps);
+    proposed = proposed & ...
+        marginRatio >= options.MinimumCodewordMarginRatio;
+    if options.RequireSoftHardAgreement
+        proposed = proposed & ...
+            soft.decodedWaveformBins == tracker.hardWaveformBins;
+    end
+    proposed(1:numel(knownWaveformBins)) = true;
+    if ~promotionEnabled
+        proposed(numel(knownWaveformBins)+1:end) = false;
+    end
+    if iteration == 1
+        % First pass only creates candidates.  It cannot yet prove that a
+        % candidate remains reliable after an iterative channel update.
+        stable = false(nSymbols,1);
+    else
+        sameDecision = soft.decodedWaveformBins == previousDecisionBins;
+        stable = proposed & previousProposed & sameDecision;
+    end
+    stable(1:numel(knownWaveformBins)) = true;
+    history(iteration).iteration = iteration;
+    history(iteration).requestedMask = mask;
+    history(iteration).proposedMask = proposed;
+    history(iteration).stableMask = stable;
+    history(iteration).acceptedMask = tracker.pilotAccepted;
+    history(iteration).tracker = tracker;
+    history(iteration).soft = soft;
+    nextMask = mask | stable;
+    if iteration >= 2 && isequal(nextMask,mask)
+        converged = true;
+        break
+    end
+    % A two-pass-confirmed virtual pilot remains in the causal rolling
+    % history on later replays.  The accepted set grows monotonically; the
+    % tracker itself still retains only the newest eight active pilots.
+    mask = nextMask;
+    if options.UseCausalConfidenceTiming
+        pilotConfidence = soft.confidence./max(soft.tauGlobal,eps);
+        pilotTau = 1;
+    else
+        pilotConfidence = soft.confidence;
+        pilotTau = soft.finalTauGlobal;
+    end
+    if options.UseSoftDecodedPilotLabels
+        decisionBins = soft.decodedWaveformBins;
+    else
+        % The soft decoder is a confidence gate only.  Leaving the pilot
+        % label unspecified makes the causal tracker use its current hard
+        % LoRa decision after phase compensation.
+        decisionBins = nan(nSymbols,1);
+    end
+    previousProposed = proposed;
+    previousDecisionBins = soft.decodedWaveformBins;
+end
+history = history(1:numel(history));
+last = history(end);
+% LAST.TRACKER used only the prior, two-pass-confirmed candidate set.  Do
+% not replay it with a newly proposed last-round decision that has not had
+% a second independent confidence pass.
+finalTracker = last.tracker;
+payloadRows = numel(knownWaveformBins)+1:nSymbols;
+% Keep the BER detector identical to the hard-PREC and analytical AWGN
+% reference.  SenLoRa soft information is used only to decide which
+% symbols may become virtual pilots; it must not add an unrelated soft-
+% decoding gain to the compensation comparison.
+hardDecodedDataBits = satelliteFig3HardPayloadBits( ...
+    finalTracker.hardWaveformBins(payloadRows),config);
+result = struct( ...
+    'detectedWaveformBins',finalTracker.detectedWaveformBins, ...
+    'hardDecodedDataBits',hardDecodedDataBits, ...
+    'pilotAccepted',finalTracker.pilotAccepted, ...
+    'requestedMask',last.requestedMask, ...
+    'confidenceMask',last.requestedMask, ...
+    'confidence',last.soft.confidence, ...
+    'tauGlobal',last.soft.tauGlobal, ...
+    'estimatedSnrDb',estimatedSnrDb, ...
+    'promotionEnabled',promotionEnabled, ...
+    'useEstimatedSnrGate',options.UseEstimatedSnrGate, ...
+    'minimumCodewordMarginRatio',options.MinimumCodewordMarginRatio, ...
+    'requireSoftHardAgreement',options.RequireSoftHardAgreement, ...
+    'useSoftDecodedPilotLabels',options.UseSoftDecodedPilotLabels, ...
+    'useCausalConfidenceTiming',options.UseCausalConfidenceTiming, ...
+    'innovationLimitBins',options.InnovationLimitBins, ...
+    'freezeBootstrapRate',options.FreezeBootstrapRate, ...
+    'releaseBootstrapRateAfterVirtualPilotCount', ...
+        options.ReleaseBootstrapRateAfterVirtualPilotCount, ...
+    'rateDeviationLimitBinsPerSec', ...
+        options.RateDeviationLimitBinsPerSec, ...
+    'bootstrapRateOverrideBinsPerSec', ...
+        options.BootstrapRateOverrideBinsPerSec, ...
+    'iterations',numel(history), 'converged',converged, ...
+    'tracker',finalTracker, 'soft',last.soft, 'iterationHistory',history);
+end

@@ -1,0 +1,3 @@
+snrDb,region,GroupCount,mean_firstConfident,mean_firstMarginPass,mean_firstAgreement,mean_firstConfidenceAndMargin,mean_firstAllProposalGates,mean_firstProposed,mean_finalProposed,mean_finalStable,mean_requested,mean_availableRequested,mean_residualMeasured,mean_accepted,mean_falseAccepted,mean_rateReleased,mean_initialRateErrorBinsPerSec,mean_rateStandardErrorBinsPerSec,mean_cfoRmseBins,mean_hardBitErrors,mean_softBitErrors
+-20,high_dynamic,8,13.375,15.75,104.5,3.5,3.5,3.5,3.875,3.125,3.5,3.375,3.375,3.375,0,0.75,0.018262363860888,0.495565382738599,0.158589366691892,4.375,6.25
+-20,low_dynamic,8,14.375,23.625,97.625,4.875,4.875,4.875,5.375,4.625,4.875,4.875,4.875,4.875,0,0.75,-0.0453764786478305,0.32926767704613,0.231158922137463,14.125,11.125

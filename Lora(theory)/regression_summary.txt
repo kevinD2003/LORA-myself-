@@ -1,0 +1,1 @@
+boundary=0 residual=0.00158406 fifth=1 deterministic=1\n

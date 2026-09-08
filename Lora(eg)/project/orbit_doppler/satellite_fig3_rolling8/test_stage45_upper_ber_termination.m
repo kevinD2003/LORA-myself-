@@ -1,0 +1,34 @@
+classdef test_stage45_upper_ber_termination < SenLoRaStageTestCase
+    %TEST_STAGE45_UPPER_BER_TERMINATION MATLAB unit-test wrapper for this stage regression.
+
+    methods (Test)
+        function runRegression(~)
+            check_test_stage45_upper_ber_termination();
+        end
+    end
+end
+
+function check_test_stage45_upper_ber_termination()
+%TEST_STAGE45_UPPER_BER_TERMINATION Verify the auditable 95% upper stop.
+
+folder = 'stage45_upper_ber_termination_test';
+root = fileparts(mfilename('fullpath'));
+checkpoint = fullfile(root,'results',folder,'formal_ber_checkpoint.mat');
+if isfile(checkpoint)
+    delete(checkpoint);
+end
+report = run_stage26_formal_ber(SnrGridDb=(-18:-17).', ...
+    TargetBitErrors=300,MaxBitsPerPoint=1e7, ...
+    StopUpperBerTarget=0.01,FrameBudgetThisCall=1, ...
+    OutputFolderName=folder,Resume=false);
+assert(report.state.terminationReached && ...
+    report.state.terminationSnrIndex == 1, ...
+    'The formal runner did not terminate at the declared 95% upper target.');
+assert(report.state.completed(1) && report.state.frameCount(2) == 0, ...
+    'A later SNR point was simulated after the upper-bound target.');
+rows = report.table.snrDb == -18;
+assert(all(strcmp(report.table.completionReason(rows), ...
+    'upper_95_at_or_below_target')), ...
+    'The CSV did not record the upper-bound completion reason.');
+fprintf('Stage 45 upper-BER termination test passed.\n');
+end
