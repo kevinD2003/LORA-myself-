@@ -1,0 +1,178 @@
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Bellhop] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Krakel] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Kraken] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Misc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Misc\tridiagonal solvers] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Noise] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Pekeris] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Plot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\ReadWrite] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Scooter] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Slicer] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\Sparc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Matlab\waveforms] 
+[警告: 名称不存在或不是目录: D:\BELLHOP] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Bellhop] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Krakel] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Kraken] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\KrakenField] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Bellhop] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Krakel] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Kraken] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Misc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Misc\tridiagonal solvers] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Noise] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Pekeris] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Plot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\ReadWrite] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Scooter] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Slicer] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\Sparc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Matlab\waveforms] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\RAM] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\RAM off oalib] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\RAM_ljh] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\Scooter] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\doc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\misc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\3DAtlantic] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\BeamPattern] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\DoubleSeamount] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\Hyperbot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\KermitRoosevelt] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\KoreanSeas] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\Munk] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\MunkRot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\Parabot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\PenetrableWedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\PerfectWedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\Seamount] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\Taiwan] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\TruncatedWedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\Weymouth] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\free] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Bellhop3DTests\halfspace] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\BroadBand] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Dickins] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Dickins\March] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Dickins\Precalc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Ellipse] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Gulf] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Munk] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\MunkLeaky] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\MunkRot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\MunkTS] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Noise] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Noise\ATOC] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Noise\Halfspace] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Noise\KupermanIngenito] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\Noise\Pekeris] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\ParaBot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\PekerisRD] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\PointLine] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\SBCX] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\SedAtten] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\TLslices] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\TabRefCoef] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\VolAtt] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\arctic] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\block] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\calib] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\free] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\halfspace] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\head] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\sduct] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\step] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\terrain] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tests\wedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\tslib] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\__MACOSX\atWin10_2020_11_4\windows-bin-20201102] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Bellhop] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Krakel] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Kraken] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\KrakenField] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\RAM] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\RAM off oalib] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\RAM_ljh] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\Scooter] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\doc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\misc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\3DAtlantic] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\BeamPattern] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\DoubleSeamount] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\Hyperbot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\KermitRoosevelt] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\KoreanSeas] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\Munk] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\MunkRot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\Parabot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\PenetrableWedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\PerfectWedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\Seamount] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\Taiwan] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\TruncatedWedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\Weymouth] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\free] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Bellhop3DTests\halfspace] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\BroadBand] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Dickins] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Dickins\March] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Dickins\Precalc] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Ellipse] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Gulf] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Munk] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\MunkLeaky] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\MunkRot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\MunkTS] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Noise] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Noise\ATOC] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Noise\Halfspace] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Noise\KupermanIngenito] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\Noise\Pekeris] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\ParaBot] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\PekerisRD] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\PointLine] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\SBCX] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\SedAtten] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\TLslices] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\TabRefCoef] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\VolAtt] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\arctic] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\block] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\calib] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\free] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\halfspace] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\head] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\sduct] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\step] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\terrain] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tests\wedge] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\tslib] 
+[警告: 名称不存在或不是目录: D:\BELLHOP\atWin10_2020_11_4\windows-bin-20201102] 
+RW3/RW4 SF11 V2 started: 2026-09-09 17:49:26
+MATLAB: 9.12.0.1884302 (R2022a)
+Project: D:\codex\Lora(eg)\project\orbit_doppler\satellite_fig3_rolling8
+V1: D:\codex\picture\RW3_RW4_SF11_PPT_FIGURES
+V2: D:\codex\picture\RW3_RW4_SF11_PPT_FIGURES_V2
+Current project exactly matches the V1 project manifest (346 files).
+Cross-frame smoke frame and seven-frame continuation starting.
+  cross-frame 1/8: frame 334, history=1, rate=-0.2987 bin/s.
+  cross-frame smoke frame succeeded; continuing causal pass.
+  cross-frame 2/8: frame 335, history=2, rate=-0.7121 bin/s.
+  cross-frame 3/8: frame 336, history=3, rate=-0.8647 bin/s.
+  cross-frame 4/8: frame 337, history=4, rate=-0.7455 bin/s.
+  cross-frame 5/8: frame 338, history=5, rate=-0.7925 bin/s.
+  cross-frame 6/8: frame 339, history=6, rate=-0.6868 bin/s.
+  cross-frame 7/8: frame 340, history=7, rate=-0.7788 bin/s.
+  cross-frame 8/8: frame 341, history=8, rate=-0.7270 bin/s.
+V2 completed: 2026-09-09 17:50:01
+V2 FIGURES VERIFIED FOR PPT USE

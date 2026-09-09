@@ -1,0 +1,31 @@
+R12 grid Case1 SNR-30 paper=0.9753 stage=0.8583
+R12 grid Case1 SNR-29 paper=0.9559 stage=0.7931
+R12 grid Case1 SNR-28 paper=0.8962 stage=0.6821
+R12 grid Case1 SNR-27 paper=0.8088 stage=0.5483
+R12 grid Case1 SNR-26 paper=0.6716 stage=0.4040
+R12 grid Case1 SNR-25 paper=0.5191 stage=0.2851
+R12 grid Case1 SNR-24 paper=0.3463 stage=0.1738
+R12 grid Case1 SNR-23 paper=0.2512 stage=0.1135
+R12 grid Case1 SNR-22 paper=0.1275 stage=0.0555
+R12 grid Case1 SNR-21 paper=0.0666 stage=0.0246
+R12 grid Case2 SNR-30 paper=0.9954 stage=0.9977
+R12 grid Case2 SNR-29 paper=0.9865 stage=0.9783
+R12 grid Case2 SNR-28 paper=0.9716 stage=0.9550
+R12 grid Case2 SNR-27 paper=0.9459 stage=0.8915
+R12 grid Case2 SNR-26 paper=0.9112 stage=0.7907
+R12 grid Case2 SNR-25 paper=0.8459 stage=0.6174
+R12 grid Case2 SNR-24 paper=0.8023 stage=0.5083
+R12 grid Case2 SNR-23 paper=0.7501 stage=0.3833
+R12 grid Case2 SNR-22 paper=0.7032 stage=0.2768
+R12 grid Case2 SNR-21 paper=0.6765 stage=0.1983
+
+ans = 
+
+  包含以下字段的 struct:
+
+                        status: 'PASS'
+              algorithmVersion: 'Stage55-A-consensus-support-fallback-v9'
+    experimentConditionsFrozen: 1
+                       summary: [20x11 table]
+          stageBetterAllPoints: 0
+

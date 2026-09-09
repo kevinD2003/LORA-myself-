@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "algorithmVersion": "Stage55-A-eight-up-robust-rate-v6",
+  "experimentConditionsFrozen": true,
+  "seedDomain": "r9_validation_900000000",
+  "records": [
+    {
+      "caseStartTimeSec": -366,
+      "packets": 2000,
+      "paperErrors": 3541,
+      "stageErrors": 8696,
+      "symbols": 46000,
+      "paperSer": 0.076978260869565218,
+      "stageSer": 0.18904347826086956,
+      "deltaSer": 0.1120652173913044,
+      "lower95": 0.099978260869565252,
+      "upper95": 0.12400000000000005
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packets": 2000,
+      "paperErrors": 31046,
+      "stageErrors": 8600,
+      "symbols": 46000,
+      "paperSer": 0.67491304347826087,
+      "stageSer": 0.18695652173913044,
+      "deltaSer": -0.48795652173912829,
+      "lower95": -0.50049999999999761,
+      "upper95": -0.47481521739130222
+    }
+  ],
+  "performanceTargetMetBothCases": false,
+  "performanceOrderingIsAuditGate": false
+}

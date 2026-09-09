@@ -1,0 +1,18 @@
+RW3/RW4 SF11 V2 started: 2026-09-09 17:49:26
+MATLAB: 9.12.0.1884302 (R2022a)
+Project: D:\codex\Lora(eg)\project\orbit_doppler\satellite_fig3_rolling8
+V1: D:\codex\picture\RW3_RW4_SF11_PPT_FIGURES
+V2: D:\codex\picture\RW3_RW4_SF11_PPT_FIGURES_V2
+Current project exactly matches the V1 project manifest (346 files).
+Cross-frame smoke frame and seven-frame continuation starting.
+  cross-frame 1/8: frame 334, history=1, rate=-0.2987 bin/s.
+  cross-frame smoke frame succeeded; continuing causal pass.
+  cross-frame 2/8: frame 335, history=2, rate=-0.7121 bin/s.
+  cross-frame 3/8: frame 336, history=3, rate=-0.8647 bin/s.
+  cross-frame 4/8: frame 337, history=4, rate=-0.7455 bin/s.
+  cross-frame 5/8: frame 338, history=5, rate=-0.7925 bin/s.
+  cross-frame 6/8: frame 339, history=6, rate=-0.6868 bin/s.
+  cross-frame 7/8: frame 340, history=7, rate=-0.7788 bin/s.
+  cross-frame 8/8: frame 341, history=8, rate=-0.7270 bin/s.
+V2 completed: 2026-09-09 17:50:01
+V2 FIGURES VERIFIED FOR PPT USE

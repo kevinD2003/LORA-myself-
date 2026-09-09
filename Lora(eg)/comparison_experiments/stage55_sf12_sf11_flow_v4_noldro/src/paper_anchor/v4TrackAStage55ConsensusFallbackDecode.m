@@ -1,0 +1,3 @@
+function result=v4TrackAStage55ConsensusFallbackDecode(packet,c,p)
+anchor=v4TrackAPointAnchor(packet,c);if abs(anchor.cfoBins)>p.highShiftThresholdBins,result=v4TrackAStage55PreambleAdaptiveDecode(packet,c,p);result.receiverMode='HIGH_SHIFT_STATIC';else,consensus=v4TrackAEightUpConsensusBootstrap(packet,c,p.bootstrapStepBins,p.maximumRateBinsPerSec);if sum(consensus.inlierMask)>=4,b=consensus;mode='CONSENSUS_RATE';else,b=v4TrackAEightUpRobustBootstrap(packet,c,p.bootstrapStepBins);mode='MEDIAN_RATE_FALLBACK';end;result=v4TrackAStage55FromPreambleRate(packet,c,p,b,'Stage55-A-consensus-support-fallback-v9');result.receiverMode=mode;end;result.algorithmVersion='Stage55-A-consensus-support-fallback-v9';result.pointAnchor=anchor;
+end

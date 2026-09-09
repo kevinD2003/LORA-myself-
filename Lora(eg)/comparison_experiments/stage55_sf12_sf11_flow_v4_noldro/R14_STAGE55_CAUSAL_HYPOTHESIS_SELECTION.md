@@ -1,0 +1,3 @@
+# R14 Stage55 causal dual-hypothesis selection
+
+Algorithm `Stage55-A-causal-dual-hypothesis-v11` preserves all conditions and evidence. In low-shift packets it runs the previously frozen median-rate and consensus-rate causal trackers in parallel. At each current D, it independently compensates that D under both already-causal CFO predictions and selects the prediction with the higher current FFT peak ratio; no future symbol, truth, Paper output, Midamble, Case identifier, or SNR value is used. High-shift retains R8 static. Development root: 980000000. After the complete 20-point development grid passed, fixed formal and bootstrap roots were frozen as 990000000 and 1000000000 respectively.

@@ -1,5 +1,7 @@
-function frame = v4GenerateContinuousFrame(config,startTimeSec,snrDb,seeds,initialPhaseRad)
+function frame = v4GenerateContinuousFrame(config,startTimeSec,snrDb,seeds,initialPhaseRad,channelModel)
 %V4GENERATECONTINUOUSFRAME Paired SF12 frame with continuous Doppler phase.
+
+if nargin < 6, channelModel = 'Rician'; end
 
 layout = v4BuildFrameLayout(config);
 payload = v4GeneratePayload(config,seeds.payloadSeed);
@@ -21,7 +23,9 @@ dopplerSerial = -(config.carrierFrequencyHz+basebandSerial).* ...
 phaseSerial = initialPhaseRad+[0;cumsum(pi/config.sampleRateHz*( ...
     dopplerSerial(1:end-1)+dopplerSerial(2:end)))];
 phase = reshape(phaseSerial,m,layout.physicalSymbolCount).';
-channel = v4RicianCoefficient(config,seeds.channelSeed,1);
+if strcmpi(channelModel,'AWGN'), channel = 1;
+elseif strcmpi(channelModel,'Rician'), channel = v4RicianCoefficient(config,seeds.channelSeed,1);
+else, error('V4:ChannelModel','Channel must be AWGN or Rician.'); end
 rxNoiseless = channel*tx.*exp(1i*phase);
 if isinf(snrDb)
     noiseVariance = 0;
@@ -50,10 +54,9 @@ truth = struct('payloadPhysicalBins',payload.physicalBins, ...
     'dataBits',logical(payload.dataBits),'dataCfoBins',dataCfoBins, ...
     'channelCoefficient',channel,'startTimeSec',startTimeSec, ...
     'firstSamplePhaseRad',phaseSerial(1), ...
-    'lastSamplePhaseRad',phaseSerial(end));
+    'lastSamplePhaseRad',phaseSerial(end),'channelModel',channelModel);
 frame = struct('observation',observation,'truth',truth,'ledger',seeds, ...
     'nextFrameStartTimeSec',nextTime, ...
     'nextFrameStartPhaseRad',angle(exp(1i*nextPhase)), ...
     'nextFrameStartDopplerHz',nextDopplerHz);
 end
-

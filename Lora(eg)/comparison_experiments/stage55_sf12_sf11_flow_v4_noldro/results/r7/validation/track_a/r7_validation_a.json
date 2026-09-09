@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "algorithmVersion": "Stage55-A-rate-adaptive-subbin-v4",
+  "experimentConditionsFrozen": true,
+  "seedDomain": "r7_validation_850000000",
+  "records": [
+    {
+      "caseStartTimeSec": -366,
+      "packets": 2000,
+      "paperErrors": 3482,
+      "stageErrors": 15191,
+      "symbols": 46000,
+      "paperSer": 0.075695652173913039,
+      "stageSer": 0.33023913043478259,
+      "deltaSer": 0.25454347826086948,
+      "lower95": 0.23770652173913032,
+      "upper95": 0.2722173913043478,
+      "staticPackets": 994,
+      "dynamicPackets": 1006
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packets": 2000,
+      "paperErrors": 30868,
+      "stageErrors": 20656,
+      "symbols": 46000,
+      "paperSer": 0.67104347826086952,
+      "stageSer": 0.44904347826086954,
+      "deltaSer": -0.22199999999999992,
+      "lower95": -0.24006521739130426,
+      "upper95": -0.20359782608695662,
+      "staticPackets": 33,
+      "dynamicPackets": 1967
+    }
+  ],
+  "performanceTargetMetBothCases": false,
+  "performanceOrderingIsAuditGate": false
+}

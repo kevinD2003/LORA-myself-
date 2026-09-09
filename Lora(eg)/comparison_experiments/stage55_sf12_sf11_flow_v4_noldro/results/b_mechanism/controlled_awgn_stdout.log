@@ -1,0 +1,25 @@
+B controlled AWGN mechanism frames: 10
+B controlled AWGN mechanism frames: 20
+B controlled AWGN mechanism frames: 30
+B controlled AWGN mechanism frames: 40
+B controlled AWGN mechanism frames: 50
+B controlled AWGN mechanism frames: 60
+B controlled AWGN mechanism frames: 70
+B controlled AWGN mechanism frames: 80
+
+ans = 
+
+  包含以下字段的 struct:
+
+                        status: 'PASS'
+                       channel: 'AWGN'
+                          mode: 'controlled-time'
+                         snrDb: -21
+                eligibleFrames: 82
+                   methodNames: {3x1 cell}
+                     rawErrors: [3x4 double]
+                  denominators: [9184 62976 62976 82]
+                       metrics: [3x4 double]
+           maximumHistoryCount: 8
+    experimentConditionsFrozen: 1
+

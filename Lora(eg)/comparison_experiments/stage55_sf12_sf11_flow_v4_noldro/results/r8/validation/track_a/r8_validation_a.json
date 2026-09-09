@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "algorithmVersion": "Stage55-A-preamble-adaptive-v5",
+  "experimentConditionsFrozen": true,
+  "seedDomain": "r8_validation_860000000",
+  "records": [
+    {
+      "caseStartTimeSec": -366,
+      "packets": 2000,
+      "paperErrors": 3413,
+      "stageErrors": 1388,
+      "symbols": 46000,
+      "paperSer": 0.074195652173913038,
+      "stageSer": 0.030173913043478259,
+      "deltaSer": -0.044021739130434778,
+      "lower95": -0.048913043478260865,
+      "upper95": -0.039260869565217377,
+      "staticPackets": 1998,
+      "dynamicPackets": 2
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packets": 2000,
+      "paperErrors": 30971,
+      "stageErrors": 20450,
+      "symbols": 46000,
+      "paperSer": 0.67328260869565215,
+      "stageSer": 0.44456521739130433,
+      "deltaSer": -0.22871739130434776,
+      "lower95": -0.24633695652173887,
+      "upper95": -0.21073913043478254,
+      "staticPackets": 77,
+      "dynamicPackets": 1923
+    }
+  ],
+  "performanceTargetMetBothCases": true,
+  "performanceOrderingIsAuditGate": false
+}

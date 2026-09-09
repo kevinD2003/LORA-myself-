@@ -9,9 +9,11 @@ if isfield(bootstrap,'phaseModelCycles')
     modelRateBinsPerSec = model(3)/config.symbolDurationSec;
 else
     beta = bootstrap.joint.betaCycles;
-    phaseCycles = beta(1)+(bootstrap.coarseCfoBins+beta(2))*x+ ...
+    if isfield(bootstrap,'epsilonHatBins'), baseCfo = bootstrap.epsilonHatBins;
+    else, baseCfo = bootstrap.coarseCfoBins; end
+    phaseCycles = beta(1)+(baseCfo+beta(2))*x+ ...
         0.5*beta(3)*x.^2;
-    cfoCenterBins = bootstrap.coarseCfoBins+beta(2)+beta(3)*(x+0.5);
+    cfoCenterBins = baseCfo+beta(2)+beta(3)*(x+0.5);
     modelRateBinsPerSec = beta(3)/config.symbolDurationSec;
 end
 phaseStartRad = angle(exp(1i*2*pi*phaseCycles));

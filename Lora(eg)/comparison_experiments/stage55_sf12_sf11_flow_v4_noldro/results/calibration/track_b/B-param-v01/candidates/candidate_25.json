@@ -1,0 +1,11 @@
+{
+  "candidateIndex": 25,
+  "frames": 32,
+  "vpAccepted": 585,
+  "vpFalse": 8,
+  "falseAcceptance": 0.013675213675213675,
+  "coverage": 0.16322544642857142,
+  "cfoRmseBins": 0.304452496334496,
+  "halfBinExceedance": 0.025669642857142856,
+  "passed": true
+}

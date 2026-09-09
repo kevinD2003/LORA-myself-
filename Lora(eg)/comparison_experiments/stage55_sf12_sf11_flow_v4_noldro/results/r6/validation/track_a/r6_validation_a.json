@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "planVersion": "V4-noLDRO-plan-R6-stage55-algorithm-only-improvement",
+  "algorithmVersion": "Stage55-A-two-downchirp-subbin-rate-v3",
+  "experimentConditionsFrozen": true,
+  "seedDomain": "r6_validation_820000000",
+  "records": [
+    {
+      "caseStartTimeSec": -366,
+      "packets": 2000,
+      "paperErrors": 3425,
+      "stageErrors": 18689,
+      "symbols": 46000,
+      "paperSer": 0.074456521739130435,
+      "stageSer": 0.40628260869565219,
+      "deltaSer": 0.33182608695652183,
+      "lower95": 0.31419565217391321,
+      "upper95": 0.34891304347826091,
+      "stageVpAccepted": 20318,
+      "stageVpFalse": 757
+    },
+    {
+      "caseStartTimeSec": 0,
+      "packets": 2000,
+      "paperErrors": 30856,
+      "stageErrors": 20670,
+      "symbols": 46000,
+      "paperSer": 0.6707826086956522,
+      "stageSer": 0.4493478260869565,
+      "deltaSer": -0.22143478260869545,
+      "lower95": -0.23997826086956497,
+      "upper95": -0.20210869565217388,
+      "stageVpAccepted": 19721,
+      "stageVpFalse": 863
+    }
+  ],
+  "performanceTargetMetBothCases": false,
+  "performanceOrderingIsAuditGate": false
+}

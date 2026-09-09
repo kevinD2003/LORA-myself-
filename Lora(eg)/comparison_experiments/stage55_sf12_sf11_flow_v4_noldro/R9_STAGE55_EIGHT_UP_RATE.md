@@ -1,0 +1,3 @@
+# R9 Stage55 eight-upchirp joint-rate revision
+
+Algorithm `Stage55-A-eight-up-robust-rate-v6` changes only Stage55 receiver processing. The initially proposed joint-phase unwrap failed the no-noise Case 0 mechanism gate before validation and was replaced within this unvalidated version by eight individual known-upchirp sub-bin CFO estimates plus a median pairwise-slope robust fit, extrapolated causally to the existing quarter-downchirp start. Payload hard-label VP updates retain the frozen quality/history/Huber gates. No condition, sample, Paper code, or denominator changes. R8 formal remains evidence. New mechanism/validation roots are 890000000/900000000.

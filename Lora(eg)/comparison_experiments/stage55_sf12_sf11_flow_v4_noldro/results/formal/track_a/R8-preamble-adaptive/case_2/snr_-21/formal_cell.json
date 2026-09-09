@@ -1,0 +1,11 @@
+{
+  "caseIndex": 2,
+  "caseStartTimeSec": 0,
+  "snrDb": -21,
+  "fixedPackets": 20000,
+  "completedPackets": 20000,
+  "signature": "d93d20316ca8be8551bac69ee97055d2131377eae27c910b6c333cd3400afbaf",
+  "algorithmSignature": "ac2577751f16a4d1eba54cb2e51815fe7cf3dd502fd6c4ab4a15c71cb8477856",
+  "formalCodeHash": "36fe3744d98fbf70a0405bb45f5a14b21a542952afe0e0fc7bf4f90b797e2edd",
+  "seedRoot": 8.719E+8
+}
