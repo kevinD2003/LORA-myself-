@@ -1,0 +1,15 @@
+{
+  "status":"PARTIAL_ONLY",
+  "directCopyAdmitted":false,
+  "mechanismAdaptationAdmitted":true,
+  "case1BehaviorMustRemainUnchanged":true,
+  "stage55ModificationAllowed":false,
+  "matching":{"sf":12,"bandwidthHz":125000,"sampleRateHz":125000,"carrierFrequencyHz":868000000,"caseTimesSec":[-366,0],"midambleInterval":3},
+  "paperConditions":{"ldro":true,"effectiveDataSf":10,"dataBinSpacing":4,"cr":1,"payloadBits":120,"payloadSymbols":23,"trackingMidambles":7,"channel":"packet-flat Rician K=10 dB"},
+  "currentConditions":{"ldro":false,"effectiveDataSf":12,"dataBinSpacing":1,"cr":3,"informationBits":768,"payloadSymbols":112,"trackingMidambles":37,"channel":"AWGN"},
+  "localCase2PaperSer":{"snrDb":[-30,-29,-28,-27,-26,-25,-24,-23,-22,-21],"ser":[0.982626086956522,0.960878260869565,0.917078260869565,0.844452173913044,0.734069565217391,0.599304347826087,0.443660869565217,0.299713043478261,0.183408695652174,0.109913043478261]},
+  "existingTrendCase2PaperSer":{"snrDb":[-30,-29,-28,-27,-26,-25,-24,-23,-22,-21],"ser":[0.9996875,0.9990625,0.997142857142857,0.984553571428571,0.927366071428571,0.778839285714286,0.495446428571429,0.234553571428571,0.0822321428571429,0.0387946428571429]},
+  "currentStageValidation":{"snrDb":[-30,-25,-23,-22,-21],"ser":[0.9522,0.4363,0.1759,0.12,0.0799]},
+  "conflict":"The existing Figure-11-aligned trend adapter is better than frozen Stage55 at -22 and -21 dB.",
+  "selectionRule":"Use only receiver-observable CFO/rate quality for adaptation; evaluate SER/Hard-BER only in the independent 1000-packet gate."
+}

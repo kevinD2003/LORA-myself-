@@ -1,0 +1,27 @@
+{
+  "status":"registered-for-controlled-and-native-validation",
+  "planVersion":"V4-noLDRO-plan-R3-project-aligned",
+  "algorithmVersion":"Stage55-B-startup-observability-v30",
+  "steadyThresholdFormula":"1.5*ln(4096*35)",
+  "startupThresholdFormula":"ln(4096*35)",
+  "startupCondition":"common cross-frame history count <= 1",
+  "lowProfile":"B-param-v01",
+  "highAndStartupProfile":"B-param-v02",
+  "algorithmSha256":"a7871071913a352d2dcf21ac083a769c8c5a97cb2512e0d010acc8b1b07ac71b",
+  "nativeInfrastructure":{
+    "layoutSha256":"961e875245aed683ef161cc84f5e80cef691a94fdbe14bfd051c7917ba0c5700",
+    "scheduleSha256":"da9f30ce30117eab7b7e3b9fc6d9728db1645004e07983c3cb9539bc719b4c8b",
+    "generatorSha256":"0ce0882fa3024323631370864d10b4571427794011185c8ff4472bbfaaa5fcbb"
+  },
+  "validation":{
+    "controlled":{"rootSeed":532000000,"keyPhase":"controlled-validation-v30","passes":20},
+    "native":{"rootSeed":532000000,"keyPhase":"native-validation-v30","passes":20},
+    "snrDb":-21,
+    "channel":"AWGN"
+  },
+  "qualityGate":{"maximumFalseAcceptance":0.02,"minimumCoverage":0.01,"minimumAcceptedLabels":200,"separateElevationRegions":true},
+  "performanceRequirement":{"stage55SerLessThanPaper":true,"stage55HardBerLessThanPaper":true,"stage55MlBerLessThanPaper":true},
+  "paperChanged":false,
+  "huangChanged":false,
+  "formalSeedsUsed":false
+}

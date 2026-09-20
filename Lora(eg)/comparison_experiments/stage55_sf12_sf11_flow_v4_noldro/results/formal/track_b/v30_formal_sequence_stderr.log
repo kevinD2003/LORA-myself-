@@ -1,0 +1,28 @@
+ERROR: MATLAB error Exit Status: 0xc0000374, Heap corruption
+ERROR: MATLAB error Exit Status: 0xc0000374, Heap corruption
+ERROR: MATLAB error Exit Status: 0xc0000374, Heap corruption
+ERROR: MATLAB error Exit Status: 0xc0000374, Heap corruption
+ERROR: MATLAB error Exit Status: 0xc0000374, Heap corruption
+{错误使用 v4RunBControlledSmokePassV30
+Partial controlled smoke checkpoint.
+
+出错 runV4BFormalPassV30 (第 13 行)
+ result=v4RunBControlledSmokePassV30(root,c,lowP,highP,g.channel,folder,opts);
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+{错误使用 v4RunBControlledSmokePassV30
+Partial controlled smoke checkpoint.
+
+出错 runV4BFormalPassV30 (第 13 行)
+ result=v4RunBControlledSmokePassV30(root,c,lowP,highP,g.channel,folder,opts);
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+D:\codex\Lora(eg)\comparison_experiments\stage55_sf12_sf11_flow_v4_noldro\scripts\run_v30_formal_sequence.ps1 : Three p
+re-artifact failures: B_AWGN_CONTROLLED SNR -23 pass 31
+所在位置 D:\codex\Lora(eg)\comparison_experiments\stage55_sf12_sf11_flow_v4_noldro\scripts\run_v30_formal_sequence.ps1:
+55 字符: 5
++     Write-Error $_
++     ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,run_v30_formal_sequence.ps1
+ 

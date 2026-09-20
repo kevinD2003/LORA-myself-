@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "createdCells": 32,
+  "identity": "B-case-anchor-AWGN-v6-known-case-profile",
+  "sourceHash": "3d8677b0f360eb1a6c01d1ae66673ed96469aa7ac9c7f39a5d91e6db2961843a",
+  "usesKnownCaseProfile": true,
+  "simulationReused": true,
+  "parentIdentity": "B-case-anchor-AWGN-v5-robust-regime-paper-native"
+}

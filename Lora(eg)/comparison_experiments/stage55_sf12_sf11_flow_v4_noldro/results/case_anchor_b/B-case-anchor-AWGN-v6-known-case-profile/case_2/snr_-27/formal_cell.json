@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v6-known-case-profile",
+  "algorithmVersion": "Stage55-B-known-case-profile-v8",
+  "paperAlgorithmVersion": "Paper-Midamble-Point-integer-full-FFT-v2",
+  "caseIndex": 2,
+  "caseStartTimeSec": 0,
+  "snrDb": -27,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "5e975877037ff2594c42e0a411021c2adf425405aa5d288ac9b60bb3acdbe85c",
+  "sourceHash": "3d8677b0f360eb1a6c01d1ae66673ed96469aa7ac9c7f39a5d91e6db2961843a",
+  "sourceFiles": [
+    "src/stage55/v4Stage55CaseProfileDecodeV8.m",
+    "src/stage55/v4Stage55JointPreambleMlBootstrap.m",
+    "src/stage55/v4Stage55BootstrapFromJointPreambleMl.m",
+    "src/stage55/v4Stage55Decode.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/paper/v4PaperIntegerPointEstimate.m",
+    "src/paper/v4PaperMidamblePointDecodeV2.m",
+    "src/statistics/v4EvaluateFrame.m",
+    "config/sf12NoLdroSf11FlowConfig.m",
+    "config/v4BCalibrationCandidates.m"
+  ],
+  "initialCfoHz": -0,
+  "initialCfoBins": -0,
+  "initialRateHzPerSec": -279.089830083303,
+  "initialRateBinsPerSec": -9.1452155521696739,
+  "rawErrors": [
+    [
+      22393,
+      67940,
+      66337,
+      200
+    ],
+    [
+      15806,
+      52467,
+      46902,
+      200
+    ],
+    [
+      21526,
+      71539,
+      70378,
+      200
+    ]
+  ],
+  "denominators": [
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ]
+  ],
+  "metrics": [
+    [
+      0.9996875,
+      0.44231770833333334,
+      0.43188151041666667,
+      1
+    ],
+    [
+      0.705625,
+      0.34158203125,
+      0.3053515625,
+      1
+    ],
+    [
+      0.9609821428571429,
+      0.46574869791666668,
+      0.45819010416666667,
+      1
+    ]
+  ],
+  "staticFallbackCount": 0,
+  "observableRateMeanBinsPerSec": -9.1404327614342211,
+  "observableRateStdBinsPerSec": 0.1770468659471153,
+  "observableCfoMeanBins": 5.8781448192989082E-5,
+  "observableCfoStdBins": 0.023790581074747193,
+  "staticCfoMagnitudeThresholdBins": 512,
+  "conditionsFrozen": true,
+  "usesCrossPacketHistory": false,
+  "usesPayloadTruthForSelection": false,
+  "usesOrbitTruthForSelection": false,
+  "caseProfile": "case2-dynamic",
+  "usesKnownCaseProfile": true,
+  "simulationReused": true,
+  "derivedFromIdentity": "B-case-anchor-AWGN-v5-robust-regime-paper-native",
+  "derivedFromSignature": "84a3520e1baaf1cea6ab14d5510fd58c455b59660570c0d97cc86320d347b286",
+  "exactReuseProof": "Stage errors unchanged; every V5 Case2 packet used the same V8 dynamic branch."
+}

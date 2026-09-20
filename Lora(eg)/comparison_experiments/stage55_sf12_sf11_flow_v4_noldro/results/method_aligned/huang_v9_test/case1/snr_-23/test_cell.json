@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETE",
+  "identity": "huang-v9-test",
+  "methodId": "huang-prec-unified-v9",
+  "algorithmVersion": "Huang-PREC-equal-domain-continuous-phase-v9",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -23,
+  "fixedPackets": 1000,
+  "signature": "8486a91498558724603091e30dea26608cc63ff601e0e8aeebac8404a9448750",
+  "sourceHash": "bbca3bf512d7896f4191c261d82dc77799f6a413958cccf5ce2bc188e72ff51e",
+  "sourceFiles": [
+    "src/stage55/v4HuangPrecUnifiedDecodeV9.m",
+    "src/stage55/v4HuangPrecDecodeV3.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/stage55/v4Stage55PreambleRegimeClassifier.m",
+    "src/phy/v4CommonBootstrap.m",
+    "src/phy/v4BootstrapJointPhaseEstimate.m",
+    "src/phy/v4BootstrapStateAtSymbol.m",
+    "src/phy/v4CompensateSymbol.m",
+    "src/coding/v4DecodePayload.m",
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "config/v4LoadMethodAlignedParametersV1.m",
+    "config/v4LoadMethodAlignedR3ParametersV1.m",
+    "config/method_aligned_r3_selected_parameters_v1.json",
+    "config/method_aligned_selected_parameters_v1.json",
+    "config/sf12NoLdroSf11FlowConfig.m"
+  ],
+  "rawErrors": [
+    1618,
+    361
+  ],
+  "denominators": [
+    112000,
+    768000
+  ],
+  "metrics": [
+    0.014446428571428572,
+    0.00047005208333333334
+  ],
+  "staticSelectedPackets": 1000,
+  "dynamicSelectedPackets": 0,
+  "mlBerComputed": false,
+  "conditionsFrozen": true,
+  "pairedWithUnifiedV16": true
+}

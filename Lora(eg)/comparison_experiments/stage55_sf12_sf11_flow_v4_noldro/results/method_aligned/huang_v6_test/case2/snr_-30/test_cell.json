@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "identity": "huang-v6-test",
+  "methodId": "huang-prec-unified-v6",
+  "algorithmVersion": "Huang-PREC-unified-continuous-phase-v6",
+  "caseIndex": 2,
+  "caseStartTimeSec": 0,
+  "snrDb": -30,
+  "fixedPackets": 1000,
+  "signature": "52341ebb6324ccc3ad3adcbeb62917d9e5e6fc1f9f83acf528d8f40551d8c2c6",
+  "sourceHash": "2887259dbb88c208af7419e6a3d0299744d85d3a76229aff49876de3bf7e50af",
+  "sourceFiles": [
+    "src/stage55/v4HuangPrecUnifiedDecodeV6.m",
+    "src/stage55/v4HuangPrecCpDecodeV5.m",
+    "src/stage55/v4HuangPrecDecodeV3.m",
+    "src/stage55/v4Stage55ObservableModeSelectorV10.m",
+    "src/stage55/v4Stage55PreambleRegimeClassifier.m",
+    "src/phy/v4CompensateSymbol.m",
+    "src/coding/v4DecodePayload.m",
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "config/sf12NoLdroSf11FlowConfig.m"
+  ],
+  "rawErrors": [
+    111974,
+    383387
+  ],
+  "denominators": [
+    112000,
+    768000
+  ],
+  "metrics": [
+    0.9997678571428571,
+    0.49920182291666665
+  ],
+  "staticSelectedPackets": 11,
+  "dynamicSelectedPackets": 989,
+  "mlBerComputed": false,
+  "conditionsFrozen": true,
+  "pairedWithUnifiedV16": true
+}

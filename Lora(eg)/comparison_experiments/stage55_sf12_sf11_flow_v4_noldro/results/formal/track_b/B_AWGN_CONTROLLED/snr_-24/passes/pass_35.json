@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "passIndex": 35,
+  "runSignature": "bc9ac9ad6d544385ffa8892bc98e10d5c9eef0833e7632d7141c77184c5696f1",
+  "identity": {
+    "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+    "phase": "formal-v30-b_awgn_controlled",
+    "track": "B",
+    "channel": "AWGN",
+    "comparisonMode": "controlled-time",
+    "snrDb": -24,
+    "replicateId": 35,
+    "algorithmVersion": "Stage55-B-startup-observability-v30",
+    "algorithmHash": "a7871071913a352d2dcf21ac083a769c8c5a97cb2512e0d010acc8b1b07ac71b",
+    "seedRoot": 5.51E+8
+  },
+  "algorithmVersion": "Stage55-B-startup-observability-v30",
+  "channel": "AWGN",
+  "mode": "controlled-time",
+  "snrDb": -24,
+  "rawErrors": [
+    [
+      8258,
+      14166,
+      14002,
+      82
+    ],
+    [
+      862,
+      1213,
+      549,
+      28
+    ],
+    [
+      1217,
+      2159,
+      923,
+      52
+    ]
+  ],
+  "denominators": [
+    9184,
+    62976,
+    62976,
+    82
+  ],
+  "metrics": [
+    [
+      0.8991724738675958,
+      0.22494283536585366,
+      0.222338668699187,
+      1
+    ],
+    [
+      0.093858885017421609,
+      0.019261305894308942,
+      0.008717606707317074,
+      0.34146341463414637
+    ],
+    [
+      0.13251306620209058,
+      0.034282901422764231,
+      0.014656377032520325,
+      0.63414634146341464
+    ]
+  ],
+  "eligibleFrames": 82,
+  "sentFrames": [
+    97,
+    97,
+    97
+  ],
+  "availableFrames": [
+    82,
+    82,
+    82
+  ],
+  "geometryErasures": [
+    15,
+    15,
+    15
+  ],
+  "systemPerMl": [
+    1,
+    0.44329896907216493,
+    0.69072164948453607
+  ],
+  "goodputBps": [
+    0,
+    83.026349695857647,
+    46.125749831032024
+  ],
+  "vpAccepted": 999,
+  "vpFalseAccepted": 0,
+  "runtimeSec": [
+    8.1934172999999983,
+    209.7118199,
+    14.970487499999997
+  ],
+  "deadlineMiss": [
+    false,
+    false,
+    false
+  ],
+  "wallTimeSec": 246.3932921,
+  "matlabMemoryBytes": 1.895911424E+9,
+  "ledgerAggregateHash": "239b040febf5e369bb7d69d7c704ab1855aed4e8eafc260ec233f0373c6956e0",
+  "allFinite": true,
+  "conditionsFrozen": true,
+  "selectionUsesTruth": false,
+  "startedAt": "2026-09-11 04:34:43",
+  "endedAt": "2026-09-11 04:38:49",
+  "resumedWithoutRecount": false
+}

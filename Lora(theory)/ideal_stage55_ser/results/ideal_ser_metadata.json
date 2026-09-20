@@ -1,0 +1,166 @@
+{
+  "identity": "ideal-stage55-conditions-ser-v1",
+  "generatedAt": "2026-09-15T16:44:32***",
+  "matlabVersion": "9.12.0.1884302 (R2022a)",
+  "configuration": {
+    "identity": "ideal-stage55-conditions-ser-v1",
+    "outputFolder": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\results",
+    "stage55Root": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro",
+    "sf": 12,
+    "bandwidthHz": 125000,
+    "sampleRateHz": 125000,
+    "carrierFrequencyHz": 8.68E+8,
+    "samplesPerSymbol": 4096,
+    "symbolDurationSec": 0.032768,
+    "fftBinSpacingHz": 30.517578125,
+    "snrAnchorDb": [
+      -30,
+      -29,
+      -28,
+      -27,
+      -26,
+      -25,
+      -24,
+      -23,
+      -22,
+      -21
+    ],
+    "snrCurveDb": [
+      -30,
+      -29.75,
+      -29.5,
+      -29.25,
+      -29,
+      -28.75,
+      -28.5,
+      -28.25,
+      -28,
+      -27.75,
+      -27.5,
+      -27.25,
+      -27,
+      -26.75,
+      -26.5,
+      -26.25,
+      -26,
+      -25.75,
+      -25.5,
+      -25.25,
+      -25,
+      -24.75,
+      -24.5,
+      -24.25,
+      -24,
+      -23.75,
+      -23.5,
+      -23.25,
+      -23,
+      -22.75,
+      -22.5,
+      -22.25,
+      -22,
+      -21.75,
+      -21.5,
+      -21.25,
+      -21
+    ],
+    "caseNames": [
+      "Case A",
+      "Case B"
+    ],
+    "caseStartTimeSec": [
+      -366,
+      0
+    ],
+    "baseSeed": 2.0260915E+7,
+    "validationPacketsPerCaseSnr": 200,
+    "confidenceZ": 4,
+    "randomGenerator": "mt19937ar",
+    "theoryRelTol": 1E-9,
+    "theoryAbsTol": 1E-14,
+    "noiselessTolerance": 2E-10,
+    "noisePowerRelativeTolerance": 0.005,
+    "performanceDataInputs": [],
+    "fittedToFrozenData": false,
+    "existingPerformanceDataLoaded": false,
+    "curveSource": "exact numerical integration; no fit or interpolation",
+    "validationSource": "fresh full-waveform Monte Carlo with exact samplewise Doppler phase cancellation",
+    "stage55SourceFiles": [
+      "config/sf12NoLdroSf11FlowConfig.m",
+      "src/coding/v4GeneratePayload.m",
+      "src/phy/v4BuildFrameLayout.m",
+      "src/phy/v4ModulateSymbol.m",
+      "src/phy/v4SymbolLikelihood.m",
+      "src/paper_anchor/v4TrackAOrbit.m"
+    ]
+  },
+  "stage55PhysicalConfiguration": {
+    "physicalSf": 12,
+    "effectiveDataSf": 12,
+    "bandwidthHz": 125000,
+    "sampleRateHz": 125000,
+    "carrierFrequencyHz": 8.68E+8,
+    "samplesPerSymbol": 4096,
+    "symbolDurationSec": 0.032768,
+    "fftBinSpacingHz": 30.517578125,
+    "cr": 3,
+    "payloadSymbolCount": 112,
+    "informationBitCount": 768,
+    "bootstrapPilotCount": 8,
+    "paperMidambleInterval": 3,
+    "paperMidambleCount": 37,
+    "commonTimelineSymbolCount": 157,
+    "ricianApplied": false
+  },
+  "sourceManifest": [
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\run_ideal_ser_experiment.m",
+      "sha256": "6ff7d3b2c11c85651f8aa47719bde1b9fa349bec088b251e51aea0fb9aace450"
+    },
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\ideal_ser_config.m",
+      "sha256": "c1b98db8b417d5a616701f5b602e90941482d26772784b2f775b1679f51479d4"
+    },
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\theoretical_lora_ser.m",
+      "sha256": "2c547c81730cc774085f82db2ff7630a3fa3ebcb0fd38e3647557b62bee8fc05"
+    },
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\simulate_ideal_compensation.m",
+      "sha256": "484ea2f75c97029b40ea8f5b1db27056214162547fcc32d3bf672eed3227e36f"
+    },
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\validate_ideal_ser.m",
+      "sha256": "89aebed49e86bac4f25bfe7be1f230947f01430019b8ce7fa21a73d0f90e5088"
+    },
+    {
+      "path": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\config\\sf12NoLdroSf11FlowConfig.m",
+      "sha256": "6d60898021d1e8567d74661f538520e78e1e36ae2d619af5032ae460e4ec4dcb"
+    },
+    {
+      "path": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4GeneratePayload.m",
+      "sha256": "a5241ee1141998894e96e890dc9d5acd51e00dbaf6f88803b12444dd8d98730a"
+    },
+    {
+      "path": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4BuildFrameLayout.m",
+      "sha256": "79558d759bdd6769aab80a4e5998c49ca91e65b5ad28564fc5664fcacbca4797"
+    },
+    {
+      "path": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4ModulateSymbol.m",
+      "sha256": "5df046bf89c4fa8d43374496fc3b23f8958636393ae2678ddc41b49f8fdff4ab"
+    },
+    {
+      "path": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4SymbolLikelihood.m",
+      "sha256": "3d23d9cf8fe14911aeb6ce844b9789229d85265c3f14a9b8ea3b2ef410bd5392"
+    },
+    {
+      "path": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\paper_anchor\\v4TrackAOrbit.m",
+      "sha256": "927971fe8bc3ca15a58e0d16f82020e96a7c651d28b1ffbfaac27a231aaf4faa"
+    }
+  ],
+  "performanceDataInputs": [],
+  "fittedToFrozenData": false,
+  "existingPerformanceDataLoaded": false,
+  "curveSource": "exact numerical integration; no fit or interpolation",
+  "validationStatus": "PASS"
+}

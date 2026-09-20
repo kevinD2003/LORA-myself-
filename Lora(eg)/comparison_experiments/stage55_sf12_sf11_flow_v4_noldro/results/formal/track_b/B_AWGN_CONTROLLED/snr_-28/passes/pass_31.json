@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "passIndex": 31,
+  "runSignature": "3082db96ae087a42e397bcf88f89f7ec6c05046b6ecab1a22310fa24ef8d56e4",
+  "identity": {
+    "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+    "phase": "formal-v30-b_awgn_controlled",
+    "track": "B",
+    "channel": "AWGN",
+    "comparisonMode": "controlled-time",
+    "snrDb": -28,
+    "replicateId": 31,
+    "algorithmVersion": "Stage55-B-startup-observability-v30",
+    "algorithmHash": "a7871071913a352d2dcf21ac083a769c8c5a97cb2512e0d010acc8b1b07ac71b",
+    "seedRoot": 5.51E+8
+  },
+  "algorithmVersion": "Stage55-B-startup-observability-v30",
+  "channel": "AWGN",
+  "mode": "controlled-time",
+  "snrDb": -28,
+  "rawErrors": [
+    [
+      8899,
+      27931,
+      26886,
+      82
+    ],
+    [
+      6559,
+      23549,
+      21481,
+      82
+    ],
+    [
+      7024,
+      24933,
+      23232,
+      82
+    ]
+  ],
+  "denominators": [
+    9184,
+    62976,
+    62976,
+    82
+  ],
+  "metrics": [
+    [
+      0.96896777003484325,
+      0.44351816565040653,
+      0.42692454268292684,
+      1
+    ],
+    [
+      0.71417682926829273,
+      0.37393610264227645,
+      0.34109819613821141,
+      1
+    ],
+    [
+      0.764808362369338,
+      0.39591272865853661,
+      0.36890243902439024,
+      1
+    ]
+  ],
+  "eligibleFrames": 82,
+  "sentFrames": [
+    97,
+    97,
+    97
+  ],
+  "availableFrames": [
+    82,
+    82,
+    82
+  ],
+  "geometryErasures": [
+    15,
+    15,
+    15
+  ],
+  "systemPerMl": [
+    1,
+    1,
+    1
+  ],
+  "goodputBps": [
+    0,
+    0,
+    0
+  ],
+  "vpAccepted": 849,
+  "vpFalseAccepted": 201,
+  "runtimeSec": [
+    8.0145196,
+    73.8159369,
+    14.70552889999999
+  ],
+  "deadlineMiss": [
+    false,
+    false,
+    false
+  ],
+  "wallTimeSec": 110.0786342,
+  "matlabMemoryBytes": 1.90384128E+9,
+  "ledgerAggregateHash": "65e01998abab9e99b1552f70f1537dead0d6f60fe084b2f62ff571a3c14e6967",
+  "allFinite": true,
+  "conditionsFrozen": true,
+  "selectionUsesTruth": false,
+  "startedAt": "2026-09-10 20:45:02",
+  "endedAt": "2026-09-10 20:46:52",
+  "resumedWithoutRecount": false
+}

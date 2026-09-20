@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v2-joint-preamble",
+  "algorithmVersion": "Stage55-B-case-anchor-joint-preamble-v5",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -22,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "378d42a9c5c1668c7a97fdb1a955a0474958fd126257ebe29bafd81d84b13ef0",
+  "sourceHash": "ed72c790258044c4d4d85b47774c0b85614d0aff543c5d39ebaba4c1d13e6410",
+  "sourceFiles": [
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "src/phy/v4CommonBootstrap.m",
+    "src/stage55/v4Stage55JointPreambleMlBootstrap.m",
+    "src/stage55/v4Stage55BootstrapFromJointPreambleMl.m",
+    "src/stage55/v4Stage55CaseAnchorDecodeV5.m",
+    "src/stage55/v4Stage55Decode.m",
+    "src/stage55/v4RollingTrackerPass.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/paper/v4PaperMidambleDecode.m",
+    "src/coding/v4DecodePayload.m",
+    "src/statistics/v4EvaluateFrame.m",
+    "config/sf12NoLdroSf11FlowConfig.m",
+    "config/v4BCalibrationCandidates.m"
+  ],
+  "initialCfoHz": 20226.569967122337,
+  "initialCfoBins": 662.78424468266473,
+  "initialRateHzPerSec": -0.000699314296070952,
+  "initialRateBinsPerSec": -2.2915130853652952E-5,
+  "rawErrors": [
+    [
+      46,
+      0,
+      0,
+      0
+    ],
+    [
+      46,
+      0,
+      0,
+      0
+    ],
+    [
+      59,
+      0,
+      0,
+      0
+    ]
+  ],
+  "denominators": [
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ]
+  ],
+  "metrics": [
+    [
+      0.0020535714285714285,
+      0,
+      0,
+      0
+    ],
+    [
+      0.0020535714285714285,
+      0,
+      0,
+      0
+    ],
+    [
+      0.0026339285714285714,
+      0,
+      0,
+      0
+    ]
+  ],
+  "staticFallbackCount": 200,
+  "observableRateMeanBinsPerSec": -0.0024952899401162422,
+  "observableRateStdBinsPerSec": 0.10227461782239174,
+  "conditionsFrozen": true,
+  "usesCrossPacketHistory": false,
+  "usesPayloadTruthForSelection": false,
+  "usesOrbitTruthForSelection": false
+}

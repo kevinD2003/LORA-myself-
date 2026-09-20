@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v3-audit",
+  "algorithmVersion": "Stage55-B-case-anchor-CFO-regime-v6",
+  "fixedCells": 20,
+  "fixedPacketsPerCell": 200,
+  "totalPairedPackets": 4000,
+  "bootstrapDrawsPerPoint": 10000,
+  "checks": {
+    "all20CellsRecomputed": true,
+    "singleSourceHash": true,
+    "reportRawCountsRecomputed": true,
+    "case1AdmissionPass": true,
+    "case2AdmissionPass": true,
+    "regimeIdentityPass": true,
+    "frozenBaselinesPass": true,
+    "noCaseOrTruthSwitchPass": true,
+    "v5FailureEvidencePreserved": true
+  },
+  "sourceHash": "e2740803af5c9f43d7a00828930f2f5eebc55c3c57302dba0a82c3e06211b992",
+  "baselineHashes": {
+    "paper": "f2b8fee79b6920118710cb3e380f461d3e821f8c532034bb4b328594600e690f",
+    "huang": "27dc3630f976428efbd999126b01d7a88129f98a42c6c53946543a7fc878cef2"
+  },
+  "artifactHashes": {
+    "B_CASE_ANCHOR_AWGN_V3_REPORT_json": "fea16032d9a6b8dfc9eb0f831f438b5e0e4b5f1763553cb99583b31e45a1d906",
+    "B_CASE_ANCHOR_AWGN_V3_SUMMARY_csv": "c9f9ab76b61e76ea0d260d71c52418a11d08ce6e17c7bf5886298fda3516de0f",
+    "B_CASE_ANCHOR_AWGN_V3_ORDERING_csv": "d41a2be463f16d150faae9bfd4eedc7fe0223cd2342408101ce2ef3f781199bc",
+    "B_CASE_ANCHOR_AWGN_V3_SER_png": "e6388c00a5c6b03ea6a354d365947f4dc738378b3cd4d40bba8d0c5461c6519f",
+    "B_CASE_ANCHOR_AWGN_V3_BER_png": "16a6f0fff2e8dac9e371dc4015c158a9f22f54da4155c59ef43eb77d83c5854f"
+  },
+  "zeroErrorFloorRule": "If Paper has zero Case-1 errors, Stage must also have zero; strict inequality is mathematically impossible."
+}

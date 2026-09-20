@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v4-paper-native-extended",
+  "algorithmVersion": "Stage55-B-case-anchor-CFO-regime-v6",
+  "paperAlgorithmVersion": "Paper-Midamble-Point-integer-full-FFT-v2",
+  "caseIndex": 2,
+  "caseStartTimeSec": 0,
+  "snrDb": -28,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "41f86b7cec4442edf53391776d495789fdf627b23d5ad93e38e98ab90422b51d",
+  "sourceHash": "54ac1f0cfd53ece70ebc2cf603afcb57f5de730ef39bb7269f4d39305371ebb7",
+  "sourceFiles": [
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "src/phy/v4CommonBootstrap.m",
+    "src/stage55/v4Stage55JointPreambleMlBootstrap.m",
+    "src/stage55/v4Stage55BootstrapFromJointPreambleMl.m",
+    "src/stage55/v4Stage55CaseAnchorDecodeV6.m",
+    "src/stage55/v4Stage55Decode.m",
+    "src/stage55/v4RollingTrackerPass.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/paper/v4PaperIntegerPointEstimate.m",
+    "src/paper/v4PaperMidamblePointDecodeV2.m",
+    "src/coding/v4DecodePayload.m",
+    "src/statistics/v4EvaluateFrame.m",
+    "src/statistics/v4RunBCaseAnchorCellV4.m",
+    "config/sf12NoLdroSf11FlowConfig.m",
+    "config/v4BCalibrationCandidates.m"
+  ],
+  "initialCfoHz": -0,
+  "initialCfoBins": -0,
+  "initialRateHzPerSec": -279.089830083303,
+  "initialRateBinsPerSec": -9.1452155521696739,
+  "rawErrors": [
+    [
+      22391,
+      71439,
+      70433,
+      200
+    ],
+    [
+      18539,
+      62694,
+      59254,
+      200
+    ],
+    [
+      22044,
+      74656,
+      73986,
+      200
+    ]
+  ],
+  "denominators": [
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ]
+  ],
+  "metrics": [
+    [
+      0.99959821428571427,
+      0.46509765625,
+      0.45854817708333334,
+      1
+    ],
+    [
+      0.82763392857142859,
+      0.4081640625,
+      0.38576822916666664,
+      1
+    ],
+    [
+      0.98410714285714285,
+      0.48604166666666665,
+      0.4816796875,
+      1
+    ]
+  ],
+  "staticFallbackCount": 0,
+  "observableRateMeanBinsPerSec": -9.1406272688871191,
+  "observableRateStdBinsPerSec": 0.19905322774412623,
+  "observableCfoMeanBins": -0.00039177182575042741,
+  "observableCfoStdBins": 0.026356231420908455,
+  "staticCfoMagnitudeThresholdBins": 512,
+  "conditionsFrozen": true,
+  "usesCrossPacketHistory": false,
+  "usesPayloadTruthForSelection": false,
+  "usesOrbitTruthForSelection": false
+}

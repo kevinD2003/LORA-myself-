@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE",
+  "identity": "unified-v16-test",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -21,
+  "fixedPackets": 1000,
+  "signature": "b50ca8af1b3d687fd652e9fbb3cbbe9c7a5be70333e5ac52513ee11d7c2faca0",
+  "sourceHash": "fa7b45be0adc0900077b87ec74e48ce565e83666e6cd9a5d5792838daad8ca6a",
+  "methodIds": [
+    "huang-unified-v2",
+    "stage55-unified-v16",
+    "paper-midamble-adapted-v6"
+  ],
+  "rawErrors": [
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      219,
+      409
+    ]
+  ],
+  "denominators": [
+    [
+      112000,
+      768000
+    ],
+    [
+      112000,
+      768000
+    ],
+    [
+      112000,
+      768000
+    ]
+  ],
+  "metrics": [
+    [
+      7.1428571428571434E-5,
+      0
+    ],
+    [
+      7.1428571428571434E-5,
+      0
+    ],
+    [
+      0.0019553571428571428,
+      0.00053255208333333334
+    ]
+  ],
+  "stageAcceptedVp": 0,
+  "stageFalseVp": 0,
+  "case1StageHuangMismatchPackets": 0,
+  "huangDynamicPackets": 0,
+  "stageDynamicPackets": 0,
+  "paperDynamicPackets": 0,
+  "mlBerComputed": false,
+  "conditionsFrozen": true
+}

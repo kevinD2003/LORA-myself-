@@ -1,0 +1,16 @@
+{
+  "planVersion": "V4-noLDRO-method-aligned-R1",
+  "identity": "ideal-bound-implementation-v1",
+  "stage4AuditSha256": "3739b954830c05c1fb274d5335565c4f57472a38ba879cfd7058f571d22f2a8b",
+  "referenceEntry": "src/statistics/v4IdealSerReference.m",
+  "referenceEntrySha256": "99b66674748f2cc556f878f321c1f7746bb4f8b17d9cb562c15c412dc663cc4a",
+  "boundTestEntry": "src/statistics/v4IdealBoundTest.m",
+  "boundTestEntrySha256": "21b4f3a2b26b6a5b05e12e879b1b63a029cf7dd10f153dc86844acf5dedb1c48",
+  "alpha": 0.05,
+  "confidenceMethod": "one-sided-Wilson-upper",
+  "nullHypothesis": "SER_method >= SER_ideal",
+  "alternativeHypothesis": "SER_method < SER_ideal",
+  "plotClampingForbidden": true,
+  "appliesTo": "SER-only"
+}
+

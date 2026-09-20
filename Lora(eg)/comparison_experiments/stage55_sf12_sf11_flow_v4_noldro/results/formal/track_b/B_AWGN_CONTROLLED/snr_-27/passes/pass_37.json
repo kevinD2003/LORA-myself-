@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "passIndex": 37,
+  "runSignature": "8952c9f6f41e729c93f15fae8159ac5d0e13f0e2c871b8b52a14110e1511945c",
+  "identity": {
+    "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+    "phase": "formal-v30-b_awgn_controlled",
+    "track": "B",
+    "channel": "AWGN",
+    "comparisonMode": "controlled-time",
+    "snrDb": -27,
+    "replicateId": 37,
+    "algorithmVersion": "Stage55-B-startup-observability-v30",
+    "algorithmHash": "a7871071913a352d2dcf21ac083a769c8c5a97cb2512e0d010acc8b1b07ac71b",
+    "seedRoot": 5.51E+8
+  },
+  "algorithmVersion": "Stage55-B-startup-observability-v30",
+  "channel": "AWGN",
+  "mode": "controlled-time",
+  "snrDb": -27,
+  "rawErrors": [
+    [
+      8785,
+      25567,
+      24086,
+      82
+    ],
+    [
+      5133,
+      17989,
+      15276,
+      82
+    ],
+    [
+      5744,
+      20291,
+      17748,
+      82
+    ]
+  ],
+  "denominators": [
+    9184,
+    62976,
+    62976,
+    82
+  ],
+  "metrics": [
+    [
+      0.95655487804878048,
+      0.40598005589430897,
+      0.38246316056910568,
+      1
+    ],
+    [
+      0.55890679442508706,
+      0.28564850101626016,
+      0.2425685975609756,
+      1
+    ],
+    [
+      0.62543554006968638,
+      0.3222021087398374,
+      0.28182164634146339,
+      1
+    ]
+  ],
+  "eligibleFrames": 82,
+  "sentFrames": [
+    97,
+    97,
+    97
+  ],
+  "availableFrames": [
+    82,
+    82,
+    82
+  ],
+  "geometryErasures": [
+    15,
+    15,
+    15
+  ],
+  "systemPerMl": [
+    1,
+    1,
+    1
+  ],
+  "goodputBps": [
+    0,
+    0,
+    0
+  ],
+  "vpAccepted": 936,
+  "vpFalseAccepted": 81,
+  "runtimeSec": [
+    8.1152928,
+    79.054590700000048,
+    14.802087499999999
+  ],
+  "deadlineMiss": [
+    false,
+    false,
+    false
+  ],
+  "wallTimeSec": 115.2101563,
+  "matlabMemoryBytes": 1.900699648E+9,
+  "ledgerAggregateHash": "7bb367705fb76af1dd3ca6fe1b0d20f2a72f73e96c68bd5d3f87a25dc03b0912",
+  "allFinite": true,
+  "conditionsFrozen": true,
+  "selectionUsesTruth": false,
+  "startedAt": "2026-09-10 22:36:55",
+  "endedAt": "2026-09-10 22:38:50",
+  "resumedWithoutRecount": false
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "identity": "B-paper-curve-v7",
+  "paperAlgorithmVersion": "Paper-Midamble-Point-local-trend-v5",
+  "caseIndex": 2,
+  "caseStartTimeSec": 0,
+  "snrDb": -25,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "429fa6a8aee84f9e517ec194117cd9f17df1c6e61154f2dd5f29c86de58242cd",
+  "sourceHash": "e53aaffca76be7b681b477244614cc7c0bef556c2b04b34ddcb31e1501e0f50d",
+  "sourceFiles": [
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "src/paper/v4PaperIntegerPointEstimate.m",
+    "src/paper/v4PaperRefinedPointEstimate.m",
+    "src/paper/v4PaperLocalResidualEstimate.m",
+    "src/paper/v4PaperMidamblePointTrendDecodeV3.m",
+    "src/coding/v4DecodePayload.m",
+    "src/statistics/v4EvaluateFrame.m",
+    "src/statistics/v4RunPaperCurveCellV7.m",
+    "config/sf12NoLdroSf11FlowConfig.m"
+  ],
+  "rawErrors": [
+    17446,
+    45384,
+    41793
+  ],
+  "denominators": [
+    22400,
+    153600,
+    153600
+  ],
+  "metrics": [
+    0.77883928571428573,
+    0.29546875,
+    0.27208984375
+  ],
+  "parentIdentity": "B-case-anchor-AWGN-v6-known-case-profile",
+  "parentSeedRoot": 6.04E+8,
+  "pairedPacketKeysReused": true,
+  "stage55Recomputed": false,
+  "stage55Modified": false,
+  "conditionsFrozen": true,
+  "usesPayloadTruthForSelection": false,
+  "usesOrbitTruthForSelection": false
+}

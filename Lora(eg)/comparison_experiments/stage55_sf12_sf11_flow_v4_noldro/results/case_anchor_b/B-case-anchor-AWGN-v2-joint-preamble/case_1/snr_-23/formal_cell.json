@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v2-joint-preamble",
+  "algorithmVersion": "Stage55-B-case-anchor-joint-preamble-v5",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -23,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "894e245a3fbc282b843407427b132aeb9bb26893f2d7910d26df2a6ecd6408d9",
+  "sourceHash": "ed72c790258044c4d4d85b47774c0b85614d0aff543c5d39ebaba4c1d13e6410",
+  "sourceFiles": [
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "src/phy/v4CommonBootstrap.m",
+    "src/stage55/v4Stage55JointPreambleMlBootstrap.m",
+    "src/stage55/v4Stage55BootstrapFromJointPreambleMl.m",
+    "src/stage55/v4Stage55CaseAnchorDecodeV5.m",
+    "src/stage55/v4Stage55Decode.m",
+    "src/stage55/v4RollingTrackerPass.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/paper/v4PaperMidambleDecode.m",
+    "src/coding/v4DecodePayload.m",
+    "src/statistics/v4EvaluateFrame.m",
+    "config/sf12NoLdroSf11FlowConfig.m",
+    "config/v4BCalibrationCandidates.m"
+  ],
+  "initialCfoHz": 20226.569967122337,
+  "initialCfoBins": 662.78424468266473,
+  "initialRateHzPerSec": -0.000699314296070952,
+  "initialRateBinsPerSec": -2.2915130853652952E-5,
+  "rawErrors": [
+    [
+      308,
+      97,
+      0,
+      0
+    ],
+    [
+      308,
+      97,
+      0,
+      0
+    ],
+    [
+      408,
+      141,
+      2,
+      1
+    ]
+  ],
+  "denominators": [
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ]
+  ],
+  "metrics": [
+    [
+      0.01375,
+      0.00063151041666666661,
+      0,
+      0
+    ],
+    [
+      0.01375,
+      0.00063151041666666661,
+      0,
+      0
+    ],
+    [
+      0.018214285714285714,
+      0.00091796875,
+      1.3020833333333334E-5,
+      0.005
+    ]
+  ],
+  "staticFallbackCount": 200,
+  "observableRateMeanBinsPerSec": 0.0099106516552120022,
+  "observableRateStdBinsPerSec": 0.10842337122604936,
+  "conditionsFrozen": true,
+  "usesCrossPacketHistory": false,
+  "usesPayloadTruthForSelection": false,
+  "usesOrbitTruthForSelection": false
+}

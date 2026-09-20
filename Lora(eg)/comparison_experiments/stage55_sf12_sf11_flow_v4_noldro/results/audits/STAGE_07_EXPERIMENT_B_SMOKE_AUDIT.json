@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "planVersion": "V4-noLDRO-plan-R3-project-aligned",
+  "algorithmVersion": "Stage55-B-startup-observability-v30",
+  "groupCount": 4,
+  "uniqueSignatures": "PASS",
+  "allFinite": "PASS",
+  "checkpointResumeWithoutRecount": "PASS",
+  "checkpointHashesStable": "PASS",
+  "resourceGate": "PASS",
+  "groups": [
+    {
+      "group": "controlled_awgn",
+      "status": "PASS",
+      "runSignature": "1ae79e32a56df3fb5c2910b43a1809c7dca07247430c318beb6e468f68325349",
+      "wallTimeSec": 218.6636535,
+      "matlabMemoryBytes": 1.885966336E+9,
+      "artifactBytes": 25131,
+      "allFinite": true,
+      "deadlineMiss": [
+        false,
+        false,
+        false
+      ],
+      "matSha256": "becf3d400a0661dee076933e6daca2d0ec46e77eef8b3a77b9c6f8923daae0da",
+      "jsonSha256": "c75091bf328ce8be4708bcbb63d0d307af1c117eb1385c38de4a81b93211279a",
+      "estimatedFormalArtifactBytes": 1.25655E+7,
+      "conservativeFormalWallSec": 136664.7834375
+    },
+    {
+      "group": "controlled_rician",
+      "status": "PASS",
+      "runSignature": "56622fedcbc71ec824ad5ac157d76c080f166c585dcfdad578ce1fa28fb9b570",
+      "wallTimeSec": 251.9450947,
+      "matlabMemoryBytes": 1.88588032E+9,
+      "artifactBytes": 25163,
+      "allFinite": true,
+      "deadlineMiss": [
+        false,
+        false,
+        false
+      ],
+      "matSha256": "0f9d6cf22da22aa618c72a542dae7264a375b52c112b4f8e4f4c309b297647d6",
+      "jsonSha256": "b90111a790b44c9a7fb68456a682042f063ce622a06a54246cd510b29d6eb01f",
+      "estimatedFormalArtifactBytes": 1.25815E+7,
+      "conservativeFormalWallSec": 157465.6841875
+    },
+    {
+      "group": "native_awgn",
+      "status": "PASS",
+      "runSignature": "227b01503107a5df5a65f4d91960ce13c6e6e816f5204a94df80ca9c1df5eada",
+      "wallTimeSec": 336.9850616,
+      "matlabMemoryBytes": 1.867456512E+9,
+      "artifactBytes": 34291,
+      "allFinite": true,
+      "deadlineMiss": [
+        false,
+        false,
+        false
+      ],
+      "matSha256": "dc030402136a4a7ad972ee87a9c7d9153675646bdcc32a49d51ca868ab5848c4",
+      "jsonSha256": "371369acd0b9899f9668a041b968ff3311a0438e75feb8bbd99b0e6ac74e0c77",
+      "estimatedFormalArtifactBytes": 1.71455E+7,
+      "conservativeFormalWallSec": 210615.6635
+    },
+    {
+      "group": "native_rician",
+      "status": "PASS",
+      "runSignature": "b2022eb7717d25ff34cce5bba5113333a41d2458a550015796715e7c4233a5a1",
+      "wallTimeSec": 314.3655882,
+      "matlabMemoryBytes": 1.867292672E+9,
+      "artifactBytes": 34297,
+      "allFinite": true,
+      "deadlineMiss": [
+        false,
+        false,
+        false
+      ],
+      "matSha256": "9627606605c409a8c5959bca4be4665aca2d7c13a0b570bcf2da75f7d40dcac1",
+      "jsonSha256": "f99b2ef31081e237bf7d018cff042f37b1a75aea09fd53cba86d7d0dbd523e09",
+      "estimatedFormalArtifactBytes": 1.71485E+7,
+      "conservativeFormalWallSec": 196478.49262499998
+    }
+  ],
+  "admission": "ADMIT_B_FORMAL_GROUP_1"
+}

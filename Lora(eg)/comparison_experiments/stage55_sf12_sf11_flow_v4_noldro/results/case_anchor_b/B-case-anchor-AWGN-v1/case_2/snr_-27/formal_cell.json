@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v1",
+  "caseIndex": 2,
+  "caseStartTimeSec": 0,
+  "snrDb": -27,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "c9053f7288fac98bc34f7be7f12dddfbab637092f98d4b09c8468325d364e21f",
+  "sourceHash": "101cb9e746a15c822578b68ebab0857aad433b06c57460a4fe7fc4c6b6d8e3cf",
+  "initialCfoHz": -0,
+  "initialCfoBins": -0,
+  "initialRateHzPerSec": -279.089830083303,
+  "initialRateBinsPerSec": -9.1452155521696739,
+  "rawErrors": [
+    [
+      22391,
+      68099,
+      66434,
+      200
+    ],
+    [
+      22394,
+      67521,
+      65517,
+      200
+    ],
+    [
+      22389,
+      68109,
+      66412,
+      200
+    ]
+  ],
+  "denominators": [
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ]
+  ],
+  "metrics": [
+    [
+      0.99959821428571427,
+      0.44335286458333334,
+      0.43251302083333332,
+      1
+    ],
+    [
+      0.99973214285714285,
+      0.43958984375,
+      0.42654296875,
+      1
+    ],
+    [
+      0.99950892857142859,
+      0.44341796875,
+      0.43236979166666667,
+      1
+    ]
+  ],
+  "conditionsFrozen": true,
+  "usesCrossPacketHistory": false
+}

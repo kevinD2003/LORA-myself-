@@ -1,0 +1,47 @@
+{
+  "status": "COMPLETE",
+  "identity": "huang-v8-test",
+  "methodId": "huang-prec-unified-v8",
+  "algorithmVersion": "Huang-PREC-frozen-project-continuous-phase-v8",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -22,
+  "fixedPackets": 1000,
+  "signature": "f79ebca6bb2556a893208d4c8bf5f9e18dfae552b13656d6ba251dcdad050d66",
+  "sourceHash": "ee5c36daafedd46508021fb0bb0d6a01b987ff038a4129be05c7be5cb617426d",
+  "sourceFiles": [
+    "src/stage55/v4HuangPrecUnifiedDecodeV8.m",
+    "src/stage55/v4HuangPrecDecodeV3.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/stage55/v4Stage55ObservableModeSelectorV10.m",
+    "src/stage55/v4Stage55PreambleRegimeClassifier.m",
+    "src/phy/v4CommonBootstrap.m",
+    "src/phy/v4BootstrapJointPhaseEstimate.m",
+    "src/phy/v4BootstrapStateAtSymbol.m",
+    "src/phy/v4CompensateSymbol.m",
+    "src/coding/v4DecodePayload.m",
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "config/v4LoadMethodAlignedParametersV1.m",
+    "config/v4LoadMethodAlignedR3ParametersV1.m",
+    "config/method_aligned_r3_selected_parameters_v1.json",
+    "config/method_aligned_selected_parameters_v1.json",
+    "config/sf12NoLdroSf11FlowConfig.m"
+  ],
+  "rawErrors": [
+    228,
+    30
+  ],
+  "denominators": [
+    112000,
+    768000
+  ],
+  "metrics": [
+    0.0020357142857142857,
+    3.90625E-5
+  ],
+  "staticSelectedPackets": 1000,
+  "dynamicSelectedPackets": 0,
+  "mlBerComputed": false,
+  "conditionsFrozen": true,
+  "pairedWithUnifiedV16": true
+}

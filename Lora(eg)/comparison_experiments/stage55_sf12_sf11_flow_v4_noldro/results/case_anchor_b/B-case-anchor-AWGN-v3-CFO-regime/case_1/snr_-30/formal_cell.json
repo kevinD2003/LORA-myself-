@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v3-CFO-regime",
+  "algorithmVersion": "Stage55-B-case-anchor-CFO-regime-v6",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -30,
+  "fixedPackets": 200,
+  "completedPackets": 200,
+  "signature": "386f05a3af4c65fb491a8fa64ae73b96f2f08f57f02b69176c8b3468ba257b0a",
+  "sourceHash": "e2740803af5c9f43d7a00828930f2f5eebc55c3c57302dba0a82c3e06211b992",
+  "sourceFiles": [
+    "src/phy/v4GenerateBCaseAnchorFrame.m",
+    "src/phy/v4CommonBootstrap.m",
+    "src/stage55/v4Stage55JointPreambleMlBootstrap.m",
+    "src/stage55/v4Stage55BootstrapFromJointPreambleMl.m",
+    "src/stage55/v4Stage55CaseAnchorDecodeV6.m",
+    "src/stage55/v4Stage55Decode.m",
+    "src/stage55/v4RollingTrackerPass.m",
+    "src/stage55/v4HuangStaticDecode.m",
+    "src/paper/v4PaperMidambleDecode.m",
+    "src/coding/v4DecodePayload.m",
+    "src/statistics/v4EvaluateFrame.m",
+    "src/statistics/v4RunBCaseAnchorCellV3.m",
+    "config/sf12NoLdroSf11FlowConfig.m",
+    "config/v4BCalibrationCandidates.m"
+  ],
+  "initialCfoHz": 20226.569967122337,
+  "initialCfoBins": 662.78424468266473,
+  "initialRateHzPerSec": -0.000699314296070952,
+  "initialRateBinsPerSec": -2.2915130853652952E-5,
+  "rawErrors": [
+    [
+      19586,
+      69320,
+      67557,
+      200
+    ],
+    [
+      19586,
+      69320,
+      67557,
+      200
+    ],
+    [
+      20374,
+      70735,
+      69037,
+      200
+    ]
+  ],
+  "denominators": [
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ],
+    [
+      22400,
+      153600,
+      153600,
+      200
+    ]
+  ],
+  "metrics": [
+    [
+      0.874375,
+      0.45130208333333333,
+      0.43982421875,
+      1
+    ],
+    [
+      0.874375,
+      0.45130208333333333,
+      0.43982421875,
+      1
+    ],
+    [
+      0.90955357142857141,
+      0.46051432291666666,
+      0.44945963541666667,
+      1
+    ]
+  ],
+  "staticFallbackCount": 200,
+  "observableRateMeanBinsPerSec": 0.028948965629981744,
+  "observableRateStdBinsPerSec": 0.78730172294897649,
+  "observableCfoMeanBins": 654.63047962490646,
+  "observableCfoStdBins": 115.34301855266457,
+  "staticCfoMagnitudeThresholdBins": 512,
+  "conditionsFrozen": true,
+  "usesCrossPacketHistory": false,
+  "usesPayloadTruthForSelection": false,
+  "usesOrbitTruthForSelection": false
+}

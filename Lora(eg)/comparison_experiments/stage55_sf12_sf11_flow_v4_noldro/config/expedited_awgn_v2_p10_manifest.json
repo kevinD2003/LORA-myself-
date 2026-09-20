@@ -1,0 +1,16 @@
+{
+  "planVersion":"V4-noLDRO-plan-R3-project-aligned-expedited-AWGN-v2-P10",
+  "parentPlanVersion":"V4-noLDRO-plan-R3-project-aligned",
+  "supersedes":"V4-noLDRO-plan-R3-project-aligned-expedited-AWGN-v1",
+  "algorithmVersion":"Stage55-B-startup-observability-v30",
+  "channels":["AWGN"],
+  "comparisonModes":["controlled-time","native-overhead"],
+  "snrDb":[-30,-29,-28,-27,-26,-25,-24,-23,-22,-21],
+  "completePassesPerModeSnr":10,
+  "bootstrapDrawsPerModeSnr":10000,
+  "includedPassIds":[1,2,3,4,5,6,7,8,9,10],
+  "ricianStatus":"NOT_APPLICABLE_BY_USER_SCOPE_AMENDMENT",
+  "parentFormalPassesPerModeSnr":50,
+  "formalPrecisionReduced":true,
+  "conditionsOtherThanBudgetAndChannelScopeChanged":false
+}

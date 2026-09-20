@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "identity": "huang-v3-test",
+  "caseIndex": 1,
+  "caseStartTimeSec": -366,
+  "snrDb": -30,
+  "fixedPackets": 1000,
+  "signature": "990b0c8290cec1ec40ab216c513a5ab3f177b899e7b427311e40adff7732594a",
+  "sourceHash": "363e55b15442c82a5c6b894f8a803e143efa926b6e95c08265ab9c61b1dad490",
+  "rawErrors": [
+    111950,
+    383820
+  ],
+  "denominators": [
+    112000,
+    768000
+  ],
+  "metrics": [
+    0.99955357142857137,
+    0.499765625
+  ],
+  "mlBerComputed": false,
+  "conditionsFrozen": true,
+  "pairedWithUnifiedV16": true
+}

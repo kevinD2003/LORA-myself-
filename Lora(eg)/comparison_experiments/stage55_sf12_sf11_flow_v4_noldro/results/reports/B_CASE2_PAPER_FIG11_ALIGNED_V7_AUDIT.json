@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "identity": "B-paper-curve-v7-audit",
+  "checks": {
+    "all10PaperCellsRecomputed": true,
+    "singlePaperSourceHash": true,
+    "reportPass": true,
+    "paperCurvePass": true,
+    "stageStrictBetterAllCase2Points": true,
+    "stage55Modified": false,
+    "case1Modified": false,
+    "conditionsChanged": false
+  },
+  "paperSourceHash": "e53aaffca76be7b681b477244614cc7c0bef556c2b04b34ddcb31e1501e0f50d",
+  "stageSourceHashes": {
+    "v4Stage55CaseProfileDecodeV8": "e32c8adc91ddc23c6deda572d43d76b745233604d14458319c49e9dd555015de",
+    "v4Stage55JointPreambleMlBootstrap": "89fd2daefef4a7814d4d304b3675a93ba24cdb11faef8b13b0187542eb0a0387",
+    "v4Stage55BootstrapFromJointPreambleMl": "3bf1ccafd33d4e318dd8e16f804502b40f9021eafbb8a67098fb3297e4f72760",
+    "v4Stage55Decode": "22aadcea6f011d63a62400063dfc539297ff4db2518371eb0361c42822ef0460",
+    "v4RollingTrackerPass": "ba7eab7cbc64f229e18da643affdbb85e66ee082664db320a5ce4102c4ee8a4a"
+  },
+  "referenceLog10Rmse": 0.10702877161040066,
+  "pairedPacketsPerSnr": 200,
+  "bootstrapDraws": 10000
+}

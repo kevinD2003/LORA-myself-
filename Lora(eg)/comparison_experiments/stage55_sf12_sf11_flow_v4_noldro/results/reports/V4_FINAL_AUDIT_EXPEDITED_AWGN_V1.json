@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "experimentA": "PASS_R14_FROZEN",
+  "experimentBControlledAwgn": "PASS",
+  "experimentBNativeAwgn": "PASS",
+  "rician": "NOT_APPLICABLE_BY_USER_SCOPE_AMENDMENT",
+  "actualPassesPerGroupSnr": 5,
+  "parentPassesPerGroupSnr": 50,
+  "parentPlanComplete": false,
+  "readOnlyBoundary": "PASS"
+}

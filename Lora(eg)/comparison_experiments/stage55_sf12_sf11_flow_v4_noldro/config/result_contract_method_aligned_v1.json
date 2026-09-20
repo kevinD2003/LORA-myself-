@@ -1,0 +1,46 @@
+{
+  "planVersion": "V4-noLDRO-method-aligned-R1",
+  "contractVersion": "method-aligned-result-contract-v1",
+  "requiredIdentityFields": [
+    "planVersion",
+    "methodId",
+    "algorithmVersion",
+    "sourceHash",
+    "caseId",
+    "snrDb",
+    "seedDomain",
+    "fixedPackets",
+    "symbolErrors",
+    "symbolCount",
+    "hardBitErrors",
+    "hardBitCount"
+  ],
+  "formalMetrics": ["SER", "Hard-BER"],
+  "forbiddenFormalMetrics": ["ML-BER"],
+  "mlBerFormal": false,
+  "idealBound": {
+    "interpretation": "SER is lower-is-better; a realizable receiver must not be statistically significantly below the Ideal Oracle SER lower bound.",
+    "nullHypothesis": "SER_method >= SER_ideal",
+    "alternativeHypothesis": "SER_method < SER_ideal",
+    "alpha": 0.05,
+    "statuses": [
+      "PASS_ABOVE_IDEAL",
+      "PASS_MONTE_CARLO_FLUCTUATION",
+      "FAIL_BELOW_IDEAL"
+    ],
+    "failureRule": "FAIL only when the one-sided 95% upper confidence bound for measured SER is below Ideal SER.",
+    "plotClampingForbidden": true
+  },
+  "case1Ordering": {
+    "ser": ["Ideal <= Stage55", "Stage55 <= Huang", "Stage55 < Paper"],
+    "hardBer": ["Stage55 <= Huang", "Stage55 < Paper"]
+  },
+  "case2Ordering": {
+    "ser": ["Ideal <= Stage55", "Stage55 < Huang", "Stage55 < Paper"],
+    "hardBer": ["Stage55 < Huang", "Stage55 < Paper"]
+  },
+  "zeroErrorRule": "Raw zero is retained. Equality is allowed only at a shared zero-error floor where strict inequality is mathematically unobservable.",
+  "comparisonUnit": "paired-packet",
+  "bootstrapDraws": 10000,
+  "reportMustPreserveRawCounts": true
+}

@@ -1,0 +1,31 @@
+{
+  "planVersion": "V4-noLDRO-method-aligned-R1",
+  "identity": "ideal-stage55-conditions-ser-v1",
+  "readOnly": true,
+  "commonAcrossCases": true,
+  "metric": "SER",
+  "curveSource": "exact noncoherent dechirp-FFT complex-AWGN quadrature",
+  "files": [
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\results\\ideal_ser_theory.csv",
+      "sha256": "dad0299ed93a05d25bbc4ae8975fd469f8a82986fde7e57a83b9148d18d8a24f"
+    },
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\results\\ideal_ser_validation.csv",
+      "sha256": "85bec5b98b7801a645b3a2b6d7cff189c58096402cb200621cec422ee993bfca"
+    },
+    {
+      "path": "D:\\codex\\Lora(theory)\\ideal_stage55_ser\\results\\ideal_ser_metadata.json",
+      "sha256": "6499c352a9a7606434470f374d84a2df8bd955342b2a04ac4cca16b92d1e4129"
+    }
+  ],
+  "expectedSourceManifestCount": 11,
+  "requiredValidationStatus": "PASS",
+  "forbiddenUses": [
+    "BER reference",
+    "receiver parameter fitting",
+    "clamping measured receiver SER",
+    "relabeling as a realizable Stage55 receiver"
+  ]
+}
+

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "identity": "B-case-anchor-AWGN-v6-audit",
+  "algorithmVersion": "Stage55-B-known-case-profile-v8",
+  "paperAlgorithmVersion": "Paper-Midamble-Point-integer-full-FFT-v2",
+  "usesKnownCaseProfile": true,
+  "fixedCells": 32,
+  "fixedPacketsPerCell": 200,
+  "totalPairedPackets": 6400,
+  "snrDb": [
+    -30,
+    -29,
+    -28,
+    -27,
+    -26,
+    -25,
+    -24,
+    -23,
+    -22,
+    -21,
+    -20,
+    -19,
+    -18,
+    -17,
+    -16,
+    -15
+  ],
+  "bootstrapDrawsPerPoint": 10000,
+  "checks": {
+    "all32CellsRecomputed": true,
+    "singleSourceHash": true,
+    "reportRawCountsRecomputed": true,
+    "case1AdmissionPass": true,
+    "case2AdmissionPass": true,
+    "paperCurvePass": true,
+    "case2BerTargetPass": true,
+    "regimeIdentityPass": true,
+    "originalBaselinesUnchanged": true,
+    "paperIntegerEstimatorIsolationPass": true,
+    "knownCaseProfileAuthorizationPass": true,
+    "previousV3EvidencePreserved": true
+  },
+  "sourceHash": "3d8677b0f360eb1a6c01d1ae66673ed96469aa7ac9c7f39a5d91e6db2961843a",
+  "baselineHashes": {
+    "originalPaper": "f2b8fee79b6920118710cb3e380f461d3e821f8c532034bb4b328594600e690f",
+    "huang": "27dc3630f976428efbd999126b01d7a88129f98a42c6c53946543a7fc878cef2"
+  },
+  "paperReferenceSha256": "0dfed78259e87bef9f0ac5dc946e9671dbceda414a011c73795f1a3c304d2379",
+  "artifactHashes": {
+    "B_CASE_ANCHOR_AWGN_V6_REPORT_json": "e6a4f3da8a80c0a9de6b155e27c4a0c4103b14f17311eddb21fb9f66824f6e1e",
+    "B_CASE_ANCHOR_AWGN_V6_SUMMARY_csv": "0148761104bc17d26e7b90d3a02ab6c80777a2797dd72aac0f06f67b46b2d52b",
+    "B_CASE_ANCHOR_AWGN_V6_ORDERING_csv": "23cf2028218a932eb7de1d490fc4190dd40d1e03de84b147837fe760b9346291",
+    "B_CASE_ANCHOR_AWGN_V6_SER_png": "f2a85933263c7b66aac85a672728c2c5ef4defca3e0531e9a1ccb00f5c4443c7",
+    "B_CASE_ANCHOR_AWGN_V6_BER_png": "3c55c7d2482a0fe8d652fc7ab49a6e308489453e3a99c91d2b5a76f5375bcf15"
+  },
+  "zeroErrorFloorRule": "Strict inequality is replaced by equality only when the compared Case-1 Paper error count is zero."
+}
