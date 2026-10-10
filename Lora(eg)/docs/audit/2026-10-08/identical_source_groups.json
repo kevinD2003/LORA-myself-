@@ -1,0 +1,243 @@
+[
+  {
+    "SHA256": "B9B36E009F0566A10300FF36D42CDE801FC45AE5F26249758FEE9BA5EF6DAA5B",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/generateContinuousSatelliteFrame.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/generateContinuousSatelliteFrame.m"
+    ]
+  },
+  {
+    "SHA256": "2332DD7039101A293731565F40C8237FE3945B9A178AD83CBA0FD8B62273C20E",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3ApplyConfidenceGate.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3ApplyConfidenceGate.m"
+    ]
+  },
+  {
+    "SHA256": "A115588474122911E64810732C2C8B991222D4BCD4D1DCAB46E8BCEE7387E28D",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3BerInterval95.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3BerInterval95.m"
+    ]
+  },
+  {
+    "SHA256": "F0CD89863F1A6A6A908EF0D0082C1CF994A75B81CB78093390F1D347355BD29B",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3BootstrapEstimate.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3BootstrapEstimate.m"
+    ]
+  },
+  {
+    "SHA256": "46C7EC378E24435F1B84FEA8EBDFD5368F127EB502771A4DB7488C274FA472F2",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3BootstrapJointPhaseEstimate.m",
+      "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/src/upstream_sf11/satelliteFig3BootstrapJointPhaseEstimate.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3BootstrapJointPhaseEstimate.m"
+    ]
+  },
+  {
+    "SHA256": "63C0D752A67BF594CDDC51EAB3490C76A4E8B153CD53A20F8F33402BBFF9A563",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3Config.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3Config.m"
+    ]
+  },
+  {
+    "SHA256": "7D9CFA5EDCC50F449A0ABE53D6ABE402EDE08A5A93E565C0238037CE519A88C0",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3ContinuousPassSchedule.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3ContinuousPassSchedule.m"
+    ]
+  },
+  {
+    "SHA256": "4CE3D9C5519BFB0DDD7B19B35C70FC11D0AC5CC8D0DC6C3AD5FC4F215553ABAD",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3CrossFrameRateUpdate.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3CrossFrameRateUpdate.m"
+    ]
+  },
+  {
+    "SHA256": "463D7157055A87B4444C30B1CC5FA41531E13BE32C6FF006006D5BDAD0868C2E",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3DiagonalDeinterleave.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3DiagonalDeinterleave.m"
+    ]
+  },
+  {
+    "SHA256": "F138E1DA73148C55AB5A05639EC7BB63CD2DE8F949C710346AB4F897E98BAD64",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3DiagonalInterleave.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3DiagonalInterleave.m"
+    ]
+  },
+  {
+    "SHA256": "65F10D10B911F47FCDB8CBD1304F3FF49D497927774FC107E46856A53CB17689",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3GeneratePayload.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3GeneratePayload.m"
+    ]
+  },
+  {
+    "SHA256": "8CA0466D712D072C14E40D2861AA4ED6550FFED1C50DFFB4EAE4F1E60524C034",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3GrayDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3GrayDecode.m"
+    ]
+  },
+  {
+    "SHA256": "CD2E2F642833CC34EBED383E88FC3CCFFF94CCDCEAC4B3C23808B275FB522108",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3GrayEncode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3GrayEncode.m"
+    ]
+  },
+  {
+    "SHA256": "CEB061ECBEB45154F8F8E017EE1866871B4BA8A40896AD56EC1912DE6A84D96B",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3HardDecision.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3HardDecision.m"
+    ]
+  },
+  {
+    "SHA256": "C6153DC53DD7F5EC017B605666B271D1025FFC569DE4E24318B17652088FCD21",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3HardPayloadBits.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3HardPayloadBits.m"
+    ]
+  },
+  {
+    "SHA256": "0209831D79997F0DFE8894E1DB10A3A571FB3EBFB250BE72984071C0EABC99A9",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3HardPrecDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3HardPrecDecode.m"
+    ]
+  },
+  {
+    "SHA256": "C0EC184220745F27D06E13EA8428EF09905E499918D59AEEF2D4770FC4681985",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3HuangPrecCpBootstrapEstimate.m",
+      "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/src/upstream_sf11/satelliteFig3HuangPrecCpBootstrapEstimate.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3HuangPrecCpBootstrapEstimate.m"
+    ]
+  },
+  {
+    "SHA256": "120E37C724EDAF561A6DD2DBB92CB9D8E7DB4507F7A7E4A26989949C79FBEBC5",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3HuangPrecCpMatchedDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3HuangPrecCpMatchedDecode.m"
+    ]
+  },
+  {
+    "SHA256": "50D0479758255638F3525E0914B9344B0B448005C7D37939803DBE12D77E70B2",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3HuangPrecStaticCpDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3HuangPrecStaticCpDecode.m"
+    ]
+  },
+  {
+    "SHA256": "04835FDD6078A3C79706F9E2C1C835E5FE863DC9C25502847E71D9D9544BCE77",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3ModulateSymbol.m",
+      "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/src/upstream_sf11/satelliteFig3ModulateSymbol.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3ModulateSymbol.m"
+    ]
+  },
+  {
+    "SHA256": "FE1264BCEC60B9E9C4C7997A62FE9145BCA52C5E8904C00418C2D12985708A1F",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3PaperPrecDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3PaperPrecDecode.m"
+    ]
+  },
+  {
+    "SHA256": "055DAF8168A7EAB57E964ED2461980131F082C860F9B5C6B3FA966A2957E588D",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3PhaseRotationEstimate.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3PhaseRotationEstimate.m"
+    ]
+  },
+  {
+    "SHA256": "725A673C6C635EF2ADC6056268C69CC066FE737AAF3992BDE89DEFBEA9D68D58",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3PiecewiseDoppler.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3PiecewiseDoppler.m"
+    ]
+  },
+  {
+    "SHA256": "B7749F66607325122CB554EF1694FF3E166F0AFC97DB5D02E4014721E4726CA6",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3PilotConfidenceFeatures.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3PilotConfidenceFeatures.m"
+    ]
+  },
+  {
+    "SHA256": "05C55EB0A468AC59504D068CA406FBAB6221633C38A2E9CCA9F928F60000FEAB",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3QualityGatedSenLoRaDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3QualityGatedSenLoRaDecode.m"
+    ]
+  },
+  {
+    "SHA256": "61806A40C35DB896EEFF31F314808F52063BFACCE63CE22B984135D625F22047",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3RollingPilotTracker.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3RollingPilotTracker.m"
+    ]
+  },
+  {
+    "SHA256": "E961CE4A1AEB47E244B331847B417854B77E8251A5C3F90CDD65D2BD7E76BA66",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3SenLoRaConfidence.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3SenLoRaConfidence.m"
+    ]
+  },
+  {
+    "SHA256": "2B5A5192131C1004925990D6B2235D4624E5C8DE699707F9374B4EBD690ACA5D",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3SenLoRaIterativeDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3SenLoRaIterativeDecode.m"
+    ]
+  },
+  {
+    "SHA256": "26EFF184D1BFC40DF39E45E0B8722A04171138458D7D21C4CFD75DAC18FD0740",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3SenLoRaVirtualPilotDecode.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3SenLoRaVirtualPilotDecode.m"
+    ]
+  },
+  {
+    "SHA256": "B78AB65428F3D7FEC5ECD9DDADD26EAFFEA9AD0E1708850ED76EF28132977DD4",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3Stage52WriteArtifacts.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3Stage52WriteArtifacts.m"
+    ]
+  },
+  {
+    "SHA256": "3267ABEB9490DD13DB6E67C87D6228D890FC0253B6FE9036087E793C8E72B3C4",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3SymbolFrequency.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3SymbolFrequency.m"
+    ]
+  },
+  {
+    "SHA256": "AF72EFF5AAE69DD77A36E3DE7C5EA858F05E34546B39E61420B06035E98A1C0B",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3Trajectory.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3Trajectory.m"
+    ]
+  },
+  {
+    "SHA256": "AEDD1A698F12EE71DB00A9BEADE780E8459DA054E444D30E1A7984CEA5EA614C",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3TwoTierPilotDecision.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3TwoTierPilotDecision.m"
+    ]
+  },
+  {
+    "SHA256": "2D12142B45C0EED3FE5A218ADF146CFF5C2707E82AE4F4491817825CE04916EF",
+    "Paths": [
+      "comparison_experiments/stage55_sf12_sf11_flow_v3/src/upstream_sf11/satelliteFig3VisibilityWindow.m",
+      "project/orbit_doppler/satellite_fig3_rolling8/satelliteFig3VisibilityWindow.m"
+    ]
+  }
+]

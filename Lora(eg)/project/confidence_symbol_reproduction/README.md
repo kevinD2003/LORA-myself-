@@ -1,5 +1,7 @@
 # SenLoRa MATLAB Confidence-Symbol Reproduction
 
+[按功能查找源码](docs/code_index.md) · [文档索引](docs/README.md)
+
 This folder implements a MATLAB minimum reproduction of the SenLoRa paper's
 confidence-symbol detection path:
 
@@ -10,7 +12,7 @@ continuous LoRa IQ -> dechirp -> FFT spectrum -> bin probability -> LoRa Gray-bi
 
 For a Chinese review and learning walkthrough from experiment conditions to
 principles and result interpretation, see
-`PROJECT_REVIEW_AND_LEARNING_CN.md`.
+`docs/learning/PROJECT_REVIEW_AND_LEARNING_CN.md`.
 
 ## Run
 
@@ -39,7 +41,7 @@ runStage55ProjectTests
 ```
 
 The former external Stage55 working copy is frozen; see
-`../orbit_doppler/satellite_fig3_rolling8/CANONICAL_PROJECT.md`.
+`../orbit_doppler/satellite_fig3_rolling8/docs/project/CANONICAL_PROJECT.md`.
 
 The project test runner discovers the root unit tests and all satellite-stage
 regressions, and restores the MATLAB search path after execution.

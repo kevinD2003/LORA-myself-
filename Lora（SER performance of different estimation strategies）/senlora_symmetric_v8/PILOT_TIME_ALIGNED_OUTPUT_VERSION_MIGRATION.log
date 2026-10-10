@@ -1,0 +1,3 @@
+VERSION SIGNATURE MIGRATION PASS pilot_time_aligned_case_snr_rician: 20000 completed rows, only driver source hash and digest changed.
+VERSION SIGNATURE MIGRATION PASS figure12_pilot_time_aligned: 10000 completed rows, only driver source hash and digest changed.
+DRIVER CHECKCODE PASS

@@ -1,0 +1,359 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+[警告: A task was unexpectedly found in state: Unknown.] 
+[> 位置：parallel.cluster.Local/deriveJobStateFromTasks (第 29 行)
+位置: parallel.cluster/Local/getJobState (第 174 行)
+位置: parallel.cluster/CJSCluster/hGetJobState (第 375 行)
+位置: parallel.internal.cluster/CJSJobMixin/hGetStateEnum (第 197 行)
+位置: parallel/Job/get.StateEnum (第 274 行)
+位置: parallel/Job/get.State (第 266 行)
+位置: parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (第 128 行)
+位置: parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (第 102 行)
+位置: parallel.internal.customattr/CustomGetSet/doVectorisedGet (第 103 行)
+位置: parallel.internal.customattr/CustomGetSet/hVectorisedGet (第 76 行)
+位置: parallel.internal.customattr.GetSetImpl>iAccessProperties (第 322 行)
+位置: parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (第 264 行)
+位置: parallel.internal.customattr/GetSetImpl/getImpl (第 133 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (第 154 行)
+位置: parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (第 139 行)
+位置: parallel.internal.cluster.hetfun (第 46 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (第 139 行)
+位置: parallel.internal.customattr/CustomGetSet/get (第 38 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (第 211 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/start (第 103 行)
+位置: parallel.internal.pool.AbstractClusterPool>iStartClient (第 882 行)
+位置: parallel.internal.pool/AbstractClusterPool/hBuildPool (第 636 行)
+位置: parallel.internal.pool.doParpool (第 22 行)
+位置: parpool (第 123 行)
+位置: runSenloraSymmetricV8RicianPrecComparison (第 39 行)] 
+[警告: A task was unexpectedly found in state: Unknown.] 
+[> 位置：parallel.cluster.Local/deriveJobStateFromTasks (第 29 行)
+位置: parallel.cluster/Local/getJobState (第 174 行)
+位置: parallel.cluster/CJSCluster/hGetJobState (第 375 行)
+位置: parallel.internal.cluster/CJSJobMixin/hGetStateEnum (第 197 行)
+位置: parallel/Job/get.StateEnum (第 274 行)
+位置: parallel/Job/get.State (第 266 行)
+位置: parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (第 128 行)
+位置: parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (第 102 行)
+位置: parallel.internal.customattr/CustomGetSet/doVectorisedGet (第 103 行)
+位置: parallel.internal.customattr/CustomGetSet/hVectorisedGet (第 76 行)
+位置: parallel.internal.customattr.GetSetImpl>iAccessProperties (第 322 行)
+位置: parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (第 264 行)
+位置: parallel.internal.customattr/GetSetImpl/getImpl (第 133 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (第 154 行)
+位置: parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (第 139 行)
+位置: parallel.internal.cluster.hetfun (第 46 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (第 139 行)
+位置: parallel.internal.customattr/CustomGetSet/get (第 38 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (第 211 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/start (第 103 行)
+位置: parallel.internal.pool.AbstractClusterPool>iStartClient (第 882 行)
+位置: parallel.internal.pool/AbstractClusterPool/hBuildPool (第 636 行)
+位置: parallel.internal.pool.doParpool (第 22 行)
+位置: parpool (第 123 行)
+位置: runSenloraSymmetricV8RicianPrecComparison (第 39 行)] 
+[警告: A task was unexpectedly found in state: Unknown.] 
+[> 位置：parallel.cluster.Local/deriveJobStateFromTasks (第 29 行)
+位置: parallel.cluster/Local/getJobState (第 174 行)
+位置: parallel.cluster/CJSCluster/hGetJobState (第 375 行)
+位置: parallel.internal.cluster/CJSJobMixin/hGetStateEnum (第 197 行)
+位置: parallel/Job/get.StateEnum (第 274 行)
+位置: parallel/Job/get.State (第 266 行)
+位置: parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (第 128 行)
+位置: parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (第 102 行)
+位置: parallel.internal.customattr/CustomGetSet/doVectorisedGet (第 103 行)
+位置: parallel.internal.customattr/CustomGetSet/hVectorisedGet (第 76 行)
+位置: parallel.internal.customattr.GetSetImpl>iAccessProperties (第 322 行)
+位置: parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (第 264 行)
+位置: parallel.internal.customattr/GetSetImpl/getImpl (第 133 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (第 154 行)
+位置: parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (第 139 行)
+位置: parallel.internal.cluster.hetfun (第 46 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (第 139 行)
+位置: parallel.internal.customattr/CustomGetSet/get (第 38 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (第 211 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/start (第 103 行)
+位置: parallel.internal.pool.AbstractClusterPool>iStartClient (第 882 行)
+位置: parallel.internal.pool/AbstractClusterPool/hBuildPool (第 636 行)
+位置: parallel.internal.pool.doParpool (第 22 行)
+位置: parpool (第 123 行)
+位置: runSenloraSymmetricV8RicianPrecComparison (第 39 行)] 
+[警告: A task was unexpectedly found in state: Unknown.] 
+[> 位置：parallel.cluster.Local/deriveJobStateFromTasks (第 29 行)
+位置: parallel.cluster/Local/getJobState (第 174 行)
+位置: parallel.cluster/CJSCluster/hGetJobState (第 375 行)
+位置: parallel.internal.cluster/CJSJobMixin/hGetStateEnum (第 197 行)
+位置: parallel/Job/get.StateEnum (第 274 行)
+位置: parallel/Job/get.State (第 266 行)
+位置: parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (第 128 行)
+位置: parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (第 102 行)
+位置: parallel.internal.customattr/CustomGetSet/doVectorisedGet (第 103 行)
+位置: parallel.internal.customattr/CustomGetSet/hVectorisedGet (第 76 行)
+位置: parallel.internal.customattr.GetSetImpl>iAccessProperties (第 322 行)
+位置: parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (第 264 行)
+位置: parallel.internal.customattr/GetSetImpl/getImpl (第 133 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (第 154 行)
+位置: parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (第 139 行)
+位置: parallel.internal.cluster.hetfun (第 46 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (第 139 行)
+位置: parallel.internal.customattr/CustomGetSet/get (第 38 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (第 211 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/start (第 103 行)
+位置: parallel.internal.pool.AbstractClusterPool>iStartClient (第 882 行)
+位置: parallel.internal.pool/AbstractClusterPool/hBuildPool (第 636 行)
+位置: parallel.internal.pool.doParpool (第 22 行)
+位置: parpool (第 123 行)
+位置: runSenloraSymmetricV8RicianPrecComparison (第 39 行)] 
+[警告: A task was unexpectedly found in state: Unknown.] 
+[> 位置：parallel.cluster.Local/deriveJobStateFromTasks (第 29 行)
+位置: parallel.cluster/Local/getJobState (第 174 行)
+位置: parallel.cluster/CJSCluster/hGetJobState (第 375 行)
+位置: parallel.internal.cluster/CJSJobMixin/hGetStateEnum (第 197 行)
+位置: parallel/Job/get.StateEnum (第 274 行)
+位置: parallel/Job/get.State (第 266 行)
+位置: parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (第 128 行)
+位置: parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (第 102 行)
+位置: parallel.internal.customattr/CustomGetSet/doVectorisedGet (第 103 行)
+位置: parallel.internal.customattr/CustomGetSet/hVectorisedGet (第 76 行)
+位置: parallel.internal.customattr.GetSetImpl>iAccessProperties (第 322 行)
+位置: parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (第 264 行)
+位置: parallel.internal.customattr/GetSetImpl/getImpl (第 133 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (第 154 行)
+位置: parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (第 139 行)
+位置: parallel.internal.cluster.hetfun (第 46 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (第 139 行)
+位置: parallel.internal.customattr/CustomGetSet/get (第 38 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (第 211 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/start (第 103 行)
+位置: parallel.internal.pool.AbstractClusterPool>iStartClient (第 882 行)
+位置: parallel.internal.pool/AbstractClusterPool/hBuildPool (第 636 行)
+位置: parallel.internal.pool.doParpool (第 22 行)
+位置: parpool (第 123 行)
+位置: runSenloraSymmetricV8RicianPrecComparison (第 39 行)] 
+[警告: A task was unexpectedly found in state: Unknown.] 
+[> 位置：parallel.cluster.Local/deriveJobStateFromTasks (第 29 行)
+位置: parallel.cluster/Local/getJobState (第 174 行)
+位置: parallel.cluster/CJSCluster/hGetJobState (第 375 行)
+位置: parallel.internal.cluster/CJSJobMixin/hGetStateEnum (第 197 行)
+位置: parallel/Job/get.StateEnum (第 274 行)
+位置: parallel/Job/get.State (第 266 行)
+位置: parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (第 128 行)
+位置: parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (第 102 行)
+位置: parallel.internal.customattr/CustomGetSet/doVectorisedGet (第 103 行)
+位置: parallel.internal.customattr/CustomGetSet/hVectorisedGet (第 76 行)
+位置: parallel.internal.customattr.GetSetImpl>iAccessProperties (第 322 行)
+位置: parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (第 264 行)
+位置: parallel.internal.customattr/GetSetImpl/getImpl (第 133 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (第 154 行)
+位置: parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (第 139 行)
+位置: parallel.internal.cluster.hetfun (第 46 行)
+位置: parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (第 139 行)
+位置: parallel.internal.customattr/CustomGetSet/get (第 38 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (第 211 行)
+位置: parallel.internal.pool/AbstractInteractiveClient/start (第 103 行)
+位置: parallel.internal.pool.AbstractClusterPool>iStartClient (第 882 行)
+位置: parallel.internal.pool/AbstractClusterPool/hBuildPool (第 636 行)
+位置: parallel.internal.pool.doParpool (第 22 行)
+位置: parpool (第 123 行)
+位置: runSenloraSymmetricV8RicianPrecComparison (第 39 行)] 
+Connected to the parallel pool (number of workers: 4).
+Rician PREC V9: 140/20000 frames; errors=12841; failures=0; forbidden=0
+Rician PREC V9: 240/20000 frames; errors=22599; failures=0; forbidden=0
+Rician PREC V9: 340/20000 frames; errors=32199; failures=0; forbidden=0
+Rician PREC V9: 440/20000 frames; errors=41917; failures=0; forbidden=0
+Rician PREC V9: 540/20000 frames; errors=51670; failures=0; forbidden=0
+Rician PREC V9: 640/20000 frames; errors=61291; failures=0; forbidden=0
+Rician PREC V9: 740/20000 frames; errors=70795; failures=0; forbidden=0
+Rician PREC V9: 840/20000 frames; errors=80352; failures=0; forbidden=0
+Rician PREC V9: 940/20000 frames; errors=90077; failures=0; forbidden=0
+Rician PREC V9: 1040/20000 frames; errors=99766; failures=0; forbidden=0
+Rician PREC V9: 1140/20000 frames; errors=108348; failures=0; forbidden=0
+Rician PREC V9: 1240/20000 frames; errors=116928; failures=0; forbidden=0
+Rician PREC V9: 1340/20000 frames; errors=125564; failures=0; forbidden=0
+Rician PREC V9: 1440/20000 frames; errors=134197; failures=0; forbidden=0
+Rician PREC V9: 1540/20000 frames; errors=142884; failures=0; forbidden=0
+Rician PREC V9: 1640/20000 frames; errors=151778; failures=0; forbidden=0
+Rician PREC V9: 1740/20000 frames; errors=160596; failures=0; forbidden=0
+Rician PREC V9: 1840/20000 frames; errors=169320; failures=0; forbidden=0
+Rician PREC V9: 1940/20000 frames; errors=177993; failures=0; forbidden=0
+Rician PREC V9: 2040/20000 frames; errors=186067; failures=0; forbidden=0
+Rician PREC V9: 2140/20000 frames; errors=193906; failures=0; forbidden=0
+Rician PREC V9: 2240/20000 frames; errors=201631; failures=0; forbidden=0
+Rician PREC V9: 2340/20000 frames; errors=208776; failures=0; forbidden=0
+Rician PREC V9: 2440/20000 frames; errors=216338; failures=0; forbidden=0
+Rician PREC V9: 2540/20000 frames; errors=223969; failures=0; forbidden=0
+Rician PREC V9: 2640/20000 frames; errors=231419; failures=0; forbidden=0
+Rician PREC V9: 2740/20000 frames; errors=238887; failures=0; forbidden=0
+Rician PREC V9: 2840/20000 frames; errors=246093; failures=0; forbidden=0
+Rician PREC V9: 2940/20000 frames; errors=252988; failures=0; forbidden=0
+Rician PREC V9: 3040/20000 frames; errors=260375; failures=0; forbidden=0
+Rician PREC V9: 3140/20000 frames; errors=266528; failures=0; forbidden=0
+Rician PREC V9: 3240/20000 frames; errors=272713; failures=0; forbidden=0
+Rician PREC V9: 3340/20000 frames; errors=278598; failures=0; forbidden=0
+Rician PREC V9: 3440/20000 frames; errors=285231; failures=0; forbidden=0
+Rician PREC V9: 3540/20000 frames; errors=291508; failures=0; forbidden=0
+Rician PREC V9: 3640/20000 frames; errors=297611; failures=0; forbidden=0
+Rician PREC V9: 3740/20000 frames; errors=303879; failures=0; forbidden=0
+Rician PREC V9: 3840/20000 frames; errors=310103; failures=0; forbidden=0
+Rician PREC V9: 3940/20000 frames; errors=315966; failures=0; forbidden=0
+Rician PREC V9: 4040/20000 frames; errors=321941; failures=0; forbidden=0
+Rician PREC V9: 4140/20000 frames; errors=326615; failures=0; forbidden=0
+Rician PREC V9: 4240/20000 frames; errors=331115; failures=0; forbidden=0
+Rician PREC V9: 4340/20000 frames; errors=335570; failures=0; forbidden=0
+Rician PREC V9: 4440/20000 frames; errors=340512; failures=0; forbidden=0
+Rician PREC V9: 4540/20000 frames; errors=345072; failures=0; forbidden=0
+Rician PREC V9: 4640/20000 frames; errors=349389; failures=0; forbidden=0
+Rician PREC V9: 4740/20000 frames; errors=354095; failures=0; forbidden=0
+Rician PREC V9: 4840/20000 frames; errors=358295; failures=0; forbidden=0
+Rician PREC V9: 4940/20000 frames; errors=362107; failures=0; forbidden=0
+Rician PREC V9: 5040/20000 frames; errors=366610; failures=0; forbidden=0
+Rician PREC V9: 5140/20000 frames; errors=370290; failures=0; forbidden=0
+Rician PREC V9: 5240/20000 frames; errors=373177; failures=0; forbidden=0
+Rician PREC V9: 5340/20000 frames; errors=376042; failures=0; forbidden=0
+Rician PREC V9: 5440/20000 frames; errors=378855; failures=0; forbidden=0
+Rician PREC V9: 5540/20000 frames; errors=382011; failures=0; forbidden=0
+Rician PREC V9: 5640/20000 frames; errors=385555; failures=0; forbidden=0
+Rician PREC V9: 5740/20000 frames; errors=388591; failures=0; forbidden=0
+Rician PREC V9: 5840/20000 frames; errors=391859; failures=0; forbidden=0
+Rician PREC V9: 5940/20000 frames; errors=395375; failures=0; forbidden=0
+Rician PREC V9: 6040/20000 frames; errors=398370; failures=0; forbidden=0
+Rician PREC V9: 6140/20000 frames; errors=400405; failures=0; forbidden=0
+Rician PREC V9: 6240/20000 frames; errors=402558; failures=0; forbidden=0
+Rician PREC V9: 6340/20000 frames; errors=405281; failures=0; forbidden=0
+Rician PREC V9: 6440/20000 frames; errors=407431; failures=0; forbidden=0
+Rician PREC V9: 6540/20000 frames; errors=409690; failures=0; forbidden=0
+Rician PREC V9: 6640/20000 frames; errors=411604; failures=0; forbidden=0
+Rician PREC V9: 6740/20000 frames; errors=413651; failures=0; forbidden=0
+Rician PREC V9: 6840/20000 frames; errors=415302; failures=0; forbidden=0
+Rician PREC V9: 6940/20000 frames; errors=417088; failures=0; forbidden=0
+Rician PREC V9: 7040/20000 frames; errors=418921; failures=0; forbidden=0
+Rician PREC V9: 7140/20000 frames; errors=420153; failures=0; forbidden=0
+Rician PREC V9: 7240/20000 frames; errors=421608; failures=0; forbidden=0
+Rician PREC V9: 7340/20000 frames; errors=422621; failures=0; forbidden=0
+Rician PREC V9: 7440/20000 frames; errors=423494; failures=0; forbidden=0
+Rician PREC V9: 7540/20000 frames; errors=424397; failures=0; forbidden=0
+Rician PREC V9: 7640/20000 frames; errors=425520; failures=0; forbidden=0
+Rician PREC V9: 7740/20000 frames; errors=426494; failures=0; forbidden=0
+Rician PREC V9: 7840/20000 frames; errors=427646; failures=0; forbidden=0
+Rician PREC V9: 7940/20000 frames; errors=428768; failures=0; forbidden=0
+Rician PREC V9: 8040/20000 frames; errors=429477; failures=0; forbidden=0
+Rician PREC V9: 8140/20000 frames; errors=429952; failures=0; forbidden=0
+Rician PREC V9: 8240/20000 frames; errors=430758; failures=0; forbidden=0
+Rician PREC V9: 8340/20000 frames; errors=431279; failures=0; forbidden=0
+Rician PREC V9: 8440/20000 frames; errors=431796; failures=0; forbidden=0
+Rician PREC V9: 8540/20000 frames; errors=432350; failures=0; forbidden=0
+Rician PREC V9: 8640/20000 frames; errors=432891; failures=0; forbidden=0
+Rician PREC V9: 8740/20000 frames; errors=433646; failures=0; forbidden=0
+Rician PREC V9: 8840/20000 frames; errors=434115; failures=0; forbidden=0
+Rician PREC V9: 8940/20000 frames; errors=434734; failures=0; forbidden=0
+Rician PREC V9: 9040/20000 frames; errors=435324; failures=0; forbidden=0
+Rician PREC V9: 9140/20000 frames; errors=435791; failures=0; forbidden=0
+Rician PREC V9: 9240/20000 frames; errors=436064; failures=0; forbidden=0
+Rician PREC V9: 9340/20000 frames; errors=436367; failures=0; forbidden=0
+Rician PREC V9: 9440/20000 frames; errors=436506; failures=0; forbidden=0
+Rician PREC V9: 9540/20000 frames; errors=436789; failures=0; forbidden=0
+Rician PREC V9: 9640/20000 frames; errors=437070; failures=0; forbidden=0
+Rician PREC V9: 9740/20000 frames; errors=437518; failures=0; forbidden=0
+Rician PREC V9: 9840/20000 frames; errors=437988; failures=0; forbidden=0
+Rician PREC V9: 9940/20000 frames; errors=438358; failures=0; forbidden=0
+Rician PREC V9: 10040/20000 frames; errors=440822; failures=0; forbidden=0
+Rician PREC V9: 10140/20000 frames; errors=452019; failures=0; forbidden=0
+Rician PREC V9: 10240/20000 frames; errors=463217; failures=0; forbidden=0
+Rician PREC V9: 10340/20000 frames; errors=474415; failures=0; forbidden=0
+Rician PREC V9: 10440/20000 frames; errors=485613; failures=0; forbidden=0
+Rician PREC V9: 10540/20000 frames; errors=496810; failures=0; forbidden=0
+Rician PREC V9: 10640/20000 frames; errors=508009; failures=0; forbidden=0
+Rician PREC V9: 10740/20000 frames; errors=519207; failures=0; forbidden=0
+Rician PREC V9: 10840/20000 frames; errors=530406; failures=0; forbidden=0
+Rician PREC V9: 10940/20000 frames; errors=541605; failures=0; forbidden=0
+Rician PREC V9: 11040/20000 frames; errors=552801; failures=0; forbidden=0
+Rician PREC V9: 11140/20000 frames; errors=563993; failures=0; forbidden=0
+Rician PREC V9: 11240/20000 frames; errors=575192; failures=0; forbidden=0
+Rician PREC V9: 11340/20000 frames; errors=586389; failures=0; forbidden=0
+Rician PREC V9: 11440/20000 frames; errors=597584; failures=0; forbidden=0
+Rician PREC V9: 11540/20000 frames; errors=608775; failures=0; forbidden=0
+Rician PREC V9: 11640/20000 frames; errors=619971; failures=0; forbidden=0
+Rician PREC V9: 11740/20000 frames; errors=631170; failures=0; forbidden=0
+Rician PREC V9: 11840/20000 frames; errors=642365; failures=0; forbidden=0
+Rician PREC V9: 11940/20000 frames; errors=653560; failures=0; forbidden=0
+Rician PREC V9: 12040/20000 frames; errors=664755; failures=0; forbidden=0
+Rician PREC V9: 12140/20000 frames; errors=675949; failures=0; forbidden=0
+Rician PREC V9: 12240/20000 frames; errors=687139; failures=0; forbidden=0
+Rician PREC V9: 12340/20000 frames; errors=698333; failures=0; forbidden=0
+Rician PREC V9: 12440/20000 frames; errors=709529; failures=0; forbidden=0
+Rician PREC V9: 12540/20000 frames; errors=720718; failures=0; forbidden=0
+Rician PREC V9: 12640/20000 frames; errors=731911; failures=0; forbidden=0
+Rician PREC V9: 12740/20000 frames; errors=743106; failures=0; forbidden=0
+Rician PREC V9: 12840/20000 frames; errors=754297; failures=0; forbidden=0
+Rician PREC V9: 12940/20000 frames; errors=765491; failures=0; forbidden=0
+Rician PREC V9: 13040/20000 frames; errors=776679; failures=0; forbidden=0
+Rician PREC V9: 13140/20000 frames; errors=787866; failures=0; forbidden=0
+Rician PREC V9: 13240/20000 frames; errors=799060; failures=0; forbidden=0
+Rician PREC V9: 13340/20000 frames; errors=810255; failures=0; forbidden=0
+Rician PREC V9: 13440/20000 frames; errors=821450; failures=0; forbidden=0
+Rician PREC V9: 13540/20000 frames; errors=832635; failures=0; forbidden=0
+Rician PREC V9: 13640/20000 frames; errors=843827; failures=0; forbidden=0
+Rician PREC V9: 13740/20000 frames; errors=855014; failures=0; forbidden=0
+Rician PREC V9: 13840/20000 frames; errors=866198; failures=0; forbidden=0
+Rician PREC V9: 13940/20000 frames; errors=877389; failures=0; forbidden=0
+Rician PREC V9: 14040/20000 frames; errors=888582; failures=0; forbidden=0
+Rician PREC V9: 14140/20000 frames; errors=899763; failures=0; forbidden=0
+Rician PREC V9: 14240/20000 frames; errors=910946; failures=0; forbidden=0
+Rician PREC V9: 14340/20000 frames; errors=922126; failures=0; forbidden=0
+Rician PREC V9: 14440/20000 frames; errors=933313; failures=0; forbidden=0
+Rician PREC V9: 14540/20000 frames; errors=944497; failures=0; forbidden=0
+Rician PREC V9: 14640/20000 frames; errors=955683; failures=0; forbidden=0
+Rician PREC V9: 14740/20000 frames; errors=966871; failures=0; forbidden=0
+Rician PREC V9: 14840/20000 frames; errors=978057; failures=0; forbidden=0
+Rician PREC V9: 14940/20000 frames; errors=989236; failures=0; forbidden=0
+Rician PREC V9: 15040/20000 frames; errors=1000417; failures=0; forbidden=0
+Rician PREC V9: 15140/20000 frames; errors=1011589; failures=0; forbidden=0
+Rician PREC V9: 15240/20000 frames; errors=1022767; failures=0; forbidden=0
+Rician PREC V9: 15340/20000 frames; errors=1033949; failures=0; forbidden=0
+Rician PREC V9: 15440/20000 frames; errors=1045128; failures=0; forbidden=0
+Rician PREC V9: 15540/20000 frames; errors=1056309; failures=0; forbidden=0
+Rician PREC V9: 15640/20000 frames; errors=1067491; failures=0; forbidden=0
+Rician PREC V9: 15740/20000 frames; errors=1078662; failures=0; forbidden=0
+Rician PREC V9: 15840/20000 frames; errors=1089828; failures=0; forbidden=0
+Rician PREC V9: 15940/20000 frames; errors=1101005; failures=0; forbidden=0
+Rician PREC V9: 16040/20000 frames; errors=1112180; failures=0; forbidden=0
+Rician PREC V9: 16140/20000 frames; errors=1123356; failures=0; forbidden=0
+Rician PREC V9: 16240/20000 frames; errors=1134525; failures=0; forbidden=0
+Rician PREC V9: 16340/20000 frames; errors=1145697; failures=0; forbidden=0
+Rician PREC V9: 16440/20000 frames; errors=1156850; failures=0; forbidden=0
+Rician PREC V9: 16540/20000 frames; errors=1168024; failures=0; forbidden=0
+Rician PREC V9: 16640/20000 frames; errors=1179186; failures=0; forbidden=0
+Rician PREC V9: 16740/20000 frames; errors=1190352; failures=0; forbidden=0
+Rician PREC V9: 16840/20000 frames; errors=1201517; failures=0; forbidden=0
+Rician PREC V9: 16940/20000 frames; errors=1212686; failures=0; forbidden=0
+Rician PREC V9: 17040/20000 frames; errors=1223846; failures=0; forbidden=0
+Rician PREC V9: 17140/20000 frames; errors=1235007; failures=0; forbidden=0
+Rician PREC V9: 17240/20000 frames; errors=1246164; failures=0; forbidden=0
+Rician PREC V9: 17340/20000 frames; errors=1257331; failures=0; forbidden=0
+Rician PREC V9: 17440/20000 frames; errors=1268493; failures=0; forbidden=0
+Rician PREC V9: 17540/20000 frames; errors=1279655; failures=0; forbidden=0
+Rician PREC V9: 17640/20000 frames; errors=1290807; failures=0; forbidden=0
+Rician PREC V9: 17740/20000 frames; errors=1301963; failures=0; forbidden=0
+Rician PREC V9: 17840/20000 frames; errors=1313118; failures=0; forbidden=0
+Rician PREC V9: 17940/20000 frames; errors=1324277; failures=0; forbidden=0
+Rician PREC V9: 18040/20000 frames; errors=1335436; failures=0; forbidden=0
+Rician PREC V9: 18140/20000 frames; errors=1346593; failures=0; forbidden=0
+Rician PREC V9: 18240/20000 frames; errors=1357739; failures=0; forbidden=0
+Rician PREC V9: 18340/20000 frames; errors=1368890; failures=0; forbidden=0
+Rician PREC V9: 18440/20000 frames; errors=1380042; failures=0; forbidden=0
+Rician PREC V9: 18540/20000 frames; errors=1391201; failures=0; forbidden=0
+Rician PREC V9: 18640/20000 frames; errors=1402347; failures=0; forbidden=0
+Rician PREC V9: 18740/20000 frames; errors=1413499; failures=0; forbidden=0
+Rician PREC V9: 18840/20000 frames; errors=1424650; failures=0; forbidden=0
+Rician PREC V9: 18940/20000 frames; errors=1435798; failures=0; forbidden=0
+Rician PREC V9: 19040/20000 frames; errors=1446949; failures=0; forbidden=0
+Rician PREC V9: 19140/20000 frames; errors=1458080; failures=0; forbidden=0
+Rician PREC V9: 19240/20000 frames; errors=1469225; failures=0; forbidden=0
+Rician PREC V9: 19340/20000 frames; errors=1480370; failures=0; forbidden=0
+Rician PREC V9: 19440/20000 frames; errors=1491521; failures=0; forbidden=0
+Rician PREC V9: 19540/20000 frames; errors=1502669; failures=0; forbidden=0
+Rician PREC V9: 19640/20000 frames; errors=1513820; failures=0; forbidden=0
+Rician PREC V9: 19740/20000 frames; errors=1524968; failures=0; forbidden=0
+Rician PREC V9: 19840/20000 frames; errors=1536111; failures=0; forbidden=0
+Rician PREC V9: 19940/20000 frames; errors=1547251; failures=0; forbidden=0
+Rician PREC V9: 20000/20000 frames; errors=1553940; failures=0; forbidden=0
+RICIAN_PREC_COMPLETE: 20000/20000; failures=0; flagsFalse=1

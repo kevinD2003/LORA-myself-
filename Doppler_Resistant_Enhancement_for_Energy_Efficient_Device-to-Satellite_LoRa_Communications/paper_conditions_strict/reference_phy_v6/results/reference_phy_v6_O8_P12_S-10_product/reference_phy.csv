@@ -1,0 +1,5 @@
+cr,snrDb,method,packetCount,overpasses,crcSuccessCodedBerPercent,allPacketCodedBerPercent,plrPercent,headerLossPercent,onAirSymbols,codedBitsPerPacket
+1,-10,1,12,8,0,0,0,0,55.25,395
+1,-10,2,12,8,0,2.73470464135021,34.375,3.125,55.25,395
+4,-10,1,12,8,0,0,0,0,76.25,584
+4,-10,2,12,8,0.0570776255707763,3.2873144977169,31.25,1.04166666666667,76.25,584

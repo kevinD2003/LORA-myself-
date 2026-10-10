@@ -1,0 +1,36 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+CaseSnr PilotTimeAligned: 90/20000 paired rows; errors PREC/VP/comparison=8152/7078/8261; failures=0
+CaseSnr PilotTimeAligned: 140/20000 paired rows; errors PREC/VP/comparison=12841/12095/13805; failures=0
+CaseSnr PilotTimeAligned: 190/20000 paired rows; errors PREC/VP/comparison=17589/17197/19362; failures=0
+CaseSnr PilotTimeAligned: 240/20000 paired rows; errors PREC/VP/comparison=22599/22437/24943; failures=0
+CaseSnr PilotTimeAligned: 290/20000 paired rows; errors PREC/VP/comparison=27332/27479/30495; failures=0
+CaseSnr PilotTimeAligned: 340/20000 paired rows; errors PREC/VP/comparison=32199/32607/36068; failures=0
+CaseSnr PilotTimeAligned: 390/20000 paired rows; errors PREC/VP/comparison=36996/37697/41631; failures=0
+CaseSnr PilotTimeAligned: 440/20000 paired rows; errors PREC/VP/comparison=41917/42857/47187; failures=0
+CaseSnr PilotTimeAligned: 490/20000 paired rows; errors PREC/VP/comparison=46845/48060/52762; failures=0
+CaseSnr PilotTimeAligned: 540/20000 paired rows; errors PREC/VP/comparison=51670/53147/58299; failures=0
+CaseSnr PilotTimeAligned: 590/20000 paired rows; errors PREC/VP/comparison=56521/58264/63849; failures=0
+CaseSnr PilotTimeAligned: 640/20000 paired rows; errors PREC/VP/comparison=61291/63305/69383; failures=0
+CaseSnr PilotTimeAligned: 690/20000 paired rows; errors PREC/VP/comparison=66088/68371/74922; failures=0
+CaseSnr PilotTimeAligned: 740/20000 paired rows; errors PREC/VP/comparison=70795/73391/80473; failures=0
+CaseSnr PilotTimeAligned: 790/20000 paired rows; errors PREC/VP/comparison=75446/78302/85972; failures=0
+CaseSnr PilotTimeAligned: 840/20000 paired rows; errors PREC/VP/comparison=80352/83445/91553; failures=0
+CaseSnr PilotTimeAligned: 890/20000 paired rows; errors PREC/VP/comparison=85227/88627/97130; failures=0
+CaseSnr PilotTimeAligned: 940/20000 paired rows; errors PREC/VP/comparison=90077/93773/102684; failures=0
+CaseSnr PilotTimeAligned: 990/20000 paired rows; errors PREC/VP/comparison=94964/98940/108246; failures=0
+CaseSnr PilotTimeAligned: 1040/20000 paired rows; errors PREC/VP/comparison=99766/104095/113776; failures=0
+CaseSnr PilotTimeAligned: 1090/20000 paired rows; errors PREC/VP/comparison=104030/108791/119190; failures=0
+CaseSnr PilotTimeAligned: 1140/20000 paired rows; errors PREC/VP/comparison=108348/113553/124647; failures=0
+CaseSnr PilotTimeAligned: 1190/20000 paired rows; errors PREC/VP/comparison=112499/118029/130025; failures=0
+CaseSnr PilotTimeAligned: 1240/20000 paired rows; errors PREC/VP/comparison=116928/122786/135498; failures=0
+CaseSnr PilotTimeAligned: 1290/20000 paired rows; errors PREC/VP/comparison=121394/127673/140906; failures=0
+CaseSnr PilotTimeAligned: 1340/20000 paired rows; errors PREC/VP/comparison=125564/132248/146317; failures=0
+CaseSnr PilotTimeAligned: 1390/20000 paired rows; errors PREC/VP/comparison=129880/136886/151776; failures=0
+CaseSnr PilotTimeAligned: 1440/20000 paired rows; errors PREC/VP/comparison=134197/141569/157238; failures=0
+CaseSnr PilotTimeAligned: 1490/20000 paired rows; errors PREC/VP/comparison=138606/146430/162722; failures=0
+CaseSnr PilotTimeAligned: 1540/20000 paired rows; errors PREC/VP/comparison=142884/151155/168132; failures=0
+CaseSnr PilotTimeAligned: 1590/20000 paired rows; errors PREC/VP/comparison=147424/156021/173572; failures=0
+CaseSnr PilotTimeAligned: 1640/20000 paired rows; errors PREC/VP/comparison=151778/160749/179019; failures=0
+CaseSnr PilotTimeAligned: 1690/20000 paired rows; errors PREC/VP/comparison=156111/165482/184459; failures=0
+CaseSnr PilotTimeAligned: 1740/20000 paired rows; errors PREC/VP/comparison=160596/170309/189921; failures=0

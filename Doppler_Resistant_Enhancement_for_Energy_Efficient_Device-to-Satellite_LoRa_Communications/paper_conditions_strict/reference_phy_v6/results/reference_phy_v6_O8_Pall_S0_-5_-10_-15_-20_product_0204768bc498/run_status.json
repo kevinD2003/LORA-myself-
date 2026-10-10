@@ -1,0 +1,7 @@
+{
+  "status": "VALIDATION_COMPLETE",
+  "signature": "0204768bc498632cf90d308a958ded3dcf96768b072fc5dabe770cab8f752eec",
+  "receivedPackets": 11600,
+  "formal3000": false,
+  "numericalAgreementClaimed": false
+}

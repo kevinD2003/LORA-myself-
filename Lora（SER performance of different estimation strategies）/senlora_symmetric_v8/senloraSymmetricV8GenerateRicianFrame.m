@@ -1,0 +1,66 @@
+function frame = senloraSymmetricV8GenerateRicianFrame( ...
+        config,orbitStartSec,snrDb,seeds)
+%SENLORASYMMETRICV8GENERATERICIANFRAME Native packet-flat Rician frame.
+
+c = config.parent;
+if c.ricianKDb~=10 || ~strcmp(c.ricianModel,'packet-flat')
+    error('EXP5V8:RicianConfig', ...
+        'This experiment requires packet-flat Rician K=10 dB.');
+end
+layout = v4BuildNativeFrameLayout(c,false);
+payload = v4GeneratePayload(c,seeds.payloadSeed);
+physicalBins = zeros(layout.physicalSymbolCount,1);
+physicalBins(layout.dataRows) = payload.physicalBins;
+m = c.samplesPerSymbol;
+tx = complex(zeros(layout.physicalSymbolCount,m));
+for row = 1:layout.physicalSymbolCount
+    tx(row,:) = v4ModulateSymbol(physicalBins(row),c);
+end
+
+totalSamples = layout.physicalSymbolCount*m;
+sampleTimeSec = orbitStartSec+(0:totalSamples-1).'/c.sampleRateHz;
+orbit = exp1TrackAOrbit(sampleTimeSec,c);
+dopplerHz = orbit.dopplerHz;
+phaseSerial = config.initialChannelPhaseRad+[0;cumsum( ...
+    pi/c.sampleRateHz*(dopplerHz(1:end-1)+dopplerHz(2:end)))];
+phasePhysical = reshape(phaseSerial,m,layout.physicalSymbolCount).';
+channel = v4RicianCoefficient(c,seeds.channelSeed,1);
+rxNoiseless = channel*tx.*exp(1i*phasePhysical);
+if isinf(snrDb)
+    noiseVariance = 0;
+    noise = complex(zeros(size(rxNoiseless)));
+else
+    noiseVariance = 10^(-snrDb/10);
+    stream = RandStream('mt19937ar','Seed',seeds.noiseSeed);
+    noise = sqrt(noiseVariance/2)*(randn(stream,size(rxNoiseless))+ ...
+        1i*randn(stream,size(rxNoiseless)));
+end
+rx = rxNoiseless+noise;
+
+centerSample = floor(m/2)+1;
+dopplerPhysical = reshape(dopplerHz,m,layout.physicalSymbolCount).';
+ratePhysical = reshape(orbit.dopplerRateHzPerSec,m, ...
+    layout.physicalSymbolCount).';
+dataTime = reshape(sampleTimeSec,m,layout.physicalSymbolCount).';
+dataTime = dataTime(layout.dataRows,centerSample);
+dataCfoHz = dopplerPhysical(layout.dataRows,centerSample);
+dataRateHzPerSec = ratePhysical(layout.dataRows,centerSample);
+observation = struct('rxPhysical',rx,'layout',layout, ...
+    'noiseVariance',noiseVariance,'sampleFingerprint',[ ...
+    sum(abs(rx(:)).^2),sum(real(rx(:))),sum(imag(rx(:)))]);
+truth = struct('payloadPhysicalBins',payload.physicalBins, ...
+    'dataBits',logical(payload.dataBits),'dataCfoHz',dataCfoHz, ...
+    'dataCfoBins',dataCfoHz/c.fftBinSpacingHz, ...
+    'dataRateHzPerSec',dataRateHzPerSec, ...
+    'dataRateBinsPerSec',dataRateHzPerSec/c.fftBinSpacingHz, ...
+    'dataSampleTimeSec',dataTime,'phasePhysicalRad',phasePhysical, ...
+    'startTimeSec',orbitStartSec,'lastSampleTimeSec',sampleTimeSec(end), ...
+    'frameDriftBins',(dopplerHz(end)-dopplerHz(1))/c.fftBinSpacingHz, ...
+    'cfoStartBins',dopplerHz(1)/c.fftBinSpacingHz, ...
+    'initialPhaseRad',config.initialChannelPhaseRad, ...
+    'channelCoefficient',channel,'channelPower',abs(channel)^2, ...
+    'channelModel','packet-flat Rician K=10 dB', ...
+    'timelineMode',layout.timelineMode);
+frame = struct('observation',observation,'truth',truth,'ledger',seeds, ...
+    'orbitStartSec',orbitStartSec,'snrDb',snrDb);
+end

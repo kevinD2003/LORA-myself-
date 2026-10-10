@@ -22,3 +22,9 @@
 - 新工作默认从 `stage55_sf12_sf11_flow_v4_noldro/` 开始。
 - 历史结果仅用于复现和对照，不应覆盖当前版本。
 - 每个保留项目的 `results/` 只留正式出图所需的原始结果、报告和图文件。
+
+## 内容导航
+
+- [全项目文件导航](../文件导航.md)
+- [V4/SF11 对齐记录](docs/alignment/V4_SF11_PROJECT_ALIGNMENT.md)
+- 各实验 `docs/code_index.md` 按功能列出源码与入口，`docs/README.md` 分类列出说明文件。

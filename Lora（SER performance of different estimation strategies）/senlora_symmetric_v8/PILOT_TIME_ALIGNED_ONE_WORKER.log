@@ -1,0 +1,6 @@
+VERIFY_RESUME_WITHOUT_POOL
+VERIFIED_BASELINE_AND_CHECKPOINT_1740
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 1).
+CaseSnr PilotTimeAligned: 1790/20000 paired rows; errors PREC/VP/comparison=165081/175109/195367; failures=0
+CaseSnr PilotTimeAligned: 1840/20000 paired rows; errors PREC/VP/comparison=169320/179714/200804; failures=0

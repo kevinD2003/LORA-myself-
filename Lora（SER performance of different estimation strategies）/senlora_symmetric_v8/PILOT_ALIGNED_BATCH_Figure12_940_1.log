@@ -1,0 +1,5 @@
+Figure12 PilotTimeAligned: 9250/10000 paired rows; errors PREC/VP/comparison=560611/18127/39263; failures=0
+Figure12 PilotTimeAligned: 9300/10000 paired rows; errors PREC/VP/comparison=565742/18128/39268; failures=0
+Figure12 PilotTimeAligned: 9350/10000 paired rows; errors PREC/VP/comparison=566841/18329/39669; failures=0
+Figure12 PilotTimeAligned: 9400/10000 paired rows; errors PREC/VP/comparison=571997/18589/40245; failures=0
+BOUNDED_BATCH_COMPLETE Figure12 limit=940 completed=9400/10000

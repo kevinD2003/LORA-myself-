@@ -1,0 +1,8 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/o0q77o","index":4,"layout":{"id":"ly/wz2ps3ih","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/dojmhwzy","kind":"textbox","name":"slide-title","position":{"left":56,"top":36,"width":1168,"height":70},"text":"AWGN 五点轨迹","style":{"fontSize":44,"typeface":"Microsoft YaHei","color":"#123650","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/fihobexg","kind":"image","position":{"left":32,"top":115,"width":815,"height":557},"fit":"contain","alt":"AWGN raw SER with pointwise packet-bootstrap confidence intervals"},
+{"id":"sh/bm14fmh8","kind":"textbox","name":"awgn-level","position":{"left":886,"top":223,"width":340,"height":54},"text":"VP 约 10⁻⁴","style":{"fontSize":34,"typeface":"Microsoft YaHei","color":"#0072BD","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/0ralsbyp","kind":"textbox","name":"awgn-ci","position":{"left":886,"top":325,"width":330,"height":94},"text":"点态 95% 区间\n均包含理论","style":{"fontSize":28,"typeface":"Microsoft YaHei","color":"#182B3A","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/lsjmlwza","kind":"textbox","name":"awgn-samples","position":{"left":886,"top":505,"width":330,"height":42},"text":"1000 包/点","style":{"fontSize":26,"typeface":"Microsoft YaHei","color":"#587080","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

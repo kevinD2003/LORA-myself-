@@ -1,0 +1,12 @@
+         id: 'PFBNS'
+    message: '整个数组或结构体 'options' 是一个广播变量。这可能会导致不必要的通信开销。'
+        fix: 0
+       line: 47
+     column: [50 56]
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+CaseSnr Eq17: 40/20000 paired rows; errors PREC/VP/Paper=3168/1861/3246; failures=0
+FOUR_CURVES_IN_PROGRESS 40/20000
+Figure12 Eq17: 20/10000 paired rows; errors PREC/VP/Paper=1218/53/489; failures=0
+FOUR_CURVES_IN_PROGRESS 20/10000

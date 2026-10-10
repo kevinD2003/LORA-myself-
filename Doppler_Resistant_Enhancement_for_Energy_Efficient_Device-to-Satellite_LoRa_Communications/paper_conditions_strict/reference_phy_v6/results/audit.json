@@ -1,0 +1,10 @@
+{
+  "status": "REFERENCE_PHY_IMPLEMENTATION_VALIDATED",
+  "testsPassed": 10,
+  "testsFailed": 0,
+  "validationRows": 20,
+  "receivedPackets": 11600,
+  "v5BaselineUnchanged": true,
+  "numericalAgreementClaimed": false,
+  "authorFrameIdentityConfirmed": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "VALIDATION_COMPLETE",
+  "formal3000Overpasses": false,
+  "overpasses": 1024,
+  "directSampleLevelIQ": true,
+  "bandwidthHz": 62600,
+  "centroidPoints": 10,
+  "berDefinition": "pre-Hamming coded-bit BER on CRC-success packets",
+  "signature": "0f4b0c1dabed09b86fccf3dbacf38e4dbf8c6f3ccb23633eff3240d5ea1c8b4a"
+}

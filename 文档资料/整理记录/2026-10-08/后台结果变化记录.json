@@ -1,0 +1,10 @@
+[
+  {
+    "OldPath": "Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications/paper_conditions_strict/results/audit.json",
+    "CurrentPath": "Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications/paper_conditions_strict/results/audit.json",
+    "BeforeSHA256": "61CE7152B923CBC56D69A0B610657CE764E3FF6BF1FB48B419EB1C8B602BF597",
+    "CurrentSHA256": "A29CC0EFEE8D42B946594E79E09CFE473657CB6D054AB3641821A36C7E14636D",
+    "ActiveProject": true,
+    "StableBaseline": true
+  }
+]

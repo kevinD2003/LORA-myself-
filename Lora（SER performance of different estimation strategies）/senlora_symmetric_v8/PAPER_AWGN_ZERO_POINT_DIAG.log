@@ -1,0 +1,10 @@
+POINT t=-91.5 packets=100 symbols=11200 rateHzSec=-71.438020426 driftPerSymbolBins=0.076705990
+COUNTS [actual,offlineExactPreviousPilot,offlineExactDataCenter,cleanPilotsOnly,noisyPilotsOnly,noNoise,fullIdeal]=[6 3 2 3 3 0 2]
+lag mean=-0.083238829 range=[-0.096512969,-0.077316689] bins; CFO estimate inlier std=0.073540347; grossAbsErrorOver1=3
+residual quantiles 2.5/50/97.5= [-0.23228699 -0.081797375 0.057099744] ; overHalf=3; adjacentErrors=0/6; offset -2/-1/0/+1/+2=[0 0 11194 0 0]
+errors firstSymbol=0 rest=6 finalSymbol=0
+POINT t=0 packets=100 symbols=11200 rateHzSec=-279.089832535 driftPerSymbolBins=0.299670426
+COUNTS [actual,offlineExactPreviousPilot,offlineExactDataCenter,cleanPilotsOnly,noisyPilotsOnly,noNoise,fullIdeal]=[378 113 0 109 36 0 0]
+lag mean=-0.298750576 range=[-0.374577154,-0.295154560] bins; CFO estimate inlier std=0.072765112; grossAbsErrorOver1=4
+residual quantiles 2.5/50/97.5= [-0.44163484 -0.30080841 -0.15474053] ; overHalf=36; adjacentErrors=277/378; offset -2/-1/0/+1/+2=[1 275 10822 2 0]
+errors firstSymbol=12 rest=366 finalSymbol=3

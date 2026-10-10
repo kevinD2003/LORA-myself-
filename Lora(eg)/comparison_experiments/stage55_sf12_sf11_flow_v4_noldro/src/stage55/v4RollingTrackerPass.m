@@ -8,11 +8,23 @@ arguments
     parameters (1,1) struct
     candidateMask (:,1) logical
     options.InitialRateBinsPerSec (1,1) double = NaN
+    options.CandidatePhysicalBins double = NaN
+    options.RequirePhasePairAfterFirstPilot (1,1) logical = false
 end
 
 v4ValidateReceiverParameters(parameters);
 layout = observation.layout;
 nData = config.payloadSymbolCount;
+candidatePhysicalBins=options.CandidatePhysicalBins;
+if isscalar(candidatePhysicalBins)&&isnan(candidatePhysicalBins)
+    candidatePhysicalBins=nan(nData,1);
+else
+    candidatePhysicalBins=candidatePhysicalBins(:);
+    if numel(candidatePhysicalBins)~=nData
+        error('V4:CandidateLabelShape', ...
+            'CandidatePhysicalBins must match the payload symbol count.');
+    end
+end
 historyTime = nan(config.virtualPilotHistoryLength,1);
 historyCfo = nan(config.virtualPilotHistoryLength,1);
 historyConfidence = ones(config.virtualPilotHistoryLength,1);
@@ -37,6 +49,7 @@ pilotAccepted = false(nData,1);
 pilotAppliedAtPhysicalRow = nan(nData,1);
 activeHistoryCount = zeros(nData,1);
 phasePairUsed = false(nData,1);
+pilotKnownPhysicalBins = nan(nData,1);
 vpRows = zeros(0,1);
 vpCfo = zeros(0,1);
 lastVp = struct('data',NaN,'measuredPhase',NaN,'predictedPhase',NaN);
@@ -51,17 +64,27 @@ for row = config.bootstrapPilotCount+1:layout.physicalSymbolCount
     latestCorrectionData = NaN;
     latestCorrection = 0;
     for data = delayed(:).'
+        knownPhysicalBin=hardPhysicalBins(data);
+        independentLabel=isfinite(candidatePhysicalBins(data));
+        if independentLabel
+            knownPhysicalBin=candidatePhysicalBins(data);
+        end
+        labelAgreement=~independentLabel|| ...
+            hardPhysicalBins(data)==knownPhysicalBin;
         residual = v4PhaseRotationEstimate(compensatedData(data,:), ...
-            hardPhysicalBins(data),config,parameters.residualSearchBins);
+            knownPhysicalBin,config,parameters.residualSearchBins);
         innovationOk = abs(residual.offsetBins) <= parameters.innovationLimitBins;
         qualityOk = residual.peakRatio >= parameters.residualPeakRatioThreshold && ...
             decisionPeakRatio(data) >= parameters.decisionPeakRatioThreshold && ...
-            ~residual.peakAtBoundary;
+            ~residual.peakAtBoundary && labelAgreement;
         if qualityOk && innovationOk
             rawSingle = predictedCfoBins(data)+residual.offsetBins;
             measured = predictedCfoBins(data)+parameters.singleSymbolInnovationGain* ...
                 (rawSingle-predictedCfoBins(data));
             measuredPhase = predictedPhaseRad(data)+residual.phaseRad;
+            pairRequired=options.RequirePhasePairAfterFirstPilot&& ...
+                isfinite(lastVp.data);
+            pairAccepted=~pairRequired;
             if isfinite(lastVp.data)
                 gap = layout.dataRows(data)-layout.dataRows(lastVp.data);
                 measuredAverage = angle(exp(1i*(measuredPhase-lastVp.measuredPhase)))/ ...
@@ -76,7 +99,11 @@ for row = config.bootstrapPilotCount+1:layout.physicalSymbolCount
                     measured = predictedCfoBins(data)+parameters.phasePairInnovationGain* ...
                         (pairEndpoint-predictedCfoBins(data));
                     phasePairUsed(data) = true;
+                    pairAccepted=true;
                 end
+            end
+            if ~pairAccepted
+                continue
             end
             historyTime(nextSlot) = layout.physicalCenterTimeSec(layout.dataRows(data));
             historyCfo(nextSlot) = measured;
@@ -86,6 +113,7 @@ for row = config.bootstrapPilotCount+1:layout.physicalSymbolCount
             vpRows(end+1,1) = layout.dataRows(data); %#ok<AGROW>
             vpCfo(end+1,1) = rawSingle; %#ok<AGROW>
             pilotAccepted(data) = true;
+            pilotKnownPhysicalBins(data)=knownPhysicalBin;
             pilotAppliedAtPhysicalRow(data) = row;
             lastVp = struct('data',data,'measuredPhase',measuredPhase, ...
                 'predictedPhase',predictedPhaseRad(data));
@@ -132,6 +160,7 @@ tracker = struct('compensatedData',compensatedData, ...
     'pilotAppliedAtPhysicalRow',pilotAppliedAtPhysicalRow, ...
     'pilotAvailabilityPhysicalRow',availabilityRow, ...
     'activeHistoryCount',activeHistoryCount,'phasePairUsed',phasePairUsed, ...
+    'pilotKnownPhysicalBins',pilotKnownPhysicalBins, ...
     'finalHistoryTimeSec',historyTime,'finalHistoryCfoBins',historyCfo, ...
     'virtualPilotRateEvidenceCount',numel(vpRows), ...
     'initialRateBinsPerSec',bootstrapRate, ...

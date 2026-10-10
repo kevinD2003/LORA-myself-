@@ -1,0 +1,774 @@
+{
+  "status": "PAIRED_SOFT_SAMPLE_COMPLETE",
+  "identity": {
+    "parentSignature": "0204768bc498632cf90d308a958ded3dcf96768b072fc5dabe770cab8f752eec",
+    "parentIdentity": {
+      "config": {
+        "identity": "paper-reference-phy-v6",
+        "speedOfLightMps": 2.99792458E+8,
+        "gravityMps2": 9.81,
+        "earthRadiusM": 6.371E+6,
+        "orbitHeightM": 400000,
+        "carrierFrequencyHz": 2.1E+9,
+        "reportedBandwidthHz": 62600,
+        "bandwidthHz": 62600,
+        "sampleRateHz": 62600,
+        "sf": 12,
+        "samplesPerSymbol": 4096,
+        "symbolDurationSec": 0.065431309904153356,
+        "fftBinSpacingHz": 15.283203125,
+        "packetSymbolCount": 51,
+        "preambleSymbolCount": 8,
+        "payloadSymbolCount": 43,
+        "zeroPaddingFactor": 4,
+        "centroidSampleCount": 10,
+        "hannDefinition": "periodic",
+        "phaseModel": "paper-equation-15-product",
+        "snrDb": [
+          0,
+          -5,
+          -10,
+          -15,
+          -20
+        ],
+        "randomSeed": 2.0250916E+7,
+        "paperAdaptiveSerPercent": [
+          0,
+          0,
+          1.11,
+          4.82,
+          13.44
+        ],
+        "paperFixedSerPercent": [
+          22.75,
+          23.06,
+          24.3,
+          28.66,
+          36.57
+        ],
+        "paperAdaptiveMeanErrorMagnitude": [
+          0,
+          0,
+          2.16,
+          2.58,
+          491.17
+        ],
+        "paperFixedMeanErrorMagnitude": [
+          1.56,
+          1.58,
+          1.57,
+          1.59,
+          126.32
+        ],
+        "packetGapSec": 0,
+        "maximumPackets": null,
+        "algorithmVersion": "fixed-and-adaptive-lr-eq18-to-eq22-v2",
+        "crValues": [
+          1,
+          4
+        ],
+        "payloadBitCount": 256,
+        "crcBitCount": 16,
+        "paddingBitCount": 16,
+        "hammingBlockCount": 6,
+        "paddingSymbolCount": 1,
+        "fullPhyOverpasses": 3000,
+        "calibrationSamplesPerSnr": 5000,
+        "calibrationChunkSize": 50,
+        "crcPolynomialHex": "1021",
+        "crcInitialValue": 0,
+        "whiteningPolynomial": "x^9+x^5+1",
+        "codedBerDefinition": "pre-Hamming BER on CRC-success packets, actual encoded words only",
+        "crcFilteredCodedBerDefinition": "sensitivity metric restricted to post-Hamming CRC-success packets",
+        "plrDefinition": "post-Hamming CRC-failure fraction",
+        "paperCr1AdaptiveBerPercent": [
+          0.44,
+          0.45,
+          0.58,
+          1.28,
+          4.74
+        ],
+        "paperCr1AdaptivePlrPercent": [
+          0.88,
+          0.88,
+          0.95,
+          1.18,
+          7.96
+        ],
+        "paperCr1FixedBerPercent": [
+          2.22,
+          2.28,
+          2.48,
+          2.8,
+          6.88
+        ],
+        "paperCr1FixedPlrPercent": [
+          0.88,
+          0.88,
+          0.88,
+          1.03,
+          7.52
+        ],
+        "paperCr4AdaptiveBerPercent": [
+          0,
+          0.02,
+          0.31,
+          0.96,
+          4.81
+        ],
+        "paperCr4AdaptivePlrPercent": [
+          0,
+          0,
+          0.12,
+          0.2,
+          7.89
+        ],
+        "paperCr4FixedBerPercent": [
+          3.19,
+          3.28,
+          3.47,
+          4.06,
+          8.02
+        ],
+        "paperCr4FixedPlrPercent": [
+          0,
+          0,
+          0,
+          0.2,
+          7.89
+        ],
+        "fullPhyAlgorithmVersion": "direct-iq-ten-point-causal-ols-crc-filtered-v5",
+        "allPacketBerDefinition": "diagnostic pre-Hamming coded-bit BER on all packets",
+        "meanErrorDefinition": "mean absolute decoded-symbol error on erroneous symbols",
+        "nativeThreads": 2,
+        "numericPrecision": "double",
+        "sampleEngine": "native direct-IQ, MATLAB per-packet MT19937 AWGN",
+        "assumptions": {
+          "preambleSymbolCount": 8,
+          "hannDefinition": "periodic",
+          "centroidOffsets": [
+            -4,
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "centroidWeights": "FFT magnitude",
+          "fftAlphabet": "cyclic nearest-bin quantization and causal unwrapping",
+          "dopplerPhase": "literal Eq. (15), carrier-frequency term of Eq. (14)",
+          "fullPhyPayloadBytes": 32,
+          "fullPhyCodingBlocks": 6,
+          "fullPhyPaddingBits": 16,
+          "fullPhyTrailingSymbols": 1,
+          "passRange": "geometric horizon to geometric horizon; back-to-back packets"
+        },
+        "referenceCommit": "31243b0ac9cc8255f860dc85fc9594734856e03e",
+        "payloadBytes": 32,
+        "explicitHeader": true,
+        "hasCrc": true,
+        "ldroMode": "auto",
+        "syncWord": 18,
+        "syncDownchirpSymbols": 2.25,
+        "interFrameSilenceSymbols": 0,
+        "phyModel": "reference hard PHY; first block CR4/reduced SF; payload-only whitening",
+        "synchronizationModel": "perfect frame alignment; SFD skipped at its physical time",
+        "overpasses": 8
+      },
+      "sourceHashes": [
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperConfig.m",
+          "d1baa7866cea1c4fbf00a01233bc8ccb86fdbb941e1f444a0987ef743cab502e"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperSetup.m",
+          "917b24d6fca87e7d75d502f3ce53b8134b7d0cefa7fda8582742071dc89cc7d5"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperIdentity.m",
+          "fb332e0aa529a3adc6973aea158a46ec48da113bbbcacc6decdf6f55f85c71af"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperGenerateIQ.m",
+          "ccb11c13094dcbbbcc2a3140660d9ac400a6921f1a98901fb5262668ef4d3967"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperScorePayload.m",
+          "4b2958a4d2398128d98f70ce9a897a476b2dc5f12718825d016363688068c000"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperDecodePayload.m",
+          "6ee466a6aed37a536bf49fab38375f59dfc168f19312e83665960f28ec0b90f6"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperCentroids.m",
+          "355cb74749d7c378b8fcd771c26b45dabf0e605cb6fce356eaeca7c7092bd70e"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperRawBatch.m",
+          "aa4a702ad50a7bde737f9b52c415bde57f61553fbdfb3b98c54c42552855c394"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperNativeCentroids.cpp",
+          "a6406ccb1491e372816397dd1ea34dbcfedba8b6eb52581876029ff1b0898f6b"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\compile_strict_native.m",
+          "2b6f950950f24f4d583b64fb666224d1cec7b3ad2fab182f692fdb05167fccba"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\strictPaperNativeCentroids.mexw64",
+          "f4a87b96fcab808d6ffddcbcf4ad109d1bdf7aa180eb4b485dbafcca529128ce"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\native_build.json",
+          "569a05712bf940b903974858c926d9d2b9a8ef06b21e19886a61a5f3cfe1a445"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\run_strict_full_phy.m",
+          "c91e80db4ed3a1d55eb7878743314b934865fd3b14d5330925d41d2795396861"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\drePaperOrbit.m",
+          "0bc87176e1d7f6c6748942ddae7da071080a554202d92703ce069bd5bbad2438"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreModulateSymbols.m",
+          "137ae59441241b1b16ca974753ca0c53fdba61c0e1cc203b356a6c0f78ccad26"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreEstimatePaperCentroids10.m",
+          "b50d3d9231c51cb0cdea939bce21b911b7d732f5c8e503b1f41f2a3be839fb8d"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreDecodeLinearRegressionBatch.m",
+          "58af20400f5c4156827054364b31abee1229c23d320952cea3092de03cd0386c"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreGenerateFullPhyPayload.m",
+          "68129ab03232e791df10ab996cd64d3a3421a42da384b92ba574f8b3c5852d76"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreDecodeFullPhyPayload.m",
+          "d285718e0145ee4d01fe6692cdcf3063f240369e228cdbd03def92c3f21873f5"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreFullPhyCodebook.m",
+          "3557280aab3abe9e8057879286d09581c2352e2e789bbe80e5cb557ac0dd0f8f"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreCrc16Ccitt.m",
+          "f7d0677418e42a56da987104f37390cccde5e1ce48dc62b1d61a3a400c0feca2"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreWhiteningSequence.m",
+          "843b5252be9e09a07e83ab46108e1d8777e2be8d890f0742d3d1cda23ad66efc"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreGrayEncode.m",
+          "14801e22aab12cfec3efb61524e7f7e724fa3ae5a14334897abb3946f3fd2fb0"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreGrayDecode.m",
+          "9cf7456e412a73c312f9bf41b9385d6d11d9b295d697c331ee9f4b2bd95df280"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreConfigurationSignature.m",
+          "374cf6ceac07d1e444cc999f53e78d5e654ecd72364a309e0dc5122401dd7cee"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\src\\dreCircularSymbolDistance.m",
+          "8f64561159b1eb297da5ac1ad83ac4cba4dbe6415fed2d8269f68a0907af6d80"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\config\\drePaperConfig.m",
+          "d4ac7b92bab52cb8080fed6e6cffc2133c1a9adaf972e200eeab1e0a11c0e098"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\config\\dreFullPhyConfig.m",
+          "33c3c0dcf0894c5b80211a2502a0b4f71c76a8b0ab4de4076dadf5d77d2979b7"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\vendor\\pyfftw\\libfftw3-3.dll",
+          "001a835d2f25ac0661580d67db5622157c28481c06a7f3ef45ad939839bf54a1"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\audit_reference_phy_v6.m",
+          "8601f7cb0f03230399388d01bd7ee54f65963e50cdd67fe1c46328584e350e81"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Config.m",
+          "35f97137709951bbbd7aae860d848527d732bcd6535f09c68bbd8064b3c81593"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Crc.m",
+          "551eece5e9ad3d80c819bb2a7e700d9f8830ac65f553e70ebf7e6ef5b1fb4986"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Decode.m",
+          "cd3db8d31854af4ba2199e9fef6c1754e76e7a3c4c8782231a326a24e56ea2eb"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Encode.m",
+          "9f919ac66da886bd6ddb21bfb4fd6fc683b08cb9aa680f90d850af9130d92d82"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Hamming.m",
+          "7fb55ca9fd038555e42f5cb88dde3da6dac722654784dbd8e4011f23f2c12f67"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Header.m",
+          "e7d50a3ab3fc43fc3eb0c9ebc8557722fe5876f1a59c7cebdda58e6b000a4d5b"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Identity.m",
+          "c889f32e32e58ba694a8adb420442f7c2fa25451f58155b2cf9999b159fd7d0c"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6LR.m",
+          "65919cf6e944374714c33da41a8329e79e5c00304fe8b5b130c5618d472f202d"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Layout.m",
+          "a90ad128f56b89071664f68a73b0c57b0d0a7260f7582c3b32b70d66277db035"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Raw.m",
+          "d04554f39f63249f641159495fafd14be73f7807681d5c6c8ab1e46b1c43e44f"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Score.m",
+          "da8bfb78262a9264f11ebdf6e0f24ea9799c7a758bfe8b209249d1139379087a"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\referencePhyV6Whitening.m",
+          "b1e61d19407c0a697b5f0a38a7e2069e12eb6f79c83097b62c56ddc35fb9af26"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\run_reference_phy_v6.m",
+          "f2641b55c50955e5c18dcfde7eb50332b657cb3f52d948a71fd02c0916a5223a"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\setupReferencePhyV6.m",
+          "2427d874c7c8261a8700d1a9bae94838fee0b3e314d348cbc348a30fcf13d9d8"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\testReferencePhyV6.m",
+          "5ee119782267fc57cea28e144a3be85fa27fff2979d67db6c1bee45b41b712da"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\tests\\reference_oracle.py",
+          "a59f6d33606b098968448385dbc8eff4011307183950e9f37083177d284a8c49"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\tests\\reference_vectors.json",
+          "fe2aeba6583d510a04340bf90af00abf9ae767dd39191980b8f1d9b2b19dbe62"
+        ],
+        [
+          "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\reference_manifest.json",
+          "d4f995625aa4cfb90bff6cd476c3143388436b32b3495b9966ceef1558d5e677"
+        ]
+      ],
+      "schema": "reference-phy-v6-exact"
+    },
+    "inputPath": "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_phy_v6\\results\\reference_phy_v6_O8_Pall_S0_-5_-10_-15_-20_product_0204768bc498\\reference_phy.mat",
+    "inputSha256": "0e3281b21b6c006ee4facc5351c0b07783699b76a56beb1c4e9cae52bcf78527",
+    "sourceHashes": [
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\audit_reference_soft_phy.m",
+        "354cca923b25d3323590d23544d86b1386b747b4b03401f08b25b025b5dd3c0e"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftBytes.m",
+        "87dd57041f31af60ab4b2ea53ce8ba82f035feab31561d1ab1652576f3fe6e80"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftDecode.m",
+        "2caec931b2c70b9e348f7708547202c2ed130d2f72b679d5ba101a2d2a8dc42a"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftHamming.m",
+        "47ee2ae7230a96ac48570866b4783b4a9ba77b0be678482c0864311785108826"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftIdentity.m",
+        "62d3896090ac642d3042bc5ca186c5c81640e1d6eaedcf88f1fdb83310d7e445"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftLlr.m",
+        "a09c2f92d04ee72ec0739e64069d5d753966f6edd67fdccd4d51092f23fb8512"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftPredictions.m",
+        "1eb547568a69e70307ad908dbbc15bff1b9ef6bd0055e4f1224996666716c326"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\referenceSoftScore.m",
+        "f21da0b973274b6ed580668bbed87d002abb8ef7bc177a51f3e60b592a88e28e"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\run_reference_soft_phy.m",
+        "1a84232b4115de7f2c48344e83a064a4372278ef09feb85c642f8beca4be0193"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\setupReferenceSoftPhy.m",
+        "c5846e6f76963a73f34f26657c9da5454635c2520cf5abf31b14700033355a4a"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\testReferenceSoftPhy.m",
+        "c3ba420330f8bc946b99ccdb7c411ac617c962437c383ddd4d2ef81fc266da07"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\reference_manifest.json",
+        "88b6e78c5df74c1e07a5e503468105f451b2a5e59cc4bde011950cce8fdbc6cd"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\tests\\reference_soft_oracle.py",
+        "45f1be353f06b2a4dbb06e6db74760ec0e68095a5f8006d4a19c29361fa287e9"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\tests\\reference_soft_vectors.json",
+        "698dad7b3374ff4da714bdd3d2c6b3315cf7d61ab7256f866788c5b9397544ad"
+      ]
+    ],
+    "targetPath": "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\results\\full_phy_v5_O3000_Pall_S0_-5_-10_-15_-20\\full_phy.mat",
+    "targetSha256": "cfe41207b4c9d99aebf777f3cd6e862380b13d5b38bcc1ff846b4b508b609cc4",
+    "conditionIndices": [
+      5,
+      8,
+      9
+    ],
+    "maximumPositions": 3,
+    "profile": "standard-maxlog-soft-phy-v1-author-unconfirmed",
+    "schema": "paired-standard-soft-exact-v1"
+  },
+  "signature": "c11b0356c1eaccb5ca1daed93b6f76db85d396598531b35fe0e3f99bf05be521",
+  "config": {
+    "identity": "paper-reference-phy-v6",
+    "speedOfLightMps": 2.99792458E+8,
+    "gravityMps2": 9.81,
+    "earthRadiusM": 6.371E+6,
+    "orbitHeightM": 400000,
+    "carrierFrequencyHz": 2.1E+9,
+    "reportedBandwidthHz": 62600,
+    "bandwidthHz": 62600,
+    "sampleRateHz": 62600,
+    "sf": 12,
+    "samplesPerSymbol": 4096,
+    "symbolDurationSec": 0.065431309904153356,
+    "fftBinSpacingHz": 15.283203125,
+    "packetSymbolCount": 51,
+    "preambleSymbolCount": 8,
+    "payloadSymbolCount": 43,
+    "zeroPaddingFactor": 4,
+    "centroidSampleCount": 10,
+    "hannDefinition": "periodic",
+    "phaseModel": "paper-equation-15-product",
+    "snrDb": [
+      0,
+      -5,
+      -10,
+      -15,
+      -20
+    ],
+    "randomSeed": 2.0250916E+7,
+    "paperAdaptiveSerPercent": [
+      0,
+      0,
+      1.11,
+      4.82,
+      13.44
+    ],
+    "paperFixedSerPercent": [
+      22.75,
+      23.06,
+      24.3,
+      28.66,
+      36.57
+    ],
+    "paperAdaptiveMeanErrorMagnitude": [
+      0,
+      0,
+      2.16,
+      2.58,
+      491.17
+    ],
+    "paperFixedMeanErrorMagnitude": [
+      1.56,
+      1.58,
+      1.57,
+      1.59,
+      126.32
+    ],
+    "packetGapSec": 0,
+    "maximumPackets": null,
+    "algorithmVersion": "fixed-and-adaptive-lr-eq18-to-eq22-v2",
+    "crValues": [
+      1,
+      4
+    ],
+    "payloadBitCount": 256,
+    "crcBitCount": 16,
+    "paddingBitCount": 16,
+    "hammingBlockCount": 6,
+    "paddingSymbolCount": 1,
+    "fullPhyOverpasses": 3000,
+    "calibrationSamplesPerSnr": 5000,
+    "calibrationChunkSize": 50,
+    "crcPolynomialHex": "1021",
+    "crcInitialValue": 0,
+    "whiteningPolynomial": "x^9+x^5+1",
+    "codedBerDefinition": "pre-Hamming BER on CRC-success packets, actual encoded words only",
+    "crcFilteredCodedBerDefinition": "sensitivity metric restricted to post-Hamming CRC-success packets",
+    "plrDefinition": "post-Hamming CRC-failure fraction",
+    "paperCr1AdaptiveBerPercent": [
+      0.44,
+      0.45,
+      0.58,
+      1.28,
+      4.74
+    ],
+    "paperCr1AdaptivePlrPercent": [
+      0.88,
+      0.88,
+      0.95,
+      1.18,
+      7.96
+    ],
+    "paperCr1FixedBerPercent": [
+      2.22,
+      2.28,
+      2.48,
+      2.8,
+      6.88
+    ],
+    "paperCr1FixedPlrPercent": [
+      0.88,
+      0.88,
+      0.88,
+      1.03,
+      7.52
+    ],
+    "paperCr4AdaptiveBerPercent": [
+      0,
+      0.02,
+      0.31,
+      0.96,
+      4.81
+    ],
+    "paperCr4AdaptivePlrPercent": [
+      0,
+      0,
+      0.12,
+      0.2,
+      7.89
+    ],
+    "paperCr4FixedBerPercent": [
+      3.19,
+      3.28,
+      3.47,
+      4.06,
+      8.02
+    ],
+    "paperCr4FixedPlrPercent": [
+      0,
+      0,
+      0,
+      0.2,
+      7.89
+    ],
+    "fullPhyAlgorithmVersion": "direct-iq-ten-point-causal-ols-crc-filtered-v5",
+    "allPacketBerDefinition": "diagnostic pre-Hamming coded-bit BER on all packets",
+    "meanErrorDefinition": "mean absolute decoded-symbol error on erroneous symbols",
+    "nativeThreads": 2,
+    "numericPrecision": "double",
+    "sampleEngine": "native direct-IQ, MATLAB per-packet MT19937 AWGN",
+    "assumptions": {
+      "preambleSymbolCount": 8,
+      "hannDefinition": "periodic",
+      "centroidOffsets": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "centroidWeights": "FFT magnitude",
+      "fftAlphabet": "cyclic nearest-bin quantization and causal unwrapping",
+      "dopplerPhase": "literal Eq. (15), carrier-frequency term of Eq. (14)",
+      "fullPhyPayloadBytes": 32,
+      "fullPhyCodingBlocks": 6,
+      "fullPhyPaddingBits": 16,
+      "fullPhyTrailingSymbols": 1,
+      "passRange": "geometric horizon to geometric horizon; back-to-back packets"
+    },
+    "referenceCommit": "31243b0ac9cc8255f860dc85fc9594734856e03e",
+    "payloadBytes": 32,
+    "explicitHeader": true,
+    "hasCrc": true,
+    "ldroMode": "auto",
+    "syncWord": 18,
+    "syncDownchirpSymbols": 2.25,
+    "interFrameSilenceSymbols": 0,
+    "phyModel": "reference hard PHY; first block CR4/reduced SF; payload-only whitening",
+    "synchronizationModel": "perfect frame alignment; SFD skipped at its physical time",
+    "overpasses": 8
+  },
+  "receivedPackets": 72,
+  "checkedMetrics": 12,
+  "metricsWithin5pp": 5,
+  "fullGridWithAllPositions": false,
+  "validationToleranceMet": false,
+  "formal3000Overpasses": false,
+  "formalAcceptanceConfirmed": false,
+  "authorDecoderModeConfirmed": false,
+  "numericalAgreementClaimed": false,
+  "receiverUsesPayloadTruth": false,
+  "softFeedbackIntoLR": false,
+  "primaryCodedBerStream": "same LR-hard pre-Hamming bits, codec-specific CRC-success mask",
+  "diagnosticCodedBerStream": "LLR-sign bits before ML",
+  "outputDirectory": "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\reference_soft_phy\\results\\paired_soft_c11b0356c1ea",
+  "summary": [
+    {
+      "cr": 1,
+      "snrDb": -20,
+      "method": 1,
+      "positionCount": 3,
+      "overpasses": 8,
+      "hardCrcSuccessCodedBerPercent": 0,
+      "softCrcSuccessCodedBerPercent": 0,
+      "softLlrSignCodedBerPercent": 0,
+      "hardPlrPercent": 33.333333333333336,
+      "softPlrPercent": 33.333333333333336,
+      "paperBerPercent": 4.74,
+      "paperPlrPercent": 7.96,
+      "softBerGapPoints": 4.74,
+      "softPlrGapPoints": 25.373333333333335,
+      "softBerWithin5pp": true,
+      "softPlrWithin5pp": false,
+      "softOnlyAccepted": 0,
+      "hardOnlyAccepted": 0,
+      "softHeaderLossPercent": 25,
+      "softAcceptedWrongPayload": 0
+    },
+    {
+      "cr": 1,
+      "snrDb": -20,
+      "method": 2,
+      "positionCount": 3,
+      "overpasses": 8,
+      "hardCrcSuccessCodedBerPercent": 0,
+      "softCrcSuccessCodedBerPercent": 0,
+      "softLlrSignCodedBerPercent": 0,
+      "hardPlrPercent": 50,
+      "softPlrPercent": 50,
+      "paperBerPercent": 6.88,
+      "paperPlrPercent": 7.52,
+      "softBerGapPoints": 6.88,
+      "softPlrGapPoints": 42.480000000000004,
+      "softBerWithin5pp": false,
+      "softPlrWithin5pp": false,
+      "softOnlyAccepted": 0,
+      "hardOnlyAccepted": 0,
+      "softHeaderLossPercent": 20.833333333333332,
+      "softAcceptedWrongPayload": 0
+    },
+    {
+      "cr": 4,
+      "snrDb": -10,
+      "method": 1,
+      "positionCount": 3,
+      "overpasses": 8,
+      "hardCrcSuccessCodedBerPercent": 0,
+      "softCrcSuccessCodedBerPercent": 0.10273972602739725,
+      "softLlrSignCodedBerPercent": 0.95034246575342463,
+      "hardPlrPercent": 20.833333333333332,
+      "softPlrPercent": 16.666666666666668,
+      "paperBerPercent": 0.31,
+      "paperPlrPercent": 0.12,
+      "softBerGapPoints": 0.20726027397260274,
+      "softPlrGapPoints": 16.546666666666667,
+      "softBerWithin5pp": true,
+      "softPlrWithin5pp": false,
+      "softOnlyAccepted": 1,
+      "hardOnlyAccepted": 0,
+      "softHeaderLossPercent": 0,
+      "softAcceptedWrongPayload": 0
+    },
+    {
+      "cr": 4,
+      "snrDb": -10,
+      "method": 2,
+      "positionCount": 3,
+      "overpasses": 8,
+      "hardCrcSuccessCodedBerPercent": 0,
+      "softCrcSuccessCodedBerPercent": 0.838139870223504,
+      "softLlrSignCodedBerPercent": 1.39689978370584,
+      "hardPlrPercent": 41.666666666666664,
+      "softPlrPercent": 20.833333333333332,
+      "paperBerPercent": 3.47,
+      "paperPlrPercent": 0,
+      "softBerGapPoints": 2.6318601297764963,
+      "softPlrGapPoints": 20.833333333333332,
+      "softBerWithin5pp": true,
+      "softPlrWithin5pp": false,
+      "softOnlyAccepted": 5,
+      "hardOnlyAccepted": 0,
+      "softHeaderLossPercent": 0,
+      "softAcceptedWrongPayload": 0
+    },
+    {
+      "cr": 4,
+      "snrDb": -15,
+      "method": 1,
+      "positionCount": 3,
+      "overpasses": 8,
+      "hardCrcSuccessCodedBerPercent": 0.020145044319097503,
+      "softCrcSuccessCodedBerPercent": 0.90753424657534243,
+      "softLlrSignCodedBerPercent": 0.96746575342465757,
+      "hardPlrPercent": 29.166666666666668,
+      "softPlrPercent": 16.666666666666668,
+      "paperBerPercent": 0.96,
+      "paperPlrPercent": 0.2,
+      "softBerGapPoints": 0.052465753424657535,
+      "softPlrGapPoints": 16.466666666666669,
+      "softBerWithin5pp": true,
+      "softPlrWithin5pp": false,
+      "softOnlyAccepted": 3,
+      "hardOnlyAccepted": 0,
+      "softHeaderLossPercent": 0,
+      "softAcceptedWrongPayload": 0
+    },
+    {
+      "cr": 4,
+      "snrDb": -15,
+      "method": 2,
+      "positionCount": 3,
+      "overpasses": 8,
+      "hardCrcSuccessCodedBerPercent": 0.12557077625570776,
+      "softCrcSuccessCodedBerPercent": 0.31224818694601131,
+      "softLlrSignCodedBerPercent": 1.2489927477840452,
+      "hardPlrPercent": 37.5,
+      "softPlrPercent": 29.166666666666668,
+      "paperBerPercent": 4.06,
+      "paperPlrPercent": 0.2,
+      "softBerGapPoints": 3.7477518130539882,
+      "softPlrGapPoints": 28.966666666666669,
+      "softBerWithin5pp": true,
+      "softPlrWithin5pp": false,
+      "softOnlyAccepted": 2,
+      "hardOnlyAccepted": 0,
+      "softHeaderLossPercent": 0,
+      "softAcceptedWrongPayload": 0
+    }
+  ]
+}

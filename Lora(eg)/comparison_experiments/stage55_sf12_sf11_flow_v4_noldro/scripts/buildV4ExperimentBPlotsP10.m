@@ -6,7 +6,7 @@ reportDir=fullfile(root,'results','reports');
 source=fullfile(reportDir,'EXPERIMENT_B_AWGN_EXPEDITED_V2_P10.json');
 data=jsondecode(fileread(source));
 
-methodNames={'Huang','Stage55','Paper'};
+methodNames={'PREC','SenLora','Midamble-Point'};
 colors=[0.35 0.35 0.35;0.8500 0.3250 0.0980;0 0.4470 0.7410];
 styles={'-.^','-s','--o'};
 

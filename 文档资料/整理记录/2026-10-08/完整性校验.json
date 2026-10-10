@@ -1,0 +1,14 @@
+{
+  "OriginalFiles": 5919,
+  "MovedFiles": 64,
+  "MissingOriginalFiles": [],
+  "MovedContentChanges": [],
+  "SourceAndExecutableFilesChecked": 1389,
+  "SourceAndExecutableChanges": [],
+  "IntentionalOriginalDocumentChanges": [
+    "lora(CFO)/README.md"
+  ],
+  "ConcurrentActiveProjectUpdatedFiles": 1,
+  "AllNonActiveOriginalFilesAccountedFor": true,
+  "Scope": "Only documents and historical TXT logs relocated; source/configuration/experiment paths retained"
+}

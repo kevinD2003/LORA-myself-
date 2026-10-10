@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\pilot_time_aligned_case_snr_rician\\FOUR_CURVE_SUMMARY.csv",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\figure12_pilot_time_aligned\\FOUR_CURVE_SUMMARY.csv",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\figure12_four_methods_nint1\\FOUR_CURVE_SUMMARY.csv",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\figure12_awgn_uncertainty\\AWGN_POINT_UNCERTAINTY.csv",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\pilot_time_aligned_case_snr_rician\\CASE1_FOUR_CURVES.png",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\pilot_time_aligned_case_snr_rician\\CASE2_FOUR_CURVES.png",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\figure12_awgn_uncertainty\\FIGURE12_AWGN_FOUR_CURVES_95CI.png",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\figure12_pilot_time_aligned\\FIGURE12_RICIAN_FOUR_CURVES.png",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\results\\senlora_symmetric_v8\\figure12_awgn_uncertainty\\FIGURE12_AWGN_RICIAN_FOUR_CURVES_95CI.png",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\PILOT_TIME_ALIGNED_VARIANT.md",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\AWGN_THEORY_SAMPLING_CHECK.md",
+    "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\v8_frozen_receiver_manifest.json"
+  ],
+  "sourceHashes": [
+    "47c93c94ad60ed5d75cb989c7543b04c90de4cbdc8db19c1f0831de65ea4c5d7",
+    "1520543eab974e4b314ccb26a99d4e209869303664c7cf884e74866ff0b24967",
+    "f02924ffc117a713e601ebbfa4962c3dc60fef93611e59ef14eca8923dad546f",
+    "1a7ef31c57ed435b70fd14f073bda410ec28049cff1e39eefde0446c60ca7e7d",
+    "7b196b12ab6b966b00a9d6eb14e1f74f5a77e200bbe2142b24037ead7cefc098",
+    "712cd3e1aeef26a78d1eed4bf312a71e896465811955444b116bd14d50c914ff",
+    "8ca30cf89a0db173e7e11efc53cf10acef9f3e0f85deefc2f67fc930454c1b2e",
+    "de078091f1a0ca966ba17871b3c405196021d1e634ab5ece512870c0b80670d1",
+    "ad8c2d70ab057eff2926951b8110617a73f5aae953a6ec2bb1f6a9343a7fd626",
+    "1159a3ab1034b96d2cffb59eef09118f44b4f2b17eddb37a74f275dd33c92a45",
+    "145424261124dbe0eacb1c10463a2c02bf9746f365c8235816835a3c8a3b5dc0",
+    "8919aea686fb4ea739e3244a6556d1199d08f42608f980aa9edbe88a627b2afe"
+  ],
+  "sourceUnchanged": true,
+  "totals": {
+    "vpTotal": 78,
+    "idealTotal": 76
+  },
+  "slideCount": 9
+}

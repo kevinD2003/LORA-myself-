@@ -1,0 +1,64 @@
+{
+  "repository": "https://github.com/tapparelj/gr-lora_sdr",
+  "commit": "31243b0ac9cc8255f860dc85fc9594734856e03e",
+  "license": "GPL-3.0; https://github.com/tapparelj/gr-lora_sdr/blob/31243b0ac9cc8255f860dc85fc9594734856e03e/LICENSE",
+  "role": "pinned normative PHY reference, not the paper authors' simulation source",
+  "sources": [
+    {
+      "file": "tables.h",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/tables.h"
+    },
+    {
+      "file": "whitening_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/whitening_impl.cc"
+    },
+    {
+      "file": "header_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/header_impl.cc"
+    },
+    {
+      "file": "add_crc_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/add_crc_impl.cc"
+    },
+    {
+      "file": "hamming_enc_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/hamming_enc_impl.cc"
+    },
+    {
+      "file": "interleaver_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/interleaver_impl.cc"
+    },
+    {
+      "file": "gray_demap_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/gray_demap_impl.cc"
+    },
+    {
+      "file": "fft_demod_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/fft_demod_impl.cc"
+    },
+    {
+      "file": "gray_mapping_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/gray_mapping_impl.cc"
+    },
+    {
+      "file": "deinterleaver_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/deinterleaver_impl.cc"
+    },
+    {
+      "file": "hamming_dec_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/hamming_dec_impl.cc"
+    },
+    {
+      "file": "dewhitening_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/dewhitening_impl.cc"
+    },
+    {
+      "file": "crc_verif_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/crc_verif_impl.cc"
+    },
+    {
+      "file": "modulate_impl.cc",
+      "url": "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/modulate_impl.cc"
+    }
+  ]
+}

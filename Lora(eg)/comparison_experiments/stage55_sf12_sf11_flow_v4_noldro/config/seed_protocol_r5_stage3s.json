@@ -1,5 +1,0 @@
-{
-  "generator":"mt19937ar-keyed-sha256-v1",
-  "domains":{"a_3s_mechanism_v1":710000000,"a_3s_calibration_v1":720000000,"a_3s_calibration_v2":721000000,"a_3s_validation_v1":730000000,"a_3s_validation_v2":731000000,"a_3s_safety_v1":740000000,"a_3s_safety_v2":741000000,"a_3s_smoke_v1":750000000,"a_3s_formal_v1":760000000,"a_3s_bootstrap_v1":770000000},
-  "physicalRandomKeyExcludesCandidateId":true,"candidateReceiversHaveIndependentState":true
-}

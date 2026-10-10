@@ -1,9 +1,0 @@
-{
-  "smokePackets": 32,
-  "formalPackets": 400000,
-  "meanWallSecPerPacket": 0.121672759375,
-  "conservativeRuntimeHours": 16.898994357638887,
-  "smokeMatBytes": 1.6387992E+7,
-  "conservativeStorageGiB": 238.47667034715414,
-  "peakMatlabMemoryBytes": 1.820184576E+9
-}

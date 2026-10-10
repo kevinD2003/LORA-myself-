@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Experiment manifests pin SHA-256 hashes; preserve file bytes on upload/checkout.
+* -text

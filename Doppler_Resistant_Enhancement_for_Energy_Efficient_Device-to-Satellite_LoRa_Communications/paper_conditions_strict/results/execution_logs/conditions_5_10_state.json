@@ -1,0 +1,10 @@
+{
+  "status": "RUNNING",
+  "attempt": 2,
+  "pid": 58920,
+  "tag": "conditions_5_10",
+  "targets": [
+    "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\results\\full_phy_v5_O3000_Pall_S0_-5_-10_-15_-20\\CR1_SNR-20\\cell.mat",
+    "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\results\\full_phy_v5_O3000_Pall_S0_-5_-10_-15_-20\\CR4_SNR-20\\cell.mat"
+  ]
+}

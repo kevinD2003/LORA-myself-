@@ -1,9 +1,0 @@
-{
-  "version":"stage3r-result-contract-v1",
-  "algorithmVersion":"Stage55-A-causal-pending-lock-v1",
-  "candidateFields":["candidateId","hardLabel","measurementTimeSec","decisionAtSec","availableAtSec","cfoCandidateBins","peakRatio","entropyNormalized","residualPeakRatio","innovationBins","status","rejectionReason"],
-  "commitFields":["candidateId","committedHardLabel","measurementTimeSec","releaseAtSec","firstEffectiveTimeSec","transactionId"],
-  "stateFields":["lockState","pendingCandidates","committedHistory","consecutiveRejectedDataSymbols","lossReason","lossTimeSec","ncoPhaseRad","cfoAtStartBins","rateBinsPerSec","nextPhysicalRow"],
-  "packetFields":["committedVpCount","falseAcceptedVpCount","possibleVpCount","expiredVpCount","rejectedVpCount","lossStateReached","lossTimeSec"],
-  "forbiddenReceiverFields":["payloadTruth","trueCfo","trueRate","orbitTruth","trueChannelCoefficient","futureSamples","hammingData","midambleObservation"]
-}

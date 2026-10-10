@@ -1,3 +1,0 @@
-# R8 Stage55 preamble-adaptive receiver
-
-Algorithm: `Stage55-A-preamble-adaptive-v5`. Experiment conditions and Paper remain frozen. One common receiver-visible rule is used: if the integer Point magnitude exceeds 100 bins, use the existing eight upchirps with project-aligned FFT-power-combined sub-bin CFO estimation and a static branch; otherwise use the R6 two-downchirp dynamic VP branch. The 100-bin boundary is a broad physical separation between the registered high-shift/low-rate and low-shift/high-rate regimes, not a Case identifier or truth input. Independent roots are 860000000 for validation, 870000000 for fixed formal, and 880000000 for paired bootstrap. R6/R7 results remain unchanged.

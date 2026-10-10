@@ -1,0 +1,22 @@
+{
+  "status": "NUMERICAL_GAPS_QUANTIFIED",
+  "tableIvOverpasses": 32,
+  "tableIvPacketsPerSnr": 5824,
+  "sourceSignatures": [
+    "9416e1813fcca5c457ed8794e3da00f745e37e9b16889bb4a4512dd843002437",
+    "c0a4325fe1ab2132d3f87b8f23f6f30adce7fe7a53392c7f5bfbd2b654558fee",
+    "b2fa8ddc0b83e9fe588af00d081c83791e1ff30ac6b8da4753e2e30d118bb4e3"
+  ],
+  "crcAccountingVerified": true,
+  "nativeReferenceEquivalenceVerified": true,
+  "numericalAgreementClaimed": false,
+  "remainingAssumptions": [
+    "N=8; the paper does not specify N",
+    "periodic Hann; magnitude centroid offsets -4:5",
+    "32-byte payload, six code blocks, padding and header details",
+    "cyclic FFT unwrapping; literal product phase in Eq. (15)"
+  ],
+  "interpretation": "An ensemble measures Monte Carlo variation, not author-source identity. CRC-success BER and all-packet BER are retained separately. No parameter or metric is fitted to the published result.",
+  "phaseSensitivitySignature": "ec6fc78809fac2db781630b8a377737135184798731f60385bd0b76cda17ff7d",
+  "phaseSensitivityPerformed": true
+}

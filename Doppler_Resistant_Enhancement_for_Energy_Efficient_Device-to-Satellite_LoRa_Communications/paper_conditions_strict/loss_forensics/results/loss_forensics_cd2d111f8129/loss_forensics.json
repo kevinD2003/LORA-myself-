@@ -1,0 +1,113 @@
+{
+  "status": "FORENSICS_REPRODUCED_PARENT_COUNTS",
+  "identity": {
+    "parentSignature": "0204768bc498632cf90d308a958ded3dcf96768b072fc5dabe770cab8f752eec",
+    "inputSha256": "0e3281b21b6c006ee4facc5351c0b07783699b76a56beb1c4e9cae52bcf78527",
+    "sourceHashes": [
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\loss_forensics\\run_loss_forensics_v6.m",
+        "ab479c341ceb1227696a284aebe52963f4cdcd5eaad74561e88978c50995ebc6"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\loss_forensics\\summarizePacketLossV6.m",
+        "aa9a1bd34046e69c58e77ac4c4003bc87955509c92a885697142523ceff5e472"
+      ],
+      [
+        "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\loss_forensics\\testLossForensicsV6.m",
+        "a4ea3135936de31fe27793cf44525aa38cc09f34cedfe664549523953a7a000f"
+      ]
+    ],
+    "conditionIndices": [
+      5,
+      8,
+      9
+    ],
+    "schema": "posthoc-loss-forensics-v1"
+  },
+  "signature": "cd2d111f8129061d7101d2d3f6d79e5146c706fda2bab1876e96be624b454b6e",
+  "receivedPackets": 3296,
+  "receiverUsesPayloadTruth": false,
+  "goldUsedOnlyForPosthocDiagnostics": true,
+  "numericalAgreementClaimed": false,
+  "outputDirectory": "D:\\codex\\Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications\\paper_conditions_strict\\loss_forensics\\results\\loss_forensics_cd2d111f8129",
+  "summary": [
+    {
+      "cr": 1,
+      "snrDb": -20,
+      "method": 1,
+      "packets": 1344,
+      "accepted": 1148,
+      "headerRejected": 82,
+      "crcRejectedValidHeader": 114,
+      "rejectedWithMultiBitWord": 152,
+      "rejectedWithSingleBitWordsOnly": 44,
+      "acceptedWrongPayload": 0,
+      "acceptedWithCodedErrors": 22
+    },
+    {
+      "cr": 1,
+      "snrDb": -20,
+      "method": 2,
+      "packets": 1344,
+      "accepted": 690,
+      "headerRejected": 93,
+      "crcRejectedValidHeader": 561,
+      "rejectedWithMultiBitWord": 563,
+      "rejectedWithSingleBitWordsOnly": 91,
+      "acceptedWrongPayload": 0,
+      "acceptedWithCodedErrors": 16
+    },
+    {
+      "cr": 4,
+      "snrDb": -10,
+      "method": 1,
+      "packets": 976,
+      "accepted": 957,
+      "headerRejected": 2,
+      "crcRejectedValidHeader": 17,
+      "rejectedWithMultiBitWord": 19,
+      "rejectedWithSingleBitWordsOnly": 0,
+      "acceptedWrongPayload": 0,
+      "acceptedWithCodedErrors": 4
+    },
+    {
+      "cr": 4,
+      "snrDb": -10,
+      "method": 2,
+      "packets": 976,
+      "accepted": 638,
+      "headerRejected": 9,
+      "crcRejectedValidHeader": 329,
+      "rejectedWithMultiBitWord": 338,
+      "rejectedWithSingleBitWordsOnly": 0,
+      "acceptedWrongPayload": 1,
+      "acceptedWithCodedErrors": 30
+    },
+    {
+      "cr": 4,
+      "snrDb": -15,
+      "method": 1,
+      "packets": 976,
+      "accepted": 915,
+      "headerRejected": 2,
+      "crcRejectedValidHeader": 59,
+      "rejectedWithMultiBitWord": 61,
+      "rejectedWithSingleBitWordsOnly": 0,
+      "acceptedWrongPayload": 0,
+      "acceptedWithCodedErrors": 3
+    },
+    {
+      "cr": 4,
+      "snrDb": -15,
+      "method": 2,
+      "packets": 976,
+      "accepted": 572,
+      "headerRejected": 2,
+      "crcRejectedValidHeader": 402,
+      "rejectedWithMultiBitWord": 404,
+      "rejectedWithSingleBitWordsOnly": 0,
+      "acceptedWrongPayload": 0,
+      "acceptedWithCodedErrors": 41
+    }
+  ]
+}

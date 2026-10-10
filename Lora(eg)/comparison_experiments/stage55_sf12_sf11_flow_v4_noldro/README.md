@@ -1,5 +1,7 @@
 # V4 no-LDRO comparison experiment
 
+[按功能查找源码](docs/code_index.md) · [文档索引](docs/README.md)
+
 ## 当前实现
 
 当前正式入口是 **Unified V23**，报告状态为 `PASS / ADMIT_V23_FREEZE`。

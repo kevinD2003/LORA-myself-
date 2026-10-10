@@ -1,0 +1,11 @@
+{
+  "status": "STANDARD_SOFT_IMPLEMENTATION_VALIDATED",
+  "testsPassed": 14,
+  "testsFailed": 0,
+  "resultRows": 40,
+  "receivedPackets": 23200,
+  "pairedHardCountersMatched": true,
+  "softFeedbackIntoLR": false,
+  "authorDecoderModeConfirmed": false,
+  "numericalAgreementClaimed": false
+}

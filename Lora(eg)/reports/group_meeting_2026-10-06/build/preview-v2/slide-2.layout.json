@@ -1,0 +1,7 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/u4tpjw","index":1,"layout":{"id":"ly/exobetgb","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/kzq50vy9","kind":"textbox","name":"slide-title","position":{"left":56,"top":36,"width":1168,"height":70},"text":"实验条件","style":{"fontSize":44,"typeface":"Microsoft YaHei","color":"#123650","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"tb/yd8bm1gb","kind":"table","position":{"left":56,"top":140,"width":1168,"height":360},"text":"SF\t12\tBW / Fs\t125 kHz\n编码\tCR3，Hamming(7,4)\t原生帧\t8 前导 + 112 数据\n信道\tAWGN / Rician\tK\t10 dB，每包平坦\n载频 / 高度\t868 MHz / 550 km\t每点包数\t1000\n帧时长\t原生 3.932 s\n导频 7.676 s\t统计口径\tRaw SER","rows":5,"cols":4},
+{"id":"sh/yx8nylg3","kind":"textbox","name":"snr-grid","position":{"left":56,"top":545,"width":1168,"height":45},"text":"SNR 扫描：−30 至 −21 dB，每 1 dB 一点","style":{"fontSize":27,"typeface":"Microsoft YaHei","color":"#182B3A","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/t4j6dkzq","kind":"textbox","name":"orbit-grid","position":{"left":56,"top":606,"width":1168,"height":48},"text":"轨迹：−366、−274.5、−183、−91.5、0 s，Es/N0 = 15 dB","style":{"fontSize":26,"typeface":"Microsoft YaHei","color":"#182B3A","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

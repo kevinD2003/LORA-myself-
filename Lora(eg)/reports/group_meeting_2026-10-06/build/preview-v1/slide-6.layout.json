@@ -1,0 +1,8 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/l41foo","index":5,"layout":{"id":"ly/wz2ps3ih","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/p4jixk3u","kind":"textbox","name":"slide-title","position":{"left":56,"top":36,"width":1168,"height":70},"text":"Rician 五点轨迹","style":{"fontSize":44,"typeface":"Microsoft YaHei","color":"#123650","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/b25cji5c","kind":"image","position":{"left":40,"top":115,"width":805,"height":550},"fit":"contain","alt":"Rician five-point orbital four-curve SER plot"},
+{"id":"sh/n210vulo","kind":"textbox","name":"rician-vp","position":{"left":865,"top":222,"width":359,"height":56},"text":"VP  0.0313–0.0381","style":{"fontSize":30,"typeface":"Microsoft YaHei","color":"#0072BD","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/cruh8z25","kind":"textbox","name":"rician-theory","position":{"left":865,"top":317,"width":359,"height":50},"text":"理论  0.03096","style":{"fontSize":29,"typeface":"Microsoft YaHei","color":"#182B3A","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/xs3i143q","kind":"textbox","name":"rician-condition","position":{"left":865,"top":466,"width":359,"height":94},"text":"K = 10 dB\n1000 包/点","style":{"fontSize":26,"typeface":"Microsoft YaHei","color":"#587080","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

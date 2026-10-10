@@ -1,0 +1,123 @@
+M comparison_experiments/README.md
+M comparison_experiments/stage55_sf12_sf11_flow_v3/README.md
+M comparison_experiments/stage55_sf12_sf11_flow_v3/scripts/buildV3Report.m
+M comparison_experiments/stage55_sf12_sf11_flow_v3/docs/design/V3_IMPLEMENTATION_PLAN.md
+M comparison_experiments/stage55_sf12_sf11_flow_v3/docs/methods/V3_SF11_DIFFERENCES.md
+M comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/methods/B_CASE_ANCHOR_AWGN_V1.md
+M comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/methods/B_STAGE55_CFO_BANK_V2.md
+M comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/scopes/EXPEDITED_AWGN_V1_SCOPE_AMENDMENT.md
+M comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/scopes/EXPEDITED_AWGN_V2_P10_SCOPE_AMENDMENT.md
+M comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/audit/PAPER_LOCAL_APPLICABILITY_AUDIT.md
+M comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/README.md
+M comparison_experiments/stage55_three_method/docs/results/FUXIANDUIBI_REPORT.md
+M comparison_experiments/stage55_three_method/README.md
+M comparison_experiments/stage55_three_method/docs/methods/STAGE55_SF11_V2_移植说明.md
+M comparison_experiments/stage55_three_method/docs/history/STAGE55_SF11_V3_前四项修复说明.md
+M comparison_experiments/docs/alignment/V4_SF11_PROJECT_ALIGNMENT.md
+M project/confidence_symbol_reproduction/docs/meetings/MEETING_NOTES_CN.md
+M project/confidence_symbol_reproduction/docs/learning/PROJECT_REVIEW_AND_LEARNING_CN.md
+M project/confidence_symbol_reproduction/README.md
+M project/orbit_doppler/README.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/project/CANONICAL_PROJECT.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/CLEANUP_20260823.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/history/CONTINUOUS_PASS_IMPLEMENTATION_LOG.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/learning/figures/README.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/methods/PAPER_PREC_COMPARISON.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/learning/SenLoRA_算法与仿真实验详解.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/project/PROJECT_STATE.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/learning/STAGE55_CHATGPT_PROJECT_GUIDE.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/methods/STAGE55_VP_CONTROL_COMPARISON.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/methods/STAGE55_VP_QUALITY_AWARE.md
+M project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/VALIDATION_20260823.md
+M README.md
+R project/confidence_symbol_reproduction/PROJECT_REVIEW_AND_LEARNING_CN.md -> project/confidence_symbol_reproduction/docs/learning/PROJECT_REVIEW_AND_LEARNING_CN.md
+R project/confidence_symbol_reproduction/MEETING_NOTES_CN.md -> project/confidence_symbol_reproduction/docs/meetings/MEETING_NOTES_CN.md
+R project/orbit_doppler/satellite_fig3_rolling8/CANONICAL_PROJECT.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/project/CANONICAL_PROJECT.md
+R project/orbit_doppler/satellite_fig3_rolling8/PROJECT_STATE.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/project/PROJECT_STATE.md
+R project/orbit_doppler/satellite_fig3_rolling8/STAGE55_CHATGPT_PROJECT_GUIDE.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/learning/STAGE55_CHATGPT_PROJECT_GUIDE.md
+R project/orbit_doppler/satellite_fig3_rolling8/CONTINUOUS_PASS_IMPLEMENTATION_LOG.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/history/CONTINUOUS_PASS_IMPLEMENTATION_LOG.md
+R project/orbit_doppler/satellite_fig3_rolling8/STAGE55_VP_CONTROL_COMPARISON.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/methods/STAGE55_VP_CONTROL_COMPARISON.md
+R project/orbit_doppler/satellite_fig3_rolling8/STAGE55_VP_QUALITY_AWARE.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/methods/STAGE55_VP_QUALITY_AWARE.md
+R project/orbit_doppler/satellite_fig3_rolling8/VALIDATION_20260823.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/VALIDATION_20260823.md
+R project/orbit_doppler/satellite_fig3_rolling8/CLEANUP_20260823.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/CLEANUP_20260823.md
+R project/orbit_doppler/satellite_fig3_rolling8/CLEANUP_MANIFEST_20260823.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/CLEANUP_MANIFEST_20260823.csv
+R project/orbit_doppler/satellite_fig3_rolling8/CLEANUP_QUARANTINE_20260823.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/CLEANUP_QUARANTINE_20260823.csv
+R project/orbit_doppler/satellite_fig3_rolling8/POST_CLEANUP_TEST_ARTIFACTS_20260823.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/POST_CLEANUP_TEST_ARTIFACTS_20260823.csv
+R project/orbit_doppler/satellite_fig3_rolling8/FINAL_VALIDATION_TEST_ARTIFACTS_20260823.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/audit/2026-08-23/FINAL_VALIDATION_TEST_ARTIFACTS_20260823.csv
+R project/orbit_doppler/satellite_fig3_rolling8/CANONICAL_SOURCE_SHA256_20260823.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/provenance/CANONICAL_SOURCE_SHA256_20260823.csv
+R project/orbit_doppler/satellite_fig3_rolling8/STAGE55_SOURCE_SNAPSHOT_SHA256.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/provenance/STAGE55_SOURCE_SNAPSHOT_SHA256.csv
+R project/orbit_doppler/satellite_fig3_rolling8/STAGE55_VP_QUALITY_SOURCE_SHA256.csv -> project/orbit_doppler/satellite_fig3_rolling8/docs/provenance/STAGE55_VP_QUALITY_SOURCE_SHA256.csv
+R project/orbit_doppler/satellite_fig3_rolling8/docs/PAPER_PREC_COMPARISON.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/methods/PAPER_PREC_COMPARISON.md
+R project/orbit_doppler/satellite_fig3_rolling8/docs/SenLoRA_算法与仿真实验详解.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/learning/SenLoRA_算法与仿真实验详解.md
+R project/orbit_doppler/satellite_fig3_rolling8/docs/figures/README.md -> project/orbit_doppler/satellite_fig3_rolling8/docs/learning/figures/README.md
+R project/orbit_doppler/satellite_fig3_rolling8/queue_stage26_next_worker.ps1 -> project/orbit_doppler/satellite_fig3_rolling8/scripts/maintenance/queue_stage26_next_worker.ps1
+R comparison_experiments/stage55_three_method/FUXIANDUIBI_REPORT.md -> comparison_experiments/stage55_three_method/docs/results/FUXIANDUIBI_REPORT.md
+R comparison_experiments/stage55_three_method/STAGE55_SF11_V2_移植说明.md -> comparison_experiments/stage55_three_method/docs/methods/STAGE55_SF11_V2_移植说明.md
+R comparison_experiments/stage55_three_method/STAGE55_SF11_V3_前四项修复说明.md -> comparison_experiments/stage55_three_method/docs/history/STAGE55_SF11_V3_前四项修复说明.md
+R comparison_experiments/stage55_sf12_sf11_flow_v3/V3_IMPLEMENTATION_PLAN.md -> comparison_experiments/stage55_sf12_sf11_flow_v3/docs/design/V3_IMPLEMENTATION_PLAN.md
+R comparison_experiments/stage55_sf12_sf11_flow_v3/V3_SF11_DIFFERENCES.md -> comparison_experiments/stage55_sf12_sf11_flow_v3/docs/methods/V3_SF11_DIFFERENCES.md
+R comparison_experiments/V4_SF11_PROJECT_ALIGNMENT.md -> comparison_experiments/docs/alignment/V4_SF11_PROJECT_ALIGNMENT.md
+R comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/B_CASE_ANCHOR_AWGN_V1.md -> comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/methods/B_CASE_ANCHOR_AWGN_V1.md
+R comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/B_STAGE55_CFO_BANK_V2.md -> comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/methods/B_STAGE55_CFO_BANK_V2.md
+R comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/EXPEDITED_AWGN_V1_SCOPE_AMENDMENT.md -> comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/scopes/EXPEDITED_AWGN_V1_SCOPE_AMENDMENT.md
+R comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/EXPEDITED_AWGN_V2_P10_SCOPE_AMENDMENT.md -> comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/scopes/EXPEDITED_AWGN_V2_P10_SCOPE_AMENDMENT.md
+R comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/PAPER_LOCAL_APPLICABILITY_AUDIT.md -> comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/audit/PAPER_LOCAL_APPLICABILITY_AUDIT.md
+R tmp/pdfs/fig10_sf12_crop.png -> tmp/pdfs/figure_crops/fig10_sf12_crop.png
+R tmp/pdfs/fig10_sf12_crop2.png -> tmp/pdfs/figure_crops/fig10_sf12_crop2.png
+R tmp/pdfs/fig11_sf12_crop.png -> tmp/pdfs/figure_crops/fig11_sf12_crop.png
+R tmp/pdfs/fig11_sf12_crop2.png -> tmp/pdfs/figure_crops/fig11_sf12_crop2.png
+R tmp/pdfs/paper-06.png -> tmp/pdfs/paper_pages/paper-06.png
+R tmp/pdfs/paper-07.png -> tmp/pdfs/paper_pages/paper-07.png
+R tmp/pdfs/paper-12.png -> tmp/pdfs/paper_pages/paper-12.png
+R tmp/pdfs/paper-midamble-10.png -> tmp/pdfs/midamble/paper-midamble-10.png
+R tmp/pdfs/theory-channel-check-12.png -> tmp/pdfs/theory_channel/theory-channel-check-12.png
+R tmp/pdfs/theory-channel-check-13.png -> tmp/pdfs/theory_channel/theory-channel-check-13.png
+R tmp/pdfs/theory-channel-check-14.png -> tmp/pdfs/theory_channel/theory-channel-check-14.png
+A comparison_experiments/docs/README.md
+A comparison_experiments/stage55_sf12_sf11_flow_v3/V3_SF11_DIFFERENCES.md
+A comparison_experiments/stage55_sf12_sf11_flow_v3/docs/README.md
+A comparison_experiments/stage55_sf12_sf11_flow_v3/docs/code_index.md
+A comparison_experiments/stage55_sf12_sf11_flow_v3/docs/result_index.md
+A comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/README.md
+A comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/code_index.md
+A comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/docs/result_index.md
+A comparison_experiments/stage55_three_method/docs/README.md
+A comparison_experiments/stage55_three_method/docs/code_index.md
+A comparison_experiments/stage55_three_method/docs/result_index.md
+A docs/README.md
+A docs/audit/2026-10-08/CODE_AUDIT.md
+A docs/audit/2026-10-08/PROJECT_AUDIT.md
+A docs/audit/2026-10-08/baseline.json
+A docs/audit/2026-10-08/before_git_status.txt
+A docs/audit/2026-10-08/before_inventory.csv
+A docs/audit/2026-10-08/changed_files.txt
+A docs/audit/2026-10-08/changed_original_files.csv
+A docs/audit/2026-10-08/code_changes.diff
+A docs/audit/2026-10-08/edited_documents.json
+A docs/audit/2026-10-08/file_inventory.csv
+A docs/audit/2026-10-08/focused_reaudit.diff
+A docs/audit/2026-10-08/identical_source_groups.json
+A docs/audit/2026-10-08/integrity_validation.json
+A docs/audit/2026-10-08/markdown_link_validation.json
+A docs/audit/2026-10-08/matlab_after.json
+A docs/audit/2026-10-08/matlab_before.json
+A docs/audit/2026-10-08/moves.csv
+A docs/audit/2026-10-08/preexisting_missing_links.csv
+A project/README.md
+A project/confidence_symbol_reproduction/docs/README.md
+A project/confidence_symbol_reproduction/docs/code_index.md
+A project/confidence_symbol_reproduction/docs/result_index.md
+A project/orbit_doppler/docs/README.md
+A project/orbit_doppler/docs/code_index.md
+A project/orbit_doppler/docs/result_index.md
+A project/orbit_doppler/satellite_fig3_rolling8/README.md
+A project/orbit_doppler/satellite_fig3_rolling8/docs/README.md
+A project/orbit_doppler/satellite_fig3_rolling8/docs/code_index.md
+A project/orbit_doppler/satellite_fig3_rolling8/docs/provenance/README.md
+A project/orbit_doppler/satellite_fig3_rolling8/docs/result_index.md
+A project/orbit_doppler/satellite_fig3_rolling8/scripts/maintenance/README.md
+A reports/README.md
+A reports/group_meeting_2026-10-06/README.md
+A tmp/README.md
+A tmp/pdfs/README.md
+A 文件导航.md

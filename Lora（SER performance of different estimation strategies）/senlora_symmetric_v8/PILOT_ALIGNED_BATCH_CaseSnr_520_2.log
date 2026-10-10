@@ -1,0 +1,4 @@
+CaseSnr PilotTimeAligned: 11750/20000 paired rows; errors PREC/VP/comparison=922456/635124/832260; failures=0
+CaseSnr PilotTimeAligned: 11800/20000 paired rows; errors PREC/VP/comparison=928040/636176/834112; failures=0
+CaseSnr PilotTimeAligned: 11840/20000 paired rows; errors PREC/VP/comparison=932504/636314/834399; failures=0
+BOUNDED_BATCH_COMPLETE CaseSnr limit=520 completed=11840/20000

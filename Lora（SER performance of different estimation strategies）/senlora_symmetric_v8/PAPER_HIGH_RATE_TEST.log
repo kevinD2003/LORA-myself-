@@ -1,0 +1,10 @@
+正在运行 SenloraPaperPointTest
+.....
+已完成 SenloraPaperPointTest
+__________
+
+CHECKCODE senloraPaperPointFrameLayout.m 0 findings
+CHECKCODE senloraPaperMidamblePointDecode.m 0 findings
+CHECKCODE SenloraPaperPointTest.m 0 findings
+CHECKCODE runSenloraPaperPointFourCurves.m 1 findings
+PFBNS line 47 整个数组或结构体 'options' 是一个广播变量。这可能会导致不必要的通信开销。

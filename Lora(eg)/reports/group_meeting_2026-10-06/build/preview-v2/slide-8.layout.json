@@ -1,0 +1,7 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/6fe83m","index":7,"layout":{"id":"ly/exobetgb","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/xsfqdsra","kind":"textbox","name":"slide-title","position":{"left":56,"top":36,"width":1168,"height":70},"text":"同包错误计数","style":{"fontSize":44,"typeface":"Microsoft YaHei","color":"#123650","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"ch/mp0r6x0f","kind":"chart","position":{"left":64,"top":132,"width":1152,"height":419},"chartType":"bar"},
+{"id":"sh/bqx8b29k","kind":"textbox","name":"paired-totals","position":{"left":64,"top":596,"width":1160,"height":44},"text":"VP 共 78 错，同包 Ideal 共 76 错","style":{"fontSize":30,"typeface":"Microsoft YaHei","color":"#182B3A","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/on69gnqt","kind":"textbox","name":"expected-errors","position":{"left":64,"top":651,"width":1160,"height":38},"text":"每点理论预期约 16.8 错","style":{"fontSize":26,"typeface":"Microsoft YaHei","color":"#587080","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

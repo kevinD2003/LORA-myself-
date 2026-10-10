@@ -1,0 +1,6 @@
+ALIGNED_SMOKE_STARTED
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+CaseSnr PilotTimeAligned: 40/20000 paired rows; errors PREC/VP/comparison=3168/1861/2688; failures=0
+Figure12 PilotTimeAligned: 20/10000 paired rows; errors PREC/VP/comparison=1218/53/140; failures=0
+ALIGNED SMOKE: CaseSnr 40/20000 Figure12 20/10000

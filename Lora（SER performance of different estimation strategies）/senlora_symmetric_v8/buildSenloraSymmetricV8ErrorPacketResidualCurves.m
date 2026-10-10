@@ -1,0 +1,139 @@
+function output = buildSenloraSymmetricV8ErrorPacketResidualCurves()
+%BUILDSENLORASYMMETRICV8ERRORPACKETRESIDUALCURVES First error packet per point.
+
+here = fileparts(mfilename('fullpath'));
+addpath(fullfile(here,'..','scripts'));
+paths = exp1SetupPaths();
+addpath(here);
+config = exp1Config();
+c = config.parent;
+plan = senloraSymmetricV8Config(config);
+parameters = v4LoadMethodAlignedR3ParametersV1();
+root = fullfile(paths.resultsRoot,'senlora_symmetric_v8','five_point_1000');
+packets = readtable(fullfile(root,'FIVE_POINT_1000_RAW_PACKETS.csv'));
+expectedTimes = [-366;-274.5;-183;-91.5;0];
+if height(packets)~=5000
+    error('EXP5V8:ErrorResidualInput','Expected 5000 source packet rows.');
+end
+
+n = c.payloadSymbolCount;
+traceRows = cell(5*n,10);
+packetRows = cell(5,9);
+for point = 1:5
+    candidates = packets(packets.pointIndex==point & ...
+        packets.senloraRawErrors>0 & ~packets.senloraFailed,:);
+    candidates = sortrows(candidates,'packetId');
+    if isempty(candidates)
+        error('EXP5V8:ErrorResidualPacket', ...
+            'No SenLoRa error packet exists at %.1f s.',expectedTimes(point));
+    end
+    saved = candidates(1,:);
+    if saved.orbitStartSec~=expectedTimes(point) || saved.idealFailed
+        error('EXP5V8:ErrorResidualPacket','Saved packet identity is invalid.');
+    end
+    seeds = struct('payloadSeed',saved.payloadSeed, ...
+        'noiseSeed',saved.noiseSeed,'channelSeed',0);
+    frame = senloraSymmetricV8GenerateFrame( ...
+        config,expectedTimes(point),plan.snrDb,seeds);
+    pilots = frame.observation.rxPhysical( ...
+        frame.observation.layout.bootstrapRows,:);
+    common = v4CommonBootstrap(pilots,c, ...
+        SearchStepBins=parameters.searchStepBins);
+    result = senloraSymmetricV8Decode( ...
+        frame.observation,common,config,plan);
+    truth = frame.truth.payloadPhysicalBins(:);
+    symbolError = result.detectedPhysicalBins(:)~=truth;
+    errors = sum(symbolError);
+    residual = result.estimatedCfoBins(:)-frame.truth.dataCfoBins(:);
+    rmse = sqrt(mean(residual.^2));
+    if errors~=saved.senloraRawErrors || ...
+            abs(rmse-saved.cfoRmseBins)>1e-9 || ...
+            abs(result.rateGain-saved.rateGain)>1e-9 || ...
+            any(~isfinite(residual))
+        error('EXP5V8:ErrorResidualReplay', ...
+            'Replay does not match saved error packet at %.1f s.', ...
+            expectedTimes(point));
+    end
+    cumulativeSigned = cumsum(residual);
+    cumulativeAbsolute = cumsum(abs(residual));
+    errorIndices = find(symbolError).';
+    packetRows(point,:) = {expectedTimes(point),saved.packetId, ...
+        saved.senloraRawErrors,saved.idealRawErrors, ...
+        strjoin(string(errorIndices),';'),rmse, ...
+        cumulativeSigned(end),cumulativeAbsolute(end),result.rateGain};
+    for symbol = 1:n
+        traceRows((point-1)*n+symbol,:) = { ...
+            expectedTimes(point),saved.packetId,symbol,symbolError(symbol), ...
+            result.estimatedCfoBins(symbol), ...
+            frame.truth.dataCfoBins(symbol),residual(symbol), ...
+            cumulativeSigned(symbol),cumulativeAbsolute(symbol), ...
+            result.rateGain};
+    end
+end
+
+trace = cell2table(traceRows,'VariableNames',{ ...
+    'orbitStartSec','packetId','payloadSymbolIndex','symbolError', ...
+    'estimatedCfoBins','offlineTrueCfoBins','cfoResidualBins', ...
+    'cumulativeSignedResidualBinSymbols', ...
+    'cumulativeAbsoluteResidualBinSymbols','rateGain'});
+packetSummary = cell2table(packetRows,'VariableNames',{ ...
+    'orbitStartSec','packetId','senloraRawErrors','idealRawErrors', ...
+    'senloraErrorSymbolIndices','cfoResidualRmseBins', ...
+    'finalSignedResidualBinSymbols','finalAbsoluteResidualBinSymbols', ...
+    'rateGain'});
+tracePath = fullfile(root,'FIVE_POINT_FIRST_ERROR_CFO_RESIDUAL_TRACE.csv');
+packetPath = fullfile(root,'FIVE_POINT_FIRST_ERROR_RESIDUAL_SUMMARY.csv');
+writetable(trace,tracePath);
+writetable(packetSummary,packetPath);
+
+figurePath = fullfile(root,'FIVE_POINT_FIRST_ERROR_CFO_RESIDUAL.png');
+f = figure('Visible','off','Color','w','Position',[100 100 1120 820]);
+tiledlayout(2,1,'TileSpacing','compact','Padding','compact');
+colors = lines(5);
+labels = compose('%.1f s, packet %d', ...
+    expectedTimes,packetSummary.packetId);
+nexttile
+hold on
+for point = 1:5
+    rows = trace.orbitStartSec==expectedTimes(point);
+    plot(trace.payloadSymbolIndex(rows), ...
+        trace.cumulativeSignedResidualBinSymbols(rows), ...
+        'Color',colors(point,:),'LineWidth',1.4, ...
+        'DisplayName',labels{point});
+    errors = rows & trace.symbolError;
+    scatter(trace.payloadSymbolIndex(errors), ...
+        trace.cumulativeSignedResidualBinSymbols(errors),55, ...
+        colors(point,:),'filled','MarkerEdgeColor','k', ...
+        'HandleVisibility','off');
+end
+yline(0,':','HandleVisibility','off');
+grid on;xlim([1 n]);
+xlabel('Payload symbol index');
+ylabel('Cumulative signed CFO residual (bin·symbols)');
+title('First SenLoRa error packet at each orbit point');
+legend('Location','best');
+nexttile
+hold on
+for point = 1:5
+    rows = trace.orbitStartSec==expectedTimes(point);
+    plot(trace.payloadSymbolIndex(rows), ...
+        trace.cumulativeAbsoluteResidualBinSymbols(rows), ...
+        'Color',colors(point,:),'LineWidth',1.4, ...
+        'DisplayName',labels{point});
+    errors = rows & trace.symbolError;
+    scatter(trace.payloadSymbolIndex(errors), ...
+        trace.cumulativeAbsoluteResidualBinSymbols(errors),55, ...
+        colors(point,:),'filled','MarkerEdgeColor','k', ...
+        'HandleVisibility','off');
+end
+grid on;xlim([1 n]);
+xlabel('Payload symbol index');
+ylabel('Cumulative absolute CFO residual (bin·symbols)');
+title('Filled markers show the erroneous payload symbol');
+legend('Location','northwest');
+exportgraphics(f,figurePath,'Resolution',220);
+close(f);
+
+output = struct('packetSummary',packetSummary,'tracePath',tracePath, ...
+    'packetPath',packetPath,'figurePath',figurePath);
+end

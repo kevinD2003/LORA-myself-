@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/tapparelj/gr-lora_sdr",
+  "commit": "31243b0ac9cc8255f860dc85fc9594734856e03e",
+  "license": "GPL-3.0; https://github.com/tapparelj/gr-lora_sdr/blob/31243b0ac9cc8255f860dc85fc9594734856e03e/LICENSE",
+  "role": "user-authorized standard soft-decoder option, not confirmed author simulation settings",
+  "maxLogApproximation": true,
+  "fftEnergyNormalization": "Estimate Ps/Pn from original FFT energy, then multiply all energies by N before Bessel arguments and clipped-power fallback (upstream lines 187-209)",
+  "softSpectrum": "N integer candidates after constant-per-symbol causal LR frequency correction; explicit reference-rectangular control or frozen periodic paper-hann window",
+  "paperHannIntegerGrid": "N FFT equals the integer-bin subset of a fourfold zero-padded FFT of the same corrected Hann-windowed IQ",
+  "lr": "unchanged v6 ordinary fixed/causal rolling LS, Hann/4x/10-centroid and hard feedback",
+  "primaryCodedBerStream": "unchanged LR-hard bit decisions before Hamming; codec-specific CRC-success mask",
+  "diagnosticCodedBerStream": "soft likelihood sign bits before ML; reported separately",
+  "sources": [
+    "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/fft_demod_impl.cc",
+    "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/deinterleaver_impl.cc",
+    "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/lib/hamming_dec_impl.cc",
+    "https://raw.githubusercontent.com/tapparelj/gr-lora_sdr/31243b0ac9cc8255f860dc85fc9594734856e03e/python/lora_sdr/lora_sdr_lora_rx.py"
+  ],
+  "authorDecoderModeConfirmed": false,
+  "softFeedbackIntoLR": false,
+  "crcAssistedSelection": false
+}

@@ -1,5 +1,7 @@
 # SF11 Midamble-Point / Stage55 fair comparison
 
+[按功能查找源码](docs/code_index.md) · [文档索引](docs/README.md)
+
 This isolated MATLAB R2022a experiment transplants the paper's
 Midamble-Point receiver into the frozen Stage55 project conditions and
 compares:
@@ -23,8 +25,10 @@ paper receiver uses them.
 
 Primary outputs are only:
 
-- results/sf11_stage55_three_method_ser_trajectory.png
-- results/sf11_stage55_three_method_ber_trajectory.png
+- results/final/sf11_stage55_three_method_ser_trajectory.png
+- results/final/sf11_stage55_three_method_ber_trajectory.png
 
 BER means delivered BER after the common ML-soft Hamming(7,4) decoder.
 SER is computed only over the original 112 data symbols.
+
+SF11 receiver V2 的成对图保留在 `results/final_sf11_receiver_v2/`，对应方法说明见 [文档索引](docs/README.md)。

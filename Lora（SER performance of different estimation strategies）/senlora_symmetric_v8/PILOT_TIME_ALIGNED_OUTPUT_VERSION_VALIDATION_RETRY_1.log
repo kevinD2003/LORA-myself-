@@ -1,0 +1,8 @@
+CaseSnr PaperPoint: 40/20000 paired rows; errors PREC/VP/comparison=3168/1861/2581; failures=0
+DEFAULT PAPER VERSIONED SMOKE PASS CaseSnr: 40 paired rows.
+Figure12 PaperPoint: 20/10000 paired rows; errors PREC/VP/comparison=1218/53/120; failures=0
+DEFAULT PAPER VERSIONED SMOKE PASS Figure12: 20 paired rows.
+ALL 14 LEGACY PAPER FILE HASHES UNCHANGED; PAPER RECEIVER/FRAME SOURCES UNCHANGED.
+VALIDATION PASS CaseSnr: 20000 rows, 20 cells, 1000 IDs/cell, unchanged resume.
+VALIDATION PASS Figure12: 10000 rows, 10 cells, 1000 IDs/cell, unchanged resume.
+ALL SIX PLOTS / 30000 PAIRED ROWS VALIDATED.

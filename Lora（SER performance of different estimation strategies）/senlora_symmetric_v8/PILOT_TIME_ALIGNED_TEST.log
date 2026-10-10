@@ -1,0 +1,14 @@
+正在运行 SenloraPilotTimeAlignedTest
+....
+已完成 SenloraPilotTimeAlignedTest
+__________
+
+正在运行 SenloraPaperPointTest
+.....
+已完成 SenloraPaperPointTest
+__________
+
+ALL 9 TESTS PASS
+CHECKCODE senloraPilotTimeAlignedDecode.m 0 findings
+CHECKCODE SenloraPilotTimeAlignedTest.m 0 findings
+CHECKCODE runSenloraPaperPointFourCurves.m 0 findings

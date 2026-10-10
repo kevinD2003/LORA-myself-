@@ -1,0 +1,15 @@
+{
+  "originalFiles": 2997,
+  "movedFiles": 43,
+  "missingOriginalFiles": [],
+  "unchangedContentFiles": 2965,
+  "editedOriginalFiles": 32,
+  "editedOriginalCode": [
+    "comparison_experiments/stage55_sf12_sf11_flow_v3/scripts/buildV3Report.m"
+  ],
+  "originalResultFiles": 2337,
+  "allOriginalResultsByteIdentical": true,
+  "originalExecutableFiles": 525,
+  "unchangedExecutableFiles": 524,
+  "movedHistoricalScriptByteIdentical": true
+}

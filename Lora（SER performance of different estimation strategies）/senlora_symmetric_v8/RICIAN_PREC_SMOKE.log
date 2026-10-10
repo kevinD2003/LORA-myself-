@@ -1,0 +1,10 @@
+正在运行 SenloraSymmetricV8PrecRicianTest
+..
+已完成 SenloraSymmetricV8PrecRicianTest
+__________
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+Rician PREC V9: 40/20000 frames; errors=3168; failures=0; forbidden=0
+RICIAN_PREC_IN_PROGRESS: 40/20000
+Checkpoint resume passed: 40 frames

@@ -1,0 +1,5 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+CaseSnr Eq17: 40/20000 paired rows; errors PREC/VP/Paper=3168/1861/2581; failures=0
+Figure12 Eq17: 20/10000 paired rows; errors PREC/VP/Paper=1218/53/120; failures=0
+SMOKE CaseSnr 40/20000 Figure12 20/10000

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen-awaiting-case2-formal-tolerance",
+  "frozenAt": "2026-09-28T00:00:00+08:00",
+  "identity": "EXP5-SENLORA-SYMMETRIC-NATIVE-V8-FROZEN",
+  "receiverVersion": "SenLoRa-V8-joint-block-frozen-v1",
+  "officialEntry": "senloraSymmetricV8Decode",
+  "implementation": "senloraSymmetricV8JointBlockDecode",
+  "parameters": {
+    "d0Bins": 0.10,
+    "d1Bins": 0.80,
+    "nativePreambleSymbols": 8,
+    "payloadSymbols": 112,
+    "formalPacketsPerMirrorPair": 1000,
+    "case2AbsoluteSerTolerance": null
+  },
+  "reviewEvidence": {
+    "seedRoot": 1032000000,
+    "pairedPackets": 900,
+    "frames": 1800,
+    "jointRawErrors": 20,
+    "v6NativeRawErrors": 20,
+    "idealRawErrors": 16,
+    "case1PairedDifference": 0,
+    "case2PairedDifference": 0,
+    "significantMirrorCount": 0,
+    "obviousAdjacentJumpCount": 0,
+    "receiverFailures": 0
+  },
+  "sourceSha256": {
+    "senloraSymmetricV8Config.m": "d7171b358a3ebd0198ca1281a2b007493b9daf7c1018caa9a6607c8d2532f4a4",
+    "senloraSymmetricV8Decode.m": "b23452677ed4be6f18670a702b609acfba12ba3af3d2c9aab5a328b1111e26e6",
+    "senloraSymmetricV8JointBlockDecode.m": "a4d496c8b3fb1b53cd226b69a9c92f5221818365da4f7c0c8b336a2482babc33",
+    "senloraSymmetricV8BlockLikelihood.m": "10d94182e811a683d2545356717b31244b7ebf53b2d1141b267d6950973c8847",
+    "senloraSymmetricV8BlendBootstrap.m": "7500f52421696c17d6227961c943a1264584f06e1737158ca8e671b5e6ca65be",
+    "senloraSymmetricV8GenerateFrame.m": "a814a11facc6fb0c8976597a164efc9497dac546a3b4db477cf7984cfe521ee6"
+  },
+  "reviewArtifactSha256": {
+    "REVIEW_RESULT.mat": "0bc5d320fd6ae500d22b29223e61101826b18194e815c8e8c1f9fb614b6d3d3a",
+    "REVIEW_CHECKS.mat": "267927299195f4ea9da9a916a4a5ffe7e0b6aca7b066c7f2e8cecfb29ee2c693",
+    "REVIEW_RAW_PACKETS.csv": "66b6f2b1c14b4511958f4fe8a777bce19c8690228a9e0e6c3d5c932f805ffcac"
+  },
+  "usesPayloadTruth": false,
+  "usesOrbitTruth": false,
+  "usesCaseIdentity": false,
+  "usesSnrInput": false,
+  "usesTargetSer": false,
+  "usesExplicitMidambles": false,
+  "formalStarted": false
+}

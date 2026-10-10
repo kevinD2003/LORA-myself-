@@ -1,0 +1,8 @@
+CaseSnr PilotTimeAligned: 14950/20000 paired rows; errors PREC/VP/comparison=1168961/763893/1016634; failures=0
+CaseSnr PilotTimeAligned: 15000/20000 paired rows; errors PREC/VP/comparison=1169860/764874/1018469; failures=0
+CaseSnr PilotTimeAligned: 15050/20000 paired rows; errors PREC/VP/comparison=1171101/766069/1019946; failures=0
+CaseSnr PilotTimeAligned: 15100/20000 paired rows; errors PREC/VP/comparison=1176698/770780/1025374; failures=0
+CaseSnr PilotTimeAligned: 15150/20000 paired rows; errors PREC/VP/comparison=1182288/773621/1029475; failures=0
+CaseSnr PilotTimeAligned: 15200/20000 paired rows; errors PREC/VP/comparison=1187876/774372/1031109; failures=0
+CaseSnr PilotTimeAligned: 15240/20000 paired rows; errors PREC/VP/comparison=1192338/774531/1031511; failures=0
+BOUNDED_BATCH_COMPLETE CaseSnr limit=720 completed=15240/20000

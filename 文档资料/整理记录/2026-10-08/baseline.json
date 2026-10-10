@@ -1,0 +1,13 @@
+{
+  "Root": "D:/codex",
+  "OriginalFiles": 5919,
+  "ActiveProjectRoot": "Doppler_Resistant_Enhancement_for_Energy_Efficient_Device-to-Satellite_LoRa_Communications",
+  "Scope": "Organize documents and idle historical text logs; preserve project roots, references, source code and experiment outputs",
+  "ExcludedDirectories": [
+    ".git",
+    "node_modules",
+    "__pycache__",
+    ".venv",
+    "venv"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "FORMAL_COMPLETE_WITH_NUMERICAL_GAPS",
+  "timestamp": "2026-10-09T10:10:59",
+  "testsPassed": 9,
+  "testsFailed": 0,
+  "tableIvRows": 5,
+  "tableIvDiagnosticOverpasses": 32,
+  "fullPhyValidationRows": 12,
+  "fullTrajectoryPositions": 402,
+  "formalRows": 10,
+  "formalReceivedPackets": 6.03E+6,
+  "formal3000OverpassesComplete": true,
+  "directSampleLevelIQ": true,
+  "centroidPoints": 10,
+  "bandwidthHz": 62600,
+  "crcFilteredBer": true,
+  "allPacketBerReportedSeparately": true,
+  "nativeReferenceEquivalenceVerified": true,
+  "exactSourceSignatures": true,
+  "numericalAgreementClaimed": false,
+  "tableIvSignature": "9416e1813fcca5c457ed8794e3da00f745e37e9b16889bb4a4512dd843002437",
+  "formalSignature": "61be9e3923d96d1814c27931f8930557340dc79772bd3c0162c824cf60dcf7d2"
+}

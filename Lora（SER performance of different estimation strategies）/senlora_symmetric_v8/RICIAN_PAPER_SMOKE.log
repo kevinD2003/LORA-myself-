@@ -1,0 +1,9 @@
+正在运行 SenloraSymmetricV8PaperRicianTest
+..
+已完成 SenloraSymmetricV8PaperRicianTest
+__________
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+Rician Paper: 40/20000 frames; Paper/Paper-Ideal errors=2812/1746; failures=0; forbidden=0
+RICIAN_PAPER_IN_PROGRESS: 40/20000

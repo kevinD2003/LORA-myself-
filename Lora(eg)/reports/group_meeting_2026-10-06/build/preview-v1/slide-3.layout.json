@@ -1,0 +1,9 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/b9dpof","index":2,"layout":{"id":"ly/wz2ps3ih","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/y9kjqt47","kind":"textbox","name":"slide-title","position":{"left":56,"top":36,"width":1168,"height":70},"text":"Case1：Rician 信道 SER–SNR","style":{"fontSize":44,"typeface":"Microsoft YaHei","color":"#123650","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/0jm9gzmt","kind":"image","position":{"left":40,"top":115,"width":805,"height":550},"fit":"contain","alt":"Case1 Rician four-curve raw SER plot"},
+{"id":"sh/0b21sjmd","kind":"textbox","name":"case1-snr","position":{"left":884,"top":205,"width":340,"height":45},"text":"−21 dB","style":{"fontSize":30,"typeface":"Microsoft YaHei","color":"#587080","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/b69kvelg","kind":"textbox","name":"case1-vp","position":{"left":884,"top":278,"width":340,"height":50},"text":"VP  3.14×10⁻²","style":{"fontSize":32,"typeface":"Microsoft YaHei","color":"#0072BD","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/q50jm94b","kind":"textbox","name":"case1-theory","position":{"left":884,"top":345,"width":340,"height":50},"text":"理论  2.85×10⁻²","style":{"fontSize":30,"typeface":"Microsoft YaHei","color":"#182B3A","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/d8b2xo3m","kind":"textbox","name":"case1-samples","position":{"left":884,"top":470,"width":340,"height":105},"text":"1000 包/点\nRician K = 10 dB","style":{"fontSize":26,"typeface":"Microsoft YaHei","color":"#587080","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}
