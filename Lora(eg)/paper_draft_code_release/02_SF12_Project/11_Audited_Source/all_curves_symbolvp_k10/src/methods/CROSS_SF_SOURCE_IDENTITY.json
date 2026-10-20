@@ -1,0 +1,232 @@
+[
+  {
+    "name": "exp1TrackAOrbit.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\src\\exp1TrackAOrbit.m"
+  },
+  {
+    "name": "satelliteFig3BootstrapJointPhaseEstimate.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\upstream_sf11\\satelliteFig3BootstrapJointPhaseEstimate.m"
+  },
+  {
+    "name": "satelliteFig3HuangPrecCpBootstrapEstimate.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\upstream_sf11\\satelliteFig3HuangPrecCpBootstrapEstimate.m"
+  },
+  {
+    "name": "satelliteFig3ModulateSymbol.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\upstream_sf11\\satelliteFig3ModulateSymbol.m"
+  },
+  {
+    "name": "senloraPaperPointFrameLayout.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraPaperPointFrameLayout.m"
+  },
+  {
+    "name": "senloraPilotTimeAlignedDecode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraPilotTimeAlignedDecode.m"
+  },
+  {
+    "name": "senloraSymbolVpMeasure.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8_symbol_vp\\senloraSymbolVpMeasure.m"
+  },
+  {
+    "name": "senloraSymbolVpPredict.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8_symbol_vp\\senloraSymbolVpPredict.m"
+  },
+  {
+    "name": "senloraSymmetricV8AwgnTheory.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraSymmetricV8AwgnTheory.m"
+  },
+  {
+    "name": "senloraSymmetricV8BlendBootstrap.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraSymmetricV8BlendBootstrap.m"
+  },
+  {
+    "name": "senloraSymmetricV8BlockLikelihood.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraSymmetricV8BlockLikelihood.m"
+  },
+  {
+    "name": "senloraSymmetricV8Decode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraSymmetricV8Decode.m"
+  },
+  {
+    "name": "senloraSymmetricV8JointBlockDecode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraSymmetricV8JointBlockDecode.m"
+  },
+  {
+    "name": "senloraSymmetricV8RicianTheory.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8\\senloraSymmetricV8RicianTheory.m"
+  },
+  {
+    "name": "senloraSymmetricV8SymbolVpDecode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora（SER performance of different estimation strategies）\\senlora_symmetric_v8_symbol_vp\\senloraSymmetricV8SymbolVpDecode.m"
+  },
+  {
+    "name": "v4BCalibrationCandidates.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\config\\v4BCalibrationCandidates.m"
+  },
+  {
+    "name": "v4BootstrapJointPhaseEstimate.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4BootstrapJointPhaseEstimate.m"
+  },
+  {
+    "name": "v4BootstrapStateAtSymbol.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4BootstrapStateAtSymbol.m"
+  },
+  {
+    "name": "v4BuildFrameLayout.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4BuildFrameLayout.m"
+  },
+  {
+    "name": "v4BuildNativeFrameLayout.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4BuildNativeFrameLayout.m"
+  },
+  {
+    "name": "v4CommonBootstrap.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4CommonBootstrap.m"
+  },
+  {
+    "name": "v4CompensateSymbol.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4CompensateSymbol.m"
+  },
+  {
+    "name": "v4DecodePayload.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4DecodePayload.m"
+  },
+  {
+    "name": "v4DefaultBParameters.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\config\\v4DefaultBParameters.m"
+  },
+  {
+    "name": "v4DiagonalDeinterleave.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4DiagonalDeinterleave.m"
+  },
+  {
+    "name": "v4DiagonalInterleave.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4DiagonalInterleave.m"
+  },
+  {
+    "name": "v4GeneratePayload.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4GeneratePayload.m"
+  },
+  {
+    "name": "v4GrayDecode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4GrayDecode.m"
+  },
+  {
+    "name": "v4GrayEncode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4GrayEncode.m"
+  },
+  {
+    "name": "v4Hamming74Table.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\coding\\v4Hamming74Table.m"
+  },
+  {
+    "name": "v4HuangPrecDecodeV3.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4HuangPrecDecodeV3.m"
+  },
+  {
+    "name": "v4HuangPrecUnifiedDecodeV9.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4HuangPrecUnifiedDecodeV9.m"
+  },
+  {
+    "name": "v4HuangStaticDecode.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4HuangStaticDecode.m"
+  },
+  {
+    "name": "v4LoadMethodAlignedParametersV1.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\config\\v4LoadMethodAlignedParametersV1.m"
+  },
+  {
+    "name": "v4LoadMethodAlignedR3ParametersV1.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\config\\v4LoadMethodAlignedR3ParametersV1.m"
+  },
+  {
+    "name": "v4ModulateSymbol.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4ModulateSymbol.m"
+  },
+  {
+    "name": "v4PhaseRotationEstimate.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4PhaseRotationEstimate.m"
+  },
+  {
+    "name": "v4RicianCoefficient.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4RicianCoefficient.m"
+  },
+  {
+    "name": "v4RollingTrackerPass.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4RollingTrackerPass.m"
+  },
+  {
+    "name": "v4Sha256.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\infrastructure\\v4Sha256.m"
+  },
+  {
+    "name": "v4Stage55BootstrapFromJointPreambleMl.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4Stage55BootstrapFromJointPreambleMl.m"
+  },
+  {
+    "name": "v4Stage55JointPreambleMlBootstrap.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4Stage55JointPreambleMlBootstrap.m"
+  },
+  {
+    "name": "v4Stage55PreambleRegimeClassifier.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4Stage55PreambleRegimeClassifier.m"
+  },
+  {
+    "name": "v4SymbolLikelihood.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\phy\\v4SymbolLikelihood.m"
+  },
+  {
+    "name": "v4TrackAOrbit.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\paper_anchor\\v4TrackAOrbit.m"
+  },
+  {
+    "name": "v4ValidateReceiverParameters.m",
+    "hasByteIdenticalSf12Source": true,
+    "matchedSource": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4ValidateReceiverParameters.m"
+  }
+]

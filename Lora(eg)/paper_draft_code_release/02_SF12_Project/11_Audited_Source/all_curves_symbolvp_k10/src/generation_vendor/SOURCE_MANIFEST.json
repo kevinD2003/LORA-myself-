@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "file": "v4GenerateNativeFrame.m",
+      "original": "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/src/phy/v4GenerateNativeFrame.m",
+      "sha256": "0ce0882fa3024323631370864d10b4571427794011185c8ff4472bbfaaa5fcbb"
+    },
+    {
+      "file": "v4SymbolFrequency.m",
+      "original": "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/src/phy/v4SymbolFrequency.m",
+      "sha256": "fdc4069776000a65c2849c7da539f92ce3ab32ffe7d206541b1c664b15990bb8"
+    },
+    {
+      "file": "v4Trajectory.m",
+      "original": "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/src/phy/v4Trajectory.m",
+      "sha256": "b884537e2ddfe83afb8d8fd584e0e9b54b533a5ba14e726eaebc4d12cb9fdafc"
+    },
+    {
+      "file": "sf12NoLdroSf11FlowConfig.m",
+      "original": "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/config/sf12NoLdroSf11FlowConfig.m",
+      "sha256": "6d60898021d1e8567d74661f538520e78e1e36ae2d619af5032ae460e4ec4dcb"
+    },
+    {
+      "file": "v4ValidateConfig.m",
+      "original": "comparison_experiments/stage55_sf12_sf11_flow_v4_noldro/config/v4ValidateConfig.m",
+      "sha256": "9e4877759335ba05e2c64d12b3f01466bf26e14dff2b467ca61e249fa0d20197"
+    },
+    {
+      "file": "prefecPacketOraclePhase.m",
+      "original": "comparison_experiments/paper_endpoint_conditions/prefec_revision/src/prefecPacketOraclePhase.m",
+      "sha256": "67b068d4ef29c88b3bece769bdbd72a8c9dd5981128930f86673ba3faaf435c6"
+    }
+  ]
+}

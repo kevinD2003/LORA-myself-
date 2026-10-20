@@ -1,0 +1,23 @@
+function report=runReceiverCompatibilitySmoke()
+%RUNRECEIVERCOMPATIBILITYSMOKE Ensure frozen PREC/VP/Paper accept the channel.
+oldPath=path;restore=onCleanup(@()path(oldPath));roots=nk10Setup();
+rows=cell(2,1);
+for index=1:2
+    sf=[7 12];sf=sf(index);config=nk10Config(sf);
+    snr=-6-15*(sf==12);seed=4083000000+index*100000;
+    seeds=struct('payloadSeed',seed,'noiseSeed',seed+1, ...
+        'channelSeed',seed+2,'paperExtraNoiseSeed',seed+3);
+    pair=nk10GeneratePair(config,0,snr,seeds);decoded=acDecodeMethods(pair,config);
+    assert(decoded.allReceiversCompleted&& ...
+        ~decoded.failures.PREC&&~decoded.failures.VP&&~decoded.failures.Paper, ...
+        'Nk10:ReceiverSmoke','A frozen receiver failed its compatibility smoke.');
+    rows{index}=struct('sf',sf,'precBins',numel(decoded.PREC.detectedPhysicalBins), ...
+        'vpBins',numel(decoded.VP.detectedPhysicalBins), ...
+        'paperBins',numel(decoded.Paper.detectedPhysicalBins), ...
+        'vpVersion',decoded.VP.algorithmVersion);
+end
+rows=vertcat(rows{:});
+report=struct('status','PASS','receiverVersion',roots.receiverIdentity.receiverVersion, ...
+    'rows',rows,'metricPolicy','pre-FEC-hard-chirp-SER-only-no-BER-curve');
+disp(jsonencode(report));
+end

@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "source": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\k10_multipath_revision\\src\\channel\\mpK10ApplyChannel.m",
+      "copy": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\all_curves_symbolvp_k10\\src\\channel\\vendor\\mpK10ApplyChannel.m",
+      "sha256": "79967e10d14d1fb726012e0d65533192e78edeb58acc59dd18befe8a61233e53",
+      "policy": "byte-for-byte frozen source copy"
+    },
+    {
+      "source": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\k10_multipath_revision\\src\\channel\\mpK10DiffuseTaps.m",
+      "copy": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\all_curves_symbolvp_k10\\src\\channel\\vendor\\mpK10DiffuseTaps.m",
+      "sha256": "b3582cc2ffad0567d009f44ab50b531eb944740df184ba1bcd9e2400e573c281",
+      "policy": "byte-for-byte frozen source copy"
+    },
+    {
+      "source": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\k10_multipath_revision\\src\\channel\\mpK10Profiles.m",
+      "copy": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\all_curves_symbolvp_k10\\src\\channel\\vendor\\mpK10Profiles.m",
+      "sha256": "d6a2cbfa1a430799fe95c385f52821b94d59af26fd383bcb1d695a37bb3b32ec",
+      "policy": "byte-for-byte frozen source copy"
+    },
+    {
+      "source": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\k10_multipath_revision\\src\\channel\\mpK10ValidateProfile.m",
+      "copy": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\all_curves_symbolvp_k10\\src\\channel\\vendor\\mpK10ValidateProfile.m",
+      "sha256": "758f6daaf313828ade7b4272764e27cd816ceb5112b95cd8518b2f57bd75b704",
+      "policy": "byte-for-byte frozen source copy"
+    }
+  ],
+  "newGenerator": "acGeneratePair.m",
+  "newCohort": "all-curves-native-paper-semantic-noise-v1"
+}

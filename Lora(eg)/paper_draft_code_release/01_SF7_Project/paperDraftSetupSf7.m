@@ -1,0 +1,26 @@
+function roots = paperDraftSetupSf7()
+%PAPERDRAFTSETUPSF7 Activate the audited SF7 paper-code snapshot.
+
+root = fileparts(mfilename('fullpath'));
+sourceRoot = fullfile(root,'11_Audited_Source');
+allCurves = fullfile(sourceRoot,'all_curves_symbolvp_k10');
+normalizedChannel = fullfile(sourceRoot,'normalized_k10_pdp_v1');
+runningComparison = fullfile(sourceRoot,'normalized_k10_receiver_ser_v1');
+required = {allCurves,normalizedChannel,runningComparison};
+assert(all(cellfun(@isfolder,required)), ...
+    'PaperDraft:MissingSource','Audited source snapshot is incomplete.');
+addpath(genpath(allCurves),genpath(normalizedChannel), ...
+    genpath(runningComparison),fullfile(root,'05_Curve_Entry_Files'),'-begin');
+[~,awgnConfigs] = acProjectConditions();
+awgnConfig = awgnConfigs{1};
+ricianConfig = nk10Config(7);
+assert(awgnConfig.parent.physicalSf==7 && ricianConfig.parent.physicalSf==7 && ...
+    awgnConfig.parent.samplesPerSymbol==128 && ...
+    awgnConfig.parent.paperMidambleInterval==12, ...
+    'PaperDraft:WrongSf7Config','Expected locked SF7 configuration.');
+roots = struct('root',root,'sourceRoot',sourceRoot, ...
+    'allCurves',allCurves,'normalizedChannel',normalizedChannel, ...
+    'runningComparison',runningComparison,'config',awgnConfig, ...
+    'awgnConfig',awgnConfig,'ricianConfig',ricianConfig);
+end
+

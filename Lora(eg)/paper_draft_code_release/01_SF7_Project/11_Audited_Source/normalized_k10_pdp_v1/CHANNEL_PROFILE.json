@@ -1,0 +1,38 @@
+{
+  "id": "normalized-k10-zero038-exp13-d1-4-v1",
+  "provenance": {
+    "smallScaleReference": "Impact_of_Elevation_Angle public channel.py get_Rician_fading_coefficient",
+    "projectAdaptation": "LoRa 125-kHz causal normalized PDP sensitivity; not specified by the cited paper"
+  },
+  "projectPhysicalParameters": {
+    "carrierFrequencyHz": 868000000,
+    "orbitHeightM": 550000,
+    "bandwidthHz": 125000,
+    "sampleRateHz": 125000,
+    "samplePeriodMicroseconds": 8
+  },
+  "ricianKLinear": 10,
+  "ricianKDb": 10,
+  "ensembleTotalPower": 1,
+  "losPhaseRad": 0.7853981633974483,
+  "losPower": 0.9090909090909091,
+  "diffusePower": 0.09090909090909091,
+  "linkMarginDb": 0,
+  "perPacketPowerNormalization": false,
+  "delaysSamples": [0, 1, 2, 3, 4],
+  "delaysMicroseconds": [0, 8, 16, 24, 32],
+  "diffuseRelativePowers": [
+    0.38,
+    0.4535322280719623,
+    0.12360195131516263,
+    0.033685461414424,
+    0.009180359198451017
+  ],
+  "overallMeanDelaySamples": 0.07622854106721487,
+  "overallRmsDelaySamples": 0.34825229073606034,
+  "overallRmsDelayMicroseconds": 2.7860183258884827,
+  "coherenceAssumption": "packet-constant taps; packets independent",
+  "dopplerAssumption": "V4 deterministic common orbital Doppler; no invented diffuse Doppler",
+  "sharedAcross": "SF7, SF12, all SNR points, Case1, Case2, and half-orbit"
+}
+

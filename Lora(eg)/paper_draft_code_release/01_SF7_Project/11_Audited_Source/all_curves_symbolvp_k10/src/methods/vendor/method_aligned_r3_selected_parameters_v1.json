@@ -1,0 +1,13 @@
+{
+  "planVersion":"V4-noLDRO-method-aligned-R3",
+  "parameterVersion":"R3-param-v14-01",
+  "qualityV3Sha256":"216085c377d742e87d5625bf86e5194f44bf47e52d8c36585ccce09b16332c31",
+  "qualityV4Sha256":"dcea8d5501df2891fefee99ae223863143124de010030c89a83ff2a1e4583f5f",
+  "baseParameterVersion":"MA-param-v01",
+  "modeLargeToCentralRatio":0.8,
+  "rateBankMaximumCount":4,
+  "rateBankLeadingBlocks":4,
+  "rateBankPreambleLogWeight":0.1,
+  "vpProcessingGainMinimum":8,
+  "leaveOneOutMinimumMarginRatio":0
+}

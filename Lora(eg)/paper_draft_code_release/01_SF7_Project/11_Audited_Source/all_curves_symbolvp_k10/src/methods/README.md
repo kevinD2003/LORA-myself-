@@ -1,0 +1,13 @@
+# Frozen receiver boundary
+
+`acDecodeMethods(pair,config)` runs PREC, V8 Symbol-VP Rolling-N8, and the latest causal Paper adaptation. It returns `PREC`, `VP`, `Paper`, received-preamble `noisePowerEstimate`, `runtimeSec`, `sourceIdentity`, and per-method `failures` / `messages`. A failed method is `[]`; other methods are still attempted. Source identity, PHY, plan, and observation-shape violations are fatal configuration errors.
+
+Only `pair.native.observation.rxPhysical/layout` and `pair.pilot.observation.rxPhysical/layout` enter receiver code. Generator truth, channel coefficients, noise variance, SNR, and case identity are not read. The legacy PREC `noiseVariance` field receives the common estimator's preamble noise estimate. All receivers finish before this function returns for evaluation.
+
+The native frame has eight upchirps and 112 payload chirps. Paper has its separate physical frame with inserted midambles. SER decisions are `detectedPhysicalBins`, direct native FFT hard chirp maxima before FEC. `hardDecodedDataBits`, where present, are explicitly labeled as information bits after hard Hamming decoding. V8 still uses its original legal-codeword search and reencoded labels for receiver feedback.
+
+`vendor/` preserves original receiver files byte for byte. `SOURCE_MANIFEST.json` records their source paths and SHA-256 hashes. `CROSS_SF_SOURCE_IDENTITY.json` records the matching SF12 original or frozen parent source for each original SF7 vendor file: every file matches. The V8 Symbol-VP entry SHA-256 is `f48572dc511c15c12ae1b1e8ada35a61f77e265c2951a04f8a5fbeb5423f6476`. No Unified-V16 receiver substitutes for Symbol-VP. `acMethodSources` verifies all snapshot hashes on activation and all function resolution paths on each call.
+
+Symbol-VP stores up to eight individual symbol measurements. Labels become available at the end of the complete seven-chirp Hamming block, and enter later blocks causally. Compensation uses each chirp's time. The frozen rate fit requires evidence from two source blocks and a physical-time uncertainty gate. Clean fixtures accepting every symbol have zero additional rate updates at both SF7 and SF12; their bootstrap rate is retained. This source behavior is reported without changing its thresholds. Distinct waveform measurements and CFO feedback remain active.
+
+`tests/methods/acRunMethodTests.m` checks original-source equality at both SFs, exact first-pass output, invariance to truth/noise metadata, future-sample causality, distinct symbol measurements, Rolling-N limits, and independent PREC failure isolation. `METHOD_TEST_REPORT.json` contains the executable results.

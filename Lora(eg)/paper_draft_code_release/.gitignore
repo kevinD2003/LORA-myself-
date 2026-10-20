@@ -1,0 +1,18 @@
+# Local and frozen experiment outputs are never part of the paper code upload.
+**/99_Local_Outputs_Not_Uploaded/*
+!**/99_Local_Outputs_Not_Uploaded/README.md
+**/results/
+**/checkpoints/
+**/frozen_data/
+**/source_snapshots/
+*.mat
+*.fig
+*.png
+*.pdf
+*.log
+*.tmp
+**/__pycache__/
+
+# Curated, audited result figures are explicitly publishable.
+!**/12_Result_Figures/**/*.png
+

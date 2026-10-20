@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "receiverVersion": "SenLoRa-V8-symbol-vp-experiment-v1",
+  "note": "Byte-preserved source snapshot. V8 Symbol-VP entry is identical in original SF7 and SF12 source trees.",
+  "files": [
+    {
+      "file": "exp1TrackAOrbit.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\exp1TrackAOrbit.m",
+      "sha256": "0a9780c78db96124a8a965aba6c923d69d60a8f915c1a807c00d683cf1fdf7f1"
+    },
+    {
+      "file": "method_aligned_r3_selected_parameters_v1.json",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\method_aligned_r3_selected_parameters_v1.json",
+      "sha256": "d064fecfc4e7dd15cbf9363a16dd750f2c80e7138b46fe5e70d1c04b18192c08"
+    },
+    {
+      "file": "method_aligned_selected_parameters_v1.json",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\method_aligned_selected_parameters_v1.json",
+      "sha256": "654db45758c769bec3fd37e11330c84760b57462800b9b28966bde55589842ee"
+    },
+    {
+      "file": "satelliteFig3BootstrapJointPhaseEstimate.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\satelliteFig3BootstrapJointPhaseEstimate.m",
+      "sha256": "46c7ec378e24435f1b84fea8ebdfd5368f127eb502771a4db7488c274fa472f2"
+    },
+    {
+      "file": "satelliteFig3HuangPrecCpBootstrapEstimate.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\satelliteFig3HuangPrecCpBootstrapEstimate.m",
+      "sha256": "c0ec184220745f27d06e13ea8428ef09905e499918d59aeef2d4770fc4681985"
+    },
+    {
+      "file": "satelliteFig3ModulateSymbol.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\satelliteFig3ModulateSymbol.m",
+      "sha256": "04835fdd6078a3c79706f9e2c1c835e5fe863dc9c25502847e71d9d9544bce77"
+    },
+    {
+      "file": "senloraPaperPointFrameLayout.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraPaperPointFrameLayout.m",
+      "sha256": "8f605240bd2d63278d8bbeffed6bf06c1a7de3daf1b34f0d831da4e1e191e72a"
+    },
+    {
+      "file": "senloraPilotTimeAlignedDecode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraPilotTimeAlignedDecode.m",
+      "sha256": "f55113ce769d4426f3c704b925a177c4242e6103e8fbecd82c5a00a5ea0859d4"
+    },
+    {
+      "file": "senloraSymbolVpMeasure.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymbolVpMeasure.m",
+      "sha256": "da3476973c1ca86e2760556be6facfe72ebb0b0590e5844b1e37c7b4f1230883"
+    },
+    {
+      "file": "senloraSymbolVpPredict.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymbolVpPredict.m",
+      "sha256": "3435ad32db321c2ebe67ec3c73fb6725f686f2c8aafb54f595ea17e105dab76c"
+    },
+    {
+      "file": "senloraSymmetricV8AwgnTheory.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8AwgnTheory.m",
+      "sha256": "ffad5115d2d51cc9939565dd6b8af44016e80269104522683be13caefd66b2dc"
+    },
+    {
+      "file": "senloraSymmetricV8BlendBootstrap.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8BlendBootstrap.m",
+      "sha256": "7500f52421696c17d6227961c943a1264584f06e1737158ca8e671b5e6ca65be"
+    },
+    {
+      "file": "senloraSymmetricV8BlockLikelihood.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8BlockLikelihood.m",
+      "sha256": "10d94182e811a683d2545356717b31244b7ebf53b2d1141b267d6950973c8847"
+    },
+    {
+      "file": "senloraSymmetricV8Decode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8Decode.m",
+      "sha256": "b23452677ed4be6f18670a702b609acfba12ba3af3d2c9aab5a328b1111e26e6"
+    },
+    {
+      "file": "senloraSymmetricV8JointBlockDecode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8JointBlockDecode.m",
+      "sha256": "a4d496c8b3fb1b53cd226b69a9c92f5221818365da4f7c0c8b336a2482babc33"
+    },
+    {
+      "file": "senloraSymmetricV8RicianTheory.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8RicianTheory.m",
+      "sha256": "34a27a225895c4c88fe39bdcfbfb06f607bf1d520619dd121225b51383955a3f"
+    },
+    {
+      "file": "senloraSymmetricV8SymbolVpDecode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\senloraSymmetricV8SymbolVpDecode.m",
+      "sha256": "f48572dc511c15c12ae1b1e8ada35a61f77e265c2951a04f8a5fbeb5423f6476"
+    },
+    {
+      "file": "v4BCalibrationCandidates.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4BCalibrationCandidates.m",
+      "sha256": "8c1fa964ad2bb83e80abc0bce9b49572ea8afa43ed90a7395265c0d52be98e82"
+    },
+    {
+      "file": "v4BootstrapJointPhaseEstimate.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4BootstrapJointPhaseEstimate.m",
+      "sha256": "c1c14d6aa3c804d0fd5473b911c0643ea59d8915ba57674b6e9f1b257b963242"
+    },
+    {
+      "file": "v4BootstrapStateAtSymbol.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4BootstrapStateAtSymbol.m",
+      "sha256": "97999350c83c1ffe38a25a47cebd7126738c513ad4750a31a4388fde602757fd"
+    },
+    {
+      "file": "v4BuildFrameLayout.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4BuildFrameLayout.m",
+      "sha256": "79558d759bdd6769aab80a4e5998c49ca91e65b5ad28564fc5664fcacbca4797"
+    },
+    {
+      "file": "v4BuildNativeFrameLayout.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4BuildNativeFrameLayout.m",
+      "sha256": "961e875245aed683ef161cc84f5e80cef691a94fdbe14bfd051c7917ba0c5700"
+    },
+    {
+      "file": "v4CommonBootstrap.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4CommonBootstrap.m",
+      "sha256": "aa6ce66558d3aa1cfb71659b1a5576e0a1bb0fb626fe47b5c63ca6246c168de1"
+    },
+    {
+      "file": "v4CompensateSymbol.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4CompensateSymbol.m",
+      "sha256": "896416cf4d5097e4d3bb80da864afa2a8cf328b7f2a8a4476e2406ad5fd3ddaa"
+    },
+    {
+      "file": "v4DecodePayload.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4DecodePayload.m",
+      "sha256": "630e82809e126707b295df0e412116c451393342073d4661a80525be1c65dc23"
+    },
+    {
+      "file": "v4DefaultBParameters.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4DefaultBParameters.m",
+      "sha256": "2ccb077d83db164a8df366fb211c1578c182ce6c59a9ff968fd646ef376ebabf"
+    },
+    {
+      "file": "v4DiagonalDeinterleave.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4DiagonalDeinterleave.m",
+      "sha256": "b8c817dbada0e77e4f96cc760c74849128df6ed98b13bce3679969eab1a6a28d"
+    },
+    {
+      "file": "v4DiagonalInterleave.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4DiagonalInterleave.m",
+      "sha256": "67c0417375525dbc9d35696f14ad8fbe67a2625b531962e5edd91e8cc1b867e4"
+    },
+    {
+      "file": "v4GeneratePayload.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4GeneratePayload.m",
+      "sha256": "a5241ee1141998894e96e890dc9d5acd51e00dbaf6f88803b12444dd8d98730a"
+    },
+    {
+      "file": "v4GrayDecode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4GrayDecode.m",
+      "sha256": "717d8bfb9c80e5c7a5df199df86b5c5c55aec5cec25a9d9094145e29db64afa9"
+    },
+    {
+      "file": "v4GrayEncode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4GrayEncode.m",
+      "sha256": "fa3d81bed915cb22364f63639f8055108e716fa996260cf54ca3062cd3388a19"
+    },
+    {
+      "file": "v4Hamming74Table.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4Hamming74Table.m",
+      "sha256": "ee4465caac1e14badcca5f3f68c8f0b235ec38c25b49c998884c9d24e7ed845c"
+    },
+    {
+      "file": "v4HuangPrecDecodeV3.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4HuangPrecDecodeV3.m",
+      "sha256": "363e55b15442c82a5c6b894f8a803e143efa926b6e95c08265ab9c61b1dad490"
+    },
+    {
+      "file": "v4HuangPrecUnifiedDecodeV9.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4HuangPrecUnifiedDecodeV9.m",
+      "sha256": "daff1e6d8936053a2fff320ed767a116d38e65622d52983d737527ae1a80c547"
+    },
+    {
+      "file": "v4HuangStaticDecode.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4HuangStaticDecode.m",
+      "sha256": "27dc3630f976428efbd999126b01d7a88129f98a42c6c53946543a7fc878cef2"
+    },
+    {
+      "file": "v4LoadMethodAlignedParametersV1.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4LoadMethodAlignedParametersV1.m",
+      "sha256": "7ea197a1d7c2facea40f6d892740f226b212b06ca088263df2290a568f7e50a1"
+    },
+    {
+      "file": "v4LoadMethodAlignedR3ParametersV1.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4LoadMethodAlignedR3ParametersV1.m",
+      "sha256": "652836afc557f1f482de34cceb6b504546779d51a3989d3dcf499e124817d85f"
+    },
+    {
+      "file": "v4ModulateSymbol.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4ModulateSymbol.m",
+      "sha256": "5df046bf89c4fa8d43374496fc3b23f8958636393ae2678ddc41b49f8fdff4ab"
+    },
+    {
+      "file": "v4PhaseRotationEstimate.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4PhaseRotationEstimate.m",
+      "sha256": "f7ba23819b0fd953570c4d6bc49be754e0791be22d2ff53814b774713e784e53"
+    },
+    {
+      "file": "v4RicianCoefficient.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4RicianCoefficient.m",
+      "sha256": "b7caa9e16c1ae507aa59e5247e9f513871c263fbff3b1e1b26d35d48c0ea2a79"
+    },
+    {
+      "file": "v4RollingTrackerPass.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4RollingTrackerPass.m",
+      "sha256": "60102797bcc97243c7e589d53a7afe2145458f3d4b5adfb7cefb3234ede115f7"
+    },
+    {
+      "file": "v4Sha256.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4Sha256.m",
+      "sha256": "a274e2fe6fc3790cdf24f9df854e8de4b588152572de8855e6097a87c24dd286"
+    },
+    {
+      "file": "v4Stage55BootstrapFromJointPreambleMl.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4Stage55BootstrapFromJointPreambleMl.m",
+      "sha256": "3bf1ccafd33d4e318dd8e16f804502b40f9021eafbb8a67098fb3297e4f72760"
+    },
+    {
+      "file": "v4Stage55JointPreambleMlBootstrap.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4Stage55JointPreambleMlBootstrap.m",
+      "sha256": "89fd2daefef4a7814d4d304b3675a93ba24cdb11faef8b13b0187542eb0a0387"
+    },
+    {
+      "file": "v4Stage55PreambleRegimeClassifier.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4Stage55PreambleRegimeClassifier.m",
+      "sha256": "1523886e39dc667566c031021fcfac1c72620ea6597f9180b488eef5f9e43bab"
+    },
+    {
+      "file": "v4SymbolLikelihood.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4SymbolLikelihood.m",
+      "sha256": "3d23d9cf8fe14911aeb6ce844b9789229d85265c3f14a9b8ea3b2ef410bd5392"
+    },
+    {
+      "file": "v4TrackAOrbit.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4TrackAOrbit.m",
+      "sha256": "927971fe8bc3ca15a58e0d16f82020e96a7c651d28b1ffbfaac27a231aaf4faa"
+    },
+    {
+      "file": "v4ValidateReceiverParameters.m",
+      "sourcePath": "D:\\codex\\sf7\\comparison_experiments\\sf7_symbol_vp_four_curves\\src\\vendor\\v4ValidateReceiverParameters.m",
+      "sha256": "d638d171c34f99604585e2c789d14ba518a79d249d70d19108baa82dfdae6d2c"
+    },
+    {
+      "file": "prefecPaperNativeDecode.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\prefec_revision\\src\\prefecPaperNativeDecode.m",
+      "sha256": "7079d918a7c846b40205bbbb95709730f054444ff7ab4dc9a11c0652eb698dba"
+    },
+    {
+      "file": "prefecNativeHardDetect.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\comparison_experiments\\paper_endpoint_conditions\\prefec_revision\\src\\prefecNativeHardDetect.m",
+      "sha256": "04e8e4a66ff880e153bd138848e02f500e91419104381533d38452490fe94977"
+    },
+    {
+      "file": "v4Stage55ObservableModeSelectorV10.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\stage55\\v4Stage55ObservableModeSelectorV10.m",
+      "sha256": "39789b104ecf0c5c2c18d959be584b9d4e72ef90f58b7abd0f1d6f0655318f7e"
+    },
+    {
+      "file": "v4PaperLocalResidualEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\paper\\v4PaperLocalResidualEstimate.m",
+      "sha256": "c81b0af810d96a8cf86c1ff693f9f8a929bc7380bd881f971694ad8ce7e15ab3"
+    },
+    {
+      "file": "v4PaperRefinedPointEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\paper\\v4PaperRefinedPointEstimate.m",
+      "sha256": "dab3e4a0a05768a3d1185f991294134d941f45dd2f1664fe8815d6d56ed63be0"
+    },
+    {
+      "file": "v4PaperIntegerPointEstimate.m",
+      "sourcePath": "D:\\codex\\Lora(eg)\\comparison_experiments\\stage55_sf12_sf11_flow_v4_noldro\\src\\paper\\v4PaperIntegerPointEstimate.m",
+      "sha256": "162c484b1dbe1c612663508b1a9fdb9d2fa7bae6bff55e54f4d29765a0e2d56f"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+curve_order,curve_id,category,target_entry,frame_type,upload
+1,sf7_vp_symbol_n8,vp_virtual_pilot,curveSf7VpSymbolN8.m,native_120,true
+2,sf7_huang_prec,comparison,curveSf7HuangPrec.m,native_120,true
+3,sf7_paper_midamble_point,comparison,curveSf7PaperMidamblePoint.m,paper_129,true
+4,sf7_ideal_native,ideal,curveSf7IdealNative.m,native_120,true
+5,sf7_ideal_paper,ideal,curveSf7IdealPaper.m,paper_129,true
+6,sf7_awgn_theory,theory,curveSf7AwgnTheory.m,single_symbol,true
+7,sf7_rician_theory_reference,theory_reference,curveSf7RicianTheoryReference.m,single_symbol,true
+
